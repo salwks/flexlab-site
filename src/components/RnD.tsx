@@ -25,7 +25,7 @@ export default function RnD() {
       <div className="max-w-4xl mx-auto px-8">
         <ScrollReveal>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-foreground">
-            우리가 만드는 <span className="text-[#2d4a8a]">기술</span>
+            우리가 만드는 <span className="gradient-text-animated">기술</span>
           </h2>
         </ScrollReveal>
 

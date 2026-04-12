@@ -3,9 +3,11 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import FlexlabLogo from "../FlexlabLogo/FlexlabLogo";
+import type { HeroParams } from "./randomParams";
 
 interface InvertedHeroProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
 
 // Floating dust particles on dark background
@@ -94,12 +96,12 @@ function useDustCanvas(canvasRef: React.RefObject<HTMLCanvasElement | null>) {
   }, [canvasRef]);
 }
 
-export default function InvertedHero({ onNoteTriggered }: InvertedHeroProps) {
+export default function InvertedHero({ onNoteTriggered, params }: InvertedHeroProps) {
   const dustRef = useRef<HTMLCanvasElement>(null);
   useDustCanvas(dustRef);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-[#0a0a0a]">
+    <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{ background: params?.palette.bg ?? "#0a0a0a" }}>
       {/* Dust particles */}
       <canvas
         ref={dustRef}
@@ -108,8 +110,8 @@ export default function InvertedHero({ onNoteTriggered }: InvertedHeroProps) {
 
       <div className="relative z-10 w-full px-8 md:px-16 lg:px-24">
         <FlexlabLogo
-          color="rgba(255,255,255,0.85)"
-          lineWidth={3.5}
+          color={params?.palette.fg ?? "rgba(255,255,255,0.85)"}
+          lineWidth={params?.lineWidth ?? 3.5}
           onWirePlucked={onNoteTriggered}
         />
       </div>

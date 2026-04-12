@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { heroVariants } from "./heroVariants/registry";
+import { generateParams } from "./heroVariants/randomParams";
 import type { HeroVariantProps } from "./heroVariants/registry";
 import type { ComponentType } from "react";
 
@@ -18,6 +19,8 @@ export default function HeroRandomizer({
     const idx = Math.floor(Math.random() * heroVariants.length);
     return heroVariants[idx];
   });
+
+  const [params] = useState(() => generateParams());
 
   const [HeroComponent, setHeroComponent] =
     useState<ComponentType<HeroVariantProps> | null>(null);
@@ -37,9 +40,8 @@ export default function HeroRandomizer({
   );
 
   if (!HeroComponent) {
-    // Loading placeholder — matches the background of the entry screen
-    return <div className="h-screen bg-white" />;
+    return <div className="h-screen" style={{ background: params.palette.bg }} />;
   }
 
-  return <HeroComponent onNoteTriggered={handleNote} />;
+  return <HeroComponent onNoteTriggered={handleNote} params={params} />;
 }

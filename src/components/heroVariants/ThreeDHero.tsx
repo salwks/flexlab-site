@@ -3,12 +3,14 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import type { HeroParams } from "./randomParams";
 
 interface ThreeDHeroProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
 
-export default function ThreeDHero({ onNoteTriggered }: ThreeDHeroProps) {
+export default function ThreeDHero({ onNoteTriggered, params }: ThreeDHeroProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const onNoteRef = useRef(onNoteTriggered);
   onNoteRef.current = onNoteTriggered;
@@ -25,7 +27,7 @@ export default function ThreeDHero({ onNoteTriggered }: ThreeDHeroProps) {
       if (disposed) return;
 
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0xffffff);
+      scene.background = new THREE.Color(params?.palette.bg ?? "#ffffff");
 
       const width = container.clientWidth;
       const height = container.clientHeight;
@@ -51,7 +53,7 @@ export default function ThreeDHero({ onNoteTriggered }: ThreeDHeroProps) {
       // Build 3D logo from line segments
       const logoGroup = new THREE.Group();
       const material = new THREE.MeshStandardMaterial({
-        color: 0x2d4a8a,
+        color: new THREE.Color(params?.palette.fg ?? "#2d4a8a"),
         metalness: 0.3,
         roughness: 0.6,
       });
@@ -167,7 +169,7 @@ export default function ThreeDHero({ onNoteTriggered }: ThreeDHeroProps) {
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-white">
+    <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{ background: params?.palette.bg ?? "#ffffff" }}>
       <div ref={containerRef} className="absolute inset-0" />
       <h1 className="sr-only">FLEXLAB - Genoray Software Laboratory</h1>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-10">

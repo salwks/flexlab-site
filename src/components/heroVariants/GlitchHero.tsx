@@ -3,15 +3,16 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import type { HeroParams } from "./randomParams";
 
 interface GlitchHeroProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
-
-const COLOR = "#2d4a8a";
 const GLITCH_COLORS = ["#ff0040", "#00ff90", "#2d4a8a", "#ffffff"];
 
-export default function GlitchHero({ onNoteTriggered }: GlitchHeroProps) {
+export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps) {
+  const COLOR = params?.palette.fg ?? "#2d4a8a";
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mouseRef = useRef<{ x: number | null; y: number | null }>({ x: null, y: null });
   const scaleRef = useRef(1);
@@ -173,7 +174,7 @@ export default function GlitchHero({ onNoteTriggered }: GlitchHeroProps) {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden bg-white">
+    <section className="relative h-screen overflow-hidden" style={{ background: params?.palette.bg ?? "#ffffff" }}>
       <canvas ref={canvasRef} role="img" aria-label="FLEXLAB" className="absolute inset-0 cursor-crosshair" />
       <h1 className="sr-only">FLEXLAB - Genoray Software Laboratory</h1>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">

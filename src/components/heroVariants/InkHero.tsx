@@ -3,12 +3,12 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT, type LineSegment } from "../FlexlabLogo/letterPaths";
+import type { HeroParams } from "./randomParams";
 
 interface InkHeroProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
-
-const INK_COLOR = "#1a1a2e";
 
 interface InkStroke {
   seg: LineSegment;
@@ -17,7 +17,8 @@ interface InkStroke {
   drawn: boolean;
 }
 
-export default function InkHero({ onNoteTriggered }: InkHeroProps) {
+export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
+  const INK_COLOR = params?.palette.fg ?? "#1a1a2e";
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mouseRef = useRef<{ x: number | null; y: number | null }>({ x: null, y: null });
   const onNoteRef = useRef(onNoteTriggered);
@@ -87,7 +88,7 @@ export default function InkHero({ onNoteTriggered }: InkHeroProps) {
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
       // Background: subtle paper texture
-      ctx.fillStyle = "#faf8f5";
+      ctx.fillStyle = params?.palette.bg ?? "#faf8f5";
       ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
 
       const mx = mouseRef.current.x;
@@ -197,7 +198,7 @@ export default function InkHero({ onNoteTriggered }: InkHeroProps) {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden bg-[#faf8f5]">
+    <section className="relative h-screen overflow-hidden" style={{ background: params?.palette.bg ?? "#faf8f5" }}>
       <canvas ref={canvasRef} role="img" aria-label="FLEXLAB" className="absolute inset-0 cursor-crosshair" />
       <h1 className="sr-only">FLEXLAB - Genoray Software Laboratory</h1>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">

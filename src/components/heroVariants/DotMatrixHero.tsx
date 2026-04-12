@@ -3,13 +3,20 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import type { HeroParams } from "./randomParams";
 
 interface DotMatrixHeroProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
 
 const DOT_SPACING = 6;
 const DOT_RADIUS = 2;
+
+function hexToRgb(hex: string): [number, number, number] {
+  const h = hex.replace("#", "");
+  return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+}
 
 function distToSegment(x: number, y: number, seg: { x1: number; y1: number; x2: number; y2: number }) {
   const dx = seg.x2 - seg.x1;
@@ -22,7 +29,9 @@ function distToSegment(x: number, y: number, seg: { x1: number; y1: number; x2: 
   return Math.sqrt((x - px) ** 2 + (y - py) ** 2);
 }
 
-export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
+export default function DotMatrixHero({ onNoteTriggered, params }: DotMatrixHeroProps) {
+  const fgRgb = hexToRgb(params?.palette.fg ?? "#2d4a8a");
+  const accentRgb = hexToRgb(params?.palette.accent ?? "#2563eb");
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mouseRef = useRef<{ x: number | null; y: number | null }>({ x: null, y: null });
   const onNoteRef = useRef(onNoteTriggered);
@@ -122,11 +131,11 @@ export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
           ctx.beginPath();
           ctx.arc(px, py, r, 0, Math.PI * 2);
           if (mouseInfluence > 0.5 && dot.onLogo) {
-            ctx.fillStyle = `rgba(37, 99, 235, ${dot.brightness})`;
+            ctx.fillStyle = `rgba(${accentRgb[0]}, ${accentRgb[1]}, ${accentRgb[2]}, ${dot.brightness})`;
           } else {
             ctx.fillStyle = dot.onLogo
-              ? `rgba(45, 74, 138, ${dot.brightness})`
-              : `rgba(45, 74, 138, ${dot.brightness * 0.3})`;
+              ? `rgba(${fgRgb[0]}, ${fgRgb[1]}, ${fgRgb[2]}, ${dot.brightness})`
+              : `rgba(${fgRgb[0]}, ${fgRgb[1]}, ${fgRgb[2]}, ${dot.brightness * 0.3})`;
           }
           ctx.fill();
         }
@@ -158,7 +167,7 @@ export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden bg-white">
+    <section className="relative h-screen overflow-hidden" style={{ background: params?.palette.bg ?? "#ffffff" }}>
       <canvas
         ref={canvasRef}
         role="img"

@@ -12,7 +12,7 @@ export default function About() {
             <br />
             제노레이의 소프트웨어
             <br />
-            <span className="text-[#2d4a8a]">연구소</span>입니다.
+            <span className="gradient-text-animated">연구소</span>입니다.
           </h2>
         </ScrollReveal>
 

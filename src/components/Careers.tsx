@@ -16,7 +16,7 @@ export default function Careers() {
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-light leading-tight text-foreground">
             함께 만들어갈
             <br />
-            <span className="text-[#2d4a8a]">동료</span>를 찾습니다.
+            <span className="gradient-text-animated">동료</span>를 찾습니다.
           </h2>
         </ScrollReveal>
 

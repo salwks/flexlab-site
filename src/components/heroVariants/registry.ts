@@ -1,7 +1,9 @@
 import type { ComponentType } from "react";
+import type { HeroParams } from "./randomParams";
 
 export interface HeroVariantProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
 
 export interface HeroVariantEntry {
@@ -55,5 +57,10 @@ export const heroVariants: HeroVariantEntry[] = [
     id: "3d",
     mood: "ethereal",
     load: () => import("./ThreeDHero"),
+  },
+  {
+    id: "shader",
+    mood: "ethereal",
+    load: () => import("./ShaderHero"),
   },
 ];

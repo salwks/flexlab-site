@@ -3,15 +3,18 @@
 import { useState, useEffect, useRef } from "react";
 import { ArrowDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import type { HeroParams } from "./randomParams";
 
 interface TypoMotionHeroProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
 
 const LETTERS = ["F", "L", "E", "X", "L", "A", "B"];
-const COLOR = "#2d4a8a";
 
-export default function TypoMotionHero({ onNoteTriggered }: TypoMotionHeroProps) {
+export default function TypoMotionHero({ onNoteTriggered, params }: TypoMotionHeroProps) {
+  const COLOR = params?.palette.fg ?? "#2d4a8a";
+  const ACCENT = params?.palette.accent ?? "#2563eb";
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [revealed, setRevealed] = useState<boolean[]>(new Array(7).fill(false));
   const onNoteRef = useRef(onNoteTriggered);
@@ -32,7 +35,7 @@ export default function TypoMotionHero({ onNoteTriggered }: TypoMotionHeroProps)
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-white">
+    <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{ background: params?.palette.bg ?? "#ffffff" }}>
       <div className="relative z-10 flex items-center gap-2 md:gap-4 lg:gap-6 px-8">
         <AnimatePresence>
           {LETTERS.map((letter, i) => (
@@ -64,8 +67,8 @@ export default function TypoMotionHero({ onNoteTriggered }: TypoMotionHeroProps)
                     ? {
                         scale: 1.2,
                         y: -10,
-                        color: "#2563eb",
-                        textShadow: "0 10px 30px rgba(37,99,235,0.3)",
+                        color: ACCENT,
+                        textShadow: `0 10px 30px ${ACCENT}4d`,
                       }
                     : {
                         scale: 1,

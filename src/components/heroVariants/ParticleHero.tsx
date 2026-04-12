@@ -3,12 +3,13 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import type { HeroParams } from "./randomParams";
 
 interface ParticleHeroProps {
   onNoteTriggered?: (index: number) => void;
+  params?: HeroParams;
 }
 
-const PARTICLE_COUNT = 2500;
 const MOUSE_RADIUS = 60;
 const RETURN_SPEED = 0.03;
 const SCATTER_FORCE = 8;
@@ -24,7 +25,7 @@ interface Particle {
   wireIndex: number;
 }
 
-function generateParticles(): Particle[] {
+function generateParticles(particleCount = 2500): Particle[] {
   const particles: Particle[] = [];
   const totalLen = allSegments.reduce((sum, seg) => {
     const dx = seg.x2 - seg.x1;
@@ -36,7 +37,7 @@ function generateParticles(): Particle[] {
     const dx = seg.x2 - seg.x1;
     const dy = seg.y2 - seg.y1;
     const len = Math.sqrt(dx * dx + dy * dy);
-    const count = Math.round((len / totalLen) * PARTICLE_COUNT);
+    const count = Math.round((len / totalLen) * particleCount);
 
     for (let i = 0; i < count; i++) {
       const t = Math.random();
@@ -58,9 +59,9 @@ function generateParticles(): Particle[] {
   return particles;
 }
 
-export default function ParticleHero({ onNoteTriggered }: ParticleHeroProps) {
+export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const particlesRef = useRef<Particle[]>(generateParticles());
+  const particlesRef = useRef<Particle[]>(generateParticles(params?.particleCount ?? 2500));
   const mouseRef = useRef<{ x: number | null; y: number | null }>({ x: null, y: null });
   const scaleRef = useRef(1);
   const offsetRef = useRef({ x: 0, y: 0 });
@@ -168,7 +169,7 @@ export default function ParticleHero({ onNoteTriggered }: ParticleHeroProps) {
 
         ctx.beginPath();
         ctx.arc(p.x * scale + ox, p.y * scale + oy, p.size, 0, Math.PI * 2);
-        ctx.fillStyle = "#2d4a8a";
+        ctx.fillStyle = params?.palette.fg ?? "#2d4a8a";
         ctx.fill();
       }
 
@@ -198,7 +199,7 @@ export default function ParticleHero({ onNoteTriggered }: ParticleHeroProps) {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden bg-white">
+    <section className="relative h-screen overflow-hidden" style={{ background: params?.palette.bg ?? "#ffffff" }}>
       <canvas
         ref={canvasRef}
         role="img"
