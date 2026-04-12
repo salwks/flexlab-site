@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useEffect, useCallback } from "react";
+import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
 
@@ -13,7 +13,6 @@ const GLITCH_COLORS = ["#ff0040", "#00ff90", "#2d4a8a", "#ffffff"];
 
 export default function GlitchHero({ onNoteTriggered }: GlitchHeroProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
   const mouseRef = useRef<{ x: number | null; y: number | null }>({ x: null, y: null });
   const scaleRef = useRef(1);
   const offsetRef = useRef({ x: 0, y: 0 });
@@ -26,39 +25,34 @@ export default function GlitchHero({ onNoteTriggered }: GlitchHeroProps) {
     slices: [] as { y: number; h: number; dx: number; color: string }[],
   });
 
-  const resize = useCallback(() => {
-    const canvas = canvasRef.current;
-    const container = containerRef.current;
-    if (!canvas || !container) return;
-    const dpr = window.devicePixelRatio || 1;
-    const cw = container.clientWidth;
-    const maxW = cw * 0.8;
-    const scale = maxW / LOGO_WIDTH;
-    const logoPixelW = LOGO_WIDTH * scale;
-    const padX = (cw - logoPixelW) / 2;
-    scaleRef.current = scale;
-    const ch = LOGO_HEIGHT * scale + 60;
-    offsetRef.current = { x: padX, y: 30 };
-    canvas.width = cw * dpr;
-    canvas.height = ch * dpr;
-    canvas.style.width = `${cw}px`;
-    canvas.style.height = `${ch}px`;
-  }, []);
-
   useEffect(() => {
     const canvas = canvasRef.current;
-    const container = containerRef.current;
-    if (!canvas || !container) return;
+    if (!canvas) return;
 
-    resize();
-    const ro = new ResizeObserver(resize);
-    ro.observe(container);
+    const doResize = () => {
+      const dpr = window.devicePixelRatio || 1;
+      const cw = window.innerWidth;
+      const ch = window.innerHeight;
+      const scaleW = (cw * 0.75) / LOGO_WIDTH;
+      const scaleH = (ch * 0.3) / LOGO_HEIGHT;
+      const scale = Math.min(scaleW, scaleH);
+      const logoW = LOGO_WIDTH * scale;
+      const logoH = LOGO_HEIGHT * scale;
+      scaleRef.current = scale;
+      offsetRef.current = { x: (cw - logoW) / 2, y: (ch - logoH) / 2 };
+      canvas.width = cw * dpr;
+      canvas.height = ch * dpr;
+      canvas.style.width = `${cw}px`;
+      canvas.style.height = `${ch}px`;
+    };
+
+    doResize();
+    window.addEventListener("resize", doResize);
 
     const toLogoSpace = (cx: number, cy: number) => {
-      const rect = canvas.getBoundingClientRect();
       const { x: ox, y: oy } = offsetRef.current;
       const s = scaleRef.current;
-      return { x: (cx - rect.left - ox) / s, y: (cy - rect.top - oy) / s };
+      return { x: (cx - ox) / s, y: (cy - oy) / s };
     };
 
     const onMouseMove = (e: MouseEvent) => {
@@ -172,17 +166,15 @@ export default function GlitchHero({ onNoteTriggered }: GlitchHeroProps) {
 
     return () => {
       cancelAnimationFrame(raf);
-      ro.disconnect();
+      window.removeEventListener("resize", doResize);
       canvas.removeEventListener("mousemove", onMouseMove);
       canvas.removeEventListener("mouseleave", onMouseLeave);
     };
-  }, [resize]);
+  }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-white">
-      <div ref={containerRef} className="relative z-10 w-full px-8 md:px-16 lg:px-24">
-        <canvas ref={canvasRef} role="img" aria-label="FLEXLAB" className="block w-full cursor-crosshair" />
-      </div>
+    <section className="relative h-screen overflow-hidden bg-white">
+      <canvas ref={canvasRef} role="img" aria-label="FLEXLAB" className="absolute inset-0 cursor-crosshair" />
       <h1 className="sr-only">FLEXLAB - Genoray Software Laboratory</h1>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <ArrowDown size={20} className="text-[#2d4a8a]/30" />

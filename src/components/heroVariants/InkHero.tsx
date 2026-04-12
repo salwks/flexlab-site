@@ -19,15 +19,13 @@ interface InkStroke {
 
 export default function InkHero({ onNoteTriggered }: InkHeroProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
   const mouseRef = useRef<{ x: number | null; y: number | null }>({ x: null, y: null });
   const onNoteRef = useRef(onNoteTriggered);
   onNoteRef.current = onNoteTriggered;
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    const container = containerRef.current;
-    if (!canvas || !container) return;
+    if (!canvas) return;
 
     const dpr = window.devicePixelRatio || 1;
     let scale = 1;
@@ -47,13 +45,15 @@ export default function InkHero({ onNoteTriggered }: InkHeroProps) {
     const groupSize = 3;
 
     const doResize = () => {
-      const cw = container.clientWidth;
-      const maxW = cw * 0.8;
-      scale = maxW / LOGO_WIDTH;
-      const logoPixelW = LOGO_WIDTH * scale;
-      const padX = (cw - logoPixelW) / 2;
-      const ch = LOGO_HEIGHT * scale + 60;
-      ox = padX; oy = 30;
+      const cw = window.innerWidth;
+      const ch = window.innerHeight;
+      const scaleW = (cw * 0.75) / LOGO_WIDTH;
+      const scaleH = (ch * 0.3) / LOGO_HEIGHT;
+      scale = Math.min(scaleW, scaleH);
+      const logoW = LOGO_WIDTH * scale;
+      const logoH = LOGO_HEIGHT * scale;
+      ox = (cw - logoW) / 2;
+      oy = (ch - logoH) / 2;
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;
@@ -61,12 +61,10 @@ export default function InkHero({ onNoteTriggered }: InkHeroProps) {
     };
 
     doResize();
-    const ro = new ResizeObserver(doResize);
-    ro.observe(container);
+    window.addEventListener("resize", doResize);
 
     const toLogoSpace = (cx: number, cy: number) => {
-      const rect = canvas.getBoundingClientRect();
-      return { x: (cx - rect.left - ox) / scale, y: (cy - rect.top - oy) / scale };
+      return { x: (cx - ox) / scale, y: (cy - oy) / scale };
     };
     const onMouseMove = (e: MouseEvent) => { mouseRef.current = toLogoSpace(e.clientX, e.clientY); };
     const onMouseLeave = () => { mouseRef.current = { x: null, y: null }; };
@@ -192,17 +190,15 @@ export default function InkHero({ onNoteTriggered }: InkHeroProps) {
 
     return () => {
       cancelAnimationFrame(raf);
-      ro.disconnect();
+      window.removeEventListener("resize", doResize);
       canvas.removeEventListener("mousemove", onMouseMove);
       canvas.removeEventListener("mouseleave", onMouseLeave);
     };
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-[#faf8f5]">
-      <div ref={containerRef} className="relative z-10 w-full px-8 md:px-16 lg:px-24">
-        <canvas ref={canvasRef} role="img" aria-label="FLEXLAB" className="block w-full cursor-crosshair" />
-      </div>
+    <section className="relative h-screen overflow-hidden bg-[#faf8f5]">
+      <canvas ref={canvasRef} role="img" aria-label="FLEXLAB" className="absolute inset-0 cursor-crosshair" />
       <h1 className="sr-only">FLEXLAB - Genoray Software Laboratory</h1>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <ArrowDown size={20} className="text-[#1a1a2e]/30" />

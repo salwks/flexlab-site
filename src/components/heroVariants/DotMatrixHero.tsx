@@ -10,8 +10,6 @@ interface DotMatrixHeroProps {
 
 const DOT_SPACING = 6;
 const DOT_RADIUS = 2;
-const COLOR_ON = "#2d4a8a";
-const COLOR_OFF = "#e2e8f0";
 
 function distToSegment(x: number, y: number, seg: { x1: number; y1: number; x2: number; y2: number }) {
   const dx = seg.x2 - seg.x1;
@@ -26,15 +24,13 @@ function distToSegment(x: number, y: number, seg: { x1: number; y1: number; x2: 
 
 export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
   const mouseRef = useRef<{ x: number | null; y: number | null }>({ x: null, y: null });
   const onNoteRef = useRef(onNoteTriggered);
   onNoteRef.current = onNoteTriggered;
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    const container = containerRef.current;
-    if (!canvas || !container) return;
+    if (!canvas) return;
 
     const dpr = window.devicePixelRatio || 1;
     let scale = 1;
@@ -50,17 +46,21 @@ export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
     let dots: Dot[] = [];
 
     const doResize = () => {
-      const cw = container.clientWidth;
-      const maxW = cw * 0.8;
-      scale = maxW / LOGO_WIDTH;
-      const logoPixelW = LOGO_WIDTH * scale;
-      const padX = (cw - logoPixelW) / 2;
-      const ch = LOGO_HEIGHT * scale + 60;
-      ox = padX; oy = 30;
+      const cw = window.innerWidth;
+      const ch = window.innerHeight;
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;
       canvas.style.height = `${ch}px`;
+
+      // Center logo
+      const maxLogoW = cw * 0.75;
+      const maxLogoH = ch * 0.3;
+      scale = Math.min(maxLogoW / LOGO_WIDTH, maxLogoH / LOGO_HEIGHT);
+      const logoW = LOGO_WIDTH * scale;
+      const logoH = LOGO_HEIGHT * scale;
+      ox = (cw - logoW) / 2;
+      oy = (ch - logoH) / 2;
 
       dots = [];
       const cols = Math.ceil(cw / DOT_SPACING);
@@ -81,12 +81,10 @@ export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
     };
 
     doResize();
-    const ro = new ResizeObserver(doResize);
-    ro.observe(container);
+    window.addEventListener("resize", doResize);
 
     const toLogoSpace = (cx: number, cy: number) => {
-      const rect = canvas.getBoundingClientRect();
-      return { x: (cx - rect.left - ox) / scale, y: (cy - rect.top - oy) / scale };
+      return { x: (cx - ox) / scale, y: (cy - oy) / scale };
     };
     const onMouseMove = (e: MouseEvent) => { mouseRef.current = toLogoSpace(e.clientX, e.clientY); };
     const onMouseLeave = () => { mouseRef.current = { x: null, y: null }; };
@@ -108,16 +106,12 @@ export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
       const my = mouseRef.current.y;
 
       for (const dot of dots) {
-        // Mouse wave effect
         let mouseInfluence = 0;
         if (mx !== null && my !== null) {
           const dist = Math.sqrt((dot.lx - mx) ** 2 + (dot.ly - my) ** 2);
-          if (dist < 50) {
-            mouseInfluence = 1 - dist / 50;
-          }
+          if (dist < 50) mouseInfluence = 1 - dist / 50;
         }
 
-        // Animate brightness
         dot.targetBrightness = dot.onLogo ? 1 : mouseInfluence * 0.4;
         dot.brightness += (dot.targetBrightness - dot.brightness) * 0.1;
 
@@ -138,7 +132,6 @@ export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
         }
       }
 
-      // Sound
       if (mx !== null && my !== null && onNoteRef.current) {
         allSegments.forEach((seg, idx) => {
           if (pluckedCooldown.has(idx)) return;
@@ -158,19 +151,22 @@ export default function DotMatrixHero({ onNoteTriggered }: DotMatrixHeroProps) {
 
     return () => {
       cancelAnimationFrame(raf);
-      ro.disconnect();
+      window.removeEventListener("resize", doResize);
       canvas.removeEventListener("mousemove", onMouseMove);
       canvas.removeEventListener("mouseleave", onMouseLeave);
     };
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-white">
-      <div ref={containerRef} className="relative z-10 w-full px-8 md:px-16 lg:px-24">
-        <canvas ref={canvasRef} role="img" aria-label="FLEXLAB" className="block w-full cursor-crosshair" />
-      </div>
+    <section className="relative h-screen overflow-hidden bg-white">
+      <canvas
+        ref={canvasRef}
+        role="img"
+        aria-label="FLEXLAB"
+        className="absolute inset-0 w-full h-full cursor-crosshair"
+      />
       <h1 className="sr-only">FLEXLAB - Genoray Software Laboratory</h1>
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-10">
         <ArrowDown size={20} className="text-[#2d4a8a]/30" />
       </div>
     </section>
