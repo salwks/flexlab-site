@@ -15,8 +15,26 @@ interface InkStroke {
   progress: number;
   speed: number;
   drawn: boolean;
-  delay: number; // frames to wait before starting
+  delay: number;
 }
+
+// Pre-generate dot offsets for brush texture (perpendicular scatter)
+function generateBrushDots(count: number): { along: number; perp: number; size: number; alpha: number }[] {
+  const dots = [];
+  for (let i = 0; i < count; i++) {
+    dots.push({
+      along: Math.random(), // position along the stroke (0~1)
+      perp: (Math.random() - 0.5) * 2, // perpendicular offset (-1~1)
+      size: 0.3 + Math.random() * 1.2,
+      alpha: 0.15 + Math.random() * 0.6,
+    });
+  }
+  // Sort by along so drawing looks directional
+  dots.sort((a, b) => a.along - b.along);
+  return dots;
+}
+
+const DOTS_PER_STROKE = 150;
 
 export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -35,14 +53,15 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
     const inkColor = params?.palette.fg ?? "#1a1a2e";
     const bgColor = params?.palette.bg ?? "#faf8f5";
 
-    // Fast staggered strokes — all start within first 1 second
-    const strokes: InkStroke[] = allSegments.map((seg, i) => ({
-      seg,
-      progress: 0,
-      speed: 0.04 + Math.random() * 0.03, // 4~7% per frame = done in ~20 frames
-      drawn: false,
-      delay: i * 3, // 3 frames apart = ~50ms stagger
-    }));
+    const strokes: (InkStroke & { brushDots: ReturnType<typeof generateBrushDots> })[] =
+      allSegments.map((seg, i) => ({
+        seg,
+        progress: 0,
+        speed: 0.035 + Math.random() * 0.025,
+        drawn: false,
+        delay: i * 3,
+        brushDots: generateBrushDots(DOTS_PER_STROKE),
+      }));
 
     const doResize = () => {
       const cw = window.innerWidth;
@@ -72,9 +91,10 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
     canvas.addEventListener("mousemove", onMouseMove);
     canvas.addEventListener("mouseleave", onMouseLeave);
 
-    // Ink splatter particles
+    // Mouse splatter pool
     interface Splatter { x: number; y: number; r: number; opacity: number; }
-    const splatters: Splatter[] = [];
+    const mouseSplatters: Splatter[] = [];
+
     const pluckedCooldown = new Set<number>();
     let raf = 0;
     let frame = 0;
@@ -87,7 +107,7 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-      // Paper background
+      // Paper
       ctx.fillStyle = bgColor;
       ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
 
@@ -95,31 +115,13 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
       const my = mouseRef.current.y;
       frame++;
 
-      // Draw all strokes
+      // Draw strokes as dense dot clouds
       for (let i = 0; i < strokes.length; i++) {
         const stroke = strokes[i];
-
-        // Wait for delay
         if (frame < stroke.delay) continue;
 
-        // Advance
         if (stroke.progress < 1) {
           stroke.progress = Math.min(1, stroke.progress + stroke.speed);
-
-          // Splatter at tip
-          if (Math.random() < 0.4) {
-            const t = stroke.progress;
-            const seg = stroke.seg;
-            const tipX = seg.x1 + (seg.x2 - seg.x1) * t;
-            const tipY = seg.y1 + (seg.y2 - seg.y1) * t;
-            splatters.push({
-              x: tipX + (Math.random() - 0.5) * 12,
-              y: tipY + (Math.random() - 0.5) * 12,
-              r: 1 + Math.random() * 3,
-              opacity: 0.2 + Math.random() * 0.3,
-            });
-          }
-
           if (stroke.progress >= 1 && !stroke.drawn) {
             stroke.drawn = true;
             onNoteRef.current?.(i % allSegments.length);
@@ -129,67 +131,69 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
         if (stroke.progress <= 0) continue;
 
         const seg = stroke.seg;
-        const endX = seg.x1 + (seg.x2 - seg.x1) * stroke.progress;
-        const endY = seg.y1 + (seg.y2 - seg.y1) * stroke.progress;
-
-        // Brush stroke — thick with pressure variation
         const dx = seg.x2 - seg.x1;
         const dy = seg.y2 - seg.y1;
         const len = Math.sqrt(dx * dx + dy * dy);
+        if (len < 0.1) continue;
         const nx = -dy / len;
         const ny = dx / len;
 
-        // Draw thick brush path with multiple sub-strokes
-        for (let layer = 0; layer < 3; layer++) {
-          const offsetAmount = (layer - 1) * 1.5;
-          ctx.beginPath();
-          const steps = 20;
-          for (let s = 0; s <= steps; s++) {
-            const t = (s / steps) * stroke.progress;
-            const px = (seg.x1 + dx * t) * scale + ox + nx * offsetAmount * scale;
-            const py = (seg.y1 + dy * t) * scale + oy + ny * offsetAmount * scale;
-            // Wobble for brush texture
-            const wobble = Math.sin(t * 15 + layer * 2) * 0.8 * scale;
-            if (s === 0) ctx.moveTo(px + nx * wobble, py + ny * wobble);
-            else ctx.lineTo(px + nx * wobble, py + ny * wobble);
-          }
-          ctx.strokeStyle = inkColor;
-          // Pressure: thick at start, thin at end
-          const pressure = 1 + Math.sin(stroke.progress * Math.PI) * 0.5;
-          ctx.lineWidth = (layer === 1 ? 4 : 2) * pressure;
-          ctx.lineCap = "round";
-          ctx.globalAlpha = layer === 1 ? 0.85 : 0.3;
-          ctx.stroke();
-          ctx.globalAlpha = 1;
-        }
-      }
+        // Brush width varies: thick in middle, thin at edges
+        const brushWidth = 3.5;
 
-      // Draw splatters
-      for (let i = splatters.length - 1; i >= 0; i--) {
-        const sp = splatters[i];
-        ctx.beginPath();
-        ctx.arc(sp.x * scale + ox, sp.y * scale + oy, sp.r * scale, 0, Math.PI * 2);
         ctx.fillStyle = inkColor;
-        ctx.globalAlpha = sp.opacity;
-        ctx.fill();
+
+        for (const dot of stroke.brushDots) {
+          // Only draw dots up to current progress
+          if (dot.along > stroke.progress) break;
+
+          const t = dot.along;
+          const baseX = seg.x1 + dx * t;
+          const baseY = seg.y1 + dy * t;
+
+          // Pressure: thicker in middle of stroke
+          const pressure = Math.sin(t * Math.PI);
+          const spread = brushWidth * (0.4 + pressure * 0.6);
+
+          // Perpendicular scatter for brush width
+          const perpOffset = dot.perp * spread;
+          const px = (baseX + nx * perpOffset) * scale + ox;
+          const py = (baseY + ny * perpOffset) * scale + oy;
+
+          ctx.globalAlpha = dot.alpha * (0.5 + pressure * 0.5);
+          ctx.beginPath();
+          ctx.arc(px, py, dot.size * scale * 0.8, 0, Math.PI * 2);
+          ctx.fill();
+        }
         ctx.globalAlpha = 1;
-        sp.opacity *= 0.995;
-        if (sp.opacity < 0.01) splatters.splice(i, 1);
+
+        // Thin core line for sharpness
+        ctx.beginPath();
+        ctx.moveTo(seg.x1 * scale + ox, seg.y1 * scale + oy);
+        const endX = seg.x1 + dx * stroke.progress;
+        const endY = seg.y1 + dy * stroke.progress;
+        ctx.lineTo(endX * scale + ox, endY * scale + oy);
+        ctx.strokeStyle = inkColor;
+        ctx.lineWidth = 1.5;
+        ctx.lineCap = "round";
+        ctx.globalAlpha = 0.7;
+        ctx.stroke();
+        ctx.globalAlpha = 1;
       }
 
-      // Mouse interaction: ink splash
+      // Mouse splatters
       if (mx !== null && my !== null) {
         allSegments.forEach((seg, idx) => {
           if (pluckedCooldown.has(idx)) return;
           const cx = (seg.x1 + seg.x2) / 2;
           const cy = (seg.y1 + seg.y2) / 2;
           if (Math.sqrt((mx - cx) ** 2 + (my - cy) ** 2) < 30) {
-            for (let j = 0; j < 8; j++) {
-              splatters.push({
-                x: mx + (Math.random() - 0.5) * 25,
-                y: my + (Math.random() - 0.5) * 25,
-                r: 1.5 + Math.random() * 4,
-                opacity: 0.5,
+            for (let j = 0; j < 15; j++) {
+              mouseSplatters.push({
+                x: mx + (Math.random() - 0.5) * 20,
+                y: my + (Math.random() - 0.5) * 20,
+                r: 0.3 + Math.random() * 1.5,
+                opacity: 0.3 + Math.random() * 0.4,
               });
             }
             onNoteRef.current?.(idx);
@@ -198,6 +202,19 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
           }
         });
       }
+
+      // Draw mouse splatters
+      ctx.fillStyle = inkColor;
+      for (let i = mouseSplatters.length - 1; i >= 0; i--) {
+        const sp = mouseSplatters[i];
+        ctx.globalAlpha = sp.opacity;
+        ctx.beginPath();
+        ctx.arc(sp.x * scale + ox, sp.y * scale + oy, sp.r * scale, 0, Math.PI * 2);
+        ctx.fill();
+        sp.opacity *= 0.993;
+        if (sp.opacity < 0.01) mouseSplatters.splice(i, 1);
+      }
+      ctx.globalAlpha = 1;
 
       raf = requestAnimationFrame(animate);
     };
