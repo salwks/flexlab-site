@@ -74,7 +74,7 @@ export default function MagneticHero({ onNoteTriggered, params }: MagneticHeroPr
       const maxH = ch * 0.3;
       scale = Math.min(maxW / LOGO_WIDTH, maxH / LOGO_HEIGHT);
       ox = (cw - LOGO_WIDTH * scale) / 2;
-      oy = (ch - LOGO_HEIGHT * scale) / 2;
+      oy = (ch - LOGO_HEIGHT * scale) / 2 - 50;
     };
 
     doResize();

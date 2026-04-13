@@ -108,7 +108,7 @@ export default function InvertedHero({ onNoteTriggered, params }: InvertedHeroPr
         className="absolute inset-0 w-full h-full pointer-events-none"
       />
 
-      <div className="relative z-10 w-full px-8 md:px-16 lg:px-24">
+      <div className="absolute inset-0 z-10">
         <FlexlabLogo
           color={params?.palette.fg ?? "rgba(255,255,255,0.85)"}
           lineWidth={params?.lineWidth ?? 3.5}

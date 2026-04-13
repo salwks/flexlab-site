@@ -40,7 +40,7 @@ export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps)
       const logoW = LOGO_WIDTH * scale;
       const logoH = LOGO_HEIGHT * scale;
       scaleRef.current = scale;
-      offsetRef.current = { x: (cw - logoW) / 2, y: (ch - logoH) / 2 };
+      offsetRef.current = { x: (cw - logoW) / 2, y: (ch - logoH) / 2 - 50 };
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;

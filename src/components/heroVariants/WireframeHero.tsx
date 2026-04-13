@@ -19,7 +19,7 @@ export default function WireframeHero({ onNoteTriggered, params }: WireframeHero
       className="relative h-screen flex items-center justify-center overflow-hidden"
       style={{ background: bg }}
     >
-      <div className="relative z-10 w-full px-8 md:px-16 lg:px-24">
+      <div className="absolute inset-0 z-10">
         <FlexlabLogo
           color={fg}
           lineWidth={lw}

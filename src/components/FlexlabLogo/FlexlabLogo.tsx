@@ -203,15 +203,15 @@ export default function FlexlabLogo({
     const doResize = () => {
       const dpr = window.devicePixelRatio || 1;
       const cw = container.clientWidth;
-      // Use 90% of width, then center
+      const ch = Math.max(container.clientHeight, window.innerHeight);
       const maxW = cw * 0.8;
-      const scale = maxW / LOGO_WIDTH;
+      const maxH = ch * 0.3;
+      const scale = Math.min(maxW / LOGO_WIDTH, maxH / LOGO_HEIGHT);
       scaleRef.current = scale;
       const logoPixelW = LOGO_WIDTH * scale;
       const logoPixelH = LOGO_HEIGHT * scale;
       const padX = (cw - logoPixelW) / 2;
-      const padY = 30;
-      const ch = logoPixelH + padY * 2;
+      const padY = (ch - logoPixelH) / 2 - 50;
       offsetRef.current = { x: padX, y: padY };
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
@@ -327,12 +327,12 @@ export default function FlexlabLogo({
   }, []);
 
   return (
-    <div ref={containerRef} className={`w-full ${className}`}>
+    <div ref={containerRef} className={`w-full h-full ${className}`}>
       <canvas
         ref={canvasRef}
         role="img"
         aria-label="FLEXLAB"
-        className="block w-full cursor-crosshair"
+        className="block w-full h-full cursor-crosshair"
       />
     </div>
   );
