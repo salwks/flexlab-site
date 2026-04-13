@@ -73,7 +73,7 @@ export default function LiquidHero({ onNoteTriggered, params }: LiquidHeroProps)
       const logoW = LOGO_WIDTH * scale;
       const logoH = LOGO_HEIGHT * scale;
       ox = (cw - logoW) / 2;
-      oy = (ch - logoH) / 2 - 50;
+      oy = (ch - logoH) / 2 - ch * 0.05;
     };
 
     doResize();

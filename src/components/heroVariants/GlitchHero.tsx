@@ -34,13 +34,13 @@ export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps)
       const dpr = window.devicePixelRatio || 1;
       const cw = window.innerWidth;
       const ch = window.innerHeight;
-      const scaleW = (cw * 0.75) / LOGO_WIDTH;
-      const scaleH = (ch * 0.3) / LOGO_HEIGHT;
+      const scaleW = (cw * 0.7) / LOGO_WIDTH;
+      const scaleH = (ch * 0.2) / LOGO_HEIGHT;
       const scale = Math.min(scaleW, scaleH);
       const logoW = LOGO_WIDTH * scale;
       const logoH = LOGO_HEIGHT * scale;
       scaleRef.current = scale;
-      offsetRef.current = { x: (cw - logoW) / 2, y: (ch - logoH) / 2 - 50 };
+      offsetRef.current = { x: (cw - logoW) / 2, y: (ch - logoH) / 2 - ch * 0.05 };
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;
@@ -108,7 +108,7 @@ export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps)
 
       // Draw base logo
       ctx.strokeStyle = COLOR;
-      ctx.lineWidth = 3.5;
+      ctx.lineWidth = 2.5;
       ctx.lineCap = "round";
       for (const seg of allSegments) {
         ctx.beginPath();
@@ -128,7 +128,7 @@ export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps)
           ctx.clip();
 
           ctx.strokeStyle = slice.color;
-          ctx.lineWidth = 3.5;
+          ctx.lineWidth = 2.5;
           for (const seg of allSegments) {
             ctx.beginPath();
             ctx.moveTo(seg.x1 * scale + ox + slice.dx * scale, seg.y1 * scale + oy);
@@ -149,7 +149,7 @@ export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps)
         ctx.rect(0, y + oy, canvas.width / dpr, h);
         ctx.clip();
         ctx.strokeStyle = GLITCH_COLORS[Math.floor(Math.random() * GLITCH_COLORS.length)];
-        ctx.lineWidth = 3.5;
+        ctx.lineWidth = 2.5;
         const shift = (Math.random() - 0.5) * 20 * scale;
         for (const seg of allSegments) {
           ctx.beginPath();

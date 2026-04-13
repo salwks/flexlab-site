@@ -96,7 +96,7 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
       const logoH = LOGO_HEIGHT * scale;
       offsetRef.current = {
         x: (cw - logoW) / 2,
-        y: (ch - logoH) / 2 - 50,
+        y: (ch - logoH) / 2 - ch * 0.05,
       };
     };
 

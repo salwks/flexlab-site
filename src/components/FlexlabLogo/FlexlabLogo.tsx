@@ -211,7 +211,7 @@ export default function FlexlabLogo({
       const logoPixelW = LOGO_WIDTH * scale;
       const logoPixelH = LOGO_HEIGHT * scale;
       const padX = (cw - logoPixelW) / 2;
-      const padY = (ch - logoPixelH) / 2 - 50;
+      const padY = (ch - logoPixelH) / 2 - ch * 0.05;
       offsetRef.current = { x: padX, y: padY };
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
