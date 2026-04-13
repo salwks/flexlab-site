@@ -115,6 +115,9 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
       const my = mouseRef.current.y;
       frame++;
 
+      // Easing: fast start, slow finish (brush deceleration)
+      const easeOutCubic = (t: number) => 1 - Math.pow(1 - t, 3);
+
       // Draw strokes as dense dot clouds
       for (let i = 0; i < strokes.length; i++) {
         const stroke = strokes[i];
@@ -129,6 +132,9 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
         }
 
         if (stroke.progress <= 0) continue;
+
+        // Apply ease — visual progress decelerates
+        const easedProgress = easeOutCubic(stroke.progress);
 
         const seg = stroke.seg;
         const dx = seg.x2 - seg.x1;
@@ -145,7 +151,7 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
 
         for (const dot of stroke.brushDots) {
           // Only draw dots up to current progress
-          if (dot.along > stroke.progress) break;
+          if (dot.along > easedProgress) break;
 
           const t = dot.along;
           const baseX = seg.x1 + dx * t;
@@ -170,8 +176,8 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
         // Thin core line for sharpness
         ctx.beginPath();
         ctx.moveTo(seg.x1 * scale + ox, seg.y1 * scale + oy);
-        const endX = seg.x1 + dx * stroke.progress;
-        const endY = seg.y1 + dy * stroke.progress;
+        const endX = seg.x1 + dx * easedProgress;
+        const endY = seg.y1 + dy * easedProgress;
         ctx.lineTo(endX * scale + ox, endY * scale + oy);
         ctx.strokeStyle = inkColor;
         ctx.lineWidth = 1.5;
