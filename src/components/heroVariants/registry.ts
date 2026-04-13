@@ -34,14 +34,14 @@ export const heroVariants: HeroVariantEntry[] = [
     load: () => import("./GlitchHero"),
   },
   {
-    id: "ascii",
-    mood: "dark",
-    load: () => import("./AsciiHero"),
+    id: "liquid",
+    mood: "ethereal",
+    load: () => import("./LiquidHero"),
   },
   {
-    id: "dotmatrix",
+    id: "magnetic",
     mood: "bright",
-    load: () => import("./DotMatrixHero"),
+    load: () => import("./MagneticHero"),
   },
   {
     id: "ink",

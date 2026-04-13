@@ -10,7 +10,8 @@ interface DotMatrixHeroProps {
   params?: HeroParams;
 }
 
-const DOT_SPACING = 6;
+// Responsive dot density
+const getDotSpacing = () => (typeof window !== "undefined" && window.innerWidth < 600 ? 10 : 6);
 const DOT_RADIUS = 2;
 
 function hexToRgb(hex: string): [number, number, number] {
@@ -55,6 +56,7 @@ export default function DotMatrixHero({ onNoteTriggered, params }: DotMatrixHero
     let dots: Dot[] = [];
 
     const doResize = () => {
+      const dotSpacing = getDotSpacing();
       const cw = window.innerWidth;
       const ch = window.innerHeight;
       canvas.width = cw * dpr;
@@ -72,17 +74,17 @@ export default function DotMatrixHero({ onNoteTriggered, params }: DotMatrixHero
       oy = (ch - logoH) / 2;
 
       dots = [];
-      const cols = Math.ceil(cw / DOT_SPACING);
-      const rows = Math.ceil(ch / DOT_SPACING);
+      const cols = Math.ceil(cw / dotSpacing);
+      const rows = Math.ceil(ch / dotSpacing);
       for (let r = 0; r < rows; r++) {
         for (let c = 0; c < cols; c++) {
-          const px = c * DOT_SPACING;
-          const py = r * DOT_SPACING;
+          const px = c * dotSpacing;
+          const py = r * dotSpacing;
           const lx = (px - ox) / scale;
           const ly = (py - oy) / scale;
           let onLogo = false;
           for (const seg of allSegments) {
-            if (distToSegment(lx, ly, seg) < 4) { onLogo = true; break; }
+            if (distToSegment(lx, ly, seg) < 5) { onLogo = true; break; }
           }
           dots.push({ lx, ly, onLogo, brightness: 0, targetBrightness: onLogo ? 1 : 0 });
         }
