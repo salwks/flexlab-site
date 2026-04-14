@@ -34,9 +34,9 @@ export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps)
       const dpr = window.devicePixelRatio || 1;
       const cw = window.innerWidth;
       const ch = window.innerHeight;
-      const scaleW = (cw * 0.55) / LOGO_WIDTH;
-      const scaleH = (ch * 0.15) / LOGO_HEIGHT;
-      const scale = Math.min(scaleW, scaleH);
+      const maxW = cw * 0.75;
+      const maxH = ch * 0.3;
+      const scale = Math.min(maxW / LOGO_WIDTH, maxH / LOGO_HEIGHT);
       const logoW = LOGO_WIDTH * scale;
       const logoH = LOGO_HEIGHT * scale;
       scaleRef.current = scale;
