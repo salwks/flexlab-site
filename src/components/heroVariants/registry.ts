@@ -28,12 +28,7 @@ export const heroVariants: HeroVariantEntry[] = [
     mood: "ethereal",
     load: () => import("./ParticleHero"),
   },
-  {
-    id: "glitch",
-    mood: "dark",
-    load: () => import("./GlitchHero"),
-  },
-  {
+{
     id: "liquid",
     mood: "ethereal",
     load: () => import("./LiquidHero"),
