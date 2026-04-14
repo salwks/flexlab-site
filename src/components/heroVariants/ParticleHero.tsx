@@ -12,8 +12,7 @@ interface ParticleHeroProps {
 }
 
 const MOUSE_RADIUS = 60;
-const RETURN_SPEED = 0.03;
-const SCATTER_FORCE = 8;
+const SCATTER_FORCE = 5;
 
 interface Particle {
   x: number;
@@ -24,6 +23,9 @@ interface Particle {
   vy: number;
   size: number;
   wireIndex: number;
+  // For initial gather animation
+  delay: number;
+  gathered: boolean;
 }
 
 function generateParticles(particleCount = 2500): Particle[] {
@@ -44,15 +46,22 @@ function generateParticles(particleCount = 2500): Particle[] {
       const t = Math.random();
       const targetX = seg.x1 + dx * t;
       const targetY = seg.y1 + dy * t;
+
+      // Start scattered across a much wider area (2x logo bounds in all directions)
+      const startX = (Math.random() - 0.5) * LOGO_WIDTH * 3 + LOGO_WIDTH / 2;
+      const startY = (Math.random() - 0.5) * LOGO_HEIGHT * 4 + LOGO_HEIGHT / 2;
+
       particles.push({
-        x: Math.random() * LOGO_WIDTH,
-        y: Math.random() * LOGO_HEIGHT,
+        x: startX,
+        y: startY,
         targetX,
         targetY,
-        vx: 0,
-        vy: 0,
+        vx: (Math.random() - 0.5) * 2, // slight initial drift
+        vy: (Math.random() - 0.5) * 2,
         size: Math.random() * 1.8 + 0.8,
         wireIndex: segIdx,
+        delay: Math.random() * 60, // staggered gathering (0~60 frames = ~1 second)
+        gathered: false,
       });
     }
   });
@@ -84,10 +93,9 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;
       canvas.style.height = `${ch}px`;
-
-      const { scale, ox, oy } = computeLogoLayout(cw, ch);
-      scaleRef.current = scale;
-      offsetRef.current = { x: ox, y: oy };
+      const layout = computeLogoLayout(cw, ch);
+      scaleRef.current = layout.scale;
+      offsetRef.current = { x: layout.ox, y: layout.oy };
     };
 
     doResize();
@@ -96,10 +104,7 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
     const toLogoSpace = (clientX: number, clientY: number) => {
       const { x: ox, y: oy } = offsetRef.current;
       const s = scaleRef.current;
-      return {
-        x: (clientX - ox) / s,
-        y: (clientY - oy) / s,
-      };
+      return { x: (clientX - ox) / s, y: (clientY - oy) / s };
     };
 
     const onMouseMove = (e: MouseEvent) => {
@@ -121,6 +126,9 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
     canvas.addEventListener("touchmove", onTouchMove, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd);
 
+    let frame = 0;
+    const fg = params?.palette.fg ?? "#2d4a8a";
+
     const animate = () => {
       const ctx = canvas.getContext("2d");
       if (!ctx) return;
@@ -135,9 +143,11 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.setTransform(currentDpr, 0, 0, currentDpr, 0, 0);
 
+      frame++;
       const scattered = new Set<number>();
 
       for (const p of particlesRef.current) {
+        // Mouse scatter
         if (mx !== null && my !== null) {
           const dx = p.x - mx;
           const dy = p.y - my;
@@ -150,19 +160,29 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
           }
         }
 
-        p.vx += (p.targetX - p.x) * RETURN_SPEED;
-        p.vy += (p.targetY - p.y) * RETURN_SPEED;
-        p.vx *= 0.9;
-        p.vy *= 0.9;
+        // Gather toward target (with staggered delay + easing)
+        if (frame > p.delay) {
+          // Soft easing: lerp toward target, no spring bounce
+          const ease = 0.04;
+          p.vx += (p.targetX - p.x) * ease;
+          p.vy += (p.targetY - p.y) * ease;
+        }
+
+        // Strong damping — no bounce
+        p.vx *= 0.92;
+        p.vy *= 0.92;
+
         p.x += p.vx;
         p.y += p.vy;
 
+        // Draw
         ctx.beginPath();
         ctx.arc(p.x * scale + ox, p.y * scale + oy, p.size, 0, Math.PI * 2);
-        ctx.fillStyle = params?.palette.fg ?? "#2d4a8a";
+        ctx.fillStyle = fg;
         ctx.fill();
       }
 
+      // Sound
       if (onNoteRef.current) {
         for (const idx of scattered) {
           if (!pluckedRef.current.has(idx)) {
@@ -186,7 +206,7 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
       canvas.removeEventListener("touchmove", onTouchMove);
       canvas.removeEventListener("touchend", onTouchEnd);
     };
-  }, []);
+  }, [params]);
 
   return (
     <section className="relative h-screen overflow-hidden" style={{ background: params?.palette.bg ?? "#ffffff" }}>
@@ -198,7 +218,7 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
       />
       <h1 className="sr-only">FLEXLAB - Genoray Software Laboratory</h1>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-10">
-        <ArrowDown size={20} className="text-[#2d4a8a]/30" />
+        <ArrowDown size={20} style={{ color: params?.palette.fg ?? "#2d4a8a" }} className="opacity-30" />
       </div>
     </section>
   );
