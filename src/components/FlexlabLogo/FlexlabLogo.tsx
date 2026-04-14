@@ -203,8 +203,8 @@ export default function FlexlabLogo({
 
     const doResize = () => {
       const dpr = window.devicePixelRatio || 1;
-      const cw = container.clientWidth;
-      const ch = Math.max(container.clientHeight, window.innerHeight);
+      const cw = window.innerWidth;
+      const ch = window.innerHeight;
       const { scale, ox, oy } = computeLogoLayout(cw, ch);
       scaleRef.current = scale;
       offsetRef.current = { x: ox, y: oy };
