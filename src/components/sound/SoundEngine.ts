@@ -198,11 +198,9 @@ const styles: SoundStyle[] = [
       }).connect(e.filter!);
 
       const metal = new Tone.MetalSynth({
-        frequency: 200,
         envelope: { attack: 0.001, decay: 0.1, release: 0.05 },
         harmonicity: 5.1,
         modulationIndex: 16,
-        resonance: 4000,
         octaves: 1.5,
         volume: -26,
       }).connect(e.master!);
