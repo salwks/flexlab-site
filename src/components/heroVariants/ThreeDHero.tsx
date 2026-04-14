@@ -110,8 +110,8 @@ export default function ThreeDHero({ onNoteTriggered, params }: ThreeDHeroProps)
         if (len < 0.001) return;
 
         // Rounded bar shape — cylinder-like cross section
-        const thickness = 0.055;
-        const geometry = new THREE.CapsuleGeometry(thickness, len - thickness * 2, 8, 16);
+        const thickness = 0.014;
+        const geometry = new THREE.CapsuleGeometry(thickness, len - thickness * 2, 4, 12);
         // Capsule is vertical by default, rotate to horizontal
         geometry.rotateZ(Math.PI / 2);
 
