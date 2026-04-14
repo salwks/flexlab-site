@@ -2,7 +2,8 @@
 
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
-import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import { allSegments } from "../FlexlabLogo/letterPaths";
+import { computeLogoLayout } from "./logoLayout";
 
 interface AsciiHeroProps {
   onNoteTriggered?: (index: number) => void;
@@ -49,13 +50,10 @@ export default function AsciiHero({ onNoteTriggered }: AsciiHeroProps) {
     const doResize = () => {
       const cw = window.innerWidth;
       const ch = window.innerHeight;
-      const scaleW = (cw * 0.75) / LOGO_WIDTH;
-      const scaleH = (ch * 0.3) / LOGO_HEIGHT;
-      scale = Math.min(scaleW, scaleH);
-      const logoW = LOGO_WIDTH * scale;
-      const logoH = LOGO_HEIGHT * scale;
-      ox = (cw - logoW) / 2;
-      oy = (ch - logoH) / 2;
+      const layout = computeLogoLayout(cw, ch);
+      scale = layout.scale;
+      ox = layout.ox;
+      oy = layout.oy;
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;

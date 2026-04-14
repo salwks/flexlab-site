@@ -3,6 +3,7 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import { computeLogoLayout } from "./logoLayout";
 import type { HeroParams } from "./randomParams";
 
 interface ParticleHeroProps {
@@ -84,20 +85,9 @@ export default function ParticleHero({ onNoteTriggered, params }: ParticleHeroPr
       canvas.style.width = `${cw}px`;
       canvas.style.height = `${ch}px`;
 
-      // Center logo in viewport with generous padding
-      const maxLogoWidth = cw * 0.75;
-      const maxLogoHeight = ch * 0.25;
-      const scaleW = maxLogoWidth / LOGO_WIDTH;
-      const scaleH = maxLogoHeight / LOGO_HEIGHT;
-      const scale = Math.min(scaleW, scaleH);
+      const { scale, ox, oy } = computeLogoLayout(cw, ch);
       scaleRef.current = scale;
-
-      const logoW = LOGO_WIDTH * scale;
-      const logoH = LOGO_HEIGHT * scale;
-      offsetRef.current = {
-        x: (cw - logoW) / 2,
-        y: (ch - logoH) / 2 - ch * 0.05,
-      };
+      offsetRef.current = { x: ox, y: oy };
     };
 
     doResize();

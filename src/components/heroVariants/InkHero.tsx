@@ -2,7 +2,8 @@
 
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
-import { allSegments, LOGO_WIDTH, LOGO_HEIGHT, type LineSegment } from "../FlexlabLogo/letterPaths";
+import { allSegments, type LineSegment } from "../FlexlabLogo/letterPaths";
+import { computeLogoLayout } from "./logoLayout";
 import type { HeroParams } from "./randomParams";
 
 interface InkHeroProps {
@@ -71,13 +72,10 @@ export default function InkHero({ onNoteTriggered, params }: InkHeroProps) {
       canvas.style.width = `${cw}px`;
       canvas.style.height = `${ch}px`;
 
-      const maxW = cw * 0.75;
-      const maxH = ch * 0.3;
-      scale = Math.min(maxW / LOGO_WIDTH, maxH / LOGO_HEIGHT);
-      const logoW = LOGO_WIDTH * scale;
-      const logoH = LOGO_HEIGHT * scale;
-      ox = (cw - logoW) / 2;
-      oy = (ch - logoH) / 2 - ch * 0.05;
+      const layout = computeLogoLayout(cw, ch);
+      scale = layout.scale;
+      ox = layout.ox;
+      oy = layout.oy;
     };
 
     doResize();

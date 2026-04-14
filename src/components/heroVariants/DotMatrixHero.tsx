@@ -2,7 +2,8 @@
 
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
-import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import { allSegments } from "../FlexlabLogo/letterPaths";
+import { computeLogoLayout } from "./logoLayout";
 import type { HeroParams } from "./randomParams";
 
 interface DotMatrixHeroProps {
@@ -64,14 +65,10 @@ export default function DotMatrixHero({ onNoteTriggered, params }: DotMatrixHero
       canvas.style.width = `${cw}px`;
       canvas.style.height = `${ch}px`;
 
-      // Center logo
-      const maxLogoW = cw * 0.75;
-      const maxLogoH = ch * 0.3;
-      scale = Math.min(maxLogoW / LOGO_WIDTH, maxLogoH / LOGO_HEIGHT);
-      const logoW = LOGO_WIDTH * scale;
-      const logoH = LOGO_HEIGHT * scale;
-      ox = (cw - logoW) / 2;
-      oy = (ch - logoH) / 2;
+      const layout = computeLogoLayout(cw, ch);
+      scale = layout.scale;
+      ox = layout.ox;
+      oy = layout.oy;
 
       dots = [];
       const cols = Math.ceil(cw / dotSpacing);

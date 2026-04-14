@@ -1,7 +1,8 @@
 "use client";
 
 import { useRef, useEffect, useCallback } from "react";
-import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "./letterPaths";
+import { allSegments } from "./letterPaths";
+import { computeLogoLayout } from "../heroVariants/logoLayout";
 
 // --------------- Physics constants ---------------
 const SPRING_K = 0.15;   // 팽팽한 줄 — 빠른 진동 주기
@@ -204,15 +205,9 @@ export default function FlexlabLogo({
       const dpr = window.devicePixelRatio || 1;
       const cw = container.clientWidth;
       const ch = Math.max(container.clientHeight, window.innerHeight);
-      const maxW = cw * 0.8;
-      const maxH = ch * 0.3;
-      const scale = Math.min(maxW / LOGO_WIDTH, maxH / LOGO_HEIGHT);
+      const { scale, ox, oy } = computeLogoLayout(cw, ch);
       scaleRef.current = scale;
-      const logoPixelW = LOGO_WIDTH * scale;
-      const logoPixelH = LOGO_HEIGHT * scale;
-      const padX = (cw - logoPixelW) / 2;
-      const padY = (ch - logoPixelH) / 2 - ch * 0.05;
-      offsetRef.current = { x: padX, y: padY };
+      offsetRef.current = { x: ox, y: oy };
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;

@@ -2,7 +2,8 @@
 
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
-import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import { allSegments } from "../FlexlabLogo/letterPaths";
+import { computeLogoLayout } from "./logoLayout";
 import type { HeroParams } from "./randomParams";
 
 interface MagneticHeroProps {
@@ -70,11 +71,10 @@ export default function MagneticHero({ onNoteTriggered, params }: MagneticHeroPr
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;
       canvas.style.height = `${ch}px`;
-      const maxW = cw * 0.75;
-      const maxH = ch * 0.3;
-      scale = Math.min(maxW / LOGO_WIDTH, maxH / LOGO_HEIGHT);
-      ox = (cw - LOGO_WIDTH * scale) / 2;
-      oy = (ch - LOGO_HEIGHT * scale) / 2 - ch * 0.05;
+      const layout = computeLogoLayout(cw, ch);
+      scale = layout.scale;
+      ox = layout.ox;
+      oy = layout.oy;
     };
 
     doResize();

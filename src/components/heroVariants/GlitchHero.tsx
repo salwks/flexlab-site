@@ -3,6 +3,7 @@
 import { useRef, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { allSegments, LOGO_WIDTH, LOGO_HEIGHT } from "../FlexlabLogo/letterPaths";
+import { computeLogoLayout } from "./logoLayout";
 import type { HeroParams } from "./randomParams";
 
 interface GlitchHeroProps {
@@ -34,13 +35,9 @@ export default function GlitchHero({ onNoteTriggered, params }: GlitchHeroProps)
       const dpr = window.devicePixelRatio || 1;
       const cw = window.innerWidth;
       const ch = window.innerHeight;
-      const maxW = cw * 0.75;
-      const maxH = ch * 0.3;
-      const scale = Math.min(maxW / LOGO_WIDTH, maxH / LOGO_HEIGHT);
-      const logoW = LOGO_WIDTH * scale;
-      const logoH = LOGO_HEIGHT * scale;
+      const { scale, ox, oy } = computeLogoLayout(cw, ch);
       scaleRef.current = scale;
-      offsetRef.current = { x: (cw - logoW) / 2, y: (ch - logoH) / 2 - ch * 0.05 };
+      offsetRef.current = { x: ox, y: oy };
       canvas.width = cw * dpr;
       canvas.height = ch * dpr;
       canvas.style.width = `${cw}px`;
