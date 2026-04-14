@@ -49,13 +49,13 @@ export const heroVariants: HeroVariantEntry[] = [
     load: () => import("./TypoMotionHero"),
   },
   {
+    id: "glitch",
+    mood: "dark",
+    load: () => import("./GlitchHero"),
+  },
+  {
     id: "3d",
     mood: "ethereal",
     load: () => import("./ThreeDHero"),
-  },
-  {
-    id: "shader",
-    mood: "ethereal",
-    load: () => import("./ShaderHero"),
   },
 ];
