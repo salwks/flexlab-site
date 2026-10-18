@@ -25,7 +25,8 @@ a{color:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto}.topbar{p
 <footer class="footer"><div class="shell">조선 풍속화 아카이브 · 개인 연구/게임 제작 레퍼런스용 통합 뷰어 · 외부 이미지는 각 원 제공처에서 불러옵니다.</div></footer>
 <div class="modal" id="modal"><div class="dialog"><button class="close" id="close">×</button><div class="detailpic"><img id="mimg" alt=""/></div><div class="detail"><div class="artist" id="martist"></div><h3 id="mtitle"></h3><div class="meta" id="mtags"></div><div class="kv"><b>시대</b><span id="mera"></span><b>주제</b><span id="mtheme"></span><b>출처</b><span id="msource"></span><b>이용조건</b><span id="mlicense"></span></div><p id="mdesc" style="line-height:1.75;color:#5e564b"></p><a class="openlink" id="mlink" target="_blank" rel="noopener">이미지 원본 바로 보기 ↗</a><div class="credit" id="mcredit"></div></div></div></div>
 <script>
-const cFile=f=>`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=1100`;\nconst cMedia=f=>{const n=encodeURIComponent(f).replace(/%20/g,'_');return `https://commons.wikimedia.org/wiki/File:${n}#/media/File:${n}`;};
+const cFile=f=>`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=1100`;
+const cMedia=f=>{const n=encodeURIComponent(f).replace(/%20/g,'_');return `https://commons.wikimedia.org/wiki/File:${n}#/media/File:${n}`;};
 const cPage=f=>`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(f).replace(/%20/g,'_')}`;
 const nmBase='https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/';
 const nmPage='https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=502&schM=view&searchId=search';
