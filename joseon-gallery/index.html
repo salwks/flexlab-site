@@ -17,7 +17,7 @@ a{color:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto}.topbar{p
 <body>
 <header class="topbar"><div class="shell topin"><div class="mark">畫</div><div class="brand">조선 회화 아카이브<small>JOSEON PAINTING ARCHIVE</small></div><nav class="toplinks"><a href="#gallery">작품</a><a href="#sources">자료원</a></nav></div></header>
 <main>
-<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화에서 민화, 불교 회화, 유교적 초상·계회도, 도교·신선도까지 한 화면에서 탐색하는 회화 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat">분야 5개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
+<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화·민화·불교·유교·도교에서 왕실행사·관료생활·양반생활·국가의례까지 한 화면에서 탐색하는 조선 시각자료 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat">분야 5개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
 <div class="controls"><div class="shell"><div class="searchrow"><input id="q" class="search" placeholder="작품명·작가·주제 검색 (예: 주막, 무속, 씨름)"/><select id="domain" class="select"><option value="all">모든 분야</option></select><select id="artist" class="select"><option value="all">모든 작가</option></select><select id="source" class="select"><option value="all">모든 출처</option></select><button id="favOnly" class="btn">♡ 즐겨찾기</button></div><div class="chips" id="chips"></div></div></div>
 <section class="section shell" id="gallery"><div class="sectionhead"><h2>통합 갤러리</h2><div class="count" id="count"></div></div><div class="grid" id="grid"></div></section>
 <section class="section shell" id="sources"><div class="sectionhead"><h2>원문 자료원</h2><div class="count">최종 사용 전 각 사이트의 개별 라이선스를 확인하세요.</div></div><div class="sources" id="sourceGrid"></div><div class="notice"><b>라이선스 원칙</b><br>오래된 회화의 원작 저작권과 디지털 스캔·촬영 이미지의 이용조건은 별개일 수 있습니다. 이 페이지는 공개 이용 조건이 확인되는 국립중앙박물관·국가유산 공공누리 자료와 Wikimedia Commons 파일을 우선 연결합니다. Wikimedia 작품의 ‘원본 보기’는 Media Viewer를 직접 열며, 최종 사용 전 개별 파일의 라이선스를 다시 확인해야 합니다.</div></section>
@@ -111,12 +111,42 @@ seongThemes.forEach((x,i)=>W.push({id:++id,artist:'성협',title:x[0],era:'조�
 ['윤두서','진단타려도','나귀에서 떨어지는 진단선생.jpg',['도교','신선','진단','나귀'],'도교 인물 진단 선생의 일화를 그린 윤두서 작품.']
 ].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],'도교'));
 
+
+// 왕실 생활·행차
+[
+['미상','화성능행도 병풍','Painting of the Royal Procession to Hwaseong on Eight-panel Folding Screen.jpeg',['왕실','행차','정조','화성'],'1795년 정조의 화성 행차 장면을 그린 대형 병풍. 왕실 행렬의 규모와 의장, 가마, 군사·관료 배치를 볼 수 있습니다.'],
+['미상','혜경궁 홍씨 가마 행렬','Hyegyeong palaquin.jpg',['왕실','가마','혜경궁','행차'],'화성행차 기록화 중 혜경궁 홍씨의 가마가 등장하는 부분.'],
+['미상','정조 어가 행렬','Royal Carriage Parade of King Jeongjo (1).jpg',['왕실','어가','정조','행차'],'정조의 어가와 호위 행렬을 보여주는 기록화 자료.'],
+['미상','조대비 사순칭경진하도 병풍','The Grand Congratulatory Ceremony to Celebrate the Fortieth Birthday of Queen Dowager Jo.jpg',['왕실','궁중행사','대비','창덕궁'],'1847년 조대비의 사순을 축하한 궁중 진하 장면. 궁궐 공간, 악대, 관원 배치를 볼 수 있습니다.']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],'왕실'));
+
+// 국가의례·궁중 의식
+[
+['미상','헌종가례진하도 병풍','The Grand Congratulaotry Ceremony of the Festive Royal Wedding of King Heonjong.jpg',['국가의례','가례','혼례','궁중'],'1844년 헌종의 가례를 축하하는 진하 장면을 그린 병풍.'],
+['미상','왕세자 탄생 진하도 병풍','Ten-Fold Screen Painting of Congratulatory Ceremony for the Birth of Crown Prince.jpg',['국가의례','왕세자','진하','창덕궁'],'1874년 순종 탄생을 축하하기 위해 창덕궁 인정전에서 열린 진하 의식을 그린 10폭 병풍.'],
+['미상','정조 왕실 행차 기록','Royal Carriage Parade of King Jeongjo (2).jpg',['국가의례','행차','의장','관료'],'정조 관련 왕실 행차의 의장과 관료·군사 배치를 보여주는 기록화.']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],'국가의례'));
+
+// 관료 생활·계회
+[
+['미상','동경계회도 - 같은 해 태어난 관리들의 모임','같은 해에 태어난 관리들의 친목 모임 조선-同庚契會圖 朝鮮-Gathering of government officials MET DP161547.jpg',['관료','계회','관리','연회'],'1551년경 같은 해에 태어난 관료들의 친목 모임을 그린 계회도. 관복·좌석 배치·연회 문화를 볼 수 있습니다.'],
+['미상','문인 계회도','\'Scholarly Gathering\', Joseon dynasty, c. 1586, Honolulu Museum of Art 2015-36-01.jpg',['관료','문인','계회','학문'],'1586년경 조선 문인들의 모임을 그린 계회도.'],
+['미상','서원아집도','Elegant Gathering in the Western Garden.jpg',['관료','문인','아집','정원'],'문인들이 정원에 모여 글과 그림을 즐기는 이상적 아집 장면. 사대부 문화의 공간과 행위를 참고하기 좋습니다.']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],'관료'));
+
+// 양반 생활·학문·주거
+[
+['미상','책거리 - 선비의 책과 기물','Scholar\'s Books and Objects (Chaekkeori) LACMA M.89.128 (1 of 3).jpg',['양반생활','책','문방','서재'],'책과 문방구, 기물을 통해 양반·문인의 학문 생활과 물질문화를 보여주는 책거리 병풍.'],
+['이재관','유학자 초상','Korea-Yi Chegwan-Portrait of a Confucian scholar.jpg',['양반생활','유학자','복식','초상'],'조선 후기 유학자의 복식과 자세를 보여주는 초상화.'],
+['미상','양반 사랑방 재현','Korea-Joseon period-Yangban-01.jpg',['양반생활','사랑방','가구','주거'],'국립민속박물관의 조선시대 양반 사랑방 재현 자료. 회화 외 실제 생활공간 참고용입니다.']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],'양반생활'));
+
 const sources=[
 ['공유마당','한국저작권위원회','CC·공공저작물 원본 다운로드','https://gongu.copyright.or.kr/gongu/main/main.do'],['국립중앙박물관','소장품 검색','김홍도·성협 등 고화질 소장품','https://www.museum.go.kr/site/main/relic/search/search'],['e뮤지엄','전국 박물관 통합','작품·민속자료 폭넓은 검색','https://emuseum.go.kr/'],['국립민속박물관','민속아카이브','건축·복식·도구·의례 보강','https://www.nfm.go.kr/'],['국가유산포털','국가유산청','지정유산·작품 정보 검증','https://www.heritage.go.kr/'],['Wikimedia Commons','공개 이미지','작가별 작품 대량 탐색','https://commons.wikimedia.org/wiki/Category:Pungsokhwa'],['Google Arts & Culture','온라인 전시','고배율 감상·작품 탐색','https://artsandculture.google.com/'],['British Museum','Collection','해외 소장 조선 풍속화 검색','https://www.britishmuseum.org/collection'],['Paris Musées','Collections','퍼블릭 도메인 고해상도 자료','https://www.parismuseescollections.paris.fr/']
 ];
 const domainEl=document.getElementById('domain'),artistEl=document.getElementById('artist'),sourceEl=document.getElementById('source'),qEl=document.getElementById('q'),grid=document.getElementById('grid'),count=document.getElementById('count'),chips=document.getElementById('chips'),favOnly=document.getElementById('favOnly');
 [...new Set(W.map(x=>x.domain))].forEach(d=>domainEl.insertAdjacentHTML('beforeend',`<option>${d}</option>`)); [...new Set(W.map(x=>x.artist))].forEach(a=>artistEl.insertAdjacentHTML('beforeend',`<option>${a}</option>`)); [...new Set(W.map(x=>x.source))].forEach(s=>sourceEl.insertAdjacentHTML('beforeend',`<option>${s}</option>`));
-const themes=['전체','복식','시장','농촌','주막','교통','실내','생활도구','놀이','공연','혼례','음악','식사','학문','초상','의례','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
+const themes=['전체','복식','시장','농촌','주막','교통','실내','생활도구','놀이','공연','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
 themes.forEach(t=>{const b=document.createElement('button');b.className='chip'+(t==='전체'?' active':'');b.textContent=t;b.onclick=()=>{activeTheme=t;[...chips.children].forEach(c=>c.classList.toggle('active',c.textContent===t));render()};chips.appendChild(b)});
 let favs;try{favs=new Set(JSON.parse(localStorage.getItem('joseonFavs')||'[]'))}catch(e){favs=new Set()}
 function saveFav(){try{localStorage.setItem('joseonFavs',JSON.stringify([...favs]))}catch(e){}}
