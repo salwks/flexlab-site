@@ -26,8 +26,8 @@ a{color:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto}.topbar{p
 <div class="modal" id="modal"><div class="dialog"><button class="close" id="close">×</button><div class="detailpic"><img id="mimg" alt=""/></div><div class="detail"><div class="artist" id="martist"></div><h3 id="mtitle"></h3><div class="meta" id="mtags"></div><div class="kv"><b>시대</b><span id="mera"></span><b>주제</b><span id="mtheme"></span><b>출처</b><span id="msource"></span><b>이용조건</b><span id="mlicense"></span></div><p id="mdesc" style="line-height:1.75;color:#5e564b"></p><a class="openlink" id="mlink" target="_blank" rel="noopener">원본 보기 ↗</a><div class="credit" id="mcredit"></div></div></div></div>
 <script>
 const cFile=f=>`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=1100`;
-const cMedia=f=>{const n=encodeURIComponent(f).replace(/%20/g,'_');return `https://commons.wikimedia.org/wiki/File:${n}#/media/File:${n}`;};
-const cPage=f=>`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(f).replace(/%20/g,'_')}`;
+const cMedia=f=>{const n=encodeURIComponent(f).replace(/%20/g,'_').replace(/%27/g,"'");return `https://commons.wikimedia.org/wiki/File:${n}#/media/File:${n}`;};
+const cPage=f=>`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(f).replace(/%20/g,'_').replace(/%27/g,"'")}`;
 const nmBase='https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/';
 const nmPage='https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=502&schM=view&searchId=search';
 let id=0; const W=[];
@@ -51,7 +51,7 @@ function commons(artist,title,file,themes,desc='',domain='풍속',era='조선 �
 ].forEach(x=>commons('김준근',x[0],x[1],x[2],'기산 김준근의 19세기 풍속화. 서구 박물관에 흩어진 후기 생활상 자료를 보강하는 데 유용합니다.'));
 // 성협 · 국립중앙박물관 소장 풍속화첩 14면 (파일명은 박물관 직접 이미지)
 const seongThemes=[['가을 나귀길',['교통','말','양반']],['야외 고기굽기',['식사','야외','생활도구']],['가야금 풍류',['음악','양반','야외']],['거리 풍경',['도시','시장','상업']],['김매기',['농촌','농업','노동']],['장기',['놀이','실내','생활']],['베짜기',['직물','노동','생활']],['장텃길',['시장','교통','이동']],['낚시',['강','생업','야외']],['풍속화첩 10',['생활','복식']],['풍속화첩 11',['생활','복식']],['풍속화첩 12',['생활','복식']],['풍속화첩 13',['생활','복식']],['풍속화첩 14',['생활','복식']]];
-seongThemes.forEach((x,i)=>W.push({id:++id,artist:'성협',title:x[0],era:'조선 후기 · 19세기',domain:'풍속',source:'국립중앙박물관',license:'공공누리 1유형 · 출처표시',themes:x[1],img:`${nmBase}bon005119-00-${String(i+1).padStart(2,'0')}.jpg`,original:`${nmBase}bon005119-00-${String(i+1).padStart(2,'0')}.jpg`,url:nmPage,desc:'성협 풍속화첩 14면 중 한 장. 국립중앙박물관은 이 화첩이 양반과 서민의 생활상을 함께 담고 있으며 김홍도·신윤복 풍속화의 영향을 보여준다고 설명합니다.',credit:'이미지: 국립중앙박물관. 해당 소장품 페이지는 공공누리 제1유형(출처표시)을 명시합니다.'}));
+seongThemes.forEach((x,i)=>W.push({id:++id,artist:'성협',title:x[0],era:'조선 후기 · 19세기',domain:'풍속',source:'국립중앙박물관',license:'공공누리 1유형 · 출처표시',themes:x[1],img:`${nmBase}bon005119-00-${String(i+13).padStart(2,'0')}.jpg`,original:`${nmBase}bon005119-00-${String(i+13).padStart(2,'0')}.jpg`,url:nmPage,desc:'성협 풍속화첩 14면 중 한 장. 국립중앙박물관은 이 화첩이 양반과 서민의 생활상을 함께 담고 있으며 김홍도·신윤복 풍속화의 영향을 보여준다고 설명합니다.',credit:'이미지: 국립중앙박물관. 해당 소장품 페이지는 공공누리 제1유형(출처표시)을 명시합니다.'}));
 
 
 // 풍속화 범위 확대 · 윤두서·윤덕희·김득신·김홍도 병풍 등
@@ -93,7 +93,7 @@ seongThemes.forEach((x,i)=>W.push({id:++id,artist:'성협',title:x[0],era:'조�
 // 유교 · 유학자 초상·공자·계회도
 [
 ['미상','공자 행단현가도','공자행단현가도.jpg',['유교','공자','교육','의례'],'공자가 행단에서 제자들을 가르치는 장면을 그린 유교 회화.'],
-['미상','문인 계회도','\'Scholarly Gathering\', Joseon dynasty, c. 1586, Honolulu Museum of Art 2015-36-01.jpg',['유교','계회','문인','학문'],'16세기 조선 문인들의 모임을 그린 계회도.'],
+['미상','문인 계회도',"'Scholarly Gathering', Joseon dynasty, c. 1586, Honolulu Museum of Art 2015-36-01.jpg",['유교','계회','문인','학문'],'16세기 조선 문인들의 모임을 그린 계회도.'],
 ['미상','송시열 초상','송시열 초상.jpg',['유교','초상','유학자','복식'],'조선 성리학자 송시열의 초상.'],
 ['미상','권상하 초상','Korea-Portrait of Kwon Sangha-Joseon.jpg',['유교','초상','유학자','복식'],'송시열의 학통을 계승한 권상하의 초상.'],
 ['미상','김육 초상','Korea-Portrait of Kim Yuk-Joseon.jpg',['유교','초상','관료','복식'],'조선 중기 관료이자 유학자 김육의 초상.'],
