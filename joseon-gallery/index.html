@@ -361,7 +361,8 @@ function inferFacets(w){
 const partialSourceTitles=new Set([
   '행려풍속도 병풍 1폭','행려풍속도 병풍 4폭',
   '동궐도 - 돈화문 일대','동궐도 - 중희당','동궐도 - 연경당 일대',
-  '동궐도 - 진선문 일대','동궐도 - 선정전 일대'
+  '동궐도 - 진선문 일대','동궐도 - 선정전 일대',
+  '양반 사랑방 재현'
 ]);
 for(let i=W.length-1;i>=0;i--){
   if(partialSourceTitles.has(W[i].title)) W.splice(i,1);
