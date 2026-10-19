@@ -17,12 +17,12 @@ a{color:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto}.topbar{p
 <body>
 <header class="topbar"><div class="shell topin"><div class="mark">畫</div><div class="brand">조선 회화 아카이브<small>JOSEON PAINTING ARCHIVE</small></div><nav class="toplinks"><a href="#gallery">작품</a><a href="#sources">자료원</a></nav></div></header>
 <main>
-<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화·민화·종교회화에서 왕실·관료·의례·건축·지도·무예·과학·외교·무속·형정·공예·복식까지 한 화면에서 탐색하는 조선 시각자료 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat" id="statDomains">분야 0개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
+<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화·민화·불화·무신도·신선도·초상화·계회도·궁중기록화·행렬도·건축회화까지 한 화면에서 탐색하는 조선 회화 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat" id="statDomains">분야 0개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
 <div class="controls"><div class="shell"><div class="searchrow"><input id="q" class="search" placeholder="작품명·작가·주제 검색 (예: 주막, 무속, 씨름)"/><select id="domain" class="select"><option value="all">모든 분야</option></select><select id="artist" class="select"><option value="all">모든 작가</option></select><select id="source" class="select"><option value="all">모든 출처</option></select><button id="favOnly" class="btn">♡ 즐겨찾기</button></div><div class="facetrow"><select id="place" class="select"><option value="all">모든 장소</option></select><select id="person" class="select"><option value="all">모든 인물</option></select></div><div class="chips" id="chips"></div></div></div>
 <section class="section shell" id="gallery"><div class="sectionhead"><h2>통합 갤러리</h2><div class="count" id="count"></div></div><div class="grid" id="grid"></div></section>
 <section class="section shell" id="sources"><div class="sectionhead"><h2>원문 자료원</h2><div class="count">최종 사용 전 각 사이트의 개별 라이선스를 확인하세요.</div></div><div class="sources" id="sourceGrid"></div><div class="notice"><b>라이선스 원칙</b><br>오래된 회화의 원작 저작권과 디지털 스캔·촬영 이미지의 이용조건은 별개일 수 있습니다. 이 페이지는 공개 이용 조건이 확인되는 국립중앙박물관·국가유산 공공누리 자료와 Wikimedia Commons 파일을 우선 연결합니다. Wikimedia 작품의 ‘원본 보기’는 Media Viewer를 직접 열며, 최종 사용 전 개별 파일의 라이선스를 다시 확인해야 합니다.</div></section>
 </main>
-<footer class="footer"><div class="shell">조선 회화 아카이브 · 개인 연구/게임 제작 레퍼런스용 통합 뷰어 · 외부 이미지는 각 원 제공처에서 불러옵니다.</div></footer>
+<footer class="footer"><div class="shell">조선 회화 아카이브 · 풍속화·민화·종교회화·초상·궁중기록화 중심 · 외부 이미지는 각 원 제공처에서 불러옵니다.</div></footer>
 <div class="modal" id="modal"><div class="dialog"><button class="close" id="close">×</button><div class="detailpic"><img id="mimg" alt=""/></div><div class="detail"><div class="artist" id="martist"></div><h3 id="mtitle"></h3><div class="meta" id="mtags"></div><div class="kv"><b>시대</b><span id="mera"></span><b>주제</b><span id="mtheme"></span><b>장소</b><span id="mplace"></span><b>인물</b><span id="mperson"></span><b>출처</b><span id="msource"></span><b>이용조건</b><span id="mlicense"></span></div><p id="mdesc" style="line-height:1.75;color:#5e564b"></p><a class="openlink" id="mlink" target="_blank" rel="noopener">원본 보기 ↗</a><div class="credit" id="mcredit"></div></div></div></div>
 <script>
 const cFile=f=>`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=1100`;
@@ -300,6 +300,20 @@ function inferFacets(w){
   if(has('통신사','외교','사절'))q.push('외교사절');
   w.people=uniq(q.length?q:['기타']);
 }
+
+for(const w of W){
+  if(w.title==='채제공 흑단령포 초상') w.domain='유교';
+}
+const paintingDomains=new Set([
+  '풍속','민화','불교','유교','도교',
+  '왕실','국가의례','관료','양반생활',
+  '궁궐·건축','외교·사행','무속·민간신앙'
+]);
+const paintingTitleKeep=new Set([
+  '화성 능행 반차도','진찬의궤 도설'
+]);
+const paintingOnly=W.filter(w=>paintingDomains.has(w.domain)||paintingTitleKeep.has(w.title));
+W.splice(0,W.length,...paintingOnly);
 const dedup=new Map();
 for(const w of W){
   const key=w.source==='Wikimedia Commons'?(w.file?('file:'+w.file):('url:'+w.url)):('src:'+(w.original||w.img||w.url||w.title));
@@ -318,7 +332,7 @@ const sources=[
 ];
 const domainEl=document.getElementById('domain'),placeEl=document.getElementById('place'),personEl=document.getElementById('person'),artistEl=document.getElementById('artist'),sourceEl=document.getElementById('source'),qEl=document.getElementById('q'),grid=document.getElementById('grid'),count=document.getElementById('count'),chips=document.getElementById('chips'),favOnly=document.getElementById('favOnly');
 [...new Set(W.flatMap(x=>x.domains||[x.domain]))].forEach(d=>domainEl.insertAdjacentHTML('beforeend',`<option>${d}</option>`)); placeOrder.filter(p=>W.some(w=>w.places.includes(p))).forEach(p=>placeEl.insertAdjacentHTML('beforeend',`<option>${p}</option>`)); personOrder.filter(p=>W.some(w=>w.people.includes(p))).forEach(p=>personEl.insertAdjacentHTML('beforeend',`<option>${p}</option>`)); [...new Set(W.map(x=>x.artist))].forEach(a=>artistEl.insertAdjacentHTML('beforeend',`<option>${a}</option>`)); [...new Set(W.map(x=>x.source))].forEach(s=>sourceEl.insertAdjacentHTML('beforeend',`<option>${s}</option>`));
-const themes=['전체','복식','시장','농촌','주막','교통','실내','생활도구','놀이','공연','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','궁궐','건축','의궤','반차도','무예','기마','상례','국장','지도','도성','무용','천문','과학','통신사','외교','무속','재판','감옥','형정','한지','도자기','곤룡포','철릭','갓','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
+const themes=['전체','풍속','복식','시장','농촌','주막','실내','놀이','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','궁궐','건축','반차도','통신사','외교','무속','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
 themes.forEach(t=>{const b=document.createElement('button');b.className='chip'+(t==='전체'?' active':'');b.textContent=t;b.onclick=()=>{activeTheme=t;[...chips.children].forEach(c=>c.classList.toggle('active',c.textContent===t));render()};chips.appendChild(b)});
 let favs;try{favs=new Set(JSON.parse(localStorage.getItem('joseonFavs')||'[]'))}catch(e){favs=new Set()}
 function saveFav(){try{localStorage.setItem('joseonFavs',JSON.stringify([...favs]))}catch(e){}}
