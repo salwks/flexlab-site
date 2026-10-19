@@ -17,7 +17,7 @@ a{color:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto}.topbar{p
 <body>
 <header class="topbar"><div class="shell topin"><div class="mark">畫</div><div class="brand">조선 회화 아카이브<small>JOSEON PAINTING ARCHIVE</small></div><nav class="toplinks"><a href="#gallery">작품</a><a href="#sources">자료원</a></nav></div></header>
 <main>
-<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화·민화·불교·유교·도교에서 왕실행사·관료생활·양반생활·국가의례까지 한 화면에서 탐색하는 조선 시각자료 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat" id="statDomains">분야 0개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
+<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화·민화·종교회화에서 왕실·관료·의례·건축·지도·무예·과학·외교·무속·형정·공예·복식까지 한 화면에서 탐색하는 조선 시각자료 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat" id="statDomains">분야 0개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
 <div class="controls"><div class="shell"><div class="searchrow"><input id="q" class="search" placeholder="작품명·작가·주제 검색 (예: 주막, 무속, 씨름)"/><select id="domain" class="select"><option value="all">모든 분야</option></select><select id="artist" class="select"><option value="all">모든 작가</option></select><select id="source" class="select"><option value="all">모든 출처</option></select><button id="favOnly" class="btn">♡ 즐겨찾기</button></div><div class="chips" id="chips"></div></div></div>
 <section class="section shell" id="gallery"><div class="sectionhead"><h2>통합 갤러리</h2><div class="count" id="count"></div></div><div class="grid" id="grid"></div></section>
 <section class="section shell" id="sources"><div class="sectionhead"><h2>원문 자료원</h2><div class="count">최종 사용 전 각 사이트의 개별 라이선스를 확인하세요.</div></div><div class="sources" id="sourceGrid"></div><div class="notice"><b>라이선스 원칙</b><br>오래된 회화의 원작 저작권과 디지털 스캔·촬영 이미지의 이용조건은 별개일 수 있습니다. 이 페이지는 공개 이용 조건이 확인되는 국립중앙박물관·국가유산 공공누리 자료와 Wikimedia Commons 파일을 우선 연결합니다. Wikimedia 작품의 ‘원본 보기’는 Media Viewer를 직접 열며, 최종 사용 전 개별 파일의 라이선스를 다시 확인해야 합니다.</div></section>
@@ -196,12 +196,73 @@ seongThemes.forEach((x,i)=>W.push({id:++id,artist:'성협',title:x[0],era:'조�
 ['미상','교방가요 무고 도형','Korea-Gyobang Gayo-Mugo-02.jpg',['음악','무용','무고','배치'],'무고의 대형과 동작을 보완해 주는 교방가요 도판.','음악·무용','1902 · 조선 궁중정재 계승']
 ].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
 
+
+// 천문·과학기술
+[
+['미상','천상열차분야지도 각석','Cheonsang.jpg',['천문','과학','별자리','관상감'],'조선 천문도의 대표 자료. 별자리 배치와 천문 지식 체계를 시각적으로 확인할 수 있습니다.','천문·과학','조선 · 태조대 원각, 후대 각석'],
+['미상','천상열차분야지도 1687년 재각','Cheonsang 1687.jpg',['천문','과학','별자리','숙종'],'1687년 숙종대에 다시 새긴 천상열차분야지도 각석.','천문·과학','조선 후기 · 1687'],
+['미상','천상열차분야지도 목판본','Cheonsang-yeolcha-bunya-jido (woodcut version).png',['천문','과학','별자리','목판'],'천상열차분야지도의 목판본 계열. 게임 내 천문서·관상감 자료 참고에 유용합니다.','천문·과학','조선 · 16~18세기'],
+['송이영 계열','혼천의 및 혼천시계','혼천의 및 혼천시계.jpg',['천문','과학','혼천의','시계'],'천체의 움직임을 관측·표현하기 위한 혼천의와 혼천시계.','천문·과학','조선 후기 · 17세기'],
+['장영실 계열','보루각 자격루','BoRuGak Jagyeongnu.JPG',['과학','자격루','물시계','궁중'],'자동 물시계 자격루의 구조와 외형을 확인할 수 있는 자료.','천문·과학','조선 전기 계통'],
+['미상','앙부일구','Gyeongbokgung Angbuilgu (50605001138).jpg',['과학','해시계','시간','궁중'],'반구형 해시계 앙부일구. 시간 측정 기구의 형태와 눈금을 참고할 수 있습니다.','천문·과학','조선'],
+['미상','측우기 구조도','Cheugugi001.svg',['과학','측우기','기상','관청'],'세종대부터 사용된 표준 우량계 측우기의 구조를 보여주는 도해.','천문·과학','조선 전기 계통'],
+['미상','창덕궁 측우대','Rain Gauge Pedestal from Changdeokgung at National Palace Museum of Korea 02.jpg',['과학','측우기','기상','창덕궁'],'창덕궁 측우대 실물. 관청·궁중의 기상 관측 환경을 참고하기 좋습니다.','천문·과학','조선 후기']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 외교·사행 · 조선통신사
+[
+['하네가와 도에이','에도의 조선통신사 행렬','Joseon procession in Edo 1748.jpg',['외교','통신사','행렬','에도'],'1748년 에도 시가를 지나는 조선통신사 행렬. 외교사절의 복식·가마·행렬 구성을 볼 수 있습니다.','외교·사행','조선 후기 · 1748'],
+['미상','조선 사절단 일본 행렬','Procession of Korean Ambassadors to Japan.jpg',['외교','통신사','행렬','일본'],'일본에서 묘사된 조선 사절단 행렬 자료.','외교·사행','조선 후기'],
+['가노 도운 야스노부 계열','1655년 조선통신사','KoreanEmbassy1655KanoTounYasunobu.jpg',['외교','통신사','사절','행렬'],'1655년 조선통신사 관련 시각자료. 외교 사절단의 규모와 구성을 확인할 수 있습니다.','외교·사행','조선 후기 · 1655'],
+['미상','1748년 조선 사절 행렬','Anonimo, processione di ambasciatori coreani in giappone, 1748 ca..JPG',['외교','통신사','행렬','일본'],'18세기 일본에서 그린 조선 사절단 행렬 장면.','외교·사행','조선 후기 · 1748경'],
+['미상','통신사 사행선·숙영 자료','Chosenheireishi yodojyo chakuraizu.jpg',['외교','통신사','사행','일본'],'조선 사절의 일본 내 이동·숙영과 관련된 시각자료.','외교·사행','조선 후기']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 무속·민간신앙
+[
+['미상','만신도','Mansindo (萬神圖), early 19th-c. Korean shamanic painting.jpg',['무속','무신도','제석','산신'],'32위의 신령을 한 화면에 담은 19세기 초 만신도. 무속 신격 체계를 한눈에 볼 수 있습니다.','무속·민간신앙','조선 후기 · 19세기 초'],
+['미상','산신도','Mountain God (Sansin) LACMA M.2000.15.12.jpg',['무속','산신','호랑이','신령'],'19세기 조선 산신도. 산신의 복식·호랑이·산수 배경의 전형을 보여줍니다.','무속·민간신앙','조선 후기 · 19세기'],
+['미상','산신도 연작 1','Mountain God (Sansin) LACMA M.2000.15.13 (1 of 4).jpg',['무속','산신','신령','민간신앙'],'LACMA 소장 19세기 산신도 연작 중 한 점.','무속·민간신앙','조선 후기 · 19세기'],
+['미상','남이사당 제석도','Painting of Jeseok at Yongsan-gu Nam I shrine.jpg',['무속','제석','삼신','농경'],'서울 남이사당의 제석신을 그린 무신도. 농경·출산·가정 신앙 참고에 유용합니다.','무속·민간신앙','조선 후기 · 19세기 추정'],
+['미상','내왓당 제석신도','Naewat-dang shamanic painting.jpg',['무속','제석','제주','신당'],'제주 내왓당에서 모셨던 제석신 초상. 지역 무속 도상을 비교하기 좋습니다.','무속·민간신앙','조선 · 전승자료'],
+['미상','제주 제석신','Jeseok (Indra), Jeju Island god.jpg',['무속','제석','제주','신격'],'제주 신당에서 전승된 제석신 그림. 육지 무신도와 다른 지역적 특징을 볼 수 있습니다.','무속·민간신앙','조선 후기 전승']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 관청·형정
+[
+['미상','조선시대 재판','Korean traditional Court of Justice.JPG',['관청','재판','형정','지방관'],'1910년 이전 자료에 수록된 조선시대 재판 장면. 관원·죄인·집행 인원의 위치 관계를 볼 수 있습니다.','관청·형정','조선 말기 이전 기록'],
+['미상','조선시대 감옥','Prison in the Joseon Period.JPG',['관청','감옥','형정','옥사'],'1910년 이전 조선의 감옥 모습을 담은 기록 이미지.','관청·형정','조선 말기 이전 기록'],
+['미상','조선시대 고문·형벌','Torture in the Joseon Period.JPG',['관청','형벌','형정','재판'],'조선시대 형벌 집행을 기록한 역사 이미지. 퀘스트·관아 장면 참고용입니다.','관청·형정','조선 말기 이전 기록'],
+['미상','대한제국 신식 경찰','Joseon New-Style Policeman.JPG',['관청','경찰','제복','근대화'],'1910년 이전 대한제국 경찰관. 조선 말기에서 근대로 넘어가는 관청 복식 경계자료입니다.','관청·형정','대한제국 · 1910년 이전']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 생활기술·생업 · 공예와 물질문화
+[
+['미상','한지 제작 장인','한지장.jpg',['생업','한지','제지','장인'],'닥나무를 이용한 전통 한지 제작 기술을 보여주는 자료. 제작 공정과 도구 참고에 유용합니다.','생활기술·생업','전통기술 · 조선계승'],
+['미상','백자 철화운룡문 항아리','Joseon porcelain-01.jpg',['생업','도자기','백자','용문'],'조선 중기 백자. 도공·가마·생활기물 디자인 참고자료.','생활기술·생업','조선 중기'],
+['미상','분청사기 항아리','Jar, buncheong ware, Korea, Joseon dynasty, c. 1400-1600, stoneware, white slip applied with coarse brush - Asian Art Museum - San Francisco, CA - DSC07401.jpg',['생업','도자기','분청','가마'],'15~16세기 조선 분청사기 항아리. 표면 처리와 형태를 자세히 볼 수 있습니다.','생활기술·생업','조선 전기'],
+['미상','왜관 가마 계열 상감 화병','Vase with inlaid decoration, Korea, eastern Gyeongsangnam-do province, Waegwan (Wakan) kiln, Joseon, 2nd half 17th century, stoneware with white slip inlaid under translucent glaze - Freer Gallery of Art - DSC05462.JPG',['생업','도자기','가마','상감'],'17세기 후반 경상도 계열 도자. 지역 생산품과 공예기술 참고자료.','생활기술·생업','조선 후기 · 17세기'],
+['미상','분청사기 대접','Korea, early Joseon dynasty - Bowl- Punch\'ong Ware - 1921.678 - Cleveland Museum of Art.jpg',['생업','도자기','분청','생활기물'],'조선 전기 분청사기 대접. 일상 기물의 형태와 장식기법을 볼 수 있습니다.','생활기술·생업','조선 전기']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 복식 · 신분·직역별 의복
+[
+['미상','왕의 곤룡포','Gonryongpo.JPG',['복식','왕','곤룡포','궁중'],'조선 국왕의 곤룡포 실물 자료. 용보·색상·관복 형태 참고에 유용합니다.','복식','조선 왕실'],
+['미상','왕비 복식','Korea-Hanbok-Queen-02.jpg',['복식','왕비','궁중','여성'],'조선 왕비 복식 재현·전시 자료.','복식','조선 왕실'],
+['미상','왕비 적의와 대수','Korean royal costume for queen-Jeogui and daesu-03.jpg',['복식','왕비','적의','대수'],'왕비의 대례복 적의와 대수. 궁중 의례 장면 제작에 유용합니다.','복식','조선 왕실 계통'],
+['미상','무관 철릭','Cheollik, a Korean Military Official Robe.jpg',['복식','무관','철릭','군사'],'기마와 활동성을 고려한 조선 무관 계열 철릭 자료.','복식','조선'],
+['미상','홍색 철릭','Red Cheollik, a Korean Military Official Robe.jpg',['복식','무관','철릭','군사'],'붉은 철릭 실물 자료. 주름·허리선·소매 형태를 세부적으로 볼 수 있습니다.','복식','조선'],
+['이명기','채제공 흑단령포 초상','Joseon-Portrait of Cha Jegong-Black danryeongpo.jpg',['복식','관료','단령','흉배'],'1792년 채제공 초상. 오사모·쌍학흉배·흑단령포를 정확히 볼 수 있습니다.','복식','조선 후기 · 1792'],
+['미상','갓','Korea-gat-01.jpg',['복식','갓','양반','남성'],'조선 남성의 대표 관모인 갓의 형태를 확인할 수 있는 실물 자료.','복식','조선'],
+['미상','19세기 활옷','활옷 Bridal robe, Joseon Dynasty, 19th c. 국립대구박물관 (Daegu National Museum).jpg',['복식','혼례','활옷','여성'],'19세기 조선 활옷. 혼례복의 자수·색상·구성을 자세히 볼 수 있습니다.','복식','조선 후기 · 19세기']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
 const sources=[
 ['공유마당','한국저작권위원회','CC·공공저작물 원본 다운로드','https://gongu.copyright.or.kr/gongu/main/main.do'],['국립중앙박물관','소장품 검색','김홍도·성협 등 고화질 소장품','https://www.museum.go.kr/site/main/relic/search/search'],['e뮤지엄','전국 박물관 통합','작품·민속자료 폭넓은 검색','https://emuseum.go.kr/'],['국립민속박물관','민속아카이브','건축·복식·도구·의례 보강','https://www.nfm.go.kr/'],['국가유산포털','국가유산청','지정유산·작품 정보 검증','https://www.heritage.go.kr/'],['Wikimedia Commons','공개 이미지','작가별 작품 대량 탐색','https://commons.wikimedia.org/wiki/Category:Pungsokhwa'],['Google Arts & Culture','온라인 전시','고배율 감상·작품 탐색','https://artsandculture.google.com/'],['British Museum','Collection','해외 소장 조선 풍속화 검색','https://www.britishmuseum.org/collection'],['Paris Musées','Collections','퍼블릭 도메인 고해상도 자료','https://www.parismuseescollections.paris.fr/']
 ];
 const domainEl=document.getElementById('domain'),artistEl=document.getElementById('artist'),sourceEl=document.getElementById('source'),qEl=document.getElementById('q'),grid=document.getElementById('grid'),count=document.getElementById('count'),chips=document.getElementById('chips'),favOnly=document.getElementById('favOnly');
 [...new Set(W.map(x=>x.domain))].forEach(d=>domainEl.insertAdjacentHTML('beforeend',`<option>${d}</option>`)); [...new Set(W.map(x=>x.artist))].forEach(a=>artistEl.insertAdjacentHTML('beforeend',`<option>${a}</option>`)); [...new Set(W.map(x=>x.source))].forEach(s=>sourceEl.insertAdjacentHTML('beforeend',`<option>${s}</option>`));
-const themes=['전체','복식','시장','농촌','주막','교통','실내','생활도구','놀이','공연','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','궁궐','건축','의궤','반차도','무예','기마','상례','국장','지도','도성','무용','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
+const themes=['전체','복식','시장','농촌','주막','교통','실내','생활도구','놀이','공연','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','궁궐','건축','의궤','반차도','무예','기마','상례','국장','지도','도성','무용','천문','과학','통신사','외교','무속','재판','감옥','형정','한지','도자기','곤룡포','철릭','갓','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
 themes.forEach(t=>{const b=document.createElement('button');b.className='chip'+(t==='전체'?' active':'');b.textContent=t;b.onclick=()=>{activeTheme=t;[...chips.children].forEach(c=>c.classList.toggle('active',c.textContent===t));render()};chips.appendChild(b)});
 let favs;try{favs=new Set(JSON.parse(localStorage.getItem('joseonFavs')||'[]'))}catch(e){favs=new Set()}
 function saveFav(){try{localStorage.setItem('joseonFavs',JSON.stringify([...favs]))}catch(e){}}
