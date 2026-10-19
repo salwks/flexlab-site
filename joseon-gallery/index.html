@@ -88,6 +88,63 @@ seongThemes.forEach((x,i)=>W.push({
   credit:'이미지: 국립중앙박물관. 해당 소장품 페이지는 공공누리 제1유형(출처표시)을 명시합니다.'
 }));
 
+// 대형·대표 회화 보강 · 전체 작품/독립 패널만 사용
+const nmkAdd=(artist,title,img,page,themes,desc,domain='풍속',era='조선 후기')=>add({
+  artist,title,img,original:img,url:page,themes,desc,domain,era,
+  source:'국립중앙박물관',license:'공공누리 1유형 · 출처표시',
+  credit:'이미지: 국립중앙박물관. 소장품 페이지가 공공누리 제1유형(출처표시)을 명시합니다.'
+});
+
+// 전 김홍도 필 평안감사향연도 · 세 폭 전체면
+const pyeonganPage='https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=4165&schM=view&searchId=search';
+[
+['연광정연회도','https://www.museum.go.kr/relic_image/PS01001001/duk000/2020/0114163719063/duk005769-000-80100.jpg',['기록화','평양','연회','관료','도시'],'《평안감사향연도》 세 폭 중 연광정에서 열린 연회를 그린 전체면. 평양의 관아·누각·저잣거리와 군중을 폭넓게 볼 수 있습니다.'],
+['월야선유도','https://www.museum.go.kr/relic_image/PS01001001/duk005/2017/0512090608004/duk005769-00-08.jpg',['기록화','평양','대동강','뱃놀이','연회'],'《평안감사향연도》 세 폭 중 대동강의 선유 장면을 그린 전체면. 관선·악대·기생·횃불과 강변 풍경이 매우 상세합니다.'],
+['부벽루연회도','https://www.museum.go.kr/relic_image/PS01001001/duk005/2017/0512090608004/duk005769-00-14.jpg',['기록화','평양','부벽루','연회','성곽'],'《평안감사향연도》 세 폭 중 부벽루 일대의 연회를 그린 전체면. 성곽·누각·강변 인파와 행렬을 확인할 수 있습니다.']
+].forEach(x=>nmkAdd('전 김홍도',x[0],x[1],pyeonganPage,x[2],x[3],'기록화','조선 후기 · 18세기 말~19세기 초'));
+
+// 태평성시도 · 8폭 병풍의 독립 패널
+const taepPage='https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=1349&schM=view';
+const taepFiles=[
+'duk004481-00-01.jpg','duk004481-00-02.jpg','duk004481-00-03.jpg','duk004481-00-04.jpg',
+'duk004481-00-05.jpg','duk004481-00-07.jpg','duk004481-00-08.jpg','duk004481-00-09.jpg'
+];
+taepFiles.forEach((file,i)=>nmkAdd(
+  '미상',`태평성시도 ${i+1}폭`,
+  `https://www.museum.go.kr/relic_image/PS01001001/duk004/2017/0511164914685/${file}`,
+  taepPage,['풍속','도시','시장','건축','생활'],
+  `《태평성시도》 8폭 병풍의 독립된 ${i+1}폭. 상업·노동·행렬·가옥·놀이 등 조선 후기 도시 생활을 밀도 높게 담은 대형 성시풍속도입니다.`,
+  '풍속','조선 후기 · 18세기 말~19세기 초'
+));
+
+// 이인문 강산무진도 · 전체 두루마리
+nmkAdd('이인문','강산무진도',
+  'https://www.museum.go.kr/relic_image/PS01001001/duk000/2019/0925162200859/duk000927-000-80000.jpg',
+  'https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=1007&schM=view&searchId=search',
+  ['산수','인물','마을','여행','강'],
+  '가로 약 8.56m에 이르는 이인문의 대형 두루마리 전체 이미지. 산수 속에 마을·행인·건축·생활 장면이 연속적으로 펼쳐집니다.',
+  '산수화','조선 후기'
+);
+
+// 동래부사접왜사도 · 병풍 전체 이미지
+nmkAdd('미상','동래부사접왜사도',
+  'https://www.museum.go.kr/relic_image/PS01001001/bon008/2016/1124093013018/bon008360-000-0001.jpg',
+  'https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=612&schM=view&searchId=search',
+  ['기록화','동래','왜관','외교','행렬'],
+  '조선에 온 일본 사절을 맞이하는 동래부사의 행렬과 왜관 의례를 시간 순으로 그린 10폭 병풍 전체 이미지.',
+  '기록화','조선 후기'
+);
+
+// 평생도 · 현재 남은 두 독립 폭
+const lifePage='https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=940&schM=view&searchId=search';
+[
+['평생도 잔존 1폭','https://www.museum.go.kr/relic_image/PS01001001/jub000/2017/0508100233810/jub000507-00-00.jpg'],
+['평생도 잔존 2폭','https://www.museum.go.kr/relic_image/PS01001001/jub000/2017/0508100233810/jub000507-00-01.jpg']
+].forEach(x=>nmkAdd('김홍도',x[0],x[1],lifePage,
+  ['풍속','일생의례','관료','행차','가정'],
+  '평생도 계열 8폭 가운데 현재 남아 있는 독립 폭. 돌잔치와 관료 부임 등 조선인의 이상적인 일생과 의례·행차를 보여줍니다.',
+  '풍속','조선 후기'));
+
 // 풍속화 범위 확대 · 윤두서·윤덕희·김득신·김홍도 병풍 등
 [
 ['윤두서','나물 캐는 여인','Yun Duseo-Women Picking Edible Plants.png',['풍속','여성','노동','농촌'],'17~18세기 생활 노동 장면을 보여주는 풍속화.'],
@@ -375,7 +432,7 @@ for(const w of W){
 const paintingDomains=new Set([
   '풍속','민화','불교','유교','도교',
   '왕실','국가의례','관료','양반생활',
-  '궁궐·건축','외교·사행','무속·민간신앙','초상화'
+  '궁궐·건축','외교·사행','무속·민간신앙','초상화','기록화','산수화'
 ]);
 const paintingTitleKeep=new Set([
   '화성 능행 반차도','진찬의궤 도설'
@@ -400,7 +457,7 @@ const sources=[
 ];
 const domainEl=document.getElementById('domain'),placeEl=document.getElementById('place'),personEl=document.getElementById('person'),artistEl=document.getElementById('artist'),sourceEl=document.getElementById('source'),qEl=document.getElementById('q'),grid=document.getElementById('grid'),count=document.getElementById('count'),chips=document.getElementById('chips'),favOnly=document.getElementById('favOnly');
 [...new Set(W.flatMap(x=>x.domains||[x.domain]))].forEach(d=>domainEl.insertAdjacentHTML('beforeend',`<option>${d}</option>`)); placeOrder.filter(p=>W.some(w=>w.places.includes(p))).forEach(p=>placeEl.insertAdjacentHTML('beforeend',`<option>${p}</option>`)); personOrder.filter(p=>W.some(w=>w.people.includes(p))).forEach(p=>personEl.insertAdjacentHTML('beforeend',`<option>${p}</option>`)); [...new Set(W.map(x=>x.artist))].forEach(a=>artistEl.insertAdjacentHTML('beforeend',`<option>${a}</option>`)); [...new Set(W.map(x=>x.source))].forEach(s=>sourceEl.insertAdjacentHTML('beforeend',`<option>${s}</option>`));
-const themes=['전체','초상','자화상','문인','유학자','관료','왕실','승려','흉배','복식','시장','농촌','주막','실내','놀이','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','궁궐','건축','반차도','통신사','외교','무속','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
+const themes=['전체','기록화','산수','평양','도시','시장','연회','행렬','외교','초상','자화상','문인','유학자','관료','왕실','승려','흉배','복식','시장','농촌','주막','실내','놀이','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','궁궐','건축','반차도','통신사','외교','무속','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
 themes.forEach(t=>{const b=document.createElement('button');b.className='chip'+(t==='전체'?' active':'');b.textContent=t;b.onclick=()=>{activeTheme=t;[...chips.children].forEach(c=>c.classList.toggle('active',c.textContent===t));render()};chips.appendChild(b)});
 let favs;try{favs=new Set(JSON.parse(localStorage.getItem('joseonFavs')||'[]'))}catch(e){favs=new Set()}
 function saveFav(){try{localStorage.setItem('joseonFavs',JSON.stringify([...favs]))}catch(e){}}
