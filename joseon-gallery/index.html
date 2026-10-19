@@ -35,8 +35,21 @@ function add(o){W.push({id:++id,era:'조선 후기',domain:'풍속',source:'Wiki
 function commons(artist,title,file,themes,desc='',domain='풍속',era='조선 후기'){add({artist,title,file,img:cFile(file),original:cMedia(file),url:cPage(file),themes,desc,domain,era,credit:'이미지: Wikimedia Commons. 원본 보기는 Media Viewer로 연결됩니다. 파일 페이지에서 정확한 이용조건을 확인하세요.'});}
 // 김홍도 · 단원풍속도첩 중심
 [
-['빨래터','Danwon Bbalraeteo.jpg',['생활','복식','여성']],['벼타작','Danwon Byeotajak.jpg',['농촌','농업','노동']],['대장간','Danwon Daejanggan.jpg',['생활도구','노동','장인']],['담배썰기','Danwon Dambaesseolgi.jpg',['생활','노동']],['무동','Danwon-Mudong.jpg',['놀이','음악','공연']],['나룻배','Danwon-Narut.bae.jpg',['교통','강','이동']],['논갈이','Danwon-Nongali.jpg',['농촌','농업','소']],['편자박기','Danwon-Pyeonja.bakgi.jpg',['교통','말','장인']],['서당','Danwon-Seodang.jpg',['교육','실내','복식']],['서화감상','Danwon-Seohwa.gamsang.jpg',['양반','실내','문화']],['신행','Danwon-Sinhaeng.jpg',['혼례','교통','복식']],['씨름','Danwon-Ssireum.jpg',['놀이','장터','복식']],['우물가','Danwon-Umulga.jpg',['생활','물','여성']],['포의풍류','Kim Hong-do, Po-uipunglyu.jpg',['양반','음악','실내']],['행상','행상.jpg',['시장','상업','이동']]
+['빨래터','Danwon Bbalraeteo.jpg',['생활','복식','여성']],['벼타작','Danwon Byeotajak.jpg',['농촌','농업','노동']],['대장간','Danwon Daejanggan.jpg',['생활도구','노동','장인']],['담배썰기','Danwon Dambaesseolgi.jpg',['생활','노동']],['무동','Danwon Mudong.jpg',['놀이','음악','공연']],['나룻배','Danwon Naruteo.jpg',['교통','강','이동']],['논갈이','Danwon Nongali.jpg',['농촌','농업','소']],['편자박기','Danwon Pyeonjabakgi.jpg',['교통','말','장인']],['서당','Danwon Seodang.jpg',['교육','실내','복식']],['서화감상','Danwon Seohwagamsang.jpg',['양반','실내','문화']],['신행','Danwon Sinhaeng.jpg',['혼례','교통','복식']],['씨름','Danwon Ssireum.jpg',['놀이','장터','복식']],['우물가','Danwon Umulga.jpg',['생활','물','여성']],['포의풍류','Kim Hong-do, Po-uipunglyu.jpg',['양반','음악','실내']],['행상','행상.jpg',['시장','상업','이동']]
 ].forEach(x=>commons('김홍도',x[0],x[1],x[2],'단원 김홍도의 풍속화 자료. 인물 동작과 생활도구, 복식 관찰에 유용합니다.'));
+// 단원풍속도첩 누락 생활장면 보강
+[
+['길쌈','Danwon Gilssam.jpg',['직물','길쌈','여성','노동','생업'],'실을 잣고 길쌈하는 생활 노동을 그린 단원풍속도첩의 한 면.'],
+['기와이기','Danwon Giwaigi.jpg',['건축','기와','장인','노동','주거'],'지붕에 기와를 이는 장인들의 작업 장면. 건축 시공과 노동 도구 참고에 유용합니다.'],
+['고기잡이','Danwon Gogijabi.jpg',['어업','고기잡이','강','그물','생업'],'물고기를 잡는 생업 장면. 어업 도구와 인물 동작을 확인할 수 있습니다.'],
+['장터길','Danwon Jangteogil.jpg',['시장','장터','이동','운송','상업'],'장터로 오가는 사람과 짐의 이동을 그린 장면.'],
+['자리짜기','Danwon Jarijjagi.jpg',['장인','자리','수공업','실내','노동'],'자리를 엮는 수공업 작업을 묘사한 생활화.'],
+['점괘','Danwon Jeomgwae.jpg',['점복','민간신앙','도시','생업'],'점을 보는 장면으로 조선 후기 민간 점복과 생업을 보여줍니다.'],
+['점심','Danwon Jeomsim.jpg',['식사','노동','야외','음식'],'일하던 사람들이 야외에서 점심을 먹는 장면. 노동 중 식생활을 볼 수 있습니다.'],
+['주막','Danwon Jumak.jpg',['주막','식사','술','여행','부엌'],'간이주막에서 여행객이 요기하는 모습. 주모, 술그릇, 밥 양푼과 부뚜막이 함께 표현됩니다.'],
+['노중상봉','Danwon Nojungsangbong.jpg',['여행','길','만남','이동'],'길 위에서 사람들이 마주치는 장면으로 여행과 도로 생활을 보여줍니다.']
+].forEach(x=>commons('김홍도',x[0],x[1],x[2],x[3],'풍속','조선 후기 · 18세기'));
+
 // 신윤복 · 혜원풍속도
 [
 ['청루소일','Hyewon-Cheongrusoil.jpg',['기방','실내','복식']],['춘색만원','Hyewon-Chunsaekmanwon.jpg',['도시','복식','인물']],['단오풍정','Hyewon-Danopungjeong.jpg',['명절','여성','복식']],['기방무사','Hyewon-Gibangmusa.jpg',['기방','실내','복식']],['계변가화','Hyewon-Gyebyeongahwa.jpg',['강','여성','복식']],['홍루대주','Hyewon-Hongrudaeju.jpg',['주막','기방','술']],['쌍검대무','Hyewon-Ssanggeomdaemu.jpg',['공연','검무','복식']],['쌍육삼매','Hyewon-Ssangryuksammae.jpg',['놀이','실내','복식']],['월하정인','Hyewon-Wolha.jeongin-3.jpg',['도시','야간','복식']],['월야밀회','Hyewon-Wolyamilhoe.jpg',['도시','야간','복식']],['야금모행','Hyewon-Yageummohaeng.jpg',['도시','야간','이동']],['연소답청','Hyewon-Yeonsodapcheong.jpg',['나들이','교통','복식']],['유곽쟁웅','Hyewon-Yugwakjaengung.jpg',['기방','도시','갈등']],['주유청강','Joyucheong.jpg',['교통','강','풍류']]
@@ -1638,13 +1651,13 @@ commons('궁중화원','오방처용무',
 
 // 생활상 마스터 보강 · 활쏘기 / 고누놀이
 commons('김홍도','활쏘기',
-  '활쏘기.jpg',
+  'Danwon Hwalssogi.jpg',
   ['군사','활쏘기','교육','무예','훈련'],
   '활쏘기를 배우고 가르치는 사람들을 그린 김홍도의 풍속화. 무예 훈련과 일상적 활쏘기 교육 장면을 보여줍니다.',
   '풍속','조선 후기');
 
 commons('김홍도','고누놀이',
-  '고누놀이.jpg',
+  'Danwon Gonunori.jpg',
   ['놀이','고누','실내','여가'],
   '사람들이 고누를 두는 모습을 그린 김홍도의 풍속화. 서민·남성 여가와 실내 놀이 참고자료입니다.',
   '풍속','조선 후기');
