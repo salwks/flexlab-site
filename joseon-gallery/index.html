@@ -1561,6 +1561,52 @@ const verifiedPainterAdditions = [
 ];
 verifiedPainterAdditions.forEach(add);
 
+
+// 생활상 마스터 보강 · 생활·생업·놀이·관청·여성 생활
+commons('미상','농경과 직조 10폭 병풍',
+  'Genre Painting of Farming and Weaving on an Ten-panel Folding Screen.jpg',
+  ['농업','직조','베짜기','생업','여성','노동'],
+  '1843년경으로 추정되는 10폭 병풍 전체본. 농경과 직조의 여러 단계를 한 화면군에서 비교할 수 있어 조선 생활·생업 레퍼런스에 매우 유용합니다.',
+  '풍속','조선 후기 · 19세기');
+
+commons('김준근','꼭두각시놀이',
+  'Korean puppet show - Album of 100 genre scenes (late 19th C) - BL Or. 14344.jpg',
+  ['놀이','공연','꼭두각시','군중','아동'],
+  '기산 김준근의 조선 후기 풍속화첩 가운데 꼭두각시놀이 장면. British Library가 공개한 독립 전체면 이미지입니다.',
+  '풍속','조선 후기 · 19세기');
+
+commons('신윤복','연당의 여인',
+  'Hyewon-Yeondang.yeoin.jpg',
+  ['여성','연못','복식','일상'],
+  '연못가의 여성을 그린 신윤복의 풍속화. 조선 후기 여성 복식과 야외 일상 장면을 보완합니다.',
+  '풍속','조선 후기');
+
+commons('김홍도','해변 장터 가는 길',
+  'Kim Hong do. Going to Seaside Market. 18th C. Ewha Womans University Museum.jpg',
+  ['시장','이동','해안','행상','생활'],
+  '해변 장터로 향하는 인물을 그린 김홍도의 18세기 작품. 시장 이동과 해안 생활상을 보완합니다.',
+  '풍속','조선 후기 · 18세기');
+
+commons('미상','경기감영도',
+  'Gyeonggi-gamyeong-do.jpg',
+  ['관청','감영','도시','건축','행정'],
+  '19세기 경기감영과 주변 도시 공간을 한 폭에 담은 기록적 회화. 관청·행정공간과 도시 생활의 관계를 볼 수 있습니다.',
+  '기록화','조선 후기 · 19세기');
+
+[
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.1.jpg',
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.2.JPG',
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.3.JPG',
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.4.JPG',
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.5.JPG',
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.6.JPG',
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.7.JPG',
+  'Games and seasons. Folding screen attr. to Kim Yang-ki. Musée Guimet.8.JPG'
+].forEach((file,i)=>commons('전 김양기',`놀이와 계절 ${i+1}폭`,file,
+  ['놀이','계절','세시풍속','군중','생활'],
+  `김양기 전칭 8폭 병풍의 독립된 ${i+1}폭. 계절에 따른 놀이와 군중 생활을 보여주는 전체 패널 이미지입니다.`,
+  '풍속','조선 후기 · 19세기'));
+
 function uniq(a){return [...new Set(a.filter(Boolean))]}
 const placeOrder=['궁궐','관아·감옥','성곽·군영','양반가·사랑방','민가·마을','시장·장터','주막·기방','작업장·공방','농촌·들판','강·나루','사찰','신당·무속','서당·교육','도성·거리','정원·후원','묘역·상례','국외·사행','기타'];
 const personOrder=['왕·왕실','관료·유학자','양반·문인','무관·군인','평민·농민','상인·행상','여성','기생·악공','무당·신령','승려·불보살','장인','어린이','외교사절','기타'];
