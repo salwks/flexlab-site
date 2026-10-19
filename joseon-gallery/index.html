@@ -490,6 +490,75 @@ add({
 ['채용신·조석진','영조 어진 모사본','Portrait of King Yeongjo - Chae Yong Shin (蔡龍臣 1850-1941) Cho Seok-jin (趙錫晉 1853-1920) et.jpg',['초상','어진','영조','왕실'],'1744년 영조 어진을 바탕으로 1900년에 채용신과 조석진 등이 모사한 전체본. 조선 어진 전통의 대한제국기 계승 자료.','초상화','대한제국 · 1900']
 ].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
 
+
+// 화가 마스터리스트 대조 보강 4차 · 화원/문인/장르 전문 화가
+[
+['강희언','사인사예','Sainsaye.JPG',['풍속','선비','활쏘기','야외'],'담졸 강희언이 선비들의 활쏘기 모습을 그린 작품.','풍속','조선 후기 · 18세기'],
+['강희언','사인시음','Sainshieum.jpg',['풍속','선비','술','모임'],'선비들의 시와 술 모임을 그린 강희언의 풍속화.','풍속','조선 후기 · 18세기'],
+['강희언','시인휘호','Siinhwiho.jpg',['풍속','선비','서예','문인'],'선비가 글씨를 쓰는 장면을 그린 강희언의 작품.','풍속','조선 후기 · 18세기'],
+['김윤겸','호병도','Jurchen warriors.jpg',['인물','기마','여진','군사'],'두 명의 여진 기마 인물을 그린 김윤겸의 18세기 작품.','인물화','조선 후기 · 18세기'],
+['이정','묵죽도 - 바람 속 대나무','탄은 이정- 대나무- 조선-灘隱 李霆-墨竹圖-朝鮮-Bamboo in the wind MET DP355790.jpg',['묵죽','대나무','문인화','사군자'],'탄은 이정의 묵죽도. 메트로폴리탄미술관 소장 전체 족자 이미지.','문인화','조선 중기 · 17세기 초'],
+['이하응','난초','\'Orchids\' by Yi Ha-ung, Honolulu Museum of Art, accession 13700.1.JPG',['묵란','난초','문인화','석파란'],'흥선대원군 이하응이 그린 19세기 난초 그림.','문인화','조선 말기 · 19세기'],
+['민영익','노근묵란','Orchid exposed roots by Min Yeong-ik.jpg',['묵란','난초','문인화','노근란'],'민영익이 그린 뿌리를 드러낸 난초 그림. 제작연도는 불명확해 조선 말기~대한제국 경계자료로 분류합니다.','문인화','조선 말기~대한제국 경계']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 유덕장 묵죽도 · 국립중앙박물관 전체 작품
+add({
+  artist:'유덕장',title:'묵죽도 - 대나무',era:'조선 후기 · 18세기',domain:'문인화',
+  source:'국립중앙박물관',license:'공공누리 1유형 · 출처표시',
+  themes:['묵죽','대나무','문인화','사군자'],
+  img:'https://www.museum.go.kr/relic_image/PS01001001/don002/2017/0510144810123/don002626-00-00.jpg',
+  original:'https://www.museum.go.kr/relic_image/PS01001001/don002/2017/0510144810123/don002626-00-00.jpg',
+  url:'https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=8501&schM=view&searchId=search',
+  desc:'조선 후기 3대 묵죽화가 중 한 명으로 꼽히는 유덕장의 대나무 그림 전체본.',
+  credit:'이미지: 국립중앙박물관. 공공누리 제1유형(출처표시).'
+});
+
+// 장한종 어해도 8폭 · 각 폭 자체가 독립된 전체 패널
+const jangHanjongPage='https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=60838&schM=view&searchId=search';
+const jangHanjongImgs=[
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084929181/duk002324-000-80100.jpg',
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084931741/duk002324-000-80200.jpg',
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084934298/duk002324-000-80300.jpg',
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084936806/duk002324-000-80400.jpg',
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084939327/duk002324-000-80500.jpg',
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084941795/duk002324-000-80600.jpg',
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084944329/duk002324-000-80700.jpg',
+'https://www.museum.go.kr/relic_image/PS01001001/duk000/2024/0131084946796/duk002324-000-80800.jpg'
+];
+jangHanjongImgs.forEach((img,i)=>add({
+  artist:'장한종',title:`어해도 ${i+1}폭`,era:'조선 후기 · 18세기 말~19세기 초',domain:'화조영모',
+  source:'국립중앙박물관',license:'공공누리 1유형 · 출처표시',
+  themes:['어해','물고기','게','수생'],
+  img,original:img,url:jangHanjongPage,
+  desc:`장한종의 어해도 8폭 병풍 중 독립된 전체 ${i+1}폭. 세부 크롭이 아니라 박물관이 제공하는 각 폭 전체 이미지입니다.`,
+  credit:'이미지: 국립중앙박물관. 공공누리 제1유형(출처표시).'
+}));
+
+// 홍세섭 영모도 · 한 폭 전체
+add({
+  artist:'홍세섭',title:'영모도 1폭',era:'조선 말기 · 19세기',domain:'화조영모',
+  source:'국립중앙박물관',license:'공공누리 1유형 · 출처표시',
+  themes:['영모','새','오리','수묵'],
+  img:'https://www.museum.go.kr/relic_image/PS01001001/duk001/2017/0511100021142/duk001115-00-04.jpg',
+  original:'https://www.museum.go.kr/relic_image/PS01001001/duk001/2017/0511100021142/duk001115-00-04.jpg',
+  url:'https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=222341&schM=view&searchId=search',
+  desc:'홍세섭의 영모도 병풍 계열에서 박물관이 제공하는 독립 패널 전체 이미지. 확대 세부 이미지는 사용하지 않았습니다.',
+  credit:'이미지: 국립중앙박물관. 공공누리 제1유형(출처표시).'
+});
+
+// 김하종 해산도첩 · 낙산사 한 면 전체
+add({
+  artist:'김하종',title:'해산도첩 - 낙산사',era:'조선 후기 · 1816',domain:'산수화',
+  source:'국립중앙박물관',license:'공공누리 1유형 · 출처표시',
+  themes:['실경산수','낙산사','관동','여행'],
+  img:'https://www.museum.go.kr/relic_image/PS01001001/duk000/2019/0925170546988/duk002827-000-80025.jpg',
+  original:'https://www.museum.go.kr/relic_image/PS01001001/duk000/2019/0925170546988/duk002827-000-80025.jpg',
+  url:'https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=6280&schM=view&searchId=search',
+  desc:'1816년 김하종이 금강산과 관동을 여행하며 제작한 《해산도첩》 가운데 낙산사 한 면 전체.',
+  credit:'이미지: 국립중앙박물관. 공공누리 제1유형(출처표시).'
+});
+
 function uniq(a){return [...new Set(a.filter(Boolean))]}
 const placeOrder=['궁궐','관아·감옥','성곽·군영','양반가·사랑방','민가·마을','시장·장터','주막·기방','작업장·공방','농촌·들판','강·나루','사찰','신당·무속','서당·교육','도성·거리','정원·후원','묘역·상례','국외·사행','기타'];
 const personOrder=['왕·왕실','관료·유학자','양반·문인','무관·군인','평민·농민','상인·행상','여성','기생·악공','무당·신령','승려·불보살','장인','어린이','외교사절','기타'];
