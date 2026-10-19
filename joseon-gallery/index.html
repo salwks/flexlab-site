@@ -1818,6 +1818,46 @@ for(const [collection,meta] of Object.entries(kisanGroups)){
   }
 }
 
+
+/* 기산풍속도첩 · 한국민족문화대백과사전 제공 전체 이미지 */
+[
+  {
+    title:'기산풍속도첩 · 부엌',
+    img:'https://devin.aks.ac.kr/image/de2f8406-2b04-4689-b07d-8dc47d163cfe?preset=orig',
+    themes:['부엌','조리','여성','식사','가사'],
+    desc:'김준근의 「밥 푸며 상 놓는 모양」. 부엌에서 한 여성이 밥을 푸고 소녀가 소반에 숟가락을 놓는 실제 조리·상차림 장면.',
+  },
+  {
+    title:'기산풍속도첩 · 객주',
+    img:'https://devin.aks.ac.kr/image/8505fca5-9db4-4127-8955-f1a083c18077?preset=orig',
+    themes:['객주','상업','숙박','창고','운송','부엌'],
+    desc:'김준근의 「넉넉한 객주」. 객주 주인과 손님, 안쪽 부엌의 음식 준비까지 함께 보이는 객주집 전체 풍경.',
+  },
+  {
+    title:'기산풍속도첩 · 시장',
+    img:'https://devin.aks.ac.kr/image/e51ac47a-39c9-423b-ab19-d06199de0b3f?preset=orig',
+    themes:['시장','좌판','점포','가가','상업','포목'],
+    desc:'가가(假家)가 설치된 시장에서 포목 등을 파는 모습을 그린 김준근 풍속화. 조선 후기 임시점포와 난전 참고자료.',
+  },
+  {
+    title:'기산풍속도첩 · 소·대상',
+    img:'https://devin.aks.ac.kr/image/845ba03d-cb87-4499-99e1-b806de242af6?preset=orig',
+    themes:['제사','제사상','상례','소상','대상','영좌'],
+    desc:'소·대상 제사를 지내는 모습. 병풍 앞 영좌와 실제 제상을 차린 장면이 함께 그려져 민간 상례·제례 공간을 직접 확인할 수 있습니다.',
+  },
+  {
+    title:'기산풍속도첩 · 농부 밥먹기와 수유',
+    img:'https://devin.aks.ac.kr/image/a61cdbae-3e07-46d7-b306-3083e7d24a20?preset=orig',
+    themes:['농촌','식사','새참','여성','육아','수유'],
+    desc:'농부들이 새참을 먹는 동안 음식을 가져온 여성이 아이에게 젖을 먹이는 장면. 농촌 식생활과 육아를 함께 보여주는 드문 자료.',
+  }
+].forEach(x=>add({
+  id:++id,artist:'김준근',title:x.title,era:'조선 말기 · 19세기 말',domain:'풍속',
+  source:'한국민족문화대백과사전',license:'공공누리 1유형 · 출처표시',
+  themes:x.themes,img:x.img,original:x.img,url:'https://encykorea.aks.ac.kr/Article/E0008270',desc:x.desc,
+  credit:'이미지·설명: 한국민족문화대백과사전 「기산풍속도」. 원 소장처: 독일 함부르크민족학박물관. 공공누리 제1유형.'
+}));
+
 function uniq(a){return [...new Set(a.filter(Boolean))]}
 const placeOrder=['궁궐','관아·감옥','성곽·군영','양반가·사랑방','민가·마을','시장·장터','주막·기방','작업장·공방','농촌·들판','강·나루','사찰','신당·무속','서당·교육','도성·거리','정원·후원','묘역·상례','국외·사행','기타'];
 const personOrder=['왕·왕실','관료·유학자','양반·문인','무관·군인','평민·농민','상인·행상','여성','기생·악공','무당·신령','승려·불보살','장인','어린이','외교사절','기타'];
