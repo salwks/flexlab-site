@@ -17,7 +17,7 @@ a{color:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto}.topbar{p
 <body>
 <header class="topbar"><div class="shell topin"><div class="mark">畫</div><div class="brand">조선 회화 아카이브<small>JOSEON PAINTING ARCHIVE</small></div><nav class="toplinks"><a href="#gallery">작품</a><a href="#sources">자료원</a></nav></div></header>
 <main>
-<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화·민화·불교·유교·도교에서 왕실행사·관료생활·양반생활·국가의례까지 한 화면에서 탐색하는 조선 시각자료 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat">분야 5개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
+<section class="hero shell"><div class="eyebrow">PUBLIC · MUSEUM · COMMONS</div><h1>조선의 삶과 믿음을<br>한눈에 보다.</h1><p>풍속화·민화·불교·유교·도교에서 왕실행사·관료생활·양반생활·국가의례까지 한 화면에서 탐색하는 조선 시각자료 아카이브입니다. 설화록의 건축·복식·생활상뿐 아니라 의례·신앙·상징·인물·공간 레퍼런스를 함께 찾을 수 있도록 구성했습니다.</p><div class="stats"><span class="stat" id="statWorks">작품 0</span><span class="stat" id="statDomains">분야 0개</span><span class="stat">주요 자료원 9곳</span><span class="stat">즐겨찾기 로컬 저장</span></div></section>
 <div class="controls"><div class="shell"><div class="searchrow"><input id="q" class="search" placeholder="작품명·작가·주제 검색 (예: 주막, 무속, 씨름)"/><select id="domain" class="select"><option value="all">모든 분야</option></select><select id="artist" class="select"><option value="all">모든 작가</option></select><select id="source" class="select"><option value="all">모든 출처</option></select><button id="favOnly" class="btn">♡ 즐겨찾기</button></div><div class="chips" id="chips"></div></div></div>
 <section class="section shell" id="gallery"><div class="sectionhead"><h2>통합 갤러리</h2><div class="count" id="count"></div></div><div class="grid" id="grid"></div></section>
 <section class="section shell" id="sources"><div class="sectionhead"><h2>원문 자료원</h2><div class="count">최종 사용 전 각 사이트의 개별 라이선스를 확인하세요.</div></div><div class="sources" id="sourceGrid"></div><div class="notice"><b>라이선스 원칙</b><br>오래된 회화의 원작 저작권과 디지털 스캔·촬영 이미지의 이용조건은 별개일 수 있습니다. 이 페이지는 공개 이용 조건이 확인되는 국립중앙박물관·국가유산 공공누리 자료와 Wikimedia Commons 파일을 우선 연결합니다. Wikimedia 작품의 ‘원본 보기’는 Media Viewer를 직접 열며, 최종 사용 전 개별 파일의 라이선스를 다시 확인해야 합니다.</div></section>
@@ -141,12 +141,67 @@ seongThemes.forEach((x,i)=>W.push({id:++id,artist:'성협',title:x[0],era:'조�
 ['미상','양반 사랑방 재현','Korea-Joseon period-Yangban-01.jpg',['양반생활','사랑방','가구','주거'],'국립민속박물관의 조선시대 양반 사랑방 재현 자료. 회화 외 실제 생활공간 참고용입니다.']
 ].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],'양반생활'));
 
+
+// 궁궐·건축 · 동궐도 실제 파일 검증
+[
+['미상','동궐도 전체','Donggwoldo.jpg',['궁궐','건축','창덕궁','창경궁'],'창덕궁과 창경궁을 조감도 형식으로 세밀하게 묘사한 조선 후기 궁궐도.','궁궐·건축','조선 후기 · 1826~1830년경'],
+['미상','동궐도 - 돈화문 일대','Donhwamun Area.jpeg',['궁궐','건축','돈화문','공간배치'],'동궐도에서 창덕궁 돈화문 일대를 확대한 자료.','궁궐·건축','조선 후기 · 1826~1830년경'],
+['미상','동궐도 - 중희당','Junghuidang (Donggwoldo).jpeg',['궁궐','건축','중희당','전각'],'동궐도 중 중희당 일대. 왕실 생활공간과 전각 배치를 볼 수 있습니다.','궁궐·건축','조선 후기 · 1826~1830년경'],
+['미상','동궐도 - 연경당 일대','Yeongyeongdang area (Donggwoldo).jpg',['궁궐','건축','연경당','정원'],'연경당과 후원 주변의 건물·담장·정원 구성을 볼 수 있습니다.','궁궐·건축','조선 후기 · 1826~1830년경'],
+['미상','동궐도 - 진선문 일대','Korean art-Donggwoldo detail-Changdeokgung-Jinseonmun and its vicinity-01.jpg',['궁궐','건축','진선문','동선'],'창덕궁 진선문 주변의 문·행각·마당 배치 참고자료.','궁궐·건축','조선 후기 · 1826~1830년경'],
+['미상','동궐도 - 선정전 일대','Korean art-Donggwoldo detail-Changdeokgung-Seonjeongjeon and its vicinity-01.jpg',['궁궐','건축','선정전','정무공간'],'선정전과 주변 전각을 보여주는 동궐도 세부.','궁궐·건축','조선 후기 · 1826~1830년경']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 의궤도설 · 건축·행렬·연향
+[
+['의궤청','화성성역의궤 도설 1','Hwaseong seongyeok uigwe 01.jpg',['의궤','화성','건축','도설'],'화성 축성의 구조·공정·기물 등을 기록한 화성성역의궤 도설.','의궤도설','조선 후기 · 1801'],
+['의궤청','화성성역의궤 도설 29','Hwaseong seongyeok uigwe 29.jpg',['의궤','화성','건축','도설'],'화성성역의궤의 고해상도 도설 자료. 성곽·시설·공사기술 참고에 유용합니다.','의궤도설','조선 후기 · 1801'],
+['정리의궤청','화성 능행 반차도','Hwaseong Neunghaeng Banchado.jpg',['의궤','반차도','행차','의장'],'1795년 정조의 화성 능행 행렬을 인물·가마·기치·호위 순서대로 기록한 반차도.','의궤도설','조선 후기 · 1795'],
+['의궤청','진찬의궤 도설','Uigwe Encykorea-진찬의궤.jpg',['의궤','진찬','연향','의식'],'궁중 연향의 절차와 배치, 기물 등을 기록한 진찬의궤 시각자료.','의궤도설','조선 후기']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 군사·무예 · 무예도보통지 실제 파일
+[
+['이덕무·박제가·백동수','무예도보통지 권법','Gwonbeop15 - editedMuye Tobo Tong Ji; Book 4; Chapter 1 pg 15.jpg',['군사','무예','권법','동작'],'무예도보통지 권법 동작을 보여주는 원문 도판.','군사·무예','조선 후기 · 1790'],
+['이덕무·박제가·백동수','무예도보통지 장창','Mydbtj-jangchang.JPG',['군사','무예','장창','무기'],'장창의 자세와 운용을 보여주는 무예도보통지 계열 도판.','군사·무예','조선 후기 · 1790'],
+['이덕무·박제가·백동수','마상쌍검','Mydbtj-masangssanggeom.png',['군사','무예','기병','쌍검'],'말 위에서 쌍검을 운용하는 마상쌍검 도판.','군사·무예','조선 후기 · 1790'],
+['이덕무·박제가·백동수','월도','Mydbtj-woldo.png',['군사','무예','월도','무기'],'월도 운용법을 보여주는 무예도보통지 계열 도판.','군사·무예','조선 후기 · 1790'],
+['이덕무·박제가·백동수','격구 도보 1','무예도보통지 격구 Kyuk Koo 擊毬 Dakyu 打毬 01.png',['군사','기마','격구','말'],'무예도보통지에 수록된 격구 동작. 기마 자세 참고에 유용합니다.','군사·무예','조선 후기 · 1790'],
+['이덕무·박제가·백동수','격구 도보 2','무예도보통지 격구 Kyuk Koo 擊毬 Dakyu 打毬 02.png',['군사','기마','격구','말'],'격구의 연속 동작을 보여주는 도판.','군사·무예','조선 후기 · 1790'],
+['이덕무·박제가·백동수','격구 도보 3','무예도보통지 격구 Kyuk Koo 擊毬 Dakyu 打毬 03.png',['군사','기마','격구','말'],'기마 격구의 자세와 장비를 보여주는 도판.','군사·무예','조선 후기 · 1790']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 상례·국장 · 조선 말기에서 이어지는 전통 상례 경계자료
+[
+['미상','명성황후 국장행렬 - 대한문 앞','대한문 앞 명성황후 국장행렬-1897.gif',['상례','국장','행렬','대한문'],'명성황후 국장행렬을 보여주는 1897년 자료. 조선 왕실 상례가 대한제국기로 이어지는 모습을 참고할 수 있습니다.','상례·국장','대한제국 · 1897'],
+['미상','명성황후 국장행렬','1895FuneralofEmpressMyeongseongmaybe18901923CarpenterLOC1.jpg',['상례','국장','운구','행렬'],'명성황후 국장행렬을 기록한 역사 이미지. 조선 말기 왕실 장례 의장 참고용 경계자료입니다.','상례·국장','대한제국 · 1897'],
+['미상','한국의 전통 장례행렬','Village life in Korea - A Funeral Procession.jpg',['상례','장례','상여','행렬'],'20세기 초 촬영된 전통 장례행렬. 조선 후기 민간 상례의 물질문화를 보완하는 참고자료입니다.','상례·국장','20세기 초 · 전통상례 참고'],
+['미상','서울 장례행렬','(Funeral, Seoul) (4095369897).jpg',['상례','장례','상여','서울'],'1904년경 서울의 장례행렬. 백마·운구·행렬 구성 등 전통 상례의 시각자료입니다.','상례·국장','1904년경 · 전통상례 참고']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 지도·도성 · 한양 공간 구조
+[
+['김정호','수선전도','Suseonjeondo.jpg',['지도','도성','한양','도로'],'1840년경 김정호가 제작한 한양 전도. 도로·산·성곽·시설 배치가 매우 상세합니다.','지도·도성','조선 후기 · 1840년경'],
+['김정호','수선전도 판본','Korea-Joseon map-Suseon jeondo.jpg',['지도','도성','한양','목판'],'수선전도의 목판 계열 이미지. 한양 중심부의 공간 구조 참고에 유용합니다.','지도·도성','조선 후기 · 1824~1834'],
+['김정호','청구도 - 한성','Cheonggudo (Korea University) - Hanseong.jpg',['지도','도성','한성','도로'],'1834년 청구도의 한성 부분. 고해상도로 도성·하천·도로 체계를 볼 수 있습니다.','지도·도성','조선 후기 · 1834'],
+['미상','해동지도 - 경도','Korea-Haedongjido-Gyeongdo-01.jpg',['지도','도성','한양','관청'],'18세기 중엽 해동지도에 수록된 경도. 궁궐·종묘·사직·관청과 한성부 외곽까지 표시합니다.','지도·도성','조선 후기 · 18세기 중엽'],
+['미상','광여도 도성도','광여도 도성도.jpg',['지도','도성','산세','한양'],'광여도에 수록된 도성도. 한양을 둘러싼 산세와 도성의 관계를 파악하기 좋습니다.','지도·도성','조선 후기 · 18세기']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
+// 음악·무용 · 궁중정재와 연향
+[
+['의궤청','춘앵전 도설','Jinchan Uigwe about Chunaengjeon.jpg',['음악','무용','춘앵전','정재'],'1848년 진찬의궤에 나타난 춘앵전 관련 도설. 궁중정재의 복식·동작·공간 참고자료.','음악·무용','조선 후기 · 1848'],
+['미상','교방가요의 무고','Korea-Gyobang Gayo-Mugo-01.jpg',['음악','무용','무고','북'],'교방가요에 실린 무고. 북을 중심으로 한 궁중·교방 춤의 동작을 보여줍니다.','음악·무용','1902 · 조선 궁중정재 계승'],
+['궁중화원','고종 임인진연도병 - 무고','Korea-Gojong Imin Jinyeondobyeong-02.jpg',['음악','무용','무고','연향'],'1902년 고종 임인진연도병의 무고 장면. 조선 궁중 연향 문화가 대한제국으로 이어진 모습입니다.','음악·무용','대한제국 · 1902'],
+['미상','교방가요 무고 도형','Korea-Gyobang Gayo-Mugo-02.jpg',['음악','무용','무고','배치'],'무고의 대형과 동작을 보완해 주는 교방가요 도판.','음악·무용','1902 · 조선 궁중정재 계승']
+].forEach(x=>commons(x[0],x[1],x[2],x[3],x[4],x[5],x[6]));
+
 const sources=[
 ['공유마당','한국저작권위원회','CC·공공저작물 원본 다운로드','https://gongu.copyright.or.kr/gongu/main/main.do'],['국립중앙박물관','소장품 검색','김홍도·성협 등 고화질 소장품','https://www.museum.go.kr/site/main/relic/search/search'],['e뮤지엄','전국 박물관 통합','작품·민속자료 폭넓은 검색','https://emuseum.go.kr/'],['국립민속박물관','민속아카이브','건축·복식·도구·의례 보강','https://www.nfm.go.kr/'],['국가유산포털','국가유산청','지정유산·작품 정보 검증','https://www.heritage.go.kr/'],['Wikimedia Commons','공개 이미지','작가별 작품 대량 탐색','https://commons.wikimedia.org/wiki/Category:Pungsokhwa'],['Google Arts & Culture','온라인 전시','고배율 감상·작품 탐색','https://artsandculture.google.com/'],['British Museum','Collection','해외 소장 조선 풍속화 검색','https://www.britishmuseum.org/collection'],['Paris Musées','Collections','퍼블릭 도메인 고해상도 자료','https://www.parismuseescollections.paris.fr/']
 ];
 const domainEl=document.getElementById('domain'),artistEl=document.getElementById('artist'),sourceEl=document.getElementById('source'),qEl=document.getElementById('q'),grid=document.getElementById('grid'),count=document.getElementById('count'),chips=document.getElementById('chips'),favOnly=document.getElementById('favOnly');
 [...new Set(W.map(x=>x.domain))].forEach(d=>domainEl.insertAdjacentHTML('beforeend',`<option>${d}</option>`)); [...new Set(W.map(x=>x.artist))].forEach(a=>artistEl.insertAdjacentHTML('beforeend',`<option>${a}</option>`)); [...new Set(W.map(x=>x.source))].forEach(s=>sourceEl.insertAdjacentHTML('beforeend',`<option>${s}</option>`));
-const themes=['전체','복식','시장','농촌','주막','교통','실내','생활도구','놀이','공연','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
+const themes=['전체','복식','시장','농촌','주막','교통','실내','생활도구','놀이','공연','혼례','음악','식사','학문','초상','의례','왕실','행차','계회','궁중','가례','사랑방','궁궐','건축','의궤','반차도','무예','기마','상례','국장','지도','도성','무용','사찰','신선','책가도','화조','십장생','호랑이']; let activeTheme='전체', onlyFav=false;
 themes.forEach(t=>{const b=document.createElement('button');b.className='chip'+(t==='전체'?' active':'');b.textContent=t;b.onclick=()=>{activeTheme=t;[...chips.children].forEach(c=>c.classList.toggle('active',c.textContent===t));render()};chips.appendChild(b)});
 let favs;try{favs=new Set(JSON.parse(localStorage.getItem('joseonFavs')||'[]'))}catch(e){favs=new Set()}
 function saveFav(){try{localStorage.setItem('joseonFavs',JSON.stringify([...favs]))}catch(e){}}
@@ -155,6 +210,6 @@ function render(){const q=qEl.value.trim().toLowerCase();const arr=W.filter(w=>(
 qEl.oninput=render;domainEl.onchange=render;artistEl.onchange=render;sourceEl.onchange=render;favOnly.onclick=()=>{onlyFav=!onlyFav;favOnly.textContent=onlyFav?'♥ 즐겨찾기만':'♡ 즐겨찾기';render()};
 function openModal(w){document.getElementById('martist').textContent=w.artist;document.getElementById('mtitle').textContent=w.title;document.getElementById('mimg').src=w.img;document.getElementById('mimg').alt=w.title;document.getElementById('mera').textContent=w.era;document.getElementById('mtheme').textContent=w.themes.join(' · ');document.getElementById('msource').textContent=w.source;document.getElementById('mlicense').textContent=w.license;document.getElementById('mdesc').textContent=w.desc;document.getElementById('mlink').href=w.original||w.img;document.getElementById('mlink').textContent='원본 보기 ↗';document.getElementById('mcredit').textContent=w.credit;document.getElementById('mtags').innerHTML=`<span class="tag domain">${esc(w.domain)}</span>`+w.themes.map(t=>`<span class="tag">${esc(t)}</span>`).join('');document.getElementById('modal').classList.add('open');document.body.style.overflow='hidden'}
 function closeModal(){document.getElementById('modal').classList.remove('open');document.body.style.overflow=''}document.getElementById('close').onclick=closeModal;document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-render();document.getElementById('sourceGrid').innerHTML=sources.map(s=>`<a class="source" href="${s[3]}" target="_blank" rel="noopener"><small>${s[1]}</small><strong>${s[0]}</strong><span>${s[2]} ↗</span></a>`).join('');document.getElementById('statWorks').textContent=`작품 ${W.length}`;
+render();document.getElementById('sourceGrid').innerHTML=sources.map(s=>`<a class="source" href="${s[3]}" target="_blank" rel="noopener"><small>${s[1]}</small><strong>${s[0]}</strong><span>${s[2]} ↗</span></a>`).join('');document.getElementById('statWorks').textContent=`작품 ${W.length}`;const sd=document.getElementById('statDomains');if(sd)sd.textContent=`분야 ${new Set(W.map(x=>x.domain)).size}개`;
 </script>
 </body></html>
