@@ -4,7 +4,7 @@ const {URL}=require('url');
 const PORT=process.env.PORT||10000;
 const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/155 Safari/537.36 JoseonPaintingGallery/1.0';
 const CACHE=new Map(), MAX_CACHE=4000;
-const ALLOWED=['britishmuseum.org','brooklynmuseum.org','metmuseum.org','clevelandart.org','lacma.org','asianart.org','mfah.org','dia.org','nich.go.jp','heritage.go.kr','kansong.org','mfa.org','busan.go.kr','leeumhoam.org','si.edu','philamuseum.org','ewha.ac.kr','pem.org','harvardartmuseums.org','princeton.edu','guimet.fr','smb.museum','gogung.go.kr','nfm.go.kr','museum.go.kr','horimmuseum.org','worcesterart.org','slam.org','thewalters.org','spencerart.ku.edu','nelson-atkins.org','portlandartmuseum.org','honolulumuseum.org','usc.edu','gangseo.seoul.kr','aks.ac.kr','gugak.go.kr','commons.wikimedia.org','media.britishmuseum.org','collectionapi.metmuseum.org','piction.clevelandart.org','collections-images.lacma.org'];
+const ALLOWED=['britishmuseum.org','brooklynmuseum.org','metmuseum.org','clevelandart.org','lacma.org','asianart.org','mfah.org','dia.org','nich.go.jp','heritage.go.kr','kansong.org','mfa.org','busan.go.kr','leeumhoam.org','si.edu','asia-archive.si.edu','philamuseum.org','ewha.ac.kr','pem.org','harvardartmuseums.org','princeton.edu','guimet.fr','smb.museum','gogung.go.kr','nfm.go.kr','museum.go.kr','horimmuseum.org','worcesterart.org','slam.org','thewalters.org','spencerart.ku.edu','nelson-atkins.org','portlandartmuseum.org','honolulumuseum.org','usc.edu','gangseo.seoul.kr','aks.ac.kr','gugak.go.kr','commons.wikimedia.org','media.britishmuseum.org','collectionapi.metmuseum.org','piction.clevelandart.org','collections-images.lacma.org'];
 function allowed(h){h=(h||'').toLowerCase();return ALLOWED.some(d=>h===d||h.endsWith('.'+d))}
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function fetchRetry(url,opts={},tries=4){let r;for(let i=0;i<tries;i++){r=await fetch(url,opts);if(![429,502,503,504].includes(r.status))return r;if(i<tries-1)await sleep(600*Math.pow(2,i))}return r}
@@ -62,7 +62,7 @@ async function resolveImage(target){
  let pre=new URL(target);
  if(pre.hostname.endsWith('asia.si.edu')){
    const sm=pre.pathname.match(/^\/object\/([^/]+)\/?$/);
-   if(sm) target='https://asia.si.edu/explore-art-culture/collections/search/edanmdm%3Afsg_'+encodeURIComponent(sm[1])+'/';
+   if(sm) target='https://asia-archive.si.edu/object/'+encodeURIComponent(sm[1])+'/';
  }
  const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
  let m=u.pathname.match(/\/art\/collection\/search\/(\d+)/);
