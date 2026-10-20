@@ -19,6 +19,8 @@ function candidates(html,base){
  for(const t of html.match(/<img\b[^>]*>/gi)||[]){for(const n of ['src','data-src','data-original','data-lazy-src','data-image','data-url'])a.push(abs(base,attr(t,n)));const ss=attr(t,'srcset')||attr(t,'data-srcset');if(ss)for(const p of ss.split(','))a.push(abs(base,p.trim().split(/\s+/)[0]))}
  for(const m of html.matchAll(/https?:\\?\/\\?\/[^"'<>\s]+?\.(?:jpe?g|png|webp)(?:\?[^"'<>\s]*)?/gi))a.push(abs(base,m[0]));
  for(const m of html.matchAll(/["'](\/[^"']+?\.(?:jpe?g|png|webp)(?:\?[^"']*)?)["']/gi))a.push(abs(base,m[1]));
+ for(const m of html.matchAll(/(?:https?:\\?\/\\?\/[^"'<>\s]+)?\/internal\/media\/(?:zoomdispatcher|dispatcher)\/\d+\/[^"'<>\s]*/gi))a.push(abs(base,m[0]));
+ for(const m of html.matchAll(/["'](\/[^"']*\/(?:image|images|media|iiif)\/[^"']+)["']/gi))a.push(abs(base,m[1]));
  return [...new Set(a.filter(x=>x&&!badCandidate(x)))]
 }
 function badCandidate(u){
@@ -36,11 +38,23 @@ function score(u){
  if(/collectionapi\.metmuseum\.org/.test(s))n+=160;
  if(/piction\.clevelandart\.org|openaccess/.test(s))n+=140;
  if(/collections-images\.lacma\.org/.test(s))n+=140;
- if(/\/internal\/media\/dispatcher\//.test(s))n+=130;
+ if(/\/internal\/media\/(?:zoomdispatcher|dispatcher)\//.test(s))n+=240;
  if(/\/upload\/museum\//.test(s))n+=130;
  if(/relic_image|collection|object|artwork|museum|image|images|media|iiif|thumb|thumbnail|preview|primary/.test(s))n+=35;
  if(/thumbnail|preview|-t\.|_t\.|small|medium|mid_/.test(s))n+=12;
  return n
+}
+async function pickVerifiedImage(cs){
+ for(const u of cs.slice(0,8)){
+  if(!u||badCandidate(u)||score(u)<-80)continue;
+  try{
+   const r=await fetchRetry(u,{redirect:'follow',headers:{'user-agent':UA,'accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'}},2);
+   const ct=(r.headers.get('content-type')||'').toLowerCase();
+   if(r.body&&r.body.cancel)try{await r.body.cancel()}catch(_){}
+   if(r.ok&&ct.startsWith('image/'))return u;
+  }catch(_){}
+ }
+ return '';
 }
 function bm(raw){try{const u=new URL(raw);if(!u.hostname.includes('britishmuseum.org')||u.pathname.startsWith('/collection/object/'))return raw;const k=u.searchParams.get('keyword')||'',m=k.match(/^OA\+,0\.482\.(\d+)$/i);if(m)return 'https://www.britishmuseum.org/collection/object/A_OA-0-482-'+m[1]}catch{}return raw}
 async function resolveImage(target){
@@ -54,7 +68,7 @@ async function resolveImage(target){
    const r=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,application/xhtml+xml,*/*;q=0.8','accept-language':'en-US,en;q=0.8,ko;q=0.7'}});
    if(r.ok){
      const html=await r.text(),cs=candidates(html,r.url).sort((a,b)=>score(b)-score(a));
-     if(cs.length&&score(cs[0])>-80)return cs[0];
+     const ok=await pickVerifiedImage(cs);if(ok)return ok;
      pageErr='no image';
    }else pageErr='page '+r.status;
  }catch(e){pageErr=e.message||String(e)}
@@ -66,8 +80,9 @@ async function resolveImage(target){
      for(const m of txt.matchAll(/!\[[^\]]*\]\((https?:\/\/[^)\s]+)\)/g))arr.push(m[1]);
      for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?(?:\.jpe?g|\.png|\.webp)(?:\?[^\s<>"'\)\]]*)?/gi))arr.push(m[0]);
      for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?(?:image|media|iiif|thumbnail|preview)[^\s<>"'\)\]]*/gi))arr.push(m[0]);
-     const cs=[...new Set(arr.map(x=>ent(x)).filter(Boolean))].sort((a,b)=>score(b)-score(a));
-     if(cs.length&&score(cs[0])>-80)return cs[0];
+     for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?\/internal\/media\/(?:zoomdispatcher|dispatcher)\/\d+\/[^\s<>"'\)\]]*/gi))arr.push(m[0]);
+     const cs=[...new Set(arr.map(x=>ent(x)).filter(x=>x&&!badCandidate(x)))].sort((a,b)=>score(b)-score(a));
+     const ok=await pickVerifiedImage(cs);if(ok)return ok;
    }
  }catch(e){}
  throw Error(pageErr||'no image')
