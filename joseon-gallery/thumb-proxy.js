@@ -134,5 +134,17 @@ const SELFTEST=[
  ['busan','https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=22&srchDiv=5'],
  ['ewha','https://museum.ewha.ac.kr/museum/collection/designatedCulturalProperty.do?article.offset=0&articleLimit=8&articleNo=9516&mode=view']
 ];
+
+setTimeout(async()=>{
+ const tests=[
+  ['asian-v1-id','https://searchcollection.asianart.org/api/v1/id/objects/14284'],
+  ['asian-v1-obj','https://searchcollection.asianart.org/api/v1/objects/14284'],
+  ['asian-api-obj','https://searchcollection.asianart.org/api/objects/14284'],
+  ['mfah-v1-id','https://emuseum.mfah.org/api/v1/id/objects/139672'],
+  ['mfah-v1-obj','https://emuseum.mfah.org/api/v1/objects/139672'],
+  ['mfa-v1-id','https://collections.mfa.org/api/v1/id/objects/25411']
+ ];
+ for(const [n,u] of tests){try{const r=await fetchRetry(u,{headers:{'user-agent':UA,'accept':'application/json,text/plain,*/*'}},2);const t=await r.text();console.log('API_TEST',n,r.status,(r.headers.get('content-type')||''),t.slice(0,800).replace(/\s+/g,' '))}catch(e){console.log('API_TEST',n,'ERR',e.message)}}
+},1800);
 setTimeout(async()=>{for(const [name,url] of SELFTEST){try{const img=await resolveImage(url);console.log('SELFTEST',name,'OK',img)}catch(e){console.log('SELFTEST',name,'FAIL',e.message)}await sleep(250)}},2500);
 http.createServer(async(req,res)=>{try{const q=new URL(req.url,'http://x');if(q.pathname==='/health'){res.writeHead(200,{'content-type':'application/json'});return res.end(JSON.stringify({ok:true,cache:CACHE.size}))}const t=q.searchParams.get('url');if(q.pathname==='/resolve'){if(!t){res.writeHead(400,{'content-type':'application/json'});return res.end(JSON.stringify({ok:false}))}const img=await resolveImage(t);res.writeHead(200,{'content-type':'application/json','access-control-allow-origin':'*'});return res.end(JSON.stringify({ok:true,img}))}if(q.pathname!=='/thumb')return fail(res);if(!t)return fail(res);let img=CACHE.get(t);if(!img){img=await resolveImage(t);if(CACHE.size>=MAX_CACHE)CACHE.delete(CACHE.keys().next().value);CACHE.set(t,img)}await serveImage(res,img)}catch(e){console.error(req.url,e.message);if(req.url.startsWith('/resolve')){res.writeHead(500,{'content-type':'application/json','access-control-allow-origin':'*'});return res.end(JSON.stringify({ok:false,error:e.message}))}fail(res)}}).listen(PORT,()=>console.log('thumb proxy',PORT));
