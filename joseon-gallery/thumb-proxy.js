@@ -23,8 +23,12 @@ function candidates(html,base){
 }
 function score(u){
  const s=u.toLowerCase();let n=0;
- if(/\.svg(?:\?|$)|logo|favicon|icon|sprite|avatar|facebook|twitter|instagram|youtube|qr|banner|pixel|placeholder/.test(s))n-=120;
- if(/media\.britishmuseum\.org/.test(s))n+=160;
+ if(/\.svg(?:\?|$)|logo|favicon|apple-touch|iconified|\/icon|sprite|avatar|facebook|twitter|instagram|youtube|qr|banner|pixel|placeholder/.test(s))n-=220;
+ if(/media\.britishmuseum\.org/.test(s))n+=260;
+ if(/ids\.si\.edu|smithsonian/.test(s)&&/\.jpe?g|\.png|\.webp|idurl=/.test(s))n+=180;
+ if(/mfa\.org|mfah|cloudfront|amazonaws/.test(s)&&/\.jpe?g|\.png|\.webp/.test(s))n+=130;
+ if(/colbase\.nich\.go\.jp/.test(s)&&/\.jpe?g|\.png|\.webp/.test(s))n+=120;
+ if(/asianart|lacma|dia\.org|brooklynmuseum/.test(s)&&/\.jpe?g|\.png|\.webp/.test(s))n+=110;
  if(/collectionapi\.metmuseum\.org/.test(s))n+=160;
  if(/piction\.clevelandart\.org|openaccess/.test(s))n+=140;
  if(/collections-images\.lacma\.org/.test(s))n+=140;
@@ -41,8 +45,28 @@ async function resolveImage(target){
  if(host.endsWith('metmuseum.org')&&m){const r=await fetchRetry('https://collectionapi.metmuseum.org/public/collection/v1/objects/'+m[1],{headers:{'user-agent':UA}});if(r.ok){const j=await r.json();if(j.primaryImageSmall||j.primaryImage)return j.primaryImageSmall||j.primaryImage}}
  m=u.pathname.match(/\/art\/([^/?#]+)/);
  if(host.endsWith('clevelandart.org')&&m){const r=await fetchRetry('https://openaccess-api.clevelandart.org/api/artworks/'+encodeURIComponent(m[1]),{headers:{'user-agent':UA}});if(r.ok){const j=await r.json(),im=(j.data&&j.data.images)||j.images,x=im&&(im.web&&im.web.url||im.print&&im.print.url||im.full&&im.full.url);if(x)return x}}
- const r=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,application/xhtml+xml,*/*;q=0.8','accept-language':'en-US,en;q=0.8,ko;q=0.7'}});if(!r.ok)throw Error('page '+r.status);
- const html=await r.text(), cs=candidates(html,r.url).sort((a,b)=>score(b)-score(a));if(!cs.length)throw Error('no image');return cs[0]
+ let pageErr='';
+ try{
+   const r=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,application/xhtml+xml,*/*;q=0.8','accept-language':'en-US,en;q=0.8,ko;q=0.7'}});
+   if(r.ok){
+     const html=await r.text(),cs=candidates(html,r.url).sort((a,b)=>score(b)-score(a));
+     if(cs.length&&score(cs[0])>-80)return cs[0];
+     pageErr='no image';
+   }else pageErr='page '+r.status;
+ }catch(e){pageErr=e.message||String(e)}
+ // Dynamic/blocked museum sites: use a rendered-reader fallback, then extract the actual image URL only.
+ try{
+   const jr=await fetchRetry('https://r.jina.ai/'+target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/plain','x-engine':'browser'}},3);
+   if(jr.ok){
+     const txt=await jr.text(),arr=[];
+     for(const m of txt.matchAll(/!\[[^\]]*\]\((https?:\/\/[^)\s]+)\)/g))arr.push(m[1]);
+     for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?(?:\.jpe?g|\.png|\.webp)(?:\?[^\s<>"'\)\]]*)?/gi))arr.push(m[0]);
+     for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?(?:image|media|iiif|thumbnail|preview)[^\s<>"'\)\]]*/gi))arr.push(m[0]);
+     const cs=[...new Set(arr.map(x=>ent(x)).filter(Boolean))].sort((a,b)=>score(b)-score(a));
+     if(cs.length&&score(cs[0])>-80)return cs[0];
+   }
+ }catch(e){}
+ throw Error(pageErr||'no image')
 }
 async function serveImage(res,url){
  const r=await fetchRetry(url,{redirect:'follow',headers:{'user-agent':UA,'accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'}});if(!r.ok)throw Error('image '+r.status);const ct=r.headers.get('content-type')||'';if(!ct.startsWith('image/'))throw Error('not image');
