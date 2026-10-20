@@ -61,11 +61,12 @@ function updateStats(meta={}){
 
 const THUMB_PROXY='https://joseon-painting-thumb.onrender.com/thumb?url=';
 const thumbQueue=[]; let thumbActive=0; const THUMB_MAX=4;
-function pumpThumb(){while(thumbActive<THUMB_MAX&&thumbQueue.length){const {img,url}=thumbQueue.shift();if(!img||!img.isConnected||!url)continue;thumbActive++;img.dataset.current=url;img.onload=()=>{thumbActive--;pumpThumb()};img.onerror=()=>{thumbActive--;const fb=img.dataset.fallback||'';if(!img.dataset.triedProxy&&fb&&url!==fb){img.dataset.triedProxy='1';queueThumb(img,fb)}else{img.style.display='none';img.parentElement?.classList.add('broken')}pumpThumb()};img.src=url}}
+function pumpThumb(){while(thumbActive<THUMB_MAX&&thumbQueue.length){const {img,url}=thumbQueue.shift();if(img)img.dataset.queued='0';if(!img||!img.isConnected||!url)continue;thumbActive++;img.dataset.current=url;img.onload=()=>{thumbActive--;pumpThumb()};img.onerror=()=>{thumbActive--;const fb=img.dataset.fallback||'';if(!img.dataset.triedProxy&&fb&&url!==fb){img.dataset.triedProxy='1';queueThumb(img,fb)}else{img.style.display='none';img.parentElement?.classList.add('broken')}pumpThumb()};img.src=url}}
 function queueThumb(img,url){if(!img||!url||img.dataset.queued==='1')return;img.dataset.queued='1';thumbQueue.push({img,url});pumpThumb()}
 const thumbObserver=new IntersectionObserver(es=>{for(const e of es){if(!e.isIntersecting)continue;const img=e.target;thumbObserver.unobserve(img);img.dataset.queued='0';queueThumb(img,img.dataset.src)}},{rootMargin:'900px 0px'});
 function render(){
  thumbObserver.disconnect();
+ thumbQueue.length=0;
  const q=qEl.value.trim().toLowerCase();
  const arr=W.filter(w=>(artistEl.value==='all'||w.artist===artistEl.value)&&(sourceEl.value==='all'||w.source===sourceEl.value)&&(activeTheme==='전체'||(w.themes||[]).includes(activeTheme))&&(!onlyFav||favs.has(w.id))&&(!q||[w.title,w.artist,w.source,(w.themes||[]).join(' ')].join(' ').toLowerCase().includes(q)));
  count.textContent=`${arr.length} / ${W.length} 작품`;grid.innerHTML=arr.length?'':'<div class="empty">조건에 맞는 작품이 없습니다.</div>';
@@ -75,7 +76,9 @@ function render(){
   const d=document.createElement('article');d.className='card';
   const proxySrc=THUMB_PROXY+encodeURIComponent(w.url||'');
   const firstSrc=w.img||proxySrc;
-  const media=firstSrc?`<img decoding="async" referrerpolicy="no-referrer" data-src="${esc(firstSrc)}" data-fallback="${esc(proxySrc)}" alt="${esc(w.title)}">`:'';
+  // A collection page can return another leaf of the same album.
+  const fallbackSrc=w.img&&/^https?:\/\/(?:www\.)?museum\.go\.kr\//i.test(w.img)?'':proxySrc;
+  const media=firstSrc?`<img decoding="async" referrerpolicy="no-referrer" data-src="${esc(firstSrc)}" data-fallback="${esc(fallbackSrc)}" alt="${esc(w.title)}">`:'';
   d.innerHTML=`<div class="pic">${media}<button class="fav ${favs.has(w.id)?'on':''}" aria-label="즐겨찾기">${favs.has(w.id)?'♥':'♡'}</button><span class="origin">${esc(w.source||'')}</span></div><div class="body"><div class="artist">${esc(w.artist||'작자미상')}</div><div class="title">${esc(w.title||'제목 미상')}</div><div class="meta">${(w.themes||[]).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}<span class="tag warn">원문링크</span></div></div>`;
   d.querySelector('.fav').onclick=e=>{e.stopPropagation();favs.has(w.id)?favs.delete(w.id):favs.add(w.id);saveFav();render()};d.onclick=()=>openModal(w);frag.appendChild(d);
  }

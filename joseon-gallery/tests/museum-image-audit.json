@@ -1,0 +1,398 @@
+{
+  "checkedAt": "2026-10-20",
+  "sourcePage": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=502&schM=view&searchId=search",
+  "cause": "Ten generated sequential filenames returned HTTP 200 with text/html instead of image/jpeg. Other album filenames pointed to different scenes or detail crops.",
+  "changes": [
+    {
+      "id": 68,
+      "title": "가을 나귀길",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-01.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-00.jpg"
+    },
+    {
+      "id": 69,
+      "title": "야외 고기굽기",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-02.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-01.jpg"
+    },
+    {
+      "id": 70,
+      "title": "가야금 풍류",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-03.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-02.jpg"
+    },
+    {
+      "id": 71,
+      "title": "거리 풍경",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-04.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133238914/bon005119-000-80009.jpg"
+    },
+    {
+      "id": 72,
+      "title": "김매기",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-05.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133231273/bon005119-000-80008.jpg"
+    },
+    {
+      "id": 73,
+      "title": "장기",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-06.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133223976/bon005119-000-80007.jpg"
+    },
+    {
+      "id": 74,
+      "title": "베짜기",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-07.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133212573/bon005119-000-80005.jpg"
+    },
+    {
+      "id": 75,
+      "title": "장텃길",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-08.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133218424/bon005119-000-80006.jpg"
+    },
+    {
+      "id": 76,
+      "title": "낚시",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-09.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133148473/bon005119-000-80001.jpg"
+    },
+    {
+      "id": 77,
+      "title": "풍속화첩 10",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-10.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133154664/bon005119-000-80002.jpg"
+    },
+    {
+      "id": 78,
+      "title": "풍속화첩 11",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-11.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133200387/bon005119-000-80003.jpg"
+    },
+    {
+      "id": 79,
+      "title": "풍속화첩 12",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-12.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133206360/bon005119-000-80004.jpg"
+    },
+    {
+      "id": 80,
+      "title": "풍속화첩 13",
+      "old": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-13.jpg",
+      "new": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133245284/bon005119-000-80010.jpg"
+    }
+  ],
+  "removed": {
+    "id": 81,
+    "title": "풍속화첩 14",
+    "reason": "The old URL is a detail crop, not a separate full painting. Thirteen distinct full scenes are available on the official page. Other record IDs are unchanged."
+  },
+  "verified": [
+    {
+      "id": 68,
+      "title": "가을 나귀길",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-00.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 69,
+      "title": "야외 고기굽기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 70,
+      "title": "가야금 풍류",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon005/2017/0511093333311/bon005119-00-02.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 71,
+      "title": "거리 풍경",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133238914/bon005119-000-80009.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 72,
+      "title": "김매기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133231273/bon005119-000-80008.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 73,
+      "title": "장기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133223976/bon005119-000-80007.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 74,
+      "title": "베짜기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133212573/bon005119-000-80005.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 75,
+      "title": "장텃길",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133218424/bon005119-000-80006.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 76,
+      "title": "낚시",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133148473/bon005119-000-80001.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 77,
+      "title": "풍속화첩 10",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133154664/bon005119-000-80002.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 78,
+      "title": "풍속화첩 11",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133200387/bon005119-000-80003.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 79,
+      "title": "풍속화첩 12",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133206360/bon005119-000-80004.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 80,
+      "title": "풍속화첩 13",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon000/2019/0925133245284/bon005119-000-80010.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 82,
+      "title": "풍속도 · 길쌈하는 농가",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/ssu011/2016/1023145007256/ssu011453-00-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 83,
+      "title": "풍속도 · 어선",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/ssu011/2016/1023145007256/ssu011453-00-02.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 84,
+      "title": "전 김홍도 필 평안감사향연도",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/duk000/2020/0114163719063/duk005769-000-80100.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 85,
+      "title": "말징박기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/don002/2017/0510144810123/don002307-00-00.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 86,
+      "title": "꽃과 나비",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/duk000/2017/0511094031924/duk000719-00-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 87,
+      "title": "전 신사임당 초충도 · 수박과 들쥐",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/ssu003/2018/0510150521586/ssu003550-000-019.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 88,
+      "title": "윤두서 필 화첩",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/ssu08/ssu15103.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 89,
+      "title": "산수인물첩",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/don000/2024/0807135834432/don002199-000-00001.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 90,
+      "title": "활쏘기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161519678/bon006504-02-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 91,
+      "title": "기와이기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161551255/bon006504-03-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 92,
+      "title": "나들이(노상파안)",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-05-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 93,
+      "title": "시주(점괘)",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-06-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 94,
+      "title": "주막",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-08-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 95,
+      "title": "고누놀이",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-09-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 96,
+      "title": "자리짜기",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-13-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 97,
+      "title": "그림감상",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-15-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 98,
+      "title": "길쌈",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-16-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 99,
+      "title": "고기잡이",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-18-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 100,
+      "title": "신행길",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-19-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 101,
+      "title": "점심",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-20-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    },
+    {
+      "id": 102,
+      "title": "장터길",
+      "url": "https://www.museum.go.kr/relic_image/PS01001001/bon006/2016/1213161649247/bon006504-21-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "magic": "ffd8ffe000104a4649460001",
+      "ok": true
+    }
+  ]
+}
