@@ -29,7 +29,7 @@ function candidates(html,base){
 }
 function badCandidate(u){
  const s=(u||'').toLowerCase();
- return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder/.test(s);
+ return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|\/_next\/static\/media\/|centennial-celebration-tile/.test(s);
 }
 function score(u){
  const s=u.toLowerCase();if(badCandidate(s))return -9999;let n=0;
@@ -115,8 +115,8 @@ async function resolveImage(target){
    if(sm) target='https://asia-archive.si.edu/object/'+encodeURIComponent(sm[1])+'/';
  }
  const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
- if(host.endsWith('colbase.nich.go.jp')){const x=await resolveColBase(target);if(x)return x}
- if(host.endsWith('asia-archive.si.edu')){const x=await resolveSmithsonianArchive(target);if(x)return x}
+ if(host.endsWith('colbase.nich.go.jp')){const x=await resolveColBase(target);if(x)return x;throw Error('colbase image unresolved')}
+ if(host.endsWith('asia-archive.si.edu')){const x=await resolveSmithsonianArchive(target);if(x)return x;throw Error('smithsonian image unresolved')}
  let m=u.pathname.match(/\/art\/collection\/search\/(\d+)/);
  if(host.endsWith('metmuseum.org')&&m){const r=await fetchRetry('https://collectionapi.metmuseum.org/public/collection/v1/objects/'+m[1],{headers:{'user-agent':UA}});if(r.ok){const j=await r.json();if(j.primaryImageSmall||j.primaryImage)return j.primaryImageSmall||j.primaryImage}}
  m=u.pathname.match(/\/art\/([^/?#]+)/);
@@ -154,6 +154,7 @@ function fail(res){const s='<svg xmlns="http://www.w3.org/2000/svg" width="600" 
 
 
 
+setTimeout(async()=>{for(const [n,u] of [['VERIFY_SMITH','https://asia.si.edu/object/F1976.18/'],['VERIFY_COLBASE','https://colbase.nich.go.jp/collection_items/tnm/TA-387?locale=en']]){try{console.log(n,'OK',await resolveImage(u))}catch(e){console.log(n,'FAIL',e.message)}}},1800);
 function loadWorks(){
  try{
   const p=path.join(process.cwd(),'joseon-gallery','works.json');
