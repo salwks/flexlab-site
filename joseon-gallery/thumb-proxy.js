@@ -79,6 +79,22 @@ async function serveImage(res,url){
 }
 function fail(res){const s='<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450"><rect width="100%" height="100%" fill="#e8e0d3"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#6b6256" font-family="sans-serif" font-size="20">원문에서 이미지 확인</text></svg>';res.writeHead(404,{'content-type':'image/svg+xml; charset=utf-8','cache-control':'public,max-age=1800','access-control-allow-origin':'*'});res.end(s)}
 
+
+async function openverseProbe(q){
+ try{
+  const u=new URL('https://api.openverse.org/v1/images/');
+  u.searchParams.set('q',q);u.searchParams.set('page_size','10');
+  const r=await fetchRetry(u.href,{headers:{'user-agent':UA,'accept':'application/json'}},3);
+  if(!r.ok)return {status:r.status,rows:[]};
+  const j=await r.json();
+  return {status:r.status,rows:(j.results||[]).slice(0,10).map(x=>({title:x.title,creator:x.creator,source:x.source,provider:x.provider,url:x.url,thumbnail:x.thumbnail,landing:x.foreign_landing_url}))};
+ }catch(e){return {error:e.message,rows:[]}}
+}
+setTimeout(async()=>{
+ for(const q of ['OA+,0.482.1 Kim Jun-geun','꽃 사서 지고가는 사람 Kim Jun-geun','F1976.18 Korean painting']){
+  const z=await openverseProbe(q);console.log('OPENVERSE_TEST',q,JSON.stringify(z));
+ }
+},1500);
 const SELFTEST=[
  ['met','https://www.metmuseum.org/art/collection/search/50897'],
  ['cleveland','https://www.clevelandart.org/art/1997.147'],
