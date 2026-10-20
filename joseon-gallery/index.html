@@ -66,8 +66,10 @@ function render(){
  const frag=document.createDocumentFragment();
  for(const w of arr){
   const d=document.createElement('article');d.className='card';
-  const media=w.img?`<img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="${esc(w.img)}" alt="${esc(w.title)}" onerror="this.style.opacity='.12';this.parentElement.classList.add('broken');this.alt='이미지를 원문에서 확인하세요'">`:'';
-  d.innerHTML=`<div class="pic ${w.img?'':'linkonly'}">${media}<button class="fav ${favs.has(w.id)?'on':''}" aria-label="즐겨찾기">${favs.has(w.id)?'♥':'♡'}</button><span class="origin">${esc(w.source||'')}</span></div><div class="body"><div class="artist">${esc(w.artist||'작자미상')}</div><div class="title">${esc(w.title||'제목 미상')}</div><div class="meta">${(w.themes||[]).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}<span class="tag warn">원문링크</span></div></div>`;
+  const proxySrc='https://joseon-painting-thumb.onrender.com/thumb?url='+encodeURIComponent(w.url||'');
+  const firstSrc=w.img||proxySrc;
+  const media=firstSrc?`<img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="${esc(firstSrc)}" data-fallback="${esc(proxySrc)}" alt="${esc(w.title)}" onerror="if(!this.dataset.triedProxy&&this.dataset.fallback&&this.src!==this.dataset.fallback){this.dataset.triedProxy='1';this.src=this.dataset.fallback;return}this.style.opacity='.12';this.parentElement.classList.add('broken');this.alt='이미지를 원문에서 확인하세요'">`:'';
+  d.innerHTML=`<div class="pic">${media}<button class="fav ${favs.has(w.id)?'on':''}" aria-label="즐겨찾기">${favs.has(w.id)?'♥':'♡'}</button><span class="origin">${esc(w.source||'')}</span></div><div class="body"><div class="artist">${esc(w.artist||'작자미상')}</div><div class="title">${esc(w.title||'제목 미상')}</div><div class="meta">${(w.themes||[]).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}<span class="tag warn">원문링크</span></div></div>`;
   d.querySelector('.fav').onclick=e=>{e.stopPropagation();favs.has(w.id)?favs.delete(w.id):favs.add(w.id);saveFav();render()};d.onclick=()=>openModal(w);frag.appendChild(d);
  }
  grid.appendChild(frag);
