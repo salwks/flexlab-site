@@ -1,6 +1,8 @@
 
 const http=require('http');
 const {URL}=require('url');
+const fs=require('fs');
+const path=require('path');
 const PORT=process.env.PORT||10000;
 const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/155 Safari/537.36 JoseonPaintingGallery/1.0';
 const CACHE=new Map(), MAX_CACHE=4000;
@@ -101,50 +103,27 @@ async function serveImage(res,url){
 function fail(res){const s='<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450"><rect width="100%" height="100%" fill="#e8e0d3"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#6b6256" font-family="sans-serif" font-size="20">원문에서 이미지 확인</text></svg>';res.writeHead(404,{'content-type':'image/svg+xml; charset=utf-8','cache-control':'public,max-age=1800','access-control-allow-origin':'*'});res.end(s)}
 
 
-async function openverseProbe(q){
- try{
-  const u=new URL('https://api.openverse.org/v1/images/');
-  u.searchParams.set('q',q);u.searchParams.set('page_size','10');
-  const r=await fetchRetry(u.href,{headers:{'user-agent':UA,'accept':'application/json'}},3);
-  if(!r.ok)return {status:r.status,rows:[]};
-  const j=await r.json();
-  return {status:r.status,rows:(j.results||[]).slice(0,10).map(x=>({title:x.title,creator:x.creator,source:x.source,provider:x.provider,url:x.url,thumbnail:x.thumbnail,landing:x.foreign_landing_url}))};
- }catch(e){return {error:e.message,rows:[]}}
-}
-setTimeout(async()=>{
- for(const q of ['OA+,0.482.1 Kim Jun-geun','꽃 사서 지고가는 사람 Kim Jun-geun','F1976.18 Korean painting']){
-  const z=await openverseProbe(q);console.log('OPENVERSE_TEST',q,JSON.stringify(z));
- }
-},1500);
-const SELFTEST=[
- ['met','https://www.metmuseum.org/art/collection/search/50897'],
- ['cleveland','https://www.clevelandart.org/art/1997.147'],
- ['british','https://www.britishmuseum.org/collection/object/A_OA-0-482-1'],
- ['brooklyn','https://www.brooklynmuseum.org/opencollection/objects/114653'],
- ['lacma','https://collections.lacma.org/object/84448'],
- ['asianart','https://searchcollection.asianart.org/objects/14284/tiger-and-magpies'],
- ['smithsonian','https://asia.si.edu/object/F1976.18/'],
- ['mfa','https://collections.mfa.org/objects/25411/falcon-on-a-perch'],
- ['mfah','https://emuseum.mfah.org/objects/139672/visit'],
- ['dia','https://dia.org/collection/grapevine/36725'],
- ['colbase','https://colbase.nich.go.jp/collection_items/tnm/TA-112?locale=ja'],
- ['heritage','https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111102160000&pageNo=1_1_1_1'],
- ['kansong','https://kansong.org/front/clctn/listViewCollectionFront.do?pageIndex=5'],
- ['leeum','https://www.leeumhoam.org/leeum/collection/traditional/721'],
- ['busan','https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=22&srchDiv=5'],
- ['ewha','https://museum.ewha.ac.kr/museum/collection/designatedCulturalProperty.do?article.offset=0&articleLimit=8&articleNo=9516&mode=view']
-];
 
-setTimeout(async()=>{
- const tests=[
-  ['asian-v1-id','https://searchcollection.asianart.org/api/v1/id/objects/14284'],
-  ['asian-v1-obj','https://searchcollection.asianart.org/api/v1/objects/14284'],
-  ['asian-api-obj','https://searchcollection.asianart.org/api/objects/14284'],
-  ['mfah-v1-id','https://emuseum.mfah.org/api/v1/id/objects/139672'],
-  ['mfah-v1-obj','https://emuseum.mfah.org/api/v1/objects/139672'],
-  ['mfa-v1-id','https://collections.mfa.org/api/v1/id/objects/25411']
- ];
- for(const [n,u] of tests){try{const r=await fetchRetry(u,{headers:{'user-agent':UA,'accept':'application/json,text/plain,*/*'}},2);const t=await r.text();console.log('API_TEST',n,r.status,(r.headers.get('content-type')||''),t.slice(0,800).replace(/\s+/g,' '))}catch(e){console.log('API_TEST',n,'ERR',e.message)}}
-},1800);
-setTimeout(async()=>{for(const [name,url] of SELFTEST){try{const img=await resolveImage(url);console.log('SELFTEST',name,'OK',img)}catch(e){console.log('SELFTEST',name,'FAIL',e.message)}await sleep(250)}},2500);
-http.createServer(async(req,res)=>{try{const q=new URL(req.url,'http://x');if(q.pathname==='/health'){res.writeHead(200,{'content-type':'application/json'});return res.end(JSON.stringify({ok:true,cache:CACHE.size}))}const t=q.searchParams.get('url');if(q.pathname==='/resolve'){if(!t){res.writeHead(400,{'content-type':'application/json'});return res.end(JSON.stringify({ok:false}))}const img=await resolveImage(t);res.writeHead(200,{'content-type':'application/json','access-control-allow-origin':'*'});return res.end(JSON.stringify({ok:true,img}))}if(q.pathname!=='/thumb')return fail(res);if(!t)return fail(res);let img=CACHE.get(t);if(!img){img=await resolveImage(t);if(CACHE.size>=MAX_CACHE)CACHE.delete(CACHE.keys().next().value);CACHE.set(t,img)}await serveImage(res,img)}catch(e){console.error(req.url,e.message);if(req.url.startsWith('/resolve')){res.writeHead(500,{'content-type':'application/json','access-control-allow-origin':'*'});return res.end(JSON.stringify({ok:false,error:e.message}))}fail(res)}}).listen(PORT,()=>console.log('thumb proxy',PORT));
+function loadWorks(){
+ try{
+  const p=path.join(process.cwd(),'joseon-gallery','works.json');
+  const raw=JSON.parse(fs.readFileSync(p,'utf8'));
+  return Array.isArray(raw)?raw:(raw.works||[]);
+ }catch(e){return []}
+}
+async function auditMissing(source='',offset=0,limit=20){
+ const rows=loadWorks().filter(w=>!w.img&&w.url&&(!source||String(w.source||'').toLowerCase().includes(source.toLowerCase()))).slice(offset,offset+limit);
+ const out=[];let i=0,active=0;
+ return await new Promise(resolve=>{
+  const pump=()=>{
+   while(active<3&&i<rows.length){
+    const w=rows[i++];active++;
+    resolveImage(w.url).then(img=>out.push({id:w.id,source:w.source,title:w.title,url:w.url,ok:true,img}))
+      .catch(e=>out.push({id:w.id,source:w.source,title:w.title,url:w.url,ok:false,error:e.message||String(e)}))
+      .finally(()=>{active--;if(i>=rows.length&&active===0)resolve(out.sort((a,b)=>a.id-b.id));else pump()});
+   }
+   if(!rows.length)resolve([]);
+  };pump();
+ });
+}
+http.createServer(async(req,res)=>{try{const q=new URL(req.url,'http://x');if(q.pathname==='/health'){res.writeHead(200,{'content-type':'application/json'});return res.end(JSON.stringify({ok:true,cache:CACHE.size}))}if(q.pathname==='/audit'){const source=q.searchParams.get('source')||'';const offset=Math.max(0,Number(q.searchParams.get('offset')||0));const limit=Math.max(1,Math.min(50,Number(q.searchParams.get('limit')||20)));const rows=await auditMissing(source,offset,limit);res.writeHead(200,{'content-type':'application/json','access-control-allow-origin':'*','cache-control':'no-store'});return res.end(JSON.stringify({source,offset,limit,rows}))}const t=q.searchParams.get('url');if(q.pathname==='/resolve'){if(!t){res.writeHead(400,{'content-type':'application/json'});return res.end(JSON.stringify({ok:false}))}const img=await resolveImage(t);res.writeHead(200,{'content-type':'application/json','access-control-allow-origin':'*'});return res.end(JSON.stringify({ok:true,img}))}if(q.pathname!=='/thumb')return fail(res);if(!t)return fail(res);let img=CACHE.get(t);if(!img){img=await resolveImage(t);if(CACHE.size>=MAX_CACHE)CACHE.delete(CACHE.keys().next().value);CACHE.set(t,img)}await serveImage(res,img)}catch(e){console.error(req.url,e.message);if(req.url.startsWith('/resolve')||req.url.startsWith('/audit')){res.writeHead(500,{'content-type':'application/json','access-control-allow-origin':'*'});return res.end(JSON.stringify({ok:false,error:e.message}))}fail(res)}}).listen(PORT,()=>console.log('thumb proxy',PORT));
