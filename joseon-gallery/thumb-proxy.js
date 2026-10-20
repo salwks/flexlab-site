@@ -19,10 +19,14 @@ function candidates(html,base){
  for(const t of html.match(/<img\b[^>]*>/gi)||[]){for(const n of ['src','data-src','data-original','data-lazy-src','data-image','data-url'])a.push(abs(base,attr(t,n)));const ss=attr(t,'srcset')||attr(t,'data-srcset');if(ss)for(const p of ss.split(','))a.push(abs(base,p.trim().split(/\s+/)[0]))}
  for(const m of html.matchAll(/https?:\\?\/\\?\/[^"'<>\s]+?\.(?:jpe?g|png|webp)(?:\?[^"'<>\s]*)?/gi))a.push(abs(base,m[0]));
  for(const m of html.matchAll(/["'](\/[^"']+?\.(?:jpe?g|png|webp)(?:\?[^"']*)?)["']/gi))a.push(abs(base,m[1]));
- return [...new Set(a.filter(Boolean))]
+ return [...new Set(a.filter(x=>x&&!badCandidate(x)))]
+}
+function badCandidate(u){
+ const s=(u||'').toLowerCase();
+ return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder/.test(s);
 }
 function score(u){
- const s=u.toLowerCase();let n=0;
+ const s=u.toLowerCase();if(badCandidate(s))return -9999;let n=0;
  if(/\.svg(?:\?|$)|logo|favicon|apple-touch|iconified|\/icon|sprite|avatar|facebook|twitter|instagram|youtube|qr|banner|pixel|placeholder/.test(s))n-=220;
  if(/media\.britishmuseum\.org/.test(s))n+=260;
  if(/ids\.si\.edu|smithsonian/.test(s)&&/\.jpe?g|\.png|\.webp|idurl=/.test(s))n+=180;
