@@ -4,8 +4,11 @@ const {URL}=require('url');
 const PORT=process.env.PORT||10000;
 const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/155 Safari/537.36 JoseonPaintingGallery/1.0';
 const CACHE=new Map(), MAX_CACHE=4000;
-const ALLOWED=['britishmuseum.org','metmuseum.org','clevelandart.org','lacma.org','asianart.org','mfah.org','dia.org','nich.go.jp','heritage.go.kr','kansong.org','mfa.org','busan.go.kr','leeumhoam.org','si.edu','philamuseum.org','ewha.ac.kr','pem.org','harvardartmuseums.org','princeton.edu','guimet.fr','smb.museum','gogung.go.kr','nfm.go.kr','museum.go.kr','horimmuseum.org','worcesterart.org','slam.org','thewalters.org','spencerart.ku.edu','nelson-atkins.org','portlandartmuseum.org','honolulumuseum.org','usc.edu','gangseo.seoul.kr','aks.ac.kr','gugak.go.kr','commons.wikimedia.org','media.britishmuseum.org','collectionapi.metmuseum.org','piction.clevelandart.org','collections-images.lacma.org'];
+const ALLOWED=['britishmuseum.org','brooklynmuseum.org','metmuseum.org','clevelandart.org','lacma.org','asianart.org','mfah.org','dia.org','nich.go.jp','heritage.go.kr','kansong.org','mfa.org','busan.go.kr','leeumhoam.org','si.edu','philamuseum.org','ewha.ac.kr','pem.org','harvardartmuseums.org','princeton.edu','guimet.fr','smb.museum','gogung.go.kr','nfm.go.kr','museum.go.kr','horimmuseum.org','worcesterart.org','slam.org','thewalters.org','spencerart.ku.edu','nelson-atkins.org','portlandartmuseum.org','honolulumuseum.org','usc.edu','gangseo.seoul.kr','aks.ac.kr','gugak.go.kr','commons.wikimedia.org','media.britishmuseum.org','collectionapi.metmuseum.org','piction.clevelandart.org','collections-images.lacma.org'];
 function allowed(h){h=(h||'').toLowerCase();return ALLOWED.some(d=>h===d||h.endsWith('.'+d))}
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function fetchRetry(url,opts={},tries=4){let r;for(let i=0;i<tries;i++){r=await fetch(url,opts);if(![429,502,503,504].includes(r.status))return r;if(i<tries-1)await sleep(600*Math.pow(2,i))}return r}
+
 function ent(s){return (s||'').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>')}
 function abs(base,v){if(!v)return'';v=ent(v.trim()).replace(/\\u002F/gi,'/').replace(/\\\//g,'/');if(v.startsWith('//'))v='https:'+v;try{return new URL(v,base).href}catch{return''}}
 function attr(tag,n){const m=tag.match(new RegExp('\\b'+n+'\\s*=\\s*["\\\']([^"\\\']+)["\\\']','i'));return m?m[1]:''}
@@ -35,15 +38,14 @@ function bm(raw){try{const u=new URL(raw);if(!u.hostname.includes('britishmuseum
 async function resolveImage(target){
  target=bm(target);const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
  let m=u.pathname.match(/\/art\/collection\/search\/(\d+)/);
- if(host.endsWith('metmuseum.org')&&m){const r=await fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/'+m[1],{headers:{'user-agent':UA}});if(r.ok){const j=await r.json();if(j.primaryImageSmall||j.primaryImage)return j.primaryImageSmall||j.primaryImage}}
+ if(host.endsWith('metmuseum.org')&&m){const r=await fetchRetry('https://collectionapi.metmuseum.org/public/collection/v1/objects/'+m[1],{headers:{'user-agent':UA}});if(r.ok){const j=await r.json();if(j.primaryImageSmall||j.primaryImage)return j.primaryImageSmall||j.primaryImage}}
  m=u.pathname.match(/\/art\/([^/?#]+)/);
- if(host.endsWith('clevelandart.org')&&m){const r=await fetch('https://openaccess-api.clevelandart.org/api/artworks/'+encodeURIComponent(m[1]),{headers:{'user-agent':UA}});if(r.ok){const j=await r.json(),im=(j.data&&j.data.images)||j.images,x=im&&(im.web&&im.web.url||im.print&&im.print.url||im.full&&im.full.url);if(x)return x}}
- m=u.pathname.match(/\/object\/(\d+)/);if(host.endsWith('lacma.org')&&m)return 'https://collections-images.lacma.org/images/'+m[1]+'/'+m[1]+'-1-primary.webp';
- const r=await fetch(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,application/xhtml+xml,*/*;q=0.8','accept-language':'en-US,en;q=0.8,ko;q=0.7'}});if(!r.ok)throw Error('page '+r.status);
+ if(host.endsWith('clevelandart.org')&&m){const r=await fetchRetry('https://openaccess-api.clevelandart.org/api/artworks/'+encodeURIComponent(m[1]),{headers:{'user-agent':UA}});if(r.ok){const j=await r.json(),im=(j.data&&j.data.images)||j.images,x=im&&(im.web&&im.web.url||im.print&&im.print.url||im.full&&im.full.url);if(x)return x}}
+ const r=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,application/xhtml+xml,*/*;q=0.8','accept-language':'en-US,en;q=0.8,ko;q=0.7'}});if(!r.ok)throw Error('page '+r.status);
  const html=await r.text(), cs=candidates(html,r.url).sort((a,b)=>score(b)-score(a));if(!cs.length)throw Error('no image');return cs[0]
 }
 async function serveImage(res,url){
- const r=await fetch(url,{redirect:'follow',headers:{'user-agent':UA,'accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'}});if(!r.ok)throw Error('image '+r.status);const ct=r.headers.get('content-type')||'';if(!ct.startsWith('image/'))throw Error('not image');
+ const r=await fetchRetry(url,{redirect:'follow',headers:{'user-agent':UA,'accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'}});if(!r.ok)throw Error('image '+r.status);const ct=r.headers.get('content-type')||'';if(!ct.startsWith('image/'))throw Error('not image');
  const b=Buffer.from(await r.arrayBuffer());if(b.length>12000000)throw Error('large');
  res.writeHead(200,{'content-type':ct,'cache-control':'public,max-age=86400,s-maxage=604800','access-control-allow-origin':'*','x-image-source':url});res.end(b)
 }
