@@ -156,6 +156,20 @@ function fail(res){const s='<svg xmlns="http://www.w3.org/2000/svg" width="600" 
 
 
 
+
+setTimeout(async()=>{
+ for(const [n,u] of [
+  ['EMJ_ASIAN','https://searchcollection.asianart.org/objects/12841/json'],
+  ['EMJ_MFAH','https://emuseum.mfah.org/objects/139672/json'],
+  ['EMJ_MFA','https://collections.mfa.org/objects/25411/json']
+ ]){
+  try{
+   const r=await fetchRetry(u,{headers:{'user-agent':UA,'accept':'application/json,text/plain,*/*'}},2);
+   const t=await r.text();
+   console.log(n,r.status,r.headers.get('content-type')||'',t.slice(0,3500).replace(/\s+/g,' '));
+  }catch(e){console.log(n,'ERR',e.message)}
+ }
+},1500);
 function loadWorks(){
  try{
   const p=path.join(process.cwd(),'joseon-gallery','works.json');
