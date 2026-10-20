@@ -58,7 +58,13 @@ async function pickVerifiedImage(cs){
 }
 function bm(raw){try{const u=new URL(raw);if(!u.hostname.includes('britishmuseum.org')||u.pathname.startsWith('/collection/object/'))return raw;const k=u.searchParams.get('keyword')||'',m=k.match(/^OA\+,0\.482\.(\d+)$/i);if(m)return 'https://www.britishmuseum.org/collection/object/A_OA-0-482-'+m[1]}catch{}return raw}
 async function resolveImage(target){
- target=bm(target);const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
+ target=bm(target);
+ let pre=new URL(target);
+ if(pre.hostname.endsWith('asia.si.edu')){
+   const sm=pre.pathname.match(/^\/object\/([^/]+)\/?$/);
+   if(sm) target='https://asia.si.edu/explore-art-culture/collections/search/edanmdm%3Afsg_'+encodeURIComponent(sm[1])+'/';
+ }
+ const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
  let m=u.pathname.match(/\/art\/collection\/search\/(\d+)/);
  if(host.endsWith('metmuseum.org')&&m){const r=await fetchRetry('https://collectionapi.metmuseum.org/public/collection/v1/objects/'+m[1],{headers:{'user-agent':UA}});if(r.ok){const j=await r.json();if(j.primaryImageSmall||j.primaryImage)return j.primaryImageSmall||j.primaryImage}}
  m=u.pathname.match(/\/art\/([^/?#]+)/);
