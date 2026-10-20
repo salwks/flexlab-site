@@ -1,0 +1,46 @@
+name: Joseon thumbnail collector
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum unresolved works to inspect; 0 means all"
+        required: false
+        default: "0"
+      source:
+        description: "Optional source-name filter"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: joseon-gallery
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate split architecture
+        run: node joseon-gallery/tests/thumbnail-architecture.test.cjs
+      - name: Collect and verify unresolved thumbnails
+        run: node joseon-gallery/scripts/collect-thumbnails.cjs --limit "${{ inputs.limit }}" --source "${{ inputs.source }}"
+      - name: Validate results
+        run: node joseon-gallery/tests/thumbnail-architecture.test.cjs
+      - name: Commit verified URLs
+        run: |
+          git config user.name "joseon-thumbnail-bot"
+          git config user.email "joseon-thumbnail-bot@users.noreply.github.com"
+          git add joseon-gallery/thumbnails.json joseon-gallery/thumbnail-queue.json
+          if git diff --cached --quiet; then
+            echo "No thumbnail changes"
+          else
+            git commit -m "Update verified Joseon thumbnails"
+            git push origin HEAD:joseon-gallery
+          fi
