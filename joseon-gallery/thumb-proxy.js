@@ -156,7 +156,6 @@ function fail(res){const s='<svg xmlns="http://www.w3.org/2000/svg" width="600" 
 
 
 
-setTimeout(async()=>{for(const [n,u] of [['VERIFY_SMITH','https://asia.si.edu/object/F1976.18/'],['VERIFY_COLBASE','https://colbase.nich.go.jp/collection_items/tnm/TA-387?locale=en']]){try{console.log(n,'OK',await resolveImage(u))}catch(e){console.log(n,'FAIL',e.message)}}},1800);
 function loadWorks(){
  try{
   const p=path.join(process.cwd(),'joseon-gallery','works.json');
