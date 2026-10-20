@@ -31,6 +31,7 @@ a{color:inherit}.shell{width:min(1500px,calc(100% - 28px));margin:auto}.topbar{p
 'use strict';
 let W=[];
 const DATA_URL='./works.json';
+const THUMB_DATA_URL='./thumbnails.json';
 const artistEl=document.getElementById('artist');
 const sourceEl=document.getElementById('source');
 const qEl=document.getElementById('q');
@@ -59,12 +60,11 @@ function updateStats(meta={}){
  document.getElementById('lastUpdate').textContent=`최종 업데이트 ${meta.version||'—'}`;
 }
 
-const THUMB_PROXY='https://joseon-painting-thumb.onrender.com/thumb?url=';
-// Native lazy loading schedules visible cards independently; a slow museum must not
-// hold unrelated images in a shared JavaScript queue.
+// The browser never scrapes museum pages. It only uses pre-collected,
+// verified URLs merged from thumbnails.json.
 function thumbnailCandidates(w){
  const direct=[w.thumb,w.img].filter(Boolean);
- return [...new Set(direct.length?direct:(w.url?[THUMB_PROXY+encodeURIComponent(w.url)]:[]))];
+ return [...new Set(direct)];
 }
 function thumbnailMarkup(w,index){
  const urls=thumbnailCandidates(w);if(!urls.length)return '';
@@ -106,10 +106,20 @@ function renderSources(){
 }
 async function loadData(){
  try{
-  const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);const data=await r.json();
-  W=Array.isArray(data)?data:(data.works||[]);W=W.map((w,i)=>({...w,id:w.id??(i+1),themes:Array.isArray(w.themes)?w.themes:[]}));
+  const [r,tr]=await Promise.all([
+   fetch(`${DATA_URL}?v=${Date.now()}`,{cache:'no-store'}),
+   fetch(`${THUMB_DATA_URL}?v=${Date.now()}`,{cache:'no-store'})
+  ]);
+  if(!r.ok)throw new Error(`works HTTP ${r.status}`);
+  if(!tr.ok)throw new Error(`thumbnails HTTP ${tr.status}`);
+  const data=await r.json(),td=await tr.json(),tm=td.thumbnails||td;
+  W=(Array.isArray(data)?data:(data.works||[])).map((w,i)=>{
+   const id=w.id??(i+1),t=tm[String(id)]||{};
+   const verified=t.verified!==false;
+   return {...w,id,themes:Array.isArray(w.themes)?w.themes:[],thumb:verified?(t.thumbnail||''):'',img:verified?(t.image||t.thumbnail||''):''};
+  });
   refreshFilters();updateStats(data);renderSources();render();
- }catch(e){grid.innerHTML='<div class="empty">works.json을 불러오지 못했습니다.</div>'}
+ }catch(e){grid.innerHTML='<div class="empty">작품 데이터를 불러오지 못했습니다.</div>'}
 }
 for(const t of themes){const b=document.createElement('button');b.className='chip'+(t==='전체'?' active':'');b.textContent=t;b.onclick=()=>{activeTheme=t;[...chips.children].forEach(c=>c.classList.toggle('active',c.textContent===t));render()};chips.appendChild(b)}
 qEl.oninput=render;sortEl.onchange=render;artistEl.onchange=render;sourceEl.onchange=render;favOnly.onclick=()=>{onlyFav=!onlyFav;favOnly.textContent=onlyFav?'♥ 즐겨찾기만':'♡ 즐겨찾기';render()};document.getElementById('close').onclick=closeModal;document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
