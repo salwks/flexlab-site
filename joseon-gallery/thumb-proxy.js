@@ -11,7 +11,7 @@ function allowed(h){h=(h||'').toLowerCase();return ALLOWED.some(d=>h===d||h.ends
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function fetchRetry(url,opts={},tries=4){let r;for(let i=0;i<tries;i++){r=await fetch(url,opts);if(![429,502,503,504].includes(r.status))return r;if(i<tries-1)await sleep(600*Math.pow(2,i))}return r}
 
-function ent(s){return (s||'').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>')}
+function ent(s){return (s||'').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#0*38;|&#x0*26;/gi,'&').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>')}
 function abs(base,v){if(!v)return'';v=ent(v.trim()).replace(/\\u002F/gi,'/').replace(/\\\//g,'/');if(v.startsWith('//'))v='https:'+v;try{return new URL(v,base).href}catch{return''}}
 function attr(tag,n){const m=tag.match(new RegExp('\\b'+n+'\\s*=\\s*["\\\']([^"\\\']+)["\\\']','i'));return m?m[1]:''}
 function candidates(html,base){
@@ -73,6 +73,8 @@ async function resolveColBase(target){
   const r=await fetchRetry(api.href,{headers:{'user-agent':UA,'accept':'application/json'}},3);
   if(!r.ok)return '';
   const j=await r.json(),urls=[];
+  const rows=Array.isArray(j.list)?j.list:[];
+  const exact=rows.filter(row=>{const s=JSON.stringify(row);return s.includes('"'+item+'"')||s.includes('/'+item+'?')||s.includes('/'+item+'"')});
   const walk=x=>{
    if(!x)return;
    if(typeof x==='string'){
@@ -82,7 +84,7 @@ async function resolveColBase(target){
    if(Array.isArray(x)){for(const v of x)walk(v);return}
    if(typeof x==='object')for(const [k,v] of Object.entries(x)){if(typeof v==='string'&&/thumbnailurl|contenturl|imageurl|representative|image/i.test(k)&&/^https?:\/\//i.test(v))urls.push(v);walk(v)}
   };
-  walk(j);
+  walk(exact.length?exact:j);
   const ranked=[...new Set(urls)].sort((a,b)=>score(b)-score(a));
   const ok=await pickVerifiedImage(ranked);if(ok)return ok;
   // ColBase media URL can also be reconstructed when Japan Search exposes the image filename.
