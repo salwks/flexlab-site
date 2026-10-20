@@ -1,6 +1,11 @@
 name: Joseon thumbnail collector
 
 on:
+  push:
+    branches:
+      - joseon-gallery
+    paths:
+      - "joseon-gallery/thumbnail-run.trigger"
   workflow_dispatch:
     inputs:
       limit:
