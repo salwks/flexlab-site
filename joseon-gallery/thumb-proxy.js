@@ -6,7 +6,7 @@ const path=require('path');
 const PORT=process.env.PORT||10000;
 const UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/155 Safari/537.36 JoseonPaintingGallery/1.0';
 const CACHE=new Map(), MAX_CACHE=4000;
-const ALLOWED=['britishmuseum.org','brooklynmuseum.org','metmuseum.org','clevelandart.org','lacma.org','asianart.org','mfah.org','dia.org','nich.go.jp','heritage.go.kr','kansong.org','mfa.org','busan.go.kr','leeumhoam.org','si.edu','asia-archive.si.edu','philamuseum.org','ewha.ac.kr','pem.org','harvardartmuseums.org','princeton.edu','guimet.fr','smb.museum','gogung.go.kr','nfm.go.kr','museum.go.kr','horimmuseum.org','worcesterart.org','slam.org','thewalters.org','spencerart.ku.edu','nelson-atkins.org','portlandartmuseum.org','honolulumuseum.org','usc.edu','gangseo.seoul.kr','aks.ac.kr','gugak.go.kr','commons.wikimedia.org','media.britishmuseum.org','collectionapi.metmuseum.org','piction.clevelandart.org','collections-images.lacma.org'];
+const ALLOWED=['britishmuseum.org','brooklynmuseum.org','metmuseum.org','clevelandart.org','lacma.org','asianart.org','mfah.org','dia.org','nich.go.jp','heritage.go.kr','kansong.org','mfa.org','busan.go.kr','leeumhoam.org','si.edu','asia-archive.si.edu','ids.si.edu','jpsearch.go.jp','philamuseum.org','ewha.ac.kr','pem.org','harvardartmuseums.org','princeton.edu','guimet.fr','smb.museum','gogung.go.kr','nfm.go.kr','museum.go.kr','horimmuseum.org','worcesterart.org','slam.org','thewalters.org','spencerart.ku.edu','nelson-atkins.org','portlandartmuseum.org','honolulumuseum.org','usc.edu','gangseo.seoul.kr','aks.ac.kr','gugak.go.kr','commons.wikimedia.org','media.britishmuseum.org','collectionapi.metmuseum.org','piction.clevelandart.org','collections-images.lacma.org'];
 function allowed(h){h=(h||'').toLowerCase();return ALLOWED.some(d=>h===d||h.endsWith('.'+d))}
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function fetchRetry(url,opts={},tries=4){let r;for(let i=0;i<tries;i++){r=await fetch(url,opts);if(![429,502,503,504].includes(r.status))return r;if(i<tries-1)await sleep(600*Math.pow(2,i))}return r}
@@ -23,6 +23,8 @@ function candidates(html,base){
  for(const m of html.matchAll(/["'](\/[^"']+?\.(?:jpe?g|png|webp)(?:\?[^"']*)?)["']/gi))a.push(abs(base,m[1]));
  for(const m of html.matchAll(/(?:https?:\\?\/\\?\/[^"'<>\s]+)?\/internal\/media\/(?:zoomdispatcher|dispatcher)\/\d+\/[^"'<>\s]*/gi))a.push(abs(base,m[0]));
  for(const m of html.matchAll(/["'](\/[^"']*\/(?:image|images|media|iiif)\/[^"']+)["']/gi))a.push(abs(base,m[1]));
+ for(const m of html.matchAll(/https?:\\?\/\\?\/ids\.si\.edu\/ids\/deliveryService\?[^"'<>\s]+/gi))a.push(abs(base,m[0]));
+ for(const m of html.matchAll(/["'](https?:\/\/ids\.si\.edu\/ids\/deliveryService\?[^"']+)["']/gi))a.push(abs(base,m[1]));
  return [...new Set(a.filter(x=>x&&!badCandidate(x)))]
 }
 function badCandidate(u){
@@ -33,6 +35,7 @@ function score(u){
  const s=u.toLowerCase();if(badCandidate(s))return -9999;let n=0;
  if(/\.svg(?:\?|$)|logo|favicon|apple-touch|iconified|\/icon|sprite|avatar|facebook|twitter|instagram|youtube|qr|banner|pixel|placeholder/.test(s))n-=220;
  if(/media\.britishmuseum\.org/.test(s))n+=260;
+ if(/ids\.si\.edu\/ids\/deliveryService/.test(s))n+=420;
  if(/ids\.si\.edu|smithsonian/.test(s)&&/\.jpe?g|\.png|\.webp|idurl=/.test(s))n+=180;
  if(/mfa\.org|mfah|cloudfront|amazonaws/.test(s)&&/\.jpe?g|\.png|\.webp/.test(s))n+=130;
  if(/colbase\.nich\.go\.jp/.test(s)&&/\.jpe?g|\.png|\.webp/.test(s))n+=120;
@@ -59,6 +62,51 @@ async function pickVerifiedImage(cs){
  return '';
 }
 function bm(raw){try{const u=new URL(raw);if(!u.hostname.includes('britishmuseum.org')||u.pathname.startsWith('/collection/object/'))return raw;const k=u.searchParams.get('keyword')||'',m=k.match(/^OA\+,0\.482\.(\d+)$/i);if(m)return 'https://www.britishmuseum.org/collection/object/A_OA-0-482-'+m[1]}catch{}return raw}
+async function resolveColBase(target){
+ try{
+  const u=new URL(target);
+  const m=u.pathname.match(/^\/collection_items\/([^/]+)\/([^/?#]+)/);
+  if(!m)return '';
+  const inst=m[1],item=decodeURIComponent(m[2]);
+  const api=new URL('https://jpsearch.go.jp/api/item/search/cobas-default');
+  api.searchParams.set('keyword',item);api.searchParams.set('size','10');
+  const r=await fetchRetry(api.href,{headers:{'user-agent':UA,'accept':'application/json'}},3);
+  if(!r.ok)return '';
+  const j=await r.json(),urls=[];
+  const walk=x=>{
+   if(!x)return;
+   if(typeof x==='string'){
+    if(/^https?:\/\//i.test(x)&&(/colbase\.nich\.go\.jp\/media\//i.test(x)||/thumbnail/i.test(x)))urls.push(x);
+    return;
+   }
+   if(Array.isArray(x)){for(const v of x)walk(v);return}
+   if(typeof x==='object')for(const [k,v] of Object.entries(x)){if(typeof v==='string'&&/thumbnailurl|contenturl|imageurl|representative|image/i.test(k)&&/^https?:\/\//i.test(v))urls.push(v);walk(v)}
+  };
+  walk(j);
+  const ranked=[...new Set(urls)].sort((a,b)=>score(b)-score(a));
+  const ok=await pickVerifiedImage(ranked);if(ok)return ok;
+  // ColBase media URL can also be reconstructed when Japan Search exposes the image filename.
+  const raw=JSON.stringify(j);
+  const fn=[...raw.matchAll(/([A-Za-z0-9_.-]+\.(?:jpe?g|png|webp))/gi)].map(m=>m[1]).find(x=>x.toLowerCase().includes(item.toLowerCase()));
+  if(fn){
+   const clean=fn.replace(/^S_/,'');
+   const guess='https://colbase.nich.go.jp/media/'+inst+'/'+encodeURIComponent(item)+'/image/slideshow/S_'+clean;
+   const ok2=await pickVerifiedImage([guess]);if(ok2)return ok2;
+  }
+ }catch(e){}
+ return '';
+}
+async function resolveSmithsonianArchive(target){
+ try{
+  const r=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,*/*;q=0.8'}},3);
+  if(!r.ok)return '';
+  const html=await r.text(),arr=[];
+  for(const m of html.matchAll(/https?:\\?\/\\?\/ids\.si\.edu\/ids\/deliveryService\?[^"'<>\s]+/gi))arr.push(abs(r.url,m[0]));
+  for(const m of html.matchAll(/(?:href|src)=["']([^"']*ids\.si\.edu\/ids\/deliveryService\?[^"']+)["']/gi))arr.push(abs(r.url,m[1]));
+  const ok=await pickVerifiedImage([...new Set(arr)]);if(ok)return ok;
+ }catch(e){}
+ return '';
+}
 async function resolveImage(target){
  target=bm(target);
  let pre=new URL(target);
@@ -67,6 +115,8 @@ async function resolveImage(target){
    if(sm) target='https://asia-archive.si.edu/object/'+encodeURIComponent(sm[1])+'/';
  }
  const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
+ if(host.endsWith('colbase.nich.go.jp')){const x=await resolveColBase(target);if(x)return x}
+ if(host.endsWith('asia-archive.si.edu')){const x=await resolveSmithsonianArchive(target);if(x)return x}
  let m=u.pathname.match(/\/art\/collection\/search\/(\d+)/);
  if(host.endsWith('metmuseum.org')&&m){const r=await fetchRetry('https://collectionapi.metmuseum.org/public/collection/v1/objects/'+m[1],{headers:{'user-agent':UA}});if(r.ok){const j=await r.json();if(j.primaryImageSmall||j.primaryImage)return j.primaryImageSmall||j.primaryImage}}
  m=u.pathname.match(/\/art\/([^/?#]+)/);
