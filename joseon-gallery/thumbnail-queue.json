@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 194,
+  "total": 193,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -9,13 +9,14 @@
     "Seattle Art Museum · 조선회화": 9,
     "British Museum · 조선회화": 7,
     "국립민속박물관 · 직접검증": 6,
-    "국립민속박물관 · 소장품": 5,
     "Brooklyn Museum · 조선회화": 3,
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
     "Museum für Asiatische Kunst Berlin · 조선회화": 2,
     "홍익대학교박물관 · 조선회화": 2,
     "고려대학교박물관 · 전시검증": 2,
+    "도쿄국립박물관 · 전시검증": 2,
+    "국립민속박물관 · 소장품": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
     "Honolulu Museum of Art · 조선회화": 1,
@@ -1821,6 +1822,16 @@
       "lastChecked": ""
     },
     {
+      "id": 908,
+      "title": "소상팔경도병풍(瀟湘八景図屏風)",
+      "artist": "작자미상",
+      "source": "도쿄국립박물관 · 전시검증",
+      "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=8230",
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
+    },
+    {
       "id": 918,
       "title": "사녀도 · 한화첩 중",
       "artist": "작자미상",
@@ -1829,6 +1840,16 @@
       "status": "failed",
       "error": "colbase image unresolved",
       "lastChecked": "2026-10-21"
+    },
+    {
+      "id": 929,
+      "title": "묵죽도책(墨竹図冊)",
+      "artist": "수문(秀文)",
+      "source": "도쿄국립박물관 · 전시검증",
+      "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5783&lang=ja",
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 988,
@@ -1856,19 +1877,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100109941700000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1011,
-      "title": "문방도 6폭 병풍 (민속45481)",
-      "artist": "이형록",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100104548100000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1012,
@@ -1901,34 +1912,14 @@
       "lastChecked": ""
     },
     {
-      "id": 1021,
-      "title": "십장생도 (소장번호 31254)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100103125400000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
       "id": 1022,
       "title": "화조도 12폭 병풍(民畵十二幅屛風)",
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100106276400000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1023,
-      "title": "삼로문연도 (민속83811)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1024,
