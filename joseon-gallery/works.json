@@ -1,6 +1,6 @@
 {
   "version": "2026-10-20",
-  "count": 1031,
+  "count": 1028,
   "works": [
     {
       "id": 1,
@@ -14516,41 +14516,6 @@
       "url": "https://artmuseum.princeton.edu/art/collections/objects/140925"
     },
     {
-      "id": 815,
-      "era": "조선 · 1800~1850",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "구운몽",
-        "병풍"
-      ],
-      "desc": "공식 소장처의 개별 작품 또는 해당 작품 중심 전시 페이지로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Portland Art Museum · 조선회화 · source link only",
-      "source": "Portland Art Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "Guunmong (The Cloud Dream of the Nine)",
-      "url": "https://portlandartmuseum.org/event/cloud-dream-of-the-nine-stories-of-a-painting/"
-    },
-    {
-      "id": 816,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "산수",
-        "평양",
-        "도시",
-        "병풍"
-      ],
-      "desc": "공식 소장처의 개별 작품 또는 해당 작품 중심 전시 페이지로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Portland Art Museum · 조선회화 · source link only",
-      "source": "Portland Art Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "The Walled City of Pyeongyang",
-      "url": "https://portlandartmuseum.org/event/the-shape-of-the-land/"
-    },
-    {
       "id": 817,
       "era": "조선 · 15~16세기",
       "license": "원 소장처 이용조건 확인",
@@ -17466,24 +17431,6 @@
       "artist": "변박",
       "title": "변박 묵매도",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5497"
-    },
-    {
-      "id": 996,
-      "era": "조선 말기~20세기 초",
-      "license": "USC Pacific Asia Museum 원문 이용조건 확인",
-      "themes": [
-        "낙화",
-        "산수",
-        "화조",
-        "생활",
-        "민속"
-      ],
-      "desc": "USC Pacific Asia Museum의 보존 프로젝트 페이지에서 작가 Park Gye-dam(박계담), 소장번호 1973.6.13AB, 19세기 말~20세기 초 연대를 직접 확인한 한국 낙화입니다.",
-      "credit": "USC Pacific Asia Museum · source link only",
-      "source": "USC Pacific Asia Museum · 한국회화",
-      "artist": "박계담",
-      "title": "연꽃·새·소나무·절벽 낚시를 그린 한국 낙화 한 쌍",
-      "url": "https://pacificasiamuseum.usc.edu/collections/conservation/"
     },
     {
       "id": 997,
