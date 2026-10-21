@@ -1,0 +1,212 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-002",
+  "scope": "Foreign-titled chaekgeori/chaekgado records 135-153",
+  "references": [
+    {
+      "title": "한국민족문화대백과사전 - 책가도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0055679",
+      "use": "책거리와 책가도의 국내 용어 범위 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 조선시대 책가도",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0501000000.do?pageSize=10&relicRecommendCategory=&relicRecommendId=562147&sc=&schM=view&sv=",
+      "use": "책가도·책거리 및 병풍 형식의 국내 용례 확인"
+    },
+    {
+      "title": "우리역사넷 - Chaekgeori (or Chaekgado)",
+      "url": "https://contents.history.go.kr/front/tz/view.do?levelId=tz_b72",
+      "use": "국립중앙박물관·국립민속박물관·리움·조선민화박물관 자료를 바탕으로 한 책거리 분류 교차 확인"
+    },
+    {
+      "title": "LACMA - Scholar's Books and Objects (Chaekkeori), M.89.128",
+      "url": "https://collections.lacma.org/object/425",
+      "use": "146-148 원 소장품, 8폭 병풍, 조선 19세기 확인"
+    },
+    {
+      "title": "Asian Art Museum - Books and scholars’ possessions (chaekgeori), 1998.111",
+      "url": "https://searchcollection.asianart.org/objects/13843/books-and-scholars-possessions-chaekgeori",
+      "use": "150 작가 이응록, 연대, 8폭 병풍 확인"
+    },
+    {
+      "title": "Museum of Fine Arts Boston - Screen with books and scholar's objects, 2009.3989",
+      "url": "https://collections.mfa.org/objects/531074/screen-with-books-and-scholars-objects",
+      "use": "151 소장품 번호와 형식 확인"
+    },
+    {
+      "title": "Detroit Institute of Arts - Books and Scholars' Belongings (Chaekgeori), 2015.67",
+      "url": "https://dia.org/collection/books-and-scholars-belongings-chaekgeori/103462",
+      "use": "152 소장품 번호와 8폭 병풍 확인"
+    },
+    {
+      "title": "Cleveland Museum of Art - Books and Scholars’ Accoutrements, 2011.37",
+      "url": "https://www.clevelandart.org/art/2011.37",
+      "use": "153 한국어 제목 ‘책가도’, 작가 이택균, 10폭 병풍 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Guimet mixed screen",
+      "url": "https://commons.wikimedia.org/wiki/File:Flowers%2C_fish%2C_mudang_and_Chaek%27kori._Folding_screen._Choson.Mus%C3%A9e_Guimet.jpg",
+      "use": "141 19세기 조선, 기메박물관 이우환 컬렉션 LUF 111 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 135,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 136,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 137,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      },
+      "note": "정확한 현행 소장품 레코드 미확인."
+    },
+    {
+      "id": 138,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      },
+      "note": "정확한 현행 소장품 레코드 미확인."
+    },
+    {
+      "id": 139,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 140,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 141,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "desc": "verified"
+      },
+      "note": "Commons 원자료에서 19세기 조선·기메박물관·이우환 컬렉션 LUF 111 확인."
+    },
+    {
+      "id": 142,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      },
+      "note": "Art Institute of Chicago 계열 자료로 식별되나 정식 오브젝트 레코드는 추가 확인 필요."
+    },
+    {
+      "id": 143,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 144,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 145,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 146,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 147,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 148,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 149,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 150,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 151,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 152,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 153,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "desc": "verified"
+      }
+    }
+  ]
+}
