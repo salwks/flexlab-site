@@ -1,0 +1,377 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-012",
+  "scope": "Donggwoldo details, Gisa gyecheop, Imin Jinyeondo, Gyobang Gayo and hunting-screen records 376-400",
+  "references": [
+    {
+      "title": "국가유산포털 - 동궐도",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111102490000&pageNo=1_1_1_1",
+      "use": "376-381 동궐도 정식명·조선 후기 궁궐 기록화 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 동궐도 돈화문 주변",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo_detail-Changdeokgung-Donhwamun_and_its_vicinity-01.jpg",
+      "use": "376 고려대학교박물관본 돈화문 주변 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 동궐도 진선문 주변",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo_detail-Changdeokgung-Jinseonmun_and_its_vicinity-01.jpg",
+      "use": "377 고려대학교박물관본 진선문 주변 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 동궐도 선정전 주변",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo_detail-Changdeokgung-Seonjeongjeon_and_its_vicinity-01.jpg",
+      "use": "378 고려대학교박물관본 선정전 주변 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 동아대학교박물관본 동궐도",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo-Changdeokgung_and_Changgyeonggung-Dong-A_University-01.jpg",
+      "use": "379-381 동아대학교박물관본 및 추출 이미지 관계 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Seungjeongwon",
+      "url": "https://commons.wikimedia.org/wiki/File:Seungjeongwon.png",
+      "use": "380 동궐도에서 추출한 승정원 부분 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Yeongyeongdang area",
+      "url": "https://commons.wikimedia.org/wiki/File:Yeongyeongdang_area_(Donggwoldo).jpg",
+      "use": "381 동아대학교본에서 추출한 연경당 부분 확인"
+    },
+    {
+      "title": "국가유산포털 - 국보 기사계첩",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=11%2C03250000%2C11",
+      "use": "382-392 기사계첩 정식명·1719~1720년·50면·국립중앙박물관본 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 기사계첩",
+      "url": "https://encykorea.aks.ac.kr/Article/E0008260",
+      "use": "382-392 제작 배경·구성과 궁중 기록화 성격 확인"
+    },
+    {
+      "title": "국가유산 지식이음 - 기사계첩",
+      "url": "https://portal.nrich.go.kr/kor/portraitNdUsrView.do?menuIdx=&portrait_idx=6",
+      "use": "387-392 제작자 김진여·장태흥·박동보·장득만·허숙 등과 기로신 초상 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Korea-Gisa gyecheop-01",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Gisa_gyecheop-01.jpg",
+      "use": "383 홍기준 소장본 및 참여 화원 정보 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Gisa gyecheop category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Gisa_gyecheop",
+      "use": "382-392 각 공개 이미지가 기사계첩 계열임을 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 기사계첩",
+      "url": "https://commons.wikimedia.org/wiki/File:%EA%B8%B0%EC%82%AC%EA%B3%84%EC%B2%A9.jpg",
+      "use": "390 이화여자대학교박물관 소장본 촬영 이미지 확인"
+    },
+    {
+      "title": "국가유산포털 - 임인진연도 병풍",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=05430000&ccbaCpno=2111105430000&ccbaCtcd=11&ccbaKdcd=21&pageNo=1_1_1_0",
+      "use": "393-395 1902년 대한제국 임인진연도 병풍 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 진연도감",
+      "url": "https://encykorea.aks.ac.kr/Article/E0054805",
+      "use": "393-395 고종 즉위 40주년 진연과 임인진연도 병풍 설명 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 임인진연도 가인전목단",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Gojong_Imin_Jinyeondobyeong-01.jpg",
+      "use": "393 가인전목단 장면 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 임인진연도 무고",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Gojong_Imin_Jinyeondobyeong-02.jpg",
+      "use": "394 무고 장면 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Korean dance Mugo",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_dance-Mugo-01.jpg",
+      "use": "395 임인진연도 무고 장면의 다른 공개파일 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 교방가요",
+      "url": "https://encykorea.aks.ac.kr/Article/E0005473",
+      "use": "396-397 1865년 정현석 저술 문헌임을 확인하고 Commons의 1902 표기를 교정"
+    },
+    {
+      "title": "Wikimedia Commons - 교방가요 무고",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Gyobang_Gayo-Mugo-01.jpg",
+      "use": "396 교방가요에 실린 무고 도상 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 호렵도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0063739",
+      "use": "398-400 만주계 사냥 장면의 국내 장르명 ‘호렵도’ 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 호렵도",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=93747&schM=view",
+      "use": "398-400 호렵도의 국내 미술사 정의 교차 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Hunting Party 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party1.jpg",
+      "use": "398-400 19세기 한국 8폭 병풍·만주 기마인의 사냥 장면 정보 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 376,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "korea_university_verified"
+      }
+    },
+    {
+      "id": 377,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "korea_university_verified"
+      }
+    },
+    {
+      "id": 378,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "korea_university_verified"
+      }
+    },
+    {
+      "id": 379,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "version": "dong_a_verified",
+        "era": "canonical"
+      }
+    },
+    {
+      "id": 380,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "dong_a_verified"
+      },
+      "duplicateCandidateOf": 379
+    },
+    {
+      "id": 381,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "dong_a_verified"
+      },
+      "duplicateCandidateOf": 379
+    },
+    {
+      "id": 382,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "media_type": "display_photo"
+      },
+      "note": "작품 자체의 독립 화면이 아니라 전시 사진."
+    },
+    {
+      "id": 383,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "artist": "verified",
+        "version": "hong_gijun"
+      }
+    },
+    {
+      "id": 384,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "version": "hong_gijun"
+      }
+    },
+    {
+      "id": 385,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "version": "hong_gijun"
+      }
+    },
+    {
+      "id": 386,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "version": "ewha"
+      }
+    },
+    {
+      "id": 387,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified",
+        "version": "national_museum"
+      }
+    },
+    {
+      "id": 388,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "national_museum"
+      }
+    },
+    {
+      "id": 389,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "national_museum"
+      }
+    },
+    {
+      "id": 390,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "version": "ewha",
+        "media_type": "photograph"
+      }
+    },
+    {
+      "id": 391,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "verified",
+        "subject": "verified"
+      },
+      "duplicateCandidateOf": 387
+    },
+    {
+      "id": 392,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "verified",
+        "subject": "verified"
+      },
+      "duplicateCandidateOf": 389
+    },
+    {
+      "id": 393,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical",
+        "scene": "verified"
+      }
+    },
+    {
+      "id": 394,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical",
+        "scene": "verified"
+      }
+    },
+    {
+      "id": 395,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical",
+        "scene": "verified"
+      },
+      "duplicateCandidateOf": 394
+    },
+    {
+      "id": 396,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical_document_part",
+        "era": "canonical",
+        "date": "corrected_to_1865"
+      }
+    },
+    {
+      "id": 397,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_document_part",
+        "era": "canonical",
+        "date": "corrected_to_1865"
+      },
+      "duplicateCandidateOf": 396
+    },
+    {
+      "id": 398,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "format": "verified"
+      }
+    },
+    {
+      "id": 399,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "format": "verified"
+      }
+    },
+    {
+      "id": 400,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "format": "verified"
+      }
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": 380,
+      "duplicateOf": 379,
+      "reason": "동아대학교박물관본 동궐도에서 추출한 승정원 부분"
+    },
+    {
+      "id": 381,
+      "duplicateOf": 379,
+      "reason": "동아대학교박물관본 동궐도에서 추출한 연경당 부분"
+    },
+    {
+      "id": 391,
+      "duplicateOf": 387,
+      "reason": "국립중앙박물관본 기사계첩에 포함된 이유 초상의 추출 이미지"
+    },
+    {
+      "id": 392,
+      "duplicateOf": 389,
+      "reason": "국립중앙박물관본 기사계첩 공개 이미지에서 김창집 초상을 추출한 파일"
+    },
+    {
+      "id": 395,
+      "duplicateOf": 394,
+      "reason": "임인진연도 병풍의 무고 장면을 별도로 공개한 이미지"
+    },
+    {
+      "id": 397,
+      "duplicateOf": 396,
+      "reason": "교방가요 무고 도상의 다른 공개 이미지"
+    }
+  ]
+}
