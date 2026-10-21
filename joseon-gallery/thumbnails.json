@@ -1,7 +1,7 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 826,
+  "count": 825,
   "unresolved": 209,
   "thumbnails": {
     "1": {
@@ -1064,13 +1064,6 @@
     "153": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Yi_Taek-gyun_-_Books_and_Scholars%E2%80%99_Accouterments_-_2011.37_-_Cleveland_Museum_of_Art.tif/lossy-page1-500px-Yi_Taek-gyun_-_Books_and_Scholars%E2%80%99_Accouterments_-_2011.37_-_Cleveland_Museum_of_Art.tif.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Yi_Taek-gyun_-_Books_and_Scholars%E2%80%99_Accouterments_-_2011.37_-_Cleveland_Museum_of_Art.tif",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "154": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/%E8%94%9A%E5%B7%9E%E7%9C%9F%E6%AD%A6%E5%BB%9F%E5%A3%81%E7%94%BB_1779%E5%B9%B4.jpg/500px-%E8%94%9A%E5%B7%9E%E7%9C%9F%E6%AD%A6%E5%BB%9F%E5%A3%81%E7%94%BB_1779%E5%B9%B4.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/%E8%94%9A%E5%B7%9E%E7%9C%9F%E6%AD%A6%E5%BB%9F%E5%A3%81%E7%94%BB_1779%E5%B9%B4.jpg",
       "source": "Wikimedia Commons · 책거리",
       "verified": true,
       "verifiedAt": "2026-10-20"
