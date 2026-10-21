@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 813,
-  "unresolved": 215,
+  "count": 812,
+  "unresolved": 216,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5591,18 +5591,11 @@
       "verifiedAt": "2026-10-20"
     },
     "1014": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_12.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_12.jpg",
-      "source": "국립민속박물관 · 직접검증",
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
+      "source": "국립민속박물관 · 소장유물 이미지",
       "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "1015": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_13.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_13.jpg",
-      "source": "국립민속박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
     },
     "1016": {
       "thumbnail": "https://www.nfm.go.kr/images/Display/2013gyeonggidoja_02.jpg",
