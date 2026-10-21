@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 196,
+  "total": 194,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -16,7 +16,6 @@
     "Museum für Asiatische Kunst Berlin · 조선회화": 2,
     "홍익대학교박물관 · 조선회화": 2,
     "고려대학교박물관 · 전시검증": 2,
-    "도쿄국립박물관 · 전시검증": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
     "Honolulu Museum of Art · 조선회화": 1,
@@ -1822,16 +1821,6 @@
       "lastChecked": ""
     },
     {
-      "id": 908,
-      "title": "소상팔경도병풍(瀟湘八景図屏風)",
-      "artist": "작자미상",
-      "source": "도쿄국립박물관 · 전시검증",
-      "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=8230",
-      "status": "failed",
-      "error": "host",
-      "lastChecked": "2026-10-21"
-    },
-    {
       "id": 918,
       "title": "사녀도 · 한화첩 중",
       "artist": "작자미상",
@@ -1839,16 +1828,6 @@
       "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-64-5?locale=ja",
       "status": "failed",
       "error": "colbase image unresolved",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 929,
-      "title": "묵죽도책(墨竹図冊)",
-      "artist": "수문(秀文)",
-      "source": "도쿄국립박물관 · 전시검증",
-      "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5783&lang=ja",
-      "status": "failed",
-      "error": "host",
       "lastChecked": "2026-10-21"
     },
     {
