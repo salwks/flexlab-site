@@ -13987,10 +13987,10 @@
         "음식",
         "노동"
       ],
-      "desc": "공식 소장처/전시 페이지에서 직접 확인한 조선 회화 링크. 이미지 파일은 저장하지 않습니다.",
-      "credit": "source link only",
+      "desc": "Staatliche Museen zu Berlin 공식 페이지가 김준근(기산)에게 귀속(ascribed)한 19세기 말 한국 풍속화입니다. 전시 페이지의 작품 자체 이미지로 검증했습니다.",
+      "credit": "Staatliche Museen zu Berlin · Ethnologisches Museum · 공식 작품 이미지",
       "source": "Ethnologisches Museum Berlin · 기산풍속",
-      "artist": "김준근",
+      "artist": "김준근(기산) 전칭",
       "title": "Making noodles with a dough press",
       "url": "https://www.smb.museum/en/exhibitions/detail/making-noodles-and-playing-the-zither-cultural-images-from-korea/"
     },
@@ -14003,12 +14003,12 @@
         "음악",
         "공연"
       ],
-      "desc": "공식 소장처/전시 페이지에서 직접 확인한 조선 회화 링크. 이미지 파일은 저장하지 않습니다.",
-      "credit": "source link only",
+      "desc": "Staatliche Museen zu Berlin 공식 한국 컬렉션 연구 페이지에 수록된 I D 44055, 'Board zither and bamboo flute playing'입니다. 1870/80년 한국 작품이며 김준근(기산) 전칭으로 정리했습니다.",
+      "credit": "Staatliche Museen zu Berlin · Ethnologisches Museum · 공식 작품 이미지",
       "source": "Ethnologisches Museum Berlin · 기산풍속",
-      "artist": "김준근",
+      "artist": "김준근(기산) 전칭",
       "title": "Playing zither and bamboo flute",
-      "url": "https://www.smb.museum/en/exhibitions/detail/making-noodles-and-playing-the-zither-cultural-images-from-korea/"
+      "url": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/research/current-status-of-korean-cultural-heritage/"
     },
     {
       "id": 785,
