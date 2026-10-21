@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 196,
+  "total": 195,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -21,7 +21,6 @@
     "The Met · 조선회화": 1,
     "Honolulu Museum of Art · 조선회화": 1,
     "국립고궁박물관 · 직접검증": 1,
-    "호림박물관 · 직접검증": 1,
     "서울대학교박물관 · 전시검증": 1,
     "Detroit Institute of Arts · 조선회화": 1,
     "Worcester Art Museum · 한국회화": 1,
@@ -1307,16 +1306,6 @@
       "artist": "작자미상",
       "source": "국립고궁박물관 · 직접검증",
       "url": "https://online.gogung.go.kr/gogung/bbs/BMSR00019/view.do?boardId=3533&menuNo=800069&pageIndex=1",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 687,
-      "title": "산수인물화첩",
-      "artist": "이경윤",
-      "source": "호림박물관 · 직접검증",
-      "url": "https://www.horimmuseum.org/ko/collection/collections/666bac8b2ad252234bd3eb2b",
       "status": "pending",
       "error": "",
       "lastChecked": ""
