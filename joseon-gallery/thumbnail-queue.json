@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 215,
+  "total": 216,
   "bySource": {
     "British Museum · 김준근": 101,
     "British Museum · 조선회화": 7,
@@ -29,7 +29,7 @@
     "Spencer Museum of Art · 조선회화": 1,
     "Nelson-Atkins Museum of Art · 조선회화": 2,
     "부산박물관 · 직접검증": 15,
-    "국립민속박물관 · 직접검증": 8,
+    "국립민속박물관 · 직접검증": 9,
     "국립민속박물관 · 소장품": 1,
     "서울대학교박물관 · 공공기관검증": 1
   },
@@ -1702,6 +1702,14 @@
       "id": 1013,
       "title": "산수화 · 원산항",
       "artist": "김준근",
+      "source": "국립민속박물관 · 직접검증",
+      "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
+      "status": "pending"
+    },
+    {
+      "id": 1015,
+      "title": "금강산춘경도",
+      "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
       "status": "pending"
