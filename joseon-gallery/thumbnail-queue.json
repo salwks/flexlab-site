@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 216,
+  "total": 215,
   "bySource": {
     "British Museum · 김준근": 101,
     "British Museum · 조선회화": 7,
@@ -29,7 +29,6 @@
     "Spencer Museum of Art · 조선회화": 1,
     "Nelson-Atkins Museum of Art · 조선회화": 2,
     "부산박물관 · 직접검증": 15,
-    "USC Pacific Asia Museum · 한국회화": 1,
     "국립민속박물관 · 직접검증": 8,
     "국립민속박물관 · 소장품": 1,
     "서울대학교박물관 · 공공기관검증": 1
@@ -1593,14 +1592,6 @@
       "artist": "변박",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5497",
-      "status": "pending"
-    },
-    {
-      "id": 996,
-      "title": "연꽃·새·소나무·절벽 낚시를 그린 한국 낙화 한 쌍",
-      "artist": "박계담",
-      "source": "USC Pacific Asia Museum · 한국회화",
-      "url": "https://pacificasiamuseum.usc.edu/collections/conservation/",
       "status": "pending"
     },
     {
