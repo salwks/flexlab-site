@@ -1070,9 +1070,9 @@
       "artist": "이정 귀속",
       "source": "Brooklyn Museum · 조선회화",
       "url": "https://opencollection.brooklynmuseum.org/objects/3847",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 609,
@@ -1080,9 +1080,9 @@
       "artist": "작자미상",
       "source": "Brooklyn Museum · 조선회화",
       "url": "https://opencollection.brooklynmuseum.org/objects/103465",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 610,
@@ -1090,9 +1090,9 @@
       "artist": "작자미상",
       "source": "Brooklyn Museum · 조선회화",
       "url": "https://www.brooklynmuseum.org/opencollection/objects/114653",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 429",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 625,
