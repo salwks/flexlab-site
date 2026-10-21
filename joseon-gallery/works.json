@@ -17904,12 +17904,12 @@
         "경로",
         "고사인물"
       ],
-      "desc": "국립민속박물관 공식 소장품·전시·보존처리 페이지 또는 공식 보도자료에서 작품명, 시대와 소장 사실을 직접 확인한 회화 링크입니다.",
-      "credit": "국립민속박물관 · source link only",
-      "source": "국립민속박물관 · 직접검증",
+      "desc": "국립민속박물관 소장품번호 083811인 삼로문연도의 개별 소장품 상세 링크로 교정했습니다.",
+      "credit": "국립민속박물관 소장품 검색 · 소장품번호 083811",
+      "source": "국립민속박물관 · 소장품",
       "artist": "작자미상",
       "title": "삼로문연도 (민속83811)",
-      "url": "https://www.nfm.go.kr/user/museumbbs/home/1/1243/selectMuseumBbsView.do?museumBbsIdx=14476"
+      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000"
     },
     {
       "id": 1024,
