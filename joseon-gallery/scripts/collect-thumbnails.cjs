@@ -44,7 +44,7 @@ const results=[];
     const w=queue[i];
     const row={id:w.id,title:w.title||'',source:w.source||'',url:w.url||'',status:'failed'};
     try{
-      const candidate=await resolveImage(w.url);
+      const candidate=await resolveImage(w.url,{title:w.title||'',artist:w.artist||'',source:w.source||''});
       const verified=await pickVerifiedImage([candidate]);
       if(!verified)throw new Error('image verification failed');
       const duplicate=conflictingDuplicate(verified,w);
