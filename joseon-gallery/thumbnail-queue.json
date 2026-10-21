@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 218,
+  "total": 216,
   "bySource": {
     "British Museum · 김준근": 101,
     "British Museum · 조선회화": 7,
@@ -30,8 +30,9 @@
     "Nelson-Atkins Museum of Art · 조선회화": 2,
     "부산박물관 · 직접검증": 15,
     "USC Pacific Asia Museum · 한국회화": 1,
-    "국립민속박물관 · 직접검증": 9,
-    "서울대학교박물관 · 공공기관검증": 3
+    "국립민속박물관 · 직접검증": 8,
+    "국립민속박물관 · 소장품": 1,
+    "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
     {
@@ -1716,10 +1717,10 @@
     },
     {
       "id": 1022,
-      "title": "화조도 · 꽃과 새",
+      "title": "화조도 12폭 병풍(民畵十二幅屛風)",
       "artist": "작자미상",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://webzine.nfm.go.kr/2017/10/21/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%A0%81-%EC%82%AC%EA%B3%A0%EB%A5%BC-%ED%86%B5%ED%95%B4-%ED%91%9C%ED%98%84%EB%90%98%EB%8B%A4/",
+      "source": "국립민속박물관 · 소장품",
+      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100106276400000",
       "status": "pending"
     },
     {
@@ -1760,22 +1761,6 @@
       "artist": "정선",
       "source": "서울대학교박물관 · 공공기관검증",
       "url": "https://culture.gangseo.seoul.kr/gsfc/bbs/BMSR00040/view.do?boardId=686&menuNo=800117",
-      "status": "pending"
-    },
-    {
-      "id": 1033,
-      "title": "사궤장연회도첩",
-      "artist": "작자미상",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?boardid=1376&boardtypeid=18&currentpage=2&menuid=001003002003&pagesize=10&searchselect=&searchword=",
-      "status": "pending"
-    },
-    {
-      "id": 1034,
-      "title": "종친부사연도",
-      "artist": "작자미상",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "url": "https://www.gugak.go.kr/site/program/board/basicboard/view?boardid=1376&boardtypeid=18&currentpage=2&menuid=001003002003&pagesize=10&searchselect=&searchword=",
       "status": "pending"
     }
   ]
