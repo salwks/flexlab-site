@@ -1,0 +1,102 @@
+name: Scrape British Museum Kim Jun-geun author page
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'joseon-gallery/bm-kim-scrape.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: joseon-gallery
+          fetch-depth: 0
+
+      - name: Render British Museum author page
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$CHROME" ]; then
+            echo "Chrome not found" >&2
+            exit 1
+          fi
+          "$CHROME" \
+            --headless=new \
+            --no-sandbox \
+            --disable-gpu \
+            --disable-dev-shm-usage \
+            --window-size=1440,1200 \
+            --virtual-time-budget=25000 \
+            --dump-dom \
+            'https://www.britishmuseum.org/collection/term/BIOG11475' > /tmp/bm-kim.html
+          wc -c /tmp/bm-kim.html
+          grep -o '152 related objects' /tmp/bm-kim.html | head -n 1 || true
+
+      - name: Extract cards
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs=require('fs');
+          const html=fs.readFileSync('/tmp/bm-kim.html','utf8');
+          const dec=s=>String(s||'')
+            .replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'")
+            .replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+          const strip=s=>dec(String(s||'').replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
+
+          const hrefRe=/href=["']([^"']*\/collection\/object\/A_OA-0-482-(\d+)[^"']*)["']/gi;
+          const found=new Map();
+          let m;
+          while((m=hrefRe.exec(html))){
+            const n=Number(m[2]);
+            if(!(n>=1&&n<=152)) continue;
+            const start=Math.max(0,m.index-3500), end=Math.min(html.length,m.index+7000);
+            const ctx=html.slice(start,end);
+            const media=[...ctx.matchAll(/(?:src|data-src|content)=["']([^"']*media\.britishmuseum\.org[^"']+)["']/gi)].map(x=>dec(x[1]));
+            const srcset=[...ctx.matchAll(/(?:srcset|data-srcset)=["']([^"']+)["']/gi)].flatMap(x=>dec(x[1]).split(',').map(v=>v.trim().split(/\s+/)[0])).filter(x=>/media\.britishmuseum\.org/i.test(x));
+            const imgs=[...new Set([...media,...srcset].map(u=>u.startsWith('//')?'https:'+u:u))];
+            const alts=[...ctx.matchAll(/(?:alt|aria-label|title)=["']([^"']{2,200})["']/gi)].map(x=>strip(x[1])).filter(Boolean);
+            const title=alts.find(x=>!/image|british museum|logo|menu|search/i.test(x))||'';
+            const href='https://www.britishmuseum.org'+m[1].replace(/^https?:\/\/www\.britishmuseum\.org/i,'');
+            const prev=found.get(n)||{number:n,registration:`OA+,0.482.${n}`,objectUrl:href,title:'',thumbnailCandidates:[]};
+            if(title&&!prev.title) prev.title=title;
+            prev.thumbnailCandidates=[...new Set([...prev.thumbnailCandidates,...imgs])];
+            found.set(n,prev);
+          }
+          const items=[...found.values()].sort((a,b)=>a.number-b.number);
+          const out={
+            scrapedAt:new Date().toISOString(),
+            page:'https://www.britishmuseum.org/collection/term/BIOG11475',
+            htmlBytes:Buffer.byteLength(html),
+            containsRelatedObjects:/152 related objects/i.test(strip(html)),
+            objectCount:items.length,
+            withThumbnail:items.filter(x=>x.thumbnailCandidates.length).length,
+            items
+          };
+          fs.writeFileSync('joseon-gallery/bm-kim-author-scrape.json',JSON.stringify(out,null,2)+'\n');
+          console.log(JSON.stringify({objectCount:out.objectCount,withThumbnail:out.withThumbnail,htmlBytes:out.htmlBytes}));
+          if(items.length<140) {
+            console.error('Too few object links extracted');
+            process.exit(2);
+          }
+          NODE
+
+      - name: Commit scrape result
+        shell: bash
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add joseon-gallery/bm-kim-author-scrape.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Scrape British Museum Kim Jun-geun author cards"
+          git push origin joseon-gallery
