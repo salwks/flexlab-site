@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 842,
-  "unresolved": 186,
+  "count": 840,
+  "unresolved": 188,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5114,13 +5114,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "908": {
-      "thumbnail": "https://www.tnm.jp/themes/tnm2022/image/android-chrome-192x192.png",
-      "image": "https://www.tnm.jp/themes/tnm2022/image/android-chrome-192x192.png",
-      "source": "도쿄국립박물관 · 전시검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "909": {
       "thumbnail": "https://colbase.nich.go.jp/media/tnm/TA-64/image/slideshow_s/TA-64_E0040351.jpg",
       "image": "https://colbase.nich.go.jp/media/tnm/TA-64/image/TA-64_E0040351.jpg",
@@ -5855,13 +5848,6 @@
       "source": "국립민속박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "1029": {
-      "thumbnail": "https://culture.gangseo.seoul.kr/resources/gsfc/img/common/gnb-img_0.png",
-      "image": "https://culture.gangseo.seoul.kr/resources/gsfc/img/common/gnb-img_0.png",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "1030": {
       "thumbnail": "https://nfm.go.kr/site/home/images/display/2024/2024_cat_01.jpg",
