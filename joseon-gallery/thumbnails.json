@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 1107,
-  "unresolved": 7,
+  "count": 1094,
+  "unresolved": 20,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -4616,97 +4616,6 @@
       "source": "Cleveland Museum of Art · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "668": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/69020/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/69020/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "669": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/75668/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/75668/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "670": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/71262/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/71262/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "671": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/1340/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/1340/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "672": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/76647/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/76647/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "673": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/58428/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/58428/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "674": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/10815/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/10815/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "675": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/58404/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/58404/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "676": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/57961/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/57961/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "677": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/60209/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/60209/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "678": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/2679/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/2679/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "679": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/68514/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/68514/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "680": {
-      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/69021/preview",
-      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/69021/full",
-      "source": "Asian Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "681": {
       "thumbnail": "https://img.honolulumuseum.org/eEbMihnPMnsli6a-hu43LhQvnUAoKTT-eI8NKMbiSZ0/c:1920:1008:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly9ob25vbHVsdW11c2V1bS5vcmcvL2Ntc19maWxlcy9zeXN0ZW0vaW1hZ2VzL2ltZzA2MDRfb3JpZy5qcGc",

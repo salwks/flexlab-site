@@ -1,12 +1,143 @@
 {
   "version": "2026-10-21",
-  "total": 7,
+  "total": 20,
   "bySource": {
+    "Asian Art Museum · 조선회화": 13,
     "국립민속박물관 · 직접검증": 4,
     "도쿄국립박물관 · 전시검증": 2,
     "도쿄국립박물관 · ColBase": 1
   },
   "items": [
+    {
+      "id": 668,
+      "title": "Scholars' Accoutrements",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12841/scholars-accoutrements",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 669,
+      "title": "Nine Cloud Dream (Guunmong)",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12953/nine-cloud-dream-guunmong",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 670,
+      "title": "View of Nong'eun Villa from Yukgang Hill",
+      "artist": "정선",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/14561/view-of-nongeun-villa-from-yukgang-hill",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 671,
+      "title": "Landscape with Two Figures",
+      "artist": "정선",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12825/landscape-with-two-figures",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 672,
+      "title": "Tiger and Magpies",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/14284/tiger-and-magpies",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 673,
+      "title": "Album of Portraits of Meritorious Officials",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12855/album-of-portraits-of-meritorious-officials",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 674,
+      "title": "Draft Portrait of Song Siyeol",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12857/draft-portrait-of-song-siyeol",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 675,
+      "title": "Draft Portrait of Pak Pilgeon",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/23432/draft-portrait-of-pak-pilgeon",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 676,
+      "title": "Indra (Jeseok) and His Attendants",
+      "artist": "취관·동징",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12673/indra-jeseok-and-his-attendants",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 677,
+      "title": "Books and Scholars’ Possessions (Chaekgeori)",
+      "artist": "이응록",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/13843/books-and-scholars-possessions-chaekgeori",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 678,
+      "title": "Ten Symbols of Longevity",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12895/ten-symbols-of-longevity",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 679,
+      "title": "Birds and Flowers",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12678/birds-and-flowers",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
+    {
+      "id": 680,
+      "title": "Fisherman and Scholars in a Landscape",
+      "artist": "작자미상",
+      "source": "Asian Art Museum · 조선회화",
+      "url": "https://searchcollection.asianart.org/objects/12917/fisherman-and-scholars-in-a-landscape",
+      "status": "failed",
+      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
+      "lastChecked": "2026-10-22"
+    },
     {
       "id": 908,
       "title": "소상팔경도병풍(瀟湘八景図屏風)",
