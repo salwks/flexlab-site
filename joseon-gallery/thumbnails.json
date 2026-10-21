@@ -1,7 +1,7 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 1094,
+  "count": 1097,
   "unresolved": 12,
   "thumbnails": {
     "1": {
@@ -7661,6 +7661,27 @@
       "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-21"
+    },
+    "1176": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8549281.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8549281.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-22"
+    },
+    "1177": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8490767.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8490767.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-22"
+    },
+    "1178": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8490181.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8490181.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-22"
     }
   }
 }
