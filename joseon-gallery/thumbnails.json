@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 833,
-  "unresolved": 195,
+  "count": 832,
+  "unresolved": 196,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3867,13 +3867,6 @@
       "source": "국립고궁박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "683": {
-      "thumbnail": "https://online.gogung.go.kr/resources/gogung/images/common/ogImage.png",
-      "image": "https://online.gogung.go.kr/resources/gogung/images/common/ogImage.png",
-      "source": "국립고궁박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "684": {
       "thumbnail": "https://online.gogung.go.kr/cmmn/file/imageSrc.do?atchFileId=479LJE&fileSn=30853&thumb=Y",
