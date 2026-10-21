@@ -130,6 +130,10 @@ async function resolveImage(target,context={}){
    if(sm) target='https://asia-archive.si.edu/object/'+encodeURIComponent(sm[1])+'/';
  }
  const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
+ if(host.endsWith('smb.museum')&&/mirae-kh-rhee/i.test(u.pathname)&&/chaekgeori/i.test(workTitle)){
+   const direct='https://www.smb.museum/typo3temp/assets/_processed_/b/c/csm_details-eines-achtteiligen-chaekgeori-stellschirms-korea_xl_16a6bad8e7.jpg';
+   const ok=await pickVerifiedImage([direct]);if(ok)return ok;
+ }
  if(host.endsWith('colbase.nich.go.jp')){const x=await resolveColBase(target);if(x)return x;throw Error('colbase image unresolved')}
  if(host.endsWith('asia-archive.si.edu')){const x=await resolveSmithsonianArchive(target);if(x)return x;throw Error('smithsonian image unresolved')}
  let m=u.pathname.match(/\/art\/collection\/search\/(\d+)/);
