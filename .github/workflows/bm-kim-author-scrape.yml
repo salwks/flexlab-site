@@ -44,7 +44,7 @@ jobs:
             });
           }
           function verifyImage(url){
-            const out=execFileSync('curl',['-L','--max-time','20','-A','Mozilla/5.0','-sS','-o','/dev/null','-w','%{http_code}\n%{content_type}',url],{
+            const out=execFileSync('curl',['-k','-L','--retry','2','--retry-delay','2','--retry-all-errors','--max-time','20','-A','Mozilla/5.0','-sS','-o','/dev/null','-w','%{http_code}\n%{content_type}',url],{
               encoding:'utf8',maxBuffer:1024*1024
             }).trim().split(/\r?\n/);
             return out[0]==='200' && String(out[1]||'').toLowerCase().startsWith('image/');
