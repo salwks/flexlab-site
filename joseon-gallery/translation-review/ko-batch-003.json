@@ -1,0 +1,256 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-003",
+  "scope": "Landscape records 156-175 plus exclusion audit of 154",
+  "references": [
+    {
+      "title": "한국민족문화대백과사전 - 몽유도원도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0018824",
+      "use": "156 제목·작가·1447년·덴리대 소장 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 사계절 산수(사시팔경도)",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=1243&schM=view&searchId=search",
+      "use": "157-164가 ‘전 안견’ 작품이며 여덟 계절 장면으로 구성됨을 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 사시팔경도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0025770",
+      "use": "초춘·만춘·초하·만하·초추·만추·초동·만동 명칭 체계 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 백악춘효도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0074187",
+      "use": "165-166 작품명, 1915년 여름본·가을본 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 안중식",
+      "url": "https://encykorea.aks.ac.kr/Article/E0035032",
+      "use": "167 천보구여도 및 안중식 주요 작품명 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 영광풍경도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0074188",
+      "use": "169 《영광풍경》, 1915년, 10폭 병풍 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 도원문진도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0074186",
+      "use": "170 《도원문진도》, 1913년, 도화원기 주제 확인"
+    },
+    {
+      "title": "공유마당 - 조어산수(釣魚山水)",
+      "url": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?menuNo=200018&wrtSn=13365443",
+      "use": "174 최북 작품명 《조어산수》 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 최북",
+      "url": "https://encykorea.aks.ac.kr/Article/E0057340",
+      "use": "175 《표훈사도》가 최북 주요 작품임을 확인"
+    },
+    {
+      "title": "중국 하북성 울현 진무묘 자료",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9C%9F%E6%AD%A6%E5%BA%99",
+      "use": "154 ‘蔚州真武廟’가 중국 허베이성 장자커우시 울현의 진무묘임을 확인하여 조선회화에서 제외"
+    }
+  ],
+  "items": [
+    {
+      "id": 154,
+      "status": "excluded",
+      "note": "중국 허베이성 蔚州真武廟 벽화로 확인. 조선·한국 회화가 아니므로 아카이브에서 제거."
+    },
+    {
+      "id": 156,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 157,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 158,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 159,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 160,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 161,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 162,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 163,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 164,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 165,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 166,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 167,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 168,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 169,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 170,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 171,
+      "status": "provisional",
+      "fields": {
+        "title": "source_caption",
+        "artist": "verified",
+        "era": "verified",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 172,
+      "status": "provisional",
+      "fields": {
+        "title": "source_caption",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 173,
+      "status": "provisional",
+      "fields": {
+        "title": "source_caption",
+        "artist": "verified",
+        "era": "verified",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 174,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 175,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified",
+        "desc": "verified"
+      }
+    }
+  ]
+}
