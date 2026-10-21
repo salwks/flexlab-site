@@ -1,0 +1,337 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-005",
+  "scope": "Landscape, orchid, bird-and-flower, butterfly records 201-225",
+  "references": [
+    {
+      "title": "Wikimedia Commons - Sin Wi, Landscape (2)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sin_Wi,_Landscape_(2).gif",
+      "use": "201-203 한국어 작품명 ‘산수도’, 신위, 19세기 전반 정보 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Yu Suk, Gyesanchusaekdo",
+      "url": "https://commons.wikimedia.org/wiki/File:Yu_Suk,_Gyesanchusaekdo.jpg",
+      "use": "204 한국어 작품명 ‘계산추색도’와 작가 유숙 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Orchid in Hanging Basket by Kim Gyu-jin",
+      "url": "https://commons.wikimedia.org/wiki/File:'Orchid_in_Hanging_Basket',_ink_on_paper_by_Gim_Gyu-jin.JPG",
+      "use": "205 원 소장품 제목·작가·재료 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Orchids by Yi Ha-ung, Honolulu 13700.1",
+      "url": "https://commons.wikimedia.org/wiki/File:'Orchids'_by_Yi_Ha-ung,_Honolulu_Museum_of_Art,_accession_13700.1.JPG",
+      "use": "206 작가 이하응·19세기·소장품 번호 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 묵란",
+      "url": "https://encykorea.aks.ac.kr/Article/E0019313",
+      "use": "206 국내 미술사 용어 ‘묵란/묵란도’ 확인"
+    },
+    {
+      "title": "Journal of Korean Art and Archaeology - Honolulu Haehakbandodo",
+      "url": "https://www.ijkaa.org/assets/pdf/33/jkaa-12-45.pdf",
+      "use": "207 호놀룰루미술관 해학반도도 및 대한제국기 제작 연구 확인"
+    },
+    {
+      "title": "국립고궁박물관 - 해학반도도 특별전",
+      "url": "https://www.gogung.go.kr/gogung/bbs/BMSR00002/view.do?boardId=5567&menuNo=800040",
+      "use": "207 국내 표준 명칭 ‘해학반도도’와 도상 의미 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Brooklyn Flowers and Birds Songha",
+      "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Flowers_and_Birds_-_Songha.jpg",
+      "use": "208 원 파일 식별"
+    },
+    {
+      "title": "국립중앙박물관 - 허목 대나무",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=1064&schM=view&searchId=search",
+      "use": "209 허목 작품·다른 명칭 ‘묵죽도’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Heo Mok Wolyasamchong",
+      "url": "https://commons.wikimedia.org/wiki/File:Heo_Mok_by_Wolyasamchong.jpg",
+      "use": "210 한국어 작품명 ‘월야삼청’, 허목, 국립중앙박물관 소장 정보 확인"
+    },
+    {
+      "title": "Metropolitan Museum - Grapevine and Squirrels",
+      "url": "https://www.metmuseum.org/art/collection/search/40447",
+      "use": "212 작자미상·19세기 초·소장품 번호 1987.195 확인"
+    },
+    {
+      "title": "Metropolitan Museum - Grapevine in the Wind",
+      "url": "https://www.metmuseum.org/art/collection/search/36457",
+      "use": "213 16세기·작자미상·墨葡萄圖 명칭 확인"
+    },
+    {
+      "title": "Metropolitan Museum - Plum Branch",
+      "url": "https://www.metmuseum.org/art/collection/search/40445",
+      "use": "214 이유원·1888·한국어 메타데이터 ‘매화도’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Kim Hong-do Lotus-Dragonflies",
+      "url": "https://commons.wikimedia.org/wiki/File:Kim_Hong-do,_Lotus-Dragonflies.jpg",
+      "use": "215 한국어 작품명 ‘단원 김홍도 필 하화청정도’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Minhwa Hwajodo",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Hwajodo-flowers_and_birds-01.jpg",
+      "use": "216 한국어 작품명 ‘민화-화조도’ 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 남계우 군접도",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=36550348&schM=view",
+      "use": "217 ‘군접도’ 명칭과 남계우 작가 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 남계우",
+      "url": "https://encykorea.aks.ac.kr/Article/E0011782",
+      "use": "217-223 화접도·군접도 중심의 남계우 작품세계와 국내 용어 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Nam Gye-u Hojeopdo",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Nam_Gyeowoo-Hojeopdo-01.jpg",
+      "use": "218 한국어 작품명 ‘호접도’ 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 선조 어필 목판 난초도",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=106820&schM=view&searchId=search",
+      "use": "224 선조 난초 그림 관련 국내 명칭 대조. 동일 작품 여부는 미확인"
+    },
+    {
+      "title": "Wikimedia Commons - Konkuk University Museum category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Konkuk_University_Museum",
+      "use": "225 화접괴석도 파일의 박물관 관련 공개 분류 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 201,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 202,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 203,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 204,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 205,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "artist": "verified",
+        "era": "provisional"
+      },
+      "note": "국내 공식 소장품명 미확인."
+    },
+    {
+      "id": 206,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "정확한 국내 개별 소장품명보다는 국내 표준 장르명 ‘묵란도’ 적용."
+    },
+    {
+      "id": 207,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 208,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description"
+      },
+      "note": "Songha의 정확한 작가명/호 및 국내 정식 작품명 추가 확인 필요."
+    },
+    {
+      "id": 209,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 210,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 211,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 212,
+      "status": "verified",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 213,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 214,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 215,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 216,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 217,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 218,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 219,
+      "status": "provisional",
+      "fields": {
+        "title": "provisional",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "개별 정식 작품명 미확인."
+    },
+    {
+      "id": 220,
+      "status": "provisional",
+      "fields": {
+        "title": "provisional",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "개별 정식 작품명 미확인."
+    },
+    {
+      "id": 221,
+      "status": "provisional",
+      "fields": {
+        "title": "provisional",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "개별 정식 작품명 미확인."
+    },
+    {
+      "id": 222,
+      "status": "provisional",
+      "fields": {
+        "title": "provisional",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "개별 정식 작품명 미확인."
+    },
+    {
+      "id": 223,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 224,
+      "status": "provisional",
+      "fields": {
+        "title": "provisional"
+      },
+      "note": "선조 관련 난초 이미지인 것은 확인되나 국립중앙박물관의 ‘선조 어필 목판 난초도’와 동일 작품인지 미확인. 작가 메타데이터는 수정하지 않음."
+    },
+    {
+      "id": 225,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified"
+      },
+      "note": "파일·박물관 분류는 확인했으나 현행 박물관 정식 레코드 추가 확인 필요."
+    }
+  ]
+}
