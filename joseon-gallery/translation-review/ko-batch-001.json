@@ -1,0 +1,221 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-001",
+  "scope": "Foreign-titled chaekgeori/chaekgado records 115, 118-134 (116-117 held for exact identification)",
+  "references": [
+    {
+      "title": "한국민족문화대백과사전 - 책가도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0055679",
+      "use": "책거리와 책가도의 관계 및 국내 표준 용어 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 조선시대 책가도",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0501000000.do?pageSize=10&relicRecommendCategory=&relicRecommendId=562147&sc=&schM=view&sv=",
+      "use": "책가도·책거리 용례 및 이형록 계열 확인"
+    },
+    {
+      "title": "국가유산 지식이음 - 메트로폴리탄미술관 2005.385",
+      "url": "https://portal.nrich.go.kr/kor/overseasSearchView.do?menuIdx=840&mseq=25136",
+      "use": "작품 118의 국내 조사 명칭 ‘책가도 병풍’ 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 이택균",
+      "url": "https://encykorea.aks.ac.kr/Article/E0046526",
+      "use": "이형록→이응록→이택균 개명 및 작품군 확인"
+    },
+    {
+      "title": "서울특별시 - 이택균 필 책가도 병풍",
+      "url": "https://news.seoul.go.kr/culture/archives/507782",
+      "use": "개명 연도와 책가도 명칭 교차 확인"
+    },
+    {
+      "title": "Cleveland Museum of Art - Munja-Chaekgeori Screen 2017.6",
+      "url": "https://www.clevelandart.org/art/2017.6",
+      "use": "작품 115 원제 및 한국어 원제 ‘문자책거리’ 확인"
+    },
+    {
+      "title": "Cleveland Museum of Art - Books and Scholars’ Accoutrements 2011.37",
+      "url": "https://www.clevelandart.org/art/2011.37",
+      "use": "작품 132 작가 이택균·한국어 제목 ‘책가도’ 및 10폭 병풍 확인"
+    },
+    {
+      "title": "Museum of Fine Arts Boston 1984.824a-d",
+      "url": "https://collections.mfa.org/objects/22951/bookshelf-chaekgado",
+      "use": "작품 119-122의 원 소장품 정보 확인"
+    },
+    {
+      "title": "Philadelphia Museum of Art 2002-74-1",
+      "url": "https://www.philamuseum.org/collection/object/148930",
+      "use": "작품 123의 원 소장품 정보 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 115,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "desc": "verified"
+      },
+      "note": "Cleveland가 한국어 원제를 ‘문자책거리’로 직접 제공."
+    },
+    {
+      "id": 118,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "desc": "verified"
+      },
+      "note": "국가유산 지식이음에서 accession 2005.385의 한글 명칭을 ‘책가도 병풍’으로 확인."
+    },
+    {
+      "id": 119,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      },
+      "note": "원 소장품은 Chaekgado로 확인되며 국내 용어 체계상 책가도. 개별 한국 공식명은 미확인."
+    },
+    {
+      "id": 120,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      },
+      "note": "119와 동일 작품 세트."
+    },
+    {
+      "id": 121,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      },
+      "note": "119와 동일 작품 세트."
+    },
+    {
+      "id": 122,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      },
+      "note": "119와 동일 작품 세트."
+    },
+    {
+      "id": 123,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "verified"
+      },
+      "note": "원 소장품이 Ch'aekkori Screen으로 확인되어 국내 표준 용어 ‘책거리 병풍’ 적용."
+    },
+    {
+      "id": 124,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      },
+      "note": "파일 원제의 chaekgeori + munjado를 국내 용어에 맞게 보수적으로 번역."
+    },
+    {
+      "id": 125,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      },
+      "note": "Chaekgeori를 국내 상위 개념 ‘책거리’로 적용."
+    },
+    {
+      "id": 126,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "desc": "verified"
+      },
+      "note": "이응록이 이형록의 1864년 개명명임을 국내 자료로 확인. 정확한 소장품 정식명은 추가 확인 필요."
+    },
+    {
+      "id": 127,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 128,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 129,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 130,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 131,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 132,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "desc": "verified"
+      },
+      "note": "Cleveland가 한국어 제목 ‘책가도’, 작가 ‘이택균’을 직접 제공."
+    },
+    {
+      "id": 133,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    },
+    {
+      "id": 134,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "desc": "provisional"
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "id": 116,
+      "reason": "파일명만으로 정확한 작품명·소장품 식별이 불충분해 보류"
+    },
+    {
+      "id": 117,
+      "reason": "파일명만으로 정확한 작품명·소장품 식별이 불충분해 보류"
+    }
+  ]
+}
