@@ -23,6 +23,16 @@ function candidates(html,base){
  for(const m of html.matchAll(/["'](https?:\/\/ids\.si\.edu\/ids\/deliveryService\?[^"']+)["']/gi))a.push(abs(base,m[1]));
  return [...new Set(a.filter(x=>x&&!badCandidate(x)))]
 }
+function candidateLabels(html,base){
+ const m=new Map();
+ for(const t of html.match(/<img\\b[^>]*>/gi)||[]){
+  const label=[attr(t,'alt'),attr(t,'title'),attr(t,'aria-label')].filter(Boolean).join(' ');
+  for(const n of ['src','data-src','data-original','data-lazy-src','data-image','data-url']){const u=abs(base,attr(t,n));if(u&&label)m.set(u,(m.get(u)||'')+' '+label)}
+  const ss=attr(t,'srcset')||attr(t,'data-srcset');if(ss)for(const p of ss.split(',')){const u=abs(base,p.trim().split(/\\s+/)[0]);if(u&&label)m.set(u,(m.get(u)||'')+' '+label)}
+ }
+ return m
+}
+function labelScore(label,title){const low=String(label||'').normalize('NFKC').toLowerCase();let n=0;for(const tok of workTokens(title))if(low.includes(tok))n+=260;return n}
 function badCandidate(u){
  const s=(u||'').toLowerCase();
  return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|adsrvr|casalemedia|criteo|taboola|outbrain|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|social[_-]?metadata|social[_-]?(?:share|default)|metadata[_-]?default|default[_-]?(?:image|og|social)|image[_-]?not[_-]?available|not[_-]?available|no[_-]?(?:image|photo)|missing[_-]?image|\/og\.(?:jpe?g|png|webp)(?:\?|$)|\/assets?\/images?\/og\.(?:jpe?g|png|webp)|og[_-]?image\.(?:jpe?g|png|webp)|(?:^|[\/_-])ogp(?:[\/_-]|\.|$)|\/common\/ogimage\.|\/images\/layout\/|breadcrumbs?|header[_-]?flag|(?:^|[\/_-])poster(?:[\/_-]|\.|$)|l-breadcrumbs|\/layout\/renew\/|\/_next\/static\/media\/|centennial-celebration-tile|\/kogl\/|img[_-]?opentype|open[_-]?type0?1/.test(s);
@@ -129,7 +139,7 @@ async function resolveImage(target,context={}){
  try{
    const r=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,application/xhtml+xml,*/*;q=0.8','accept-language':'en-US,en;q=0.8,ko;q=0.7'}});
    if(r.ok){
-     const html=await r.text(),cs=candidates(html,r.url).sort((a,b)=>scoreForWork(b,workTitle)-scoreForWork(a,workTitle));
+     const html=await r.text(),labels=candidateLabels(html,r.url),cs=candidates(html,r.url).sort((a,b)=>(scoreForWork(b,workTitle)+labelScore(labels.get(b),workTitle))-(scoreForWork(a,workTitle)+labelScore(labels.get(a),workTitle)));
      const ok=await pickVerifiedImage(cs);if(ok)return ok;
      pageErr='no image';
    }else pageErr='page '+r.status;
