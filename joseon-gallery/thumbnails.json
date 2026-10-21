@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 838,
-  "unresolved": 190,
+  "count": 832,
+  "unresolved": 196,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5737,31 +5737,10 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
-    "1012": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
-      "source": "국립민속박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "1013": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
-      "source": "국립민속박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "1014": {
       "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
       "image": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
       "source": "국립민속박물관 · 소장유물 이미지",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "1015": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
-      "source": "국립민속박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
@@ -5800,13 +5779,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "1024": {
-      "thumbnail": "https://www.nfm.go.kr/img/main/header_flag.png",
-      "image": "https://www.nfm.go.kr/img/main/header_flag.png",
-      "source": "국립민속박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "1025": {
       "thumbnail": "https://www.nfm.go.kr/images/Display/2016threekingdoms_01.jpg",
       "image": "https://www.nfm.go.kr/images/Display/2016threekingdoms_01.jpg",
@@ -5814,26 +5786,12 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "1026": {
-      "thumbnail": "https://www.nfm.go.kr/images/Display/2016threekingdoms_poster-s.jpg",
-      "image": "https://www.nfm.go.kr/images/Display/2016threekingdoms_poster-s.jpg",
-      "source": "국립민속박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "1027": {
       "thumbnail": "https://www.nfm.go.kr/images/Display/2016threekingdoms_03.jpg",
       "image": "https://www.nfm.go.kr/images/Display/2016threekingdoms_03.jpg",
       "source": "국립민속박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "1028": {
-      "thumbnail": "https://www.nfm.go.kr/images/Display/2016threekingdoms_poster-s.jpg",
-      "image": "https://www.nfm.go.kr/images/Display/2016threekingdoms_poster-s.jpg",
-      "source": "국립민속박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "1030": {
       "thumbnail": "https://nfm.go.kr/site/home/images/display/2024/2024_cat_01.jpg",
