@@ -1,0 +1,351 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-004",
+  "scope": "Landscape and related records 176-200",
+  "references": [
+    {
+      "title": "간송미술문화재단 - 담담정",
+      "url": "https://kansong.org/foundation/index.do?clctn_dcd=ART_00025_02&clctn_id=CLCTN_00000104&menu_id=00004389&menu_link=%2Ffront%2Fclctn%2FdetailCollectionFront.do&pageIndex=1&pageUnitF=12&searchCondition6=&searchKeyword=%EA%B9%80%EC%84%9D%EC%8B%A0",
+      "use": "177 작품명·작가 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 김석신",
+      "url": "https://encykorea.aks.ac.kr/Article/E0009412",
+      "use": "177·179 작가와 도봉첩 확인"
+    },
+    {
+      "title": "공유마당 - 강희안 산수도",
+      "url": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?menuNo=200018&wrtSn=13216250",
+      "use": "180 작품명·작가 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 강산무진도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0001180",
+      "use": "181 작품명·작가·국립중앙박물관 소장 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 고사관수도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0003629",
+      "use": "183 작품명·작가 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 소상팔경도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0030119",
+      "use": "184 평사낙안의 국내 미술사 용어 확인"
+    },
+    {
+      "title": "Metropolitan Museum of Art - Wild Geese Descending to Sandbar",
+      "url": "https://www.metmuseum.org/toah/ho/08/eak/hob_1992.337.htm",
+      "use": "184 소장처·시대·도상 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 금궤도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0007628",
+      "use": "185 작품명·조속·1656년 확인"
+    },
+    {
+      "title": "국가유산포털 - 김홍도 필 추성부도",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121113930000&pageNo=1_1_2_0",
+      "use": "186-187 작품명·작가·1805년 확인"
+    },
+    {
+      "title": "국가유산포털 - 김홍도 필 삼공불환도",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=0020000000000&ccbaCpno=1121120000000&ccbaCtcd=11&ccbaKdcd=12&pageNo=1_1_1_0",
+      "use": "188 작품명·작가 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 김명국",
+      "url": "https://encykorea.aks.ac.kr/Article/E0009105",
+      "use": "190-193 김명국의 사시팔경도 작품군 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 강세황 영통동구도",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0701040000.do?arcId=4578&catCustomType=post&catId=93&cp=231&schM=view&sv=",
+      "use": "194 작품명·작가·송도기행첩 확인"
+    },
+    {
+      "title": "Metropolitan Museum of Art - Evening Bell from Mist-Shrouded Temple",
+      "url": "https://www.metmuseum.org/art/collection/search/50897",
+      "use": "195 안견 화풍·연사모종 도상·연대 확인"
+    },
+    {
+      "title": "KCI - 조선 전기 회화와 연사모종",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002844391",
+      "use": "195 ‘연사모종’ 국내 미술사 용어 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Maehwaseo",
+      "url": "https://commons.wikimedia.org/wiki/File:Maehwaseo.jpg",
+      "use": "196 조희룡·매화서옥도 식별"
+    },
+    {
+      "title": "공유마당 - 장승업 저작자 목록",
+      "url": "https://gongu.copyright.or.kr/gongu/authr/authr/viewWrtrPage.do?authrSn=2390&menuNo=200186&pageIndex=2&pageSize=10&pageUnit=12&wrtFileTy=02",
+      "use": "199 산수인물도·200 왕희지관아도 작품명 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 몽유도원도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0018824",
+      "use": "178·198 작품명·작가 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 176,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "공개 파일이 김홍도 분류에 속하고 국내에서 ‘총석정’ 명칭이 확립됨. 정확한 화첩 소속은 추가 대조 필요."
+    },
+    {
+      "id": 177,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 178,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified"
+      },
+      "duplicateCandidateOf": 156
+    },
+    {
+      "id": 179,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 180,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 181,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 182,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 183,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 184,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 185,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 186,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 187,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      },
+      "duplicateCandidateOf": 186
+    },
+    {
+      "id": 188,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 189,
+      "status": "provisional",
+      "fields": {
+        "title": "provisional",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "정식 소장품명 미확인."
+    },
+    {
+      "id": 190,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 191,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 192,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 193,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 194,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 195,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified_attribution",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 196,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 197,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 198,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified"
+      },
+      "duplicateCandidateOf": 156
+    },
+    {
+      "id": 199,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 200,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": 178,
+      "duplicateOf": 156,
+      "reason": "몽유도원도 동일 작품의 다른 공개 이미지"
+    },
+    {
+      "id": 187,
+      "duplicateOf": 186,
+      "reason": "추성부도 동일 작품의 다른 해상도 이미지"
+    },
+    {
+      "id": 198,
+      "duplicateOf": 156,
+      "reason": "몽유도원도 동일 작품의 다른 공개 이미지"
+    },
+    {
+      "id": 153,
+      "duplicateOf": 132,
+      "reason": "Cleveland 2011.37 이택균 책가도 동일 작품의 다른 파일"
+    }
+  ]
+}
