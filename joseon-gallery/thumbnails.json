@@ -1,7 +1,7 @@
 {
   "version": "2026-10-21",
-  "generatedFrom": "works.json 2026-10-20",
-  "count": 840,
+  "generatedFrom": "works.json 2026-10-21",
+  "count": 979,
   "unresolved": 188,
   "thumbnails": {
     "1": {
@@ -5883,6 +5883,979 @@
       "source": "아모레퍼시픽미술관 · 전시검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "1037": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1038": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1039": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1040": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1041": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0010_0050.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1042": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1043": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1044": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1045": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1046": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0050.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1047": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0060.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0060.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1048": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0070.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0070.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1049": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0080.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0080.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1050": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0090.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0090.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1051": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0100.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0020_0100.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1052": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1053": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1054": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1055": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1056": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0050.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1057": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0060.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0060.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1058": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0070.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0070.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1059": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0080.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0080.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1060": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0090.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0090.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1061": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0100.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0100.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1062": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0110.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0110.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1063": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0120.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0030_0120.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1064": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1065": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1066": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1067": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1068": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0050.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1069": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0060.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0060.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1070": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0070.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0070.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1071": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0080.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0080.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1072": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0090.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0090.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1073": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0100.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0100.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1074": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0110.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0110.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1075": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0120.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0120.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1076": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0130.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0130.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1077": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0140.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0140.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1078": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0150.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0150.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1079": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0160.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0160.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1080": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0170.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0170.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1081": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0180.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0180.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1082": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0190.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0190.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1083": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0200.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0200.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1084": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0210.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0210.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1085": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0220.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0220.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1086": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0230.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0230.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1087": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0240.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0240.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1088": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0250.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0250.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1089": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0260.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0260.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1090": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0270.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0270.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1091": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0280.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0280.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1092": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0290.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0290.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1093": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0300.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0300.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1094": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0310.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0310.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1095": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0320.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0320.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1096": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0330.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0330.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1097": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0340.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0340.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1098": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0350.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0350.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1099": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0360.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0360.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1100": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0370.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0370.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1101": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0380.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0380.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1102": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0390.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0390.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1103": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0400.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0400.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1104": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0410.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0040_0410.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1105": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1106": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1107": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1108": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1109": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0050.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1110": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0060.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0050_0060.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1111": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0060_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0060_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1112": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0060_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0060_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1113": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0060_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0060_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1114": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1115": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1116": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1117": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1118": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0050.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1119": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0060.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0060.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1120": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0070.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0070.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1121": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0080.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0080.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1122": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0090.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0090.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1123": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0100.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0070_0100.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1124": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0080_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0080_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1125": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0080_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0080_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1126": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1127": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1128": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1129": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0090_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1130": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0010.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1131": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0020.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1132": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0030.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1133": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0040.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1134": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0010_0100_0050.jpg",
+      "source": "국사편찬위원회 · 스미소니언 자연사박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1135": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1136": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0020.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1137": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0030.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1138": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0040.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1139": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0020_0050.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1140": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1141": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0020.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1142": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0030.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1143": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0030_0040.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1144": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1145": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0020.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1146": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0030.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1147": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0040.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1148": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0050.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0050.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1149": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0060.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0060.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1150": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0070.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0070.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1151": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0080.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0080.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1152": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0090.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0090.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1153": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0100.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0100.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1154": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0110.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0040_0110.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1155": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0050_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0050_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1156": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0060_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0060_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1157": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1158": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0020.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1159": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0030.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1160": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0070_0040.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1161": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0080_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0080_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1162": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0080_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0080_0020.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1163": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0090_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0090_0010.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1164": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0090_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0020_0090_0020.jpg",
+      "source": "국사편찬위원회 · 국립민속박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1165": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0010_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0010_0010.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1166": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0020_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0020_0010.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1167": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0030_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0030_0010.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1168": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0030_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0030_0020.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1169": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0030_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0030_0030.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1170": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0010.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1171": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0020.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1172": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0030.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0030.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1173": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0040.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0040_0040.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1174": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0050_0010.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0050_0010.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1175": {
+      "thumbnail": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0050_0020.jpg",
+      "image": "https://contents.history.go.kr/data/img/mp/mp_009/thumb/mp_009_0030_0050_0020.jpg",
+      "source": "국사편찬위원회 · 국립중앙박물관 · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     }
   }
 }
