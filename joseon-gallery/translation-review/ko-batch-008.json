@@ -1,0 +1,338 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-008",
+  "scope": "Buddhist, ritual and documentary records 276-300",
+  "references": [
+    {
+      "title": "한국민족문화대백과사전 - 염불서승도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0037098",
+      "use": "276 정식 작품명·김홍도·조선 후기 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 김명국 달마절로도강",
+      "url": "https://commons.wikimedia.org/wiki/File:Kim_Myeongguk-Bodhidharma_crossing_a_river_with_a_broken_branch.jpg",
+      "use": "277 한국어 작품명 ‘달마절로도강’, 김명국, 국립중앙박물관 소장 정보 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 사천왕",
+      "url": "https://encykorea.aks.ac.kr/Article/E0026023",
+      "use": "278 동방 지국천왕 국내 명칭과 도상 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 현왕도",
+      "url": "https://www.museum.go.kr/site/main/relic/search/view?relicId=2260",
+      "use": "279 현왕도 국내 표준 명칭과 기능 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 서산대사 진영",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=1831&schM=view&searchId=search",
+      "use": "280·284 국내 표준 명칭 ‘서산대사 진영’ 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 팔상",
+      "url": "https://encykorea.aks.ac.kr/Article/E0079416",
+      "use": "281 The Great Renunciation을 국내 팔상도 용어 ‘유성출가상’으로 대조"
+    },
+    {
+      "title": "Kimbell Art Museum - Arhat and Deer",
+      "url": "https://kimbellart.org/collection/ap-199506",
+      "use": "282 17세기 후반 조선·나한과 사슴·산신 도상 혼합 설명 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 합천 해인사 지장시왕도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071255",
+      "use": "283 정식 국가유산 명칭·1739년·화승 정보 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 저승사자 중 감재사자",
+      "url": "https://www.museum.go.kr/site/main/relic/search/view?relicId=1162",
+      "use": "285 ‘저승사자/사자도’ 국내 명칭 체계 확인. 개별 사자 식별은 보류"
+    },
+    {
+      "title": "Honolulu Museum source via Wikimedia - Shakyamuni and the Eight Great Bodhisattvas",
+      "url": "https://commons.wikimedia.org/wiki/File:Shakyamuni_and_the_Eight_Great_Bodhisattvas,_Korea,_Chos%C3%B4n_Dynasty,_16th_Cent.,_ink,_color_%26_gold_on_silk.jpg",
+      "use": "286 16세기 조선·석가와 팔대보살·호놀룰루 소장 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 팔상도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0059745",
+      "use": "287 국내 도상명 ‘설산수도상’ 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 경주 불국사 영산회상도 및 사천왕 벽화",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071249",
+      "use": "288-290 정식 명칭·1769년·구성·화승 정보 확인"
+    },
+    {
+      "title": "국가유산포털 - 불영사 영산회상도",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123712720000&pageNo=1_1_1_1",
+      "use": "291 정식명·1733년 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 감모여재도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0000752",
+      "use": "292·298 감모여재도 국내 용어·용도와 제작시기 경향 확인"
+    },
+    {
+      "title": "연합뉴스 - 호놀룰루미술관 1586년 계회도",
+      "url": "https://www.yna.co.kr/view/AKR20140226058551009",
+      "use": "293 1586년 계회도 국내 문화유산 조사 맥락 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Scholarly Gathering 2015-36-01",
+      "url": "https://commons.wikimedia.org/wiki/File:%27Scholarly_Gathering%27,_Joseon_dynasty,_c._1586,_Honolulu_Museum_of_Art_2015-36-01.jpg",
+      "use": "293 소장품 번호·연대·작자미상 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 춘향전도",
+      "url": "https://commons.wikimedia.org/wiki/File:Chunhyangjeondo.jpg",
+      "use": "296-297 한국어 작품명 ‘춘향전도’·경희대학교박물관 소장 확인"
+    },
+    {
+      "title": "국가유산포털 - 경기감영도 병풍",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=12%2C13940000%2C11",
+      "use": "299-300 정식명·12폭·19세기·삼성문화재단 소장 확인"
+    },
+    {
+      "title": "국가유산 지식이음 - 경기감영도 병풍",
+      "url": "https://portal.nrich.go.kr/kor/documentaryNdUsrView.do?documentary_idx=22&menuIdx=1333",
+      "use": "299-300 기록화 성격·재질·규격 교차 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 경기감영도 경기감영 부분",
+      "url": "https://commons.wikimedia.org/wiki/File:Gyeonggi-gamyeong-do2.jpg",
+      "use": "300 동일 작품의 경기감영 확대 부분임을 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 276,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 277,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 278,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 279,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "themes": "verified"
+      }
+    },
+    {
+      "id": 280,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "subject": "verified"
+      }
+    },
+    {
+      "id": 281,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 282,
+      "status": "verified",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 283,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 284,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "subject": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 285,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "themes": "verified"
+      },
+      "note": "원 공개파일은 ‘Underworld messenger’까지만 제공. 감재사자/직부사자 개별 식별은 하지 않음."
+    },
+    {
+      "id": 286,
+      "status": "verified",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 287,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 288,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical"
+      }
+    },
+    {
+      "id": 289,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical"
+      }
+    },
+    {
+      "id": 290,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 291,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 292,
+      "status": "provisional",
+      "fields": {
+        "title": "canonical_term",
+        "date": "conflict"
+      },
+      "note": "호놀룰루 원자료는 17세기이나 국내 연구에서는 감모여재도가 주로 19세기 이후 집중. 연대 재검증 필요."
+    },
+    {
+      "id": 293,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 294,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_term"
+      },
+      "note": "국내 정식 소장품명 미확인."
+    },
+    {
+      "id": 295,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description"
+      },
+      "note": "파일만으로 정확한 소장품과 장면 식별 불충분."
+    },
+    {
+      "id": 296,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "desc": "verified"
+      },
+      "duplicateCandidateOf": 297
+    },
+    {
+      "id": 297,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 298,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "themes": "corrected"
+      }
+    },
+    {
+      "id": 299,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 300,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical"
+      },
+      "duplicateCandidateOf": 299
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": 296,
+      "duplicateOf": 297,
+      "reason": "춘향전도 동일 작품 또는 동일 연속화의 다른 공개 이미지"
+    },
+    {
+      "id": 300,
+      "duplicateOf": 299,
+      "reason": "경기감영도 병풍 중 경기감영 부분 확대 이미지"
+    }
+  ]
+}
