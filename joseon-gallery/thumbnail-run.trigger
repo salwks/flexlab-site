@@ -1,3 +1,3 @@
-run=2026-10-21T16:50:00+09:00
-source=부산박물관 · 직접검증
-limit=1
+run=2026-10-21T17:00:00+09:00
+source=Museum für Asiatische Kunst Berlin · 조선회화
+limit=2
