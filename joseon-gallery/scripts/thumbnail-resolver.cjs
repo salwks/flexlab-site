@@ -68,7 +68,7 @@ async function pickVerifiedImage(cs){
    const r=await fetchRetry(u,{redirect:'follow',headers:{'user-agent':UA,'accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'}},2);
    const ct=(r.headers.get('content-type')||'').toLowerCase();
    if(r.body&&r.body.cancel)try{await r.body.cancel()}catch(_){}
-   if(r.ok&&ct.startsWith('image/'))return u;
+   if(r.ok&&ct.startsWith('image/')){const finalUrl=r.url||u;if(/^https:\/\//i.test(finalUrl))return finalUrl;}
   }catch(_){}
  }
  return '';
