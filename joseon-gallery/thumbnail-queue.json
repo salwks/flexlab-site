@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 196,
+  "total": 190,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -8,7 +8,6 @@
     "Museum of Fine Arts Houston · 조선회화": 12,
     "Seattle Art Museum · 조선회화": 9,
     "British Museum · 조선회화": 7,
-    "국립민속박물관 · 직접검증": 6,
     "국립민속박물관 · 소장품": 5,
     "Brooklyn Museum · 조선회화": 3,
     "아모레퍼시픽미술관 · 전시검증": 3,
@@ -1892,36 +1891,6 @@
       "lastChecked": ""
     },
     {
-      "id": 1012,
-      "title": "의기 계월향 초상",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1013,
-      "title": "산수화 · 원산항",
-      "artist": "김준근",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1015,
-      "title": "금강산춘경도",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
       "id": 1021,
       "title": "십장생도 (소장번호 31254)",
       "artist": "작자미상",
@@ -1947,36 +1916,6 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1024,
-      "title": "수계도권",
-      "artist": "유숙",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/home/1426/userVideoChannelDetail.do?no=549",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1026,
-      "title": "삼국지연의도 · 유비·관우·장비가 도원에서 의형제를 맺다",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1028,
-      "title": "삼국지연의도 · 여몽이 관우 신령의 벌을 받아 피를 흘리고 죽다",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527",
       "status": "pending",
       "error": "",
       "lastChecked": ""
