@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 1007,
-  "unresolved": 160,
+  "count": 1017,
+  "unresolved": 150,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3353,6 +3353,76 @@
     "482": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/c7f02a6b_216f_4bc5_a6ba_b32b00ad8509/preview_042_pouding_grain.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/c7f02a6b_216f_4bc5_a6ba_b32b00ad8509/preview_042_pouding_grain.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "483": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/17d4acf5_b857_4caa_9a40_b32b00ae0306/preview_043_seedling.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/17d4acf5_b857_4caa_9a40_b32b00ae0306/preview_043_seedling.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "484": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9521fa6b_23d5_4005_86c5_b32b00ae671c/preview_044_pouding.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9521fa6b_23d5_4005_86c5_b32b00ae671c/preview_044_pouding.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "485": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/de481654_4410_4b95_87ca_b32b00b00b2f/preview_045_monks_playing_cymbals.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/de481654_4410_4b95_87ca_b32b00b00b2f/preview_045_monks_playing_cymbals.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "486": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/be5cb098_e5fa_422e_9b4d_b32b00b0b10d/preview_046_man_loading_on_a_cow.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/be5cb098_e5fa_422e_9b4d_b32b00b0b10d/preview_046_man_loading_on_a_cow.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "487": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/3785c30a_2576_423d_976d_b32b00b11934/preview_047_hemp_cropping.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/3785c30a_2576_423d_976d_b32b00b11934/preview_047_hemp_cropping.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "488": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/6c21aa01_f5ac_45e9_8ddc_b32b00b184c4/preview_048_ladies_with_water_jars.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/6c21aa01_f5ac_45e9_8ddc_b32b00b184c4/preview_048_ladies_with_water_jars.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "489": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/34e55079_ab3a_4a57_872d_b32b00b1ec57/preview_049_the_poor_mom_and_children_.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/34e55079_ab3a_4a57_872d_b32b00b1ec57/preview_049_the_poor_mom_and_children_.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "490": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/8a34e5b2_7e17_477a_b833_b32b00b2643e/preview_050_buying_drinks.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/8a34e5b2_7e17_477a_b833_b32b00b2643e/preview_050_buying_drinks.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "491": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/b3b3f120_3385_4cb7_bce8_b32b00b2e083/preview_051_ladies_going_out.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/b3b3f120_3385_4cb7_bce8_b32b00b2e083/preview_051_ladies_going_out.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "492": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/4a3d7d17_3139_442e_bf7d_b32b00b34827/preview_052_mulberry_picking.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/4a3d7d17_3139_442e_bf7d_b32b00b34827/preview_052_mulberry_picking.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-21"

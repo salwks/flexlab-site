@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
-  "total": 160,
+  "total": 150,
   "bySource": {
-    "British Museum · 김준근": 73,
+    "British Museum · 김준근": 63,
     "Museum of Fine Arts Boston · 조선회화": 15,
     "Asian Art Museum · 조선회화": 13,
     "Museum of Fine Arts Houston · 조선회화": 12,
@@ -26,106 +26,6 @@
     "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
-    {
-      "id": 483,
-      "title": "기산 풍속화 · British Museum OA+,0.482.43",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-43",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 484,
-      "title": "쌀 스는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-44",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 485,
-      "title": "중 바라치고 태종치는 양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-45",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 486,
-      "title": "소에게 짐 싣는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-46",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 487,
-      "title": "베나무 베는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-47",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 488,
-      "title": "부녀 물 긷는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-48",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 489,
-      "title": "빈천한 부녀 외행 출입하는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-49",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 490,
-      "title": "술 사먹는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-50",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 491,
-      "title": "부녀 외행 출입하는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-51",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 492,
-      "title": "뽕 따는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-52",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
     {
       "id": 493,
       "title": "시집가는 데 세간발이",
