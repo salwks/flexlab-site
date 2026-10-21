@@ -1,3 +1,3 @@
-run=2026-10-21T16:20:00+09:00
-source=Museum of Fine Arts Houston · 조선회화
-limit=3
+run=2026-10-21T16:25:00+09:00
+source=국립민속박물관 · 직접검증
+limit=6
