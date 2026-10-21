@@ -1,4 +1,4 @@
-name: Probe British Museum Kim Jun-geun API
+name: Rebuild British Museum Kim Jun-geun thumbnails
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  probe:
+  rebuild:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,18 +18,104 @@ jobs:
           ref: joseon-gallery
           fetch-depth: 0
 
-      - name: Probe British Museum search API
+      - name: Fetch all Kim Jun-geun records
         shell: bash
         run: |
           set -euo pipefail
-          URL='https://www.britishmuseum.org/api/_search?keyword[]=OA%2B%2C0.482.2'
-          echo 'DIRECT:'
-          curl -L --max-time 20 -A 'Mozilla/5.0' -sS -D /tmp/direct.h "$URL" -o /tmp/direct.out || true
-          head -n 20 /tmp/direct.h || true
-          head -c 3000 /tmp/direct.out || true
-          echo
-          echo 'JINA:'
-          JINA='https://r.jina.ai/https://www.britishmuseum.org/api/_search?keyword%5B%5D=OA%2B%2C0.482.2'
-          curl -L --max-time 30 -A 'Mozilla/5.0' -sS -D /tmp/jina.h "$JINA" -o /tmp/jina.out || true
-          head -n 20 /tmp/jina.h || true
-          head -c 5000 /tmp/jina.out || true
+          URL='https://r.jina.ai/https://www.britishmuseum.org/api/_search?keyword%5B%5D=BIOG11475%26size=200'
+          curl -L --max-time 60 -A 'Mozilla/5.0' -sS "$URL" -o /tmp/bm.txt
+          node <<'NODE'
+          const fs=require('fs');
+          const txt=fs.readFileSync('/tmp/bm.txt','utf8');
+          const i=txt.indexOf('{');
+          if(i<0) throw new Error('No JSON returned');
+          const json=JSON.parse(txt.slice(i));
+          const hits=json?.hits?.hits||[];
+          console.log(JSON.stringify({total:json?.hits?.total,hits:hits.length}));
+          fs.writeFileSync('/tmp/bm.json',JSON.stringify(json));
+          if(hits.length<140) process.exit(2);
+          NODE
+
+      - name: Update works and thumbnails
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs=require('fs');
+          const wdoc=JSON.parse(fs.readFileSync('joseon-gallery/works.json','utf8'));
+          const tdoc=JSON.parse(fs.readFileSync('joseon-gallery/thumbnails.json','utf8'));
+          const api=JSON.parse(fs.readFileSync('/tmp/bm.json','utf8'));
+          const hits=api.hits.hits||[];
+          const byReg=new Map();
+          for(const h of hits){
+            const s=h._source||{};
+            const ids=s.identifier||[];
+            const reg=ids.find(x=>x.registration_number)?.registration_number;
+            if(!reg||!/^OA\+,0\.482\.(\d+)$/.test(reg)) continue;
+            const n=Number(reg.match(/(\d+)$/)[1]);
+            if(n<1||n>152) continue;
+            const mm=(s.multimedia||[]).find(x=>x?.['@processed']?.preview?.location) || (s.multimedia||[])[0];
+            const loc=mm?.['@processed']?.preview?.location||'';
+            const title=(s.title&&Array.isArray(s.title)?s.title[0]?.value:s.title?.value)||s.summary?.title||'';
+            byReg.set(n,{n,reg,title,loc});
+          }
+          console.log(JSON.stringify({matched:byReg.size}));
+          if(byReg.size<140) process.exit(3);
+
+          let updated=0, withThumb=0;
+          for(const w of wdoc.works){
+            if(w.source!=='British Museum · 김준근') continue;
+            const m=String(w.url||'').match(/A_OA-0-482-(\d+)/);
+            if(!m) continue;
+            const n=Number(m[1]), r=byReg.get(n);
+            if(!r) continue;
+            if(r.title) w.title=r.title;
+            w.url='https://www.britishmuseum.org/collection/object/A_OA-0-482-'+n;
+            w.desc='British Museum Kim Jun-geun (BIOG11475) 작가 페이지에 연결된 작품. 등록번호 '+r.reg+'.';
+            w.credit='British Museum / Kim Jun-geun (BIOG11475)';
+            updated++;
+            if(r.loc){
+              const img='https://media.britishmuseum.org/media/'+r.loc;
+              tdoc.thumbnails[String(w.id)]={
+                thumbnail:img,
+                image:img,
+                source:'British Museum · 김준근',
+                verified:true,
+                verifiedAt:'2026-10-21'
+              };
+              withThumb++;
+            }
+          }
+          wdoc.version='2026-10-21';
+          wdoc.count=wdoc.works.length;
+          tdoc.version='2026-10-21';
+          tdoc.generatedFrom='works.json 2026-10-21';
+          tdoc.count=Object.values(tdoc.thumbnails||{}).filter(x=>x&&x.verified&&x.thumbnail).length;
+          tdoc.unresolved=wdoc.works.length-tdoc.count;
+          fs.writeFileSync('joseon-gallery/works.json',JSON.stringify(wdoc,null,2)+'\n');
+          fs.writeFileSync('joseon-gallery/thumbnails.json',JSON.stringify(tdoc,null,2)+'\n');
+
+          const unresolved=wdoc.works.filter(w=>!(tdoc.thumbnails[String(w.id)]&&tdoc.thumbnails[String(w.id)].verified&&tdoc.thumbnails[String(w.id)].thumbnail));
+          const q={version:'2026-10-21',total:unresolved.length,bySource:{},items:[]};
+          for(const w of unresolved){
+            q.bySource[w.source||'']=(q.bySource[w.source||'']||0)+1;
+            q.items.push({id:w.id,title:w.title||'',artist:w.artist||'',source:w.source||'',url:w.url||'',status:'pending',error:'',lastChecked:''});
+          }
+          q.bySource=Object.fromEntries(Object.entries(q.bySource).sort((a,b)=>b[1]-a[1]));
+          fs.writeFileSync('joseon-gallery/thumbnail-queue.json',JSON.stringify(q,null,2)+'\n');
+          console.log(JSON.stringify({updated,withThumb,totalVerified:tdoc.count,unresolved:tdoc.unresolved}));
+          if(updated!==152||withThumb<140) process.exit(4);
+          NODE
+
+      - name: Commit rebuilt British Museum records
+        shell: bash
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add joseon-gallery/works.json joseon-gallery/thumbnails.json joseon-gallery/thumbnail-queue.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Rebuild all British Museum Kim Jun-geun thumbnails"
+          git push origin joseon-gallery
