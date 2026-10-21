@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 201,
+  "total": 199,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -18,7 +18,6 @@
     "고려대학교박물관 · 전시검증": 2,
     "Princeton University Art Museum · 조선회화": 2,
     "도쿄국립박물관 · 전시검증": 2,
-    "Nelson-Atkins Museum of Art · 조선회화": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
     "Honolulu Museum of Art · 조선회화": 1,
@@ -1890,26 +1889,6 @@
       "artist": "작자미상",
       "source": "Spencer Museum of Art · 조선회화",
       "url": "https://spencerart.ku.edu/art/collections-online/object/59104",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 989,
-      "title": "관음보살 좌상 (Seated Avalokitesvara)",
-      "artist": "작자미상",
-      "source": "Nelson-Atkins Museum of Art · 조선회화",
-      "url": "https://art.nelson-atkins.org/objects/27099/seated-avalokitesvara",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 990,
-      "title": "관료 초상 (Portrait of Mandarin)",
-      "artist": "작자미상",
-      "source": "Nelson-Atkins Museum of Art · 조선회화",
-      "url": "https://art.nelson-atkins.org/objects/28346/portrait-of-mandarin",
       "status": "pending",
       "error": "",
       "lastChecked": ""

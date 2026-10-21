@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 827,
-  "unresolved": 201,
+  "count": 829,
+  "unresolved": 199,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5582,6 +5582,20 @@
       "source": "Spencer Museum of Art · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "989": {
+      "thumbnail": "https://art.nelson-atkins.org/internal/media/dispatcher/78357/preview",
+      "image": "https://art.nelson-atkins.org/internal/media/dispatcher/78357/preview",
+      "source": "Nelson-Atkins Museum of Art · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "990": {
+      "thumbnail": "https://art.nelson-atkins.org/internal/media/dispatcher/78347/preview",
+      "image": "https://art.nelson-atkins.org/internal/media/dispatcher/78347/preview",
+      "source": "Nelson-Atkins Museum of Art · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "992": {
       "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181129/1129111007572-b5264f90d28a429b904bc26e8dfb7276.jpg",
