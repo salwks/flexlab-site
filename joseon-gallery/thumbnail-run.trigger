@@ -1,3 +1,3 @@
-run=2026-10-21T15:17:00+09:00
-source=British Museum · 김준근
-limit=25
+run=2026-10-21T15:26:00+09:00
+source=Museum of Fine Arts Boston · 조선회화
+limit=15
