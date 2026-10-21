@@ -25,7 +25,7 @@ function candidates(html,base){
 }
 function badCandidate(u){
  const s=(u||'').toLowerCase();
- return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|adsrvr|casalemedia|criteo|taboola|outbrain|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|social[_-]?metadata|social[_-]?(?:share|default)|metadata[_-]?default|default[_-]?(?:image|og|social)|image[_-]?not[_-]?available|not[_-]?available|no[_-]?(?:image|photo)|missing[_-]?image|\/og\.(?:jpe?g|png|webp)(?:\?|$)|\/assets?\/images?\/og\.(?:jpe?g|png|webp)|\/images\/layout\/|breadcrumbs?|l-breadcrumbs|\/layout\/renew\/|\/_next\/static\/media\/|centennial-celebration-tile/.test(s);
+ return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|adsrvr|casalemedia|criteo|taboola|outbrain|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|social[_-]?metadata|social[_-]?(?:share|default)|metadata[_-]?default|default[_-]?(?:image|og|social)|image[_-]?not[_-]?available|not[_-]?available|no[_-]?(?:image|photo)|missing[_-]?image|\/og\.(?:jpe?g|png|webp)(?:\?|$)|\/assets?\/images?\/og\.(?:jpe?g|png|webp)|og[_-]?image\.(?:jpe?g|png|webp)|\/common\/ogimage\.|\/images\/layout\/|breadcrumbs?|l-breadcrumbs|\/layout\/renew\/|\/_next\/static\/media\/|centennial-celebration-tile/.test(s);
 }
 function score(u){
  const s=u.toLowerCase();if(badCandidate(s))return -9999;let n=0;
