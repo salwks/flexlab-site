@@ -1,0 +1,408 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-011",
+  "scope": "Portrait, attributed Shin Saimdang insect-and-plant paintings, and Donggwoldo records 351-375",
+  "references": [
+    {
+      "title": "Wikimedia Commons - 김시습 초상",
+      "url": "https://commons.wikimedia.org/wiki/File:%EA%B9%80%EC%8B%9C%EC%8A%B5_%EC%B4%88%EC%83%81.jpg",
+      "use": "351 김시습 초상·국가유산 자료 출처 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 송곡 이서우",
+      "url": "https://commons.wikimedia.org/wiki/File:%EC%86%A1%EA%B3%A1_%EC%9D%B4%EC%84%9C%EC%9A%B0.jpg",
+      "use": "352 이서우 초상·1709년 이전·작자미상 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 이덕형",
+      "url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EB%8D%95%ED%98%95.jpg",
+      "use": "353 이덕형 초상·동아대학교박물관 출처 확인"
+    },
+    {
+      "title": "국가유산포털 - 이덕형 초상 초본",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1122621050000&pageNo=1_1_1_1",
+      "use": "353 국내 국가유산 명칭 대조. 현재 파일과 지정 초본의 정확한 동일성은 확정하지 않음"
+    },
+    {
+      "title": "국가유산포털 - 이상길 초상",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121107920000&pageNo=1_1_1_1",
+      "use": "354-355 보물 정식명·소장처 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 이상길 초상 2",
+      "url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81_2.jpg",
+      "use": "354 동일 초상의 세부 공개 이미지 확인"
+    },
+    {
+      "title": "국가유산포털 - 충숙이공 영정",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=00690000&ccbaCpno=2111100690000&ccbaCtcd=11&ccbaKdcd=21&pageNo=1_1_1_1",
+      "use": "356 정식명·이상길 초상 계열 이모본 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 전 신사임당필 초충도",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=2061&schM=view&searchId=search",
+      "use": "357-366 공식 작품명과 작가 표기 ‘전 신사임당’ 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 초충도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0056973",
+      "use": "357-369 신사임당 전칭 초충도의 국내 귀속·작품군 용어 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Shin Saimdang Chochungdo 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-01.jpg",
+      "use": "367 가지와 방아깨비 장면·16세기 전반 원자료 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Shin Saimdang Chochungdo 02",
+      "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-02.jpg",
+      "use": "368 초충도 공개 원자료 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Shin Saimdang Chochungdo 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-03.jpg",
+      "use": "369 초충도 공개 원자료 확인"
+    },
+    {
+      "title": "국가유산포털 - 동궐도(동아대학교박물관)",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1112102490000&pageNo=1_1_1_1",
+      "use": "370·372-375 국보 동궐도 정식명·조선 후기 궁궐 기록화 확인"
+    },
+    {
+      "title": "국가유산포털 - 동궐도(고려대학교박물관)",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111102490000&pageNo=1_1_1_1",
+      "use": "371 동궐도 두 현존본의 존재 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 동궐도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0016756",
+      "use": "370-375 동궐도 제작 시기·두 현존본·궁궐 기록화 성격 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Donggwol-do",
+      "url": "https://commons.wikimedia.org/wiki/File:Donggwol-do.jpg",
+      "use": "370 동아대학교박물관본 공개파일 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Donhwamun Area",
+      "url": "https://commons.wikimedia.org/wiki/File:Donhwamun_Area.jpeg",
+      "use": "372 동아대학교본에서 추출한 돈화문 부분 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Honghwamun from Donggwoldo",
+      "url": "https://commons.wikimedia.org/wiki/File:Honghwamun_from_Donggwoldo.jpg",
+      "use": "373-374 동아대학교본에서 추출한 홍화문 부분 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Junghuidang (Donggwoldo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Junghuidang_(Donggwoldo).jpeg",
+      "use": "375 동아대학교본에서 추출한 중희당 부분 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 351,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "subject": "verified"
+      },
+      "duplicateCandidateOf": 306
+    },
+    {
+      "id": 352,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "subject": "verified"
+      }
+    },
+    {
+      "id": 353,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "subject": "verified"
+      },
+      "note": "국가유산 ‘이덕형 초상 초본’과 현재 공개파일의 동일성은 확정하지 않음."
+    },
+    {
+      "id": 354,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "subject": "verified"
+      },
+      "duplicateCandidateOf": 355
+    },
+    {
+      "id": 355,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "subject": "verified"
+      }
+    },
+    {
+      "id": 356,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "subject": "verified",
+        "relation": "verified"
+      },
+      "note": "이상길 초상의 이모본 계열이나 별도 문화유산이므로 중복 제거하지 않음."
+    },
+    {
+      "id": 357,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical_attribution",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 358,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 359,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 360,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 361,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 362,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 363,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 364,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 365,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 366,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "artist": "canonical_attribution"
+      },
+      "duplicateCandidateOf": 357
+    },
+    {
+      "id": 367,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "artist": "conservative_attribution",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 368,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "artist": "conservative_attribution",
+        "era": "verified"
+      },
+      "note": "개별 세부 작품명 추가 확인 필요."
+    },
+    {
+      "id": 369,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "artist": "conservative_attribution",
+        "era": "verified"
+      },
+      "note": "개별 세부 작품명 추가 확인 필요."
+    },
+    {
+      "id": 370,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical",
+        "version": "dong_a_verified"
+      }
+    },
+    {
+      "id": 371,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical"
+      },
+      "note": "공개파일의 고려대본/동아대본 판본 식별은 추가 확인."
+    },
+    {
+      "id": 372,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "dong_a_verified"
+      },
+      "duplicateCandidateOf": 370
+    },
+    {
+      "id": 373,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "dong_a_verified"
+      },
+      "duplicateCandidateOf": 370
+    },
+    {
+      "id": 374,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "dong_a_verified"
+      },
+      "duplicateCandidateOf": 373
+    },
+    {
+      "id": 375,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "version": "dong_a_verified"
+      },
+      "duplicateCandidateOf": 370
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": 351,
+      "duplicateOf": 306,
+      "reason": "무량사 전래 보물 김시습 초상의 다른 공개 이미지"
+    },
+    {
+      "id": 354,
+      "duplicateOf": 355,
+      "reason": "보물 이상길 초상의 부분/확대 이미지"
+    },
+    {
+      "id": 358,
+      "duplicateOf": 357,
+      "reason": "국립중앙박물관 신수3550 전 신사임당필 초충도의 다른 공개 이미지"
+    },
+    {
+      "id": 359,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 360,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 361,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 362,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 363,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 364,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 365,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 366,
+      "duplicateOf": 357,
+      "reason": "같은 소장품의 다른 공개 이미지"
+    },
+    {
+      "id": 372,
+      "duplicateOf": 370,
+      "reason": "동아대학교박물관본 동궐도의 돈화문 부분"
+    },
+    {
+      "id": 373,
+      "duplicateOf": 370,
+      "reason": "동아대학교박물관본 동궐도의 홍화문 부분"
+    },
+    {
+      "id": 374,
+      "duplicateOf": 373,
+      "reason": "홍화문 부분의 다른 해상도 공개파일"
+    },
+    {
+      "id": 375,
+      "duplicateOf": 370,
+      "reason": "동아대학교박물관본 동궐도의 중희당 부분"
+    }
+  ]
+}
