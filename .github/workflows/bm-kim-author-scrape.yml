@@ -58,11 +58,16 @@ jobs:
             const api='https://www.britishmuseum.org/api/_search?keyword%5B%5D=OA%2B%2C0.482.'+n;
             const url='https://r.jina.ai/'+api;
             try{
-              const txt=curlText(url);
-              const marker='Markdown Content:';
-              const p=txt.indexOf(marker);
-              const body=p>=0?txt.slice(p+marker.length):txt;
-              const i=body.indexOf('{');
+              let body='',i=-1;
+              for(let attempt=0;attempt<3;attempt++){
+                const txt=curlText(url);
+                const marker='Markdown Content:';
+                const p=txt.indexOf(marker);
+                body=p>=0?txt.slice(p+marker.length):txt;
+                i=body.indexOf('{');
+                if(i>=0) break;
+                if(attempt<2) await sleep(7000);
+              }
               if(i<0) return {id:w.id,ok:false,error:'no json: '+body.slice(0,120).replace(/\\s+/g,' ')};
               const j=JSON.parse(body.slice(i).trim());
               const hits=j?.hits?.hits||[];
