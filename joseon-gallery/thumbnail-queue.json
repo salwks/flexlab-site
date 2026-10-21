@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 186,
+  "total": 188,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -14,15 +14,16 @@
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
     "홍익대학교박물관 · 조선회화": 2,
+    "도쿄국립박물관 · 전시검증": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
     "고려대학교박물관 · 전시검증": 1,
     "서울대학교박물관 · 전시검증": 1,
     "Detroit Institute of Arts · 조선회화": 1,
     "도쿄국립박물관 · ColBase": 1,
-    "도쿄국립박물관 · 전시검증": 1,
     "Spencer Museum of Art · 조선회화": 1,
-    "부산박물관 · 직접검증": 1
+    "부산박물관 · 직접검증": 1,
+    "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
     {
@@ -1361,9 +1362,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155614/xi-wang-mus-birthday-banquet",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 707,
@@ -1371,9 +1372,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155609/guo-ziyis-birthday-banquet",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 708,
@@ -1691,9 +1692,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/10855/grapevines-and-chipmunks",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 821,
@@ -1701,9 +1702,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/50561/grapevines-and-chipmunks",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 822,
@@ -1711,9 +1712,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/9614/landscape-with-immortals",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 823,
@@ -1721,9 +1722,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/15770/portrait-of-a-scholar",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 824,
@@ -1731,9 +1732,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/11527/preaching-buddha",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 825,
@@ -1741,6 +1742,16 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/23342/watermoon-avalokitesvara",
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
+    },
+    {
+      "id": 908,
+      "title": "소상팔경도병풍(瀟湘八景図屏風)",
+      "artist": "작자미상",
+      "source": "도쿄국립박물관 · 전시검증",
+      "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=8230",
       "status": "pending",
       "error": "",
       "lastChecked": ""
@@ -1831,9 +1842,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100103125400000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1022,
@@ -1881,6 +1892,16 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527",
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 1025",
+      "lastChecked": "2026-10-21"
+    },
+    {
+      "id": 1029,
+      "title": "만폭동도 · 겸현신품첩",
+      "artist": "정선",
+      "source": "서울대학교박물관 · 공공기관검증",
+      "url": "https://culture.gangseo.seoul.kr/gsfc/bbs/BMSR00040/view.do?boardId=686&menuNo=800117",
       "status": "pending",
       "error": "",
       "lastChecked": ""
