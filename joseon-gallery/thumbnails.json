@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 832,
-  "unresolved": 196,
+  "count": 833,
+  "unresolved": 195,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5603,6 +5603,13 @@
       "source": "Spencer Museum of Art · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "988": {
+      "thumbnail": "https://spencerart.ku.edu/sites/spencerart/files/images/social_metadata/SMA_metadata_default.jpg",
+      "image": "https://spencerart.ku.edu/sites/spencerart/files/images/social_metadata/SMA_metadata_default.jpg",
+      "source": "Spencer Museum of Art · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "989": {
       "thumbnail": "https://art.nelson-atkins.org/internal/media/dispatcher/78357/preview",

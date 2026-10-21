@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 196,
+  "total": 195,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -26,7 +26,6 @@
     "Detroit Institute of Arts · 조선회화": 1,
     "Worcester Art Museum · 한국회화": 1,
     "도쿄국립박물관 · ColBase": 1,
-    "Spencer Museum of Art · 조선회화": 1,
     "부산박물관 · 직접검증": 1,
     "서울대학교박물관 · 공공기관검증": 1
   },
@@ -1847,16 +1846,6 @@
       "artist": "수문(秀文)",
       "source": "도쿄국립박물관 · 전시검증",
       "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5783&lang=ja",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 988,
-      "title": "무신도 · 두 시종을 거느린 신령 (Shaman Spirit with Two Attendants)",
-      "artist": "작자미상",
-      "source": "Spencer Museum of Art · 조선회화",
-      "url": "https://spencerart.ku.edu/art/collections-online/object/59104",
       "status": "pending",
       "error": "",
       "lastChecked": ""
