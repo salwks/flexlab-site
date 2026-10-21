@@ -1,0 +1,416 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-009",
+  "scope": "Documentary, portrait, folk and beauty paintings 301-325",
+  "references": [
+    {
+      "title": "국가유산포털 - 경기감영도 병풍",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=12%2C13940000%2C11",
+      "use": "301-302 정식명·19세기·12폭 병풍 확인"
+    },
+    {
+      "title": "PICRYL/Wikimedia - Gyeonggi-gamyeong-do3",
+      "url": "https://renopenrose.getarchive.net/topics/paintings%2Bof%2Bthe%2Bjoseon%2Bdynasty/joseon%2Bdynasty",
+      "use": "301이 경기감영도 중 영은문·모화관 확대 부분임을 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Heo Mok 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Heo_Mok_03.gif",
+      "use": "303 허목 초상·약 1680년 공개정보 확인"
+    },
+    {
+      "title": "한국학중앙연구원 장서각 40년사",
+      "url": "https://www.aks.ac.kr/webzine/pr/JSK40history.pdf",
+      "use": "304 ‘하석 박정 영정’, 1625년 기록 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 박정 초상",
+      "url": "https://commons.wikimedia.org/wiki/File:Joseon-Portrait_of_Park_Jeong.jpg",
+      "use": "304 박정 30세 초상·1625년경 확인"
+    },
+    {
+      "title": "국가유산포털 - 신숙주 초상",
+      "url": "https://www.heritage.go.kr/heri/cul/culGuidePostDetail.do?ccbaCpno=1123306130000&ccgbGbtype=IND&ccgbGbtypeNo=1&pageNo=1_5_0_0",
+      "use": "305 보물 정식명과 조선 초기 공신상 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 신숙주 초상",
+      "url": "https://encykorea.aks.ac.kr/Article/E0023592",
+      "use": "305 정식 작품명·구봉영당 소장 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 김시습 초상",
+      "url": "https://encykorea.aks.ac.kr/Article/E0009667",
+      "use": "306-307 국내 정식명 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Kim Si-seup",
+      "url": "https://commons.wikimedia.org/wiki/File:Kim_Si-seup.jpg",
+      "use": "306 국가유산 원자료를 출처로 한 김시습 초상 식별"
+    },
+    {
+      "title": "Wikimedia Commons - Kim Siseup",
+      "url": "https://commons.wikimedia.org/wiki/File:Kim_Siseup.jpg",
+      "use": "307 무량사 김시습 영정임을 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 어해도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0036133",
+      "use": "308 국내 미술사 용어 ‘어해도’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 민화 어해도",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Eohaedo-01.jpg",
+      "use": "308 원자료 한국어 제목 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 작호도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0048152",
+      "use": "309 까치호랑이 유형의 국내 용어 작호도/호작도 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 까치와 호랑이",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Magpie_and_tiger.jpg",
+      "use": "309 원자료 한국어 제목 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 문자도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0019638",
+      "use": "310-311 문자도의 국내 정의·용어 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 문자도(信)",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Munjado-01.jpg",
+      "use": "310 원자료 한국어 제목 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 문자도(孝)",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Munjado-02.jpg",
+      "use": "311 원자료 한국어 제목 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 민화 호랑이",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Tiger.JPG",
+      "use": "312 원자료 한국어 제목 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 송시열 초상",
+      "url": "https://www.museum.go.kr/ENG/contents/E0403000000.do?relicId=1210&schM=relic_represent_view",
+      "use": "313·319 국보 239, 덕수2828 동일 작품 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 송시열 초상",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Portrait_of_Song_Siyeol-Joseon.jpg",
+      "use": "319 국보 239 동일 작품 공개파일 확인"
+    },
+    {
+      "title": "PICRYL - 장현광 영정 18세기 이모본",
+      "url": "https://picryl.com/topics/korean%2Bportrait/official%2Bportraits%2Bjoseon",
+      "use": "314 18세기 장현광 영정임을 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 장현광 영정 1633",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Portrait_of_Chang_Hyungwang-Joseon_05.png",
+      "use": "315 ‘여헌 장현광 영정, 1633년작’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 허교 초상",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Portrait_of_Heo_Gyo-Joseon.jpg",
+      "use": "316 허교·약 1630년·양천허씨 대종회 출처 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 미수 허목상",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Portrait_of_Heo_Mok-Joseon_02.jpg",
+      "use": "317 규장각 선현영정첩의 미수 허목상 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 허목",
+      "url": "https://encykorea.aks.ac.kr/Article/E0063049",
+      "use": "303·317 보물 1794년 이명기 이모본과 다른 전승 초상임을 구분"
+    },
+    {
+      "title": "실학박물관/Google Arts & Culture - 김육 초상",
+      "url": "https://artsandculture.google.com/asset/%EA%B9%80%EC%9C%A1-%EC%B4%88%EC%83%81-%EF%A4%8A%E5%A0%89%E8%82%96%E5%83%8F/kgF5qEqS2LtmsA?hl=ko",
+      "use": "318 실학박물관의 김육 초상 자료 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 잠곡 김육 영정",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Portrait_of_Kim_Yuk-Joseon.jpg",
+      "use": "318 공개파일의 한국어 제목·실학박물관 소장 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 윤훤 영정",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Portrait_of_Yun_Hwon-Joseon.jpg",
+      "use": "320 한국어 ‘백사 윤훤 영정’·약 1620년 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 가인전목단 의물 목단화준",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Uimul_mokdan_hwajun.jpg",
+      "use": "321 1901년·목판화·대한제국기 궁중정재 자료임을 확인"
+    },
+    {
+      "title": "Honolulu/Wikimedia - 18세기 용 그림",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_ink_and_color_painting_of_dragon,_18th_century,_Chos%C3%B4n_dynasty,_Honolulu_Academy_of_Arts.jpg",
+      "use": "322 18세기·작자미상·호놀룰루 소장번호 4947.1 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 해남 윤씨 종가 미인도",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean.painting-Miindo-1825.jpg",
+      "use": "323 원자료 한국어 제목·도쿄국립박물관 소장 설명 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 동아대학교박물관 미인도",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean.painting-Miindo-19c.jpg",
+      "use": "325 원자료 한국어 제목·규격·소장처 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 동아대학교박물관 미인도 변형본",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean.painting-Miindo-19c._2.jpg",
+      "use": "324가 325 파일을 바탕으로 만든 후대 디지털 변형임을 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 301,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_collection_part",
+        "era": "canonical"
+      },
+      "duplicateCandidateOf": 299
+    },
+    {
+      "id": 302,
+      "status": "verified",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical"
+      },
+      "duplicateCandidateOf": 299
+    },
+    {
+      "id": 303,
+      "status": "provisional",
+      "fields": {
+        "title": "verified_term",
+        "era": "source_date"
+      },
+      "note": "약 1680년 전승 초상. 1794년 이명기 보물본과 동일 작품으로 보지 않음."
+    },
+    {
+      "id": 304,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 305,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 306,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 307,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "desc": "verified"
+      },
+      "duplicateCandidateOf": 306
+    },
+    {
+      "id": 308,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "themes": "verified"
+      }
+    },
+    {
+      "id": 309,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "themes": "verified"
+      }
+    },
+    {
+      "id": 310,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "themes": "verified"
+      }
+    },
+    {
+      "id": 311,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "themes": "verified"
+      }
+    },
+    {
+      "id": 312,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "themes": "verified"
+      }
+    },
+    {
+      "id": 313,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 314,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 315,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 316,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 317,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified"
+      },
+      "note": "규장각 선현영정첩 전승본. 1794년 국립춘천박물관 보물본과 구분."
+    },
+    {
+      "id": 318,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "source_date"
+      }
+    },
+    {
+      "id": 319,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "verified"
+      },
+      "duplicateCandidateOf": 313
+    },
+    {
+      "id": 320,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 321,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified",
+        "themes": "corrected"
+      },
+      "note": "1901년 대한제국기 목판화로 분류 수정."
+    },
+    {
+      "id": 322,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "국내 개별 정식 작품명 미확인."
+    },
+    {
+      "id": 323,
+      "status": "provisional",
+      "fields": {
+        "title": "source_title",
+        "era": "provisional"
+      },
+      "note": "원자료 제작연대 표기가 비정상적이라 정확한 연대 확정 보류."
+    },
+    {
+      "id": 324,
+      "status": "verified",
+      "fields": {
+        "title": "source_title",
+        "era": "verified"
+      },
+      "duplicateCandidateOf": 325
+    },
+    {
+      "id": 325,
+      "status": "verified",
+      "fields": {
+        "title": "source_title",
+        "era": "verified",
+        "desc": "verified"
+      }
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": 301,
+      "duplicateOf": 299,
+      "reason": "경기감영도 병풍 중 영은문·모화관 확대 부분"
+    },
+    {
+      "id": 302,
+      "duplicateOf": 299,
+      "reason": "경기감영도 병풍 동일 작품의 다른 공개 이미지"
+    },
+    {
+      "id": 307,
+      "duplicateOf": 306,
+      "reason": "무량사 김시습 초상의 다른 공개 이미지"
+    },
+    {
+      "id": 319,
+      "duplicateOf": 313,
+      "reason": "국립중앙박물관 국보 239 송시열 초상 동일 작품"
+    },
+    {
+      "id": 324,
+      "duplicateOf": 325,
+      "reason": "동아대학교박물관 미인도 원본 파일을 바탕으로 만든 디지털 변형 이미지"
+    }
+  ]
+}
