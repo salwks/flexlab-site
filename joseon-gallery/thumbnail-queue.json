@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
-  "total": 178,
+  "total": 170,
   "bySource": {
-    "British Museum · 김준근": 91,
+    "British Museum · 김준근": 83,
     "Museum of Fine Arts Boston · 조선회화": 15,
     "Asian Art Museum · 조선회화": 13,
     "Museum of Fine Arts Houston · 조선회화": 12,
@@ -27,94 +27,14 @@
   },
   "items": [
     {
-      "id": 457,
-      "title": "망건 뜨는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-17",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
       "id": 458,
       "title": "혼교 모양 - 영장 앞에",
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-18",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 459,
-      "title": "기산 풍속화 · British Museum OA+,0.482.19",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-19",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 460,
-      "title": "기산 풍속화 · British Museum OA+,0.482.20",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-20",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 461,
-      "title": "골패 하는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-21",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 462,
-      "title": "계집아이 널 뛰는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-22",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 463,
-      "title": "기산 풍속화 · British Museum OA+,0.482.23",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-23",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 465,
-      "title": "중 벗고 치는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-25",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 466,
-      "title": "장국밥 장사 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-26",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no json: \n![Image 1: Icon for www.britishmuseum.org](https://www.britishmuseum.org/favicon.ico)\n\n## www.britishmuseum.org\n\n## Per",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 467,
@@ -122,9 +42,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-27",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no json: \n![Image 1: Icon for www.britishmuseum.org](https://www.britishmuseum.org/favicon.ico)\n\n## www.britishmuseum.org\n\n## Per",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 468,

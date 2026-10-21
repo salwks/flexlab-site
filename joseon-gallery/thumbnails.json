@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 989,
-  "unresolved": 178,
+  "count": 997,
+  "unresolved": 170,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3175,12 +3175,68 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "457": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/1890a9f3_7f19_4a11_a176_b32b00888fc5/preview_017_weaving_headband.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/1890a9f3_7f19_4a11_a176_b32b00888fc5/preview_017_weaving_headband.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "459": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/2d215639_db5b_4c9e_989a_b32b008c5aec/preview_019_a_street_musician_with_his_father.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/2d215639_db5b_4c9e_989a_b32b008c5aec/preview_019_a_street_musician_with_his_father.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "460": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/c22159a4_eb42_4b34_b364_b32b008cc8b5/preview_020_carrying_a_coffin.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/c22159a4_eb42_4b34_b364_b32b008cc8b5/preview_020_carrying_a_coffin.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "461": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/01e52bc5_c636_41e1_a0bb_b32b008d59a6/preview_021_domino_players.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/01e52bc5_c636_41e1_a0bb_b32b008d59a6/preview_021_domino_players.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "462": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/57b71112_30b6_4c61_8484_b32b008dba46/preview_022_seesawing.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/57b71112_30b6_4c61_8484_b32b008dba46/preview_022_seesawing.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "463": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_9/a1f837ee_da8b_409d_bcff_b32b00a323c7/preview_023_playing_marbles.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_9/a1f837ee_da8b_409d_bcff_b32b00a323c7/preview_023_playing_marbles.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "464": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_9/19cfed8c_a58e_4ae6_9f8b_b32b00a3d456/preview_024_children_role_playing__officer_.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_9/19cfed8c_a58e_4ae6_9f8b_b32b00a3d456/preview_024_children_role_playing__officer_.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "465": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_9/9ffbc0c9_73ca_4df3_844f_b32b00a461ef/preview_025_monks_playing_drums.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_9/9ffbc0c9_73ca_4df3_844f_b32b00a461ef/preview_025_monks_playing_drums.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "466": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9a509a6b_547b_4fa9_944e_b32b00a53f57/preview_026_soup_place.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9a509a6b_547b_4fa9_944e_b32b00a53f57/preview_026_soup_place.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "469": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9a11a3cc_3e5a_4f1a_878b_b32b00a72185/preview_029_hand_filature.jpg",
