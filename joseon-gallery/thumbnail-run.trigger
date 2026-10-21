@@ -1,3 +1,3 @@
-run=2026-10-21T14:12:00+09:00
-source=Museum of Fine Arts Boston
+run=2026-10-21T14:15:00+09:00
+source=부산박물관
 limit=15
