@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 811,
-  "unresolved": 217,
+  "count": 813,
+  "unresolved": 215,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -4455,6 +4455,20 @@
       "source": "국가유산포털 · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "811": {
+      "thumbnail": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-852B/full/!1024,1024/0/default.jpg",
+      "image": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-852B/full/!1024,1024/0/default.jpg",
+      "source": "Princeton University Art Museum · Public Domain IIIF",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "812": {
+      "thumbnail": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-852A/full/!1024,1024/0/default.jpg",
+      "image": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-852A/full/!1024,1024/0/default.jpg",
+      "source": "Princeton University Art Museum · Public Domain IIIF",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "813": {
       "thumbnail": "https://media.artmuseum.princeton.edu/iiif/3/collection/PUAMSTU2039618/full/600%2C/0/default.jpg",
