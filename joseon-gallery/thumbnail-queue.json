@@ -33,7 +33,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-2",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "no json",
       "lastChecked": "2026-10-21"
     },
     {
@@ -43,7 +43,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-3",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -53,7 +53,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-4",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -63,7 +63,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-5",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "no json",
       "lastChecked": "2026-10-21"
     },
     {
@@ -73,7 +73,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-7",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -83,7 +83,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-8",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -93,7 +93,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-10",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -103,7 +103,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-11",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -113,7 +113,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-13",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -123,7 +123,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-15",
       "status": "failed",
-      "error": "fetch failed",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
