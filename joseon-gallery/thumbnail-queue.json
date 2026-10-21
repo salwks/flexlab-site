@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 194,
+  "total": 192,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -8,8 +8,8 @@
     "Museum of Fine Arts Houston · 조선회화": 12,
     "Seattle Art Museum · 조선회화": 9,
     "British Museum · 조선회화": 7,
-    "국립민속박물관 · 직접검증": 6,
-    "국립민속박물관 · 소장품": 5,
+    "국립민속박물관 · 직접검증": 5,
+    "국립민속박물관 · 소장품": 4,
     "Brooklyn Museum · 조선회화": 3,
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
@@ -1866,19 +1866,9 @@
       "artist": "이형록",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100104548100000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1012,
-      "title": "의기 계월향 초상",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1013,
@@ -1886,9 +1876,9 @@
       "artist": "김준근",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 1012",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1015,
@@ -1896,19 +1886,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1021,
-      "title": "십장생도 (소장번호 31254)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100103125400000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 1012",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1022,
@@ -1926,9 +1906,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 1021",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1024,
@@ -1936,9 +1916,9 @@
       "artist": "유숙",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/home/1426/userVideoChannelDetail.do?no=549",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 1021",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1026,
@@ -1946,9 +1926,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 1025",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1028,
