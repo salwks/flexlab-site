@@ -1,14 +1,13 @@
 {
   "version": "2026-10-21",
-  "total": 87,
+  "total": 81,
   "bySource": {
     "Museum of Fine Arts Boston · 조선회화": 15,
     "Asian Art Museum · 조선회화": 13,
     "Museum of Fine Arts Houston · 조선회화": 12,
     "Seattle Art Museum · 조선회화": 9,
     "British Museum · 조선회화": 7,
-    "국립민속박물관 · 소장품": 5,
-    "국립민속박물관 · 직접검증": 5,
+    "국립민속박물관 · 직접검증": 4,
     "Brooklyn Museum · 조선회화": 3,
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
@@ -786,73 +785,13 @@
       "lastChecked": "2026-10-21"
     },
     {
-      "id": 1010,
-      "title": "책가도 8폭 병풍 (민속99417)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100109941700000",
-      "status": "failed",
-      "error": "no image",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 1011,
-      "title": "문방도 6폭 병풍 (민속45481)",
-      "artist": "이형록",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100104548100000",
-      "status": "failed",
-      "error": "no image",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 1013,
-      "title": "산수화 · 원산항",
-      "artist": "김준근",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "failed",
-      "error": "duplicate thumbnail candidate: 1012",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 1015,
-      "title": "금강산춘경도",
+      "id": 1016,
+      "title": "백수백복도 8폭 병풍",
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
+      "url": "https://www.nfm.go.kr/user/museumbbs/home/3/1274/selectMuseumBbsView.do?museumBbsIdx=10166&page=5&row=12",
       "status": "failed",
-      "error": "duplicate thumbnail candidate: 1012",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 1021,
-      "title": "십장생도 (소장번호 31254)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100103125400000",
-      "status": "failed",
-      "error": "no image",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 1022,
-      "title": "화조도 12폭 병풍(民畵十二幅屛風)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100106276400000",
-      "status": "failed",
-      "error": "no image",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 1023,
-      "title": "삼로문연도 (민속83811)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000",
-      "status": "failed",
-      "error": "duplicate thumbnail candidate: 1021",
+      "error": "previous thumbnail did not match work (removed 2026-10-21)",
       "lastChecked": "2026-10-21"
     },
     {

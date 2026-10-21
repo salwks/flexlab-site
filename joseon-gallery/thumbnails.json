@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 1080,
-  "unresolved": 87,
+  "count": 1086,
+  "unresolved": 81,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -6493,33 +6493,54 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
+    "1010": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8490162.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8490162.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1011": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8558040.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8558040.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "1012": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_pic3.jpg",
+      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_02.jpg",
+      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_02.jpg",
+      "source": "국립민속박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1013": {
+      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_04.jpg",
+      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_04.jpg",
       "source": "국립민속박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
     "1014": {
-      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
-      "image": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
-      "source": "국립민속박물관 · 소장유물 이미지",
+      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2018peyongyang_01.jpg",
+      "image": "https://www.nfm.go.kr/site/home/images/display/2018peyongyang_01.jpg",
+      "source": "국립민속박물관 · 소장유물 연계",
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
-    "1016": {
-      "thumbnail": "https://www.nfm.go.kr/images/Display/2013gyeonggidoja_02.jpg",
-      "image": "https://www.nfm.go.kr/images/Display/2013gyeonggidoja_02.jpg",
+    "1015": {
+      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_13.jpg",
+      "image": "https://www.nfm.go.kr/site/home/images/display/2026/2026_zero_13.jpg",
       "source": "국립민속박물관 · 직접검증",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
     },
     "1017": {
-      "thumbnail": "https://www.nfm.go.kr/olddata/images/Display/life_03.jpg",
-      "image": "https://www.nfm.go.kr/olddata/images/Display/life_03.jpg",
-      "source": "국립민속박물관 · 직접검증",
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8571651.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8571651.do",
+      "source": "국립민속박물관 · 소장품",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
     },
     "1018": {
       "thumbnail": "https://www.nfm.go.kr/site/home/images/display/2019dasan_12.jpg",
@@ -6536,11 +6557,32 @@
       "verifiedAt": "2026-10-20"
     },
     "1020": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/display/karyedo_03.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/display/karyedo_03.jpg",
-      "source": "국립민속박물관 · 직접검증",
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8415851.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8415851.do",
+      "source": "국립민속박물관 · 소장품",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
+    },
+    "1021": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8334323.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8334323.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1022": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8422703.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8422703.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1023": {
+      "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8591230.do",
+      "image": "https://www.nfm.go.kr/common/apithumb/relic/8591230.do",
+      "source": "국립민속박물관 · 소장품",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "1025": {
       "thumbnail": "https://www.nfm.go.kr/images/Display/2016threekingdoms_01.jpg",
