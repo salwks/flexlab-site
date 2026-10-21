@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 832,
-  "unresolved": 196,
+  "count": 834,
+  "unresolved": 194,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3924,6 +3924,13 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "695": {
+      "thumbnail": "https://www.smb.museum/uploads/tx_smb/exhibitions/exhibition_89849/mirae-kh-rhee-the-artist-and-her-books-2022_xl.jpg",
+      "image": "https://www.smb.museum/uploads/tx_smb/exhibitions/exhibition_89849/mirae-kh-rhee-the-artist-and-her-books-2022_xl.jpg",
+      "source": "Museum für Asiatische Kunst Berlin · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "696": {
       "thumbnail": "https://nrs.harvard.edu/urn-3:HUAM:62037_dynmc/full/!640,640/0/default.jpg",
       "image": "https://nrs.harvard.edu/urn-3:HUAM:62037_dynmc/full/!3000,3000/0/default.jpg",
@@ -4280,6 +4287,13 @@
       "source": "Musée Guimet · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "782": {
+      "thumbnail": "https://www.smb.museum/uploads/tx_smb/exhibitions/exhibition_89849/mirae-kh-rhee-the-artist-and-her-books-2022_xl.jpg",
+      "image": "https://www.smb.museum/uploads/tx_smb/exhibitions/exhibition_89849/mirae-kh-rhee-the-artist-and-her-books-2022_xl.jpg",
+      "source": "Museum für Asiatische Kunst Berlin · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "783": {
       "thumbnail": "https://www.smb.museum/uploads/tx_smb/exhibitions/exhibition_51519/AKU_Korea_2_gr.jpg",
