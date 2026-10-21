@@ -6459,7 +6459,7 @@
     },
     {
       "id": 351,
-      "era": "조선 · Commons 분류",
+      "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6468,9 +6468,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:%EA%B9%80%EC%8B%9C%EC%8A%B5_%EC%B4%88%EC%83%81.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "김시습",
+        "문인"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6478,7 +6478,7 @@
     },
     {
       "id": 352,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6487,9 +6487,10 @@
       "url": "https://commons.wikimedia.org/wiki/File:%EC%86%A1%EA%B3%A1_%EC%9D%B4%EC%84%9C%EC%9A%B0.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "이서우",
+        "문신",
+        "문인"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6497,7 +6498,7 @@
     },
     {
       "id": 353,
-      "era": "조선 · Commons 분류",
+      "era": "조선 중기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6506,9 +6507,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EB%8D%95%ED%98%95.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "이덕형",
+        "문신"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6516,7 +6517,7 @@
     },
     {
       "id": 354,
-      "era": "조선 · Commons 분류",
+      "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6525,9 +6526,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81_2.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "이상길",
+        "문신"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6535,7 +6536,7 @@
     },
     {
       "id": 355,
-      "era": "조선 · Commons 분류",
+      "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6544,9 +6545,10 @@
       "url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "이상길",
+        "문신",
+        "보물"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6554,7 +6556,7 @@
     },
     {
       "id": 356,
-      "era": "조선 · Commons 분류",
+      "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6563,9 +6565,10 @@
       "url": "https://commons.wikimedia.org/wiki/File:%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "이상길",
+        "이모본",
+        "문신"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6573,17 +6576,18 @@
     },
     {
       "id": 357,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 01",
       "file": "Chochungdo 01.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_01.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6591,17 +6595,18 @@
     },
     {
       "id": 358,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 02",
       "file": "Chochungdo 02.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_02.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6609,17 +6614,18 @@
     },
     {
       "id": 359,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 03",
       "file": "Chochungdo 03.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_03.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6627,17 +6633,18 @@
     },
     {
       "id": 360,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 04",
       "file": "Chochungdo 04.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_04.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6645,17 +6652,18 @@
     },
     {
       "id": 361,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 05",
       "file": "Chochungdo 05.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_05.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6663,17 +6671,18 @@
     },
     {
       "id": 362,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 06",
       "file": "Chochungdo 06.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_06.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6681,17 +6690,18 @@
     },
     {
       "id": 363,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 07",
       "file": "Chochungdo 07.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_07.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6699,17 +6709,18 @@
     },
     {
       "id": 364,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 08",
       "file": "Chochungdo 08.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_08.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6717,17 +6728,18 @@
     },
     {
       "id": 365,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 09",
       "file": "Chochungdo 09.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_09.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6735,17 +6747,18 @@
     },
     {
       "id": 366,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
+      "artist": "전 신사임당",
       "title": "Chochungdo 10",
       "file": "Chochungdo 10.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_10.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6753,17 +6766,18 @@
     },
     {
       "id": 367,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "신사임당",
+      "artist": "전 신사임당",
       "title": "Shin.Saimdang Chochungdo 01",
       "file": "Shin.Saimdang-Chochungdo-01.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-01.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6771,17 +6785,18 @@
     },
     {
       "id": 368,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "신사임당",
+      "artist": "전 신사임당",
       "title": "Shin.Saimdang Chochungdo 02",
       "file": "Shin.Saimdang-Chochungdo-02.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-02.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6789,17 +6804,18 @@
     },
     {
       "id": 369,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 초충도",
       "license": "파일별 라이선스 확인",
-      "artist": "신사임당",
+      "artist": "전 신사임당",
       "title": "Shin.Saimdang Chochungdo 03",
       "file": "Shin.Saimdang-Chochungdo-03.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-03.jpg",
       "themes": [
         "회화",
         "초충",
-        "화조"
+        "화조",
+        "전 신사임당"
       ],
       "desc": "Wikimedia Commons의 초충도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6807,7 +6823,7 @@
     },
     {
       "id": 370,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 동궐도",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6818,7 +6834,8 @@
         "회화",
         "궁중",
         "기록화",
-        "건축"
+        "건축",
+        "동궐도"
       ],
       "desc": "Wikimedia Commons의 동궐도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6826,7 +6843,7 @@
     },
     {
       "id": 371,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 동궐도",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6837,7 +6854,8 @@
         "회화",
         "궁중",
         "기록화",
-        "건축"
+        "건축",
+        "동궐도"
       ],
       "desc": "Wikimedia Commons의 동궐도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6845,7 +6863,7 @@
     },
     {
       "id": 372,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 동궐도",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6856,7 +6874,8 @@
         "회화",
         "궁중",
         "기록화",
-        "건축"
+        "건축",
+        "동궐도"
       ],
       "desc": "Wikimedia Commons의 동궐도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6864,7 +6883,7 @@
     },
     {
       "id": 373,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 동궐도",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6875,7 +6894,8 @@
         "회화",
         "궁중",
         "기록화",
-        "건축"
+        "건축",
+        "동궐도"
       ],
       "desc": "Wikimedia Commons의 동궐도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6883,7 +6903,7 @@
     },
     {
       "id": 374,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 동궐도",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6894,7 +6914,8 @@
         "회화",
         "궁중",
         "기록화",
-        "건축"
+        "건축",
+        "동궐도"
       ],
       "desc": "Wikimedia Commons의 동궐도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6902,7 +6923,7 @@
     },
     {
       "id": 375,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 동궐도",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6913,7 +6934,8 @@
         "회화",
         "궁중",
         "기록화",
-        "건축"
+        "건축",
+        "동궐도"
       ],
       "desc": "Wikimedia Commons의 동궐도 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
