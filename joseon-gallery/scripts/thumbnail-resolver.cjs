@@ -27,6 +27,8 @@ function badCandidate(u){
  const s=(u||'').toLowerCase();
  return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|adsrvr|casalemedia|criteo|taboola|outbrain|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|social[_-]?metadata|social[_-]?(?:share|default)|metadata[_-]?default|default[_-]?(?:image|og|social)|image[_-]?not[_-]?available|not[_-]?available|no[_-]?(?:image|photo)|missing[_-]?image|\/og\.(?:jpe?g|png|webp)(?:\?|$)|\/assets?\/images?\/og\.(?:jpe?g|png|webp)|og[_-]?image\.(?:jpe?g|png|webp)|(?:^|[\/_-])ogp(?:[\/_-]|\.|$)|\/common\/ogimage\.|\/images\/layout\/|breadcrumbs?|header[_-]?flag|(?:^|[\/_-])poster(?:[\/_-]|\.|$)|l-breadcrumbs|\/layout\/renew\/|\/_next\/static\/media\/|centennial-celebration-tile|\/kogl\/|img[_-]?opentype|open[_-]?type0?1/.test(s);
 }
+function workTokens(title){return String(title||'').normalize('NFKC').toLowerCase().replace(/[^\\p{L}\\p{N}]+/gu,' ').split(/\\s+/).filter(x=>x.length>=4&&!['screen','painting','eight','panel','panels','korean','korea','joseon'].includes(x))}
+function scoreForWork(u,title){let n=score(u);const low=decodeURIComponent(String(u||'')).toLowerCase();for(const tok of workTokens(title))if(low.includes(tok))n+=180;return n}
 function score(u){
  const s=u.toLowerCase();if(badCandidate(s))return -9999;let n=0;
  if(/\.svg(?:\?|$)|logo|favicon|apple-touch|iconified|\/icon|sprite|avatar|facebook|twitter|instagram|youtube|qr|banner|pixel|placeholder/.test(s))n-=220;
@@ -108,7 +110,8 @@ async function resolveSmithsonianArchive(target){
  }catch(e){}
  return '';
 }
-async function resolveImage(target){
+async function resolveImage(target,context={}){
+ const workTitle=context.title||'';
  target=bm(target);
  let pre=new URL(target);
  if(pre.hostname.endsWith('asia.si.edu')){
@@ -126,7 +129,7 @@ async function resolveImage(target){
  try{
    const r=await fetchRetry(target,{redirect:'follow',headers:{'user-agent':UA,'accept':'text/html,application/xhtml+xml,*/*;q=0.8','accept-language':'en-US,en;q=0.8,ko;q=0.7'}});
    if(r.ok){
-     const html=await r.text(),cs=candidates(html,r.url).sort((a,b)=>score(b)-score(a));
+     const html=await r.text(),cs=candidates(html,r.url).sort((a,b)=>scoreForWork(b,workTitle)-scoreForWork(a,workTitle));
      const ok=await pickVerifiedImage(cs);if(ok)return ok;
      pageErr='no image';
    }else pageErr='page '+r.status;
@@ -140,7 +143,7 @@ async function resolveImage(target){
      for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?(?:\.jpe?g|\.png|\.webp)(?:\?[^\s<>"'\)\]]*)?/gi))arr.push(m[0]);
      for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?(?:image|media|iiif|thumbnail|preview)[^\s<>"'\)\]]*/gi))arr.push(m[0]);
      for(const m of txt.matchAll(/https?:\/\/[^\s<>"'\)\]]+?\/internal\/media\/(?:zoomdispatcher|dispatcher)\/\d+\/[^\s<>"'\)\]]*/gi))arr.push(m[0]);
-     const cs=[...new Set(arr.map(x=>ent(x)).filter(x=>x&&!badCandidate(x)))].sort((a,b)=>score(b)-score(a));
+     const cs=[...new Set(arr.map(x=>ent(x)).filter(x=>x&&!badCandidate(x)))].sort((a,b)=>scoreForWork(b,workTitle)-scoreForWork(a,workTitle));
      const ok=await pickVerifiedImage(cs);if(ok)return ok;
    }
  }catch(e){}
