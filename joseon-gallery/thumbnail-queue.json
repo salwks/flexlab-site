@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 201,
+  "total": 196,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -9,7 +9,6 @@
     "Seattle Art Museum · 조선회화": 9,
     "British Museum · 조선회화": 7,
     "국립민속박물관 · 직접검증": 6,
-    "국립민속박물관 · 소장품": 5,
     "Brooklyn Museum · 조선회화": 3,
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
@@ -1925,26 +1924,6 @@
       "lastChecked": "2026-10-21"
     },
     {
-      "id": 1010,
-      "title": "책가도 8폭 병풍 (민속99417)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100109941700000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1011,
-      "title": "문방도 6폭 병풍 (민속45481)",
-      "artist": "이형록",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100104548100000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
       "id": 1012,
       "title": "의기 계월향 초상",
       "artist": "작자미상",
@@ -1970,36 +1949,6 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1021,
-      "title": "십장생도 (소장번호 31254)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100103125400000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1022,
-      "title": "화조도 12폭 병풍(民畵十二幅屛風)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100106276400000",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1023,
-      "title": "삼로문연도 (민속83811)",
-      "artist": "작자미상",
-      "source": "국립민속박물관 · 소장품",
-      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000",
       "status": "pending",
       "error": "",
       "lastChecked": ""
