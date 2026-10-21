@@ -32,9 +32,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-2",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 443,
@@ -42,9 +42,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-3",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 444,
@@ -52,9 +52,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-4",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 445,
@@ -62,9 +62,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-5",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 447,
@@ -72,9 +72,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-7",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 448,
@@ -82,9 +82,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-8",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 450,
@@ -92,9 +92,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-10",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 451,
@@ -102,9 +102,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-11",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 453,
@@ -112,9 +112,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-13",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 455,
@@ -122,9 +122,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-15",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 457,
