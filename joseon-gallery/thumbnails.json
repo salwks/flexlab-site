@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 829,
-  "unresolved": 199,
+  "count": 830,
+  "unresolved": 198,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -4483,6 +4483,13 @@
       "source": "The Walters Art Museum · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "827": {
+      "thumbnail": "https://www.slam.org/wp-content/uploads/piction/image-cache/41026.jpg",
+      "image": "https://www.slam.org/wp-content/uploads/piction/image-cache/41026.jpg",
+      "source": "Saint Louis Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "828": {
       "thumbnail": "https://kansong.org/icms/file/getImage.do?atchFileId=FILE_000000000036619&fileSn=0",

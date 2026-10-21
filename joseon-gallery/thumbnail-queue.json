@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 199,
+  "total": 198,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -26,7 +26,6 @@
     "서울대학교박물관 · 전시검증": 1,
     "Detroit Institute of Arts · 조선회화": 1,
     "Worcester Art Museum · 한국회화": 1,
-    "Saint Louis Art Museum · 조선회화": 1,
     "도쿄국립박물관 · ColBase": 1,
     "Spencer Museum of Art · 조선회화": 1,
     "부산박물관 · 직접검증": 1,
@@ -1839,16 +1838,6 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/23342/watermoon-avalokitesvara",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 827,
-      "title": "Two Scholars, Attendant, and Donkey in a Landscape",
-      "artist": "작자미상",
-      "source": "Saint Louis Art Museum · 조선회화",
-      "url": "https://www.slam.org/collection/objects/64938/",
       "status": "pending",
       "error": "",
       "lastChecked": ""
