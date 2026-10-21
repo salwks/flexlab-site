@@ -28,7 +28,7 @@ let queue=works.filter(w=>{
 if(limit)queue=queue.slice(0,limit);
 
 function normTitle(s){return String(s||'').normalize('NFKC').toLowerCase().replace(/[·・:：()（）\[\]【】"'’‘“”]/g,' ').replace(/[^\p{L}\p{N}]+/gu,' ').replace(/\s+/g,' ').trim()}
-function sameWorkTitle(a,b){const x=normTitle(a),y=normTitle(b);return !!(x&&y&&(x===y||x.includes(y)||y.includes(x)))}
+function sameWorkTitle(a,b){const x=normTitle(a),y=normTitle(b);if(!(x&&y))return false;if(x===y||x.includes(y)||y.includes(x))return true;const sx=[...new Set(x.split(' '))].sort().join(' '),sy=[...new Set(y.split(' '))].sort().join(' ');return sx===sy}
 function conflictingDuplicate(url,current){
   for(const [id,t] of Object.entries(thumbnails)){
     if(String(id)===String(current.id)||!t||!t.verified||t.thumbnail!==url)continue;
