@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 834,
-  "unresolved": 194,
+  "count": 832,
+  "unresolved": 196,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5065,13 +5065,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "908": {
-      "thumbnail": "https://www.tnm.jp/jp/exhibition/images/tmp/ogp/TNM_ogp.jpg",
-      "image": "https://www.tnm.jp/jp/exhibition/images/tmp/ogp/TNM_ogp.jpg",
-      "source": "도쿄국립박물관 · 전시검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "909": {
       "thumbnail": "https://colbase.nich.go.jp/media/tnm/TA-64/image/slideshow_s/TA-64_E0040351.jpg",
       "image": "https://colbase.nich.go.jp/media/tnm/TA-64/image/TA-64_E0040351.jpg",
@@ -5204,13 +5197,6 @@
       "source": "도쿄국립박물관 · ColBase",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "929": {
-      "thumbnail": "https://www.tnm.jp/jp/exhibition/images/tmp/ogp/TNM_ogp.jpg",
-      "image": "https://www.tnm.jp/jp/exhibition/images/tmp/ogp/TNM_ogp.jpg",
-      "source": "도쿄국립박물관 · 전시검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "930": {
       "thumbnail": "https://colbase.nich.go.jp/media/kyuhaku/A30/image/slideshow_s/107890.LL.jpg",
