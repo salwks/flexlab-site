@@ -29,8 +29,8 @@
     "Spencer Museum of Art · 조선회화": 1,
     "Nelson-Atkins Museum of Art · 조선회화": 2,
     "부산박물관 · 직접검증": 15,
-    "국립민속박물관 · 직접검증": 9,
-    "국립민속박물관 · 소장품": 2,
+    "국립민속박물관 · 직접검증": 8,
+    "국립민속박물관 · 소장품": 3,
     "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
@@ -1734,8 +1734,8 @@
       "id": 1023,
       "title": "삼로문연도 (민속83811)",
       "artist": "작자미상",
-      "source": "국립민속박물관 · 직접검증",
-      "url": "https://www.nfm.go.kr/user/museumbbs/home/1/1243/selectMuseumBbsView.do?museumBbsIdx=14476",
+      "source": "국립민속박물관 · 소장품",
+      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000",
       "status": "pending"
     },
     {
