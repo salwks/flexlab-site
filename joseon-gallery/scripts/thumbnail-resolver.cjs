@@ -14,6 +14,7 @@ function candidates(html,base){
  for(const t of html.match(/<meta\b[^>]*>/gi)||[]){const k=(attr(t,'property')||attr(t,'name')||'').toLowerCase(),v=attr(t,'content');if(k==='og:image'||k==='og:image:url'||k==='og:image:secure_url'||k==='twitter:image'||k==='twitter:image:src')a.push(abs(base,v))}
  for(const m of html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi))for(const x of m[1].matchAll(/"(?:image|contentUrl|thumbnailUrl)"\s*:\s*"([^"]+)"/g))a.push(abs(base,x[1]));
  for(const t of html.match(/<img\b[^>]*>/gi)||[]){for(const n of ['src','data-src','data-original','data-lazy-src','data-image','data-url'])a.push(abs(base,attr(t,n)));const ss=attr(t,'srcset')||attr(t,'data-srcset');if(ss)for(const p of ss.split(','))a.push(abs(base,p.trim().split(/\s+/)[0]))}
+ for(const t of html.match(/<a\b[^>]*>/gi)||[]){const h=abs(base,attr(t,'href'));if(/\.(?:jpe?g|png|webp)(?:\?|$)/i.test(h))a.push(h)}
  for(const m of html.matchAll(/https?:\\?\/\\?\/[^"'<>\s]+?\.(?:jpe?g|png|webp)(?:\?[^"'<>\s]*)?/gi))a.push(abs(base,m[0]));
  for(const m of html.matchAll(/["'](\/[^"']+?\.(?:jpe?g|png|webp)(?:\?[^"']*)?)["']/gi))a.push(abs(base,m[1]));
  for(const m of html.matchAll(/(?:https?:\\?\/\\?\/[^"'<>\s]+)?\/internal\/media\/(?:zoomdispatcher|dispatcher)\/\d+\/[^"'<>\s]*/gi))a.push(abs(base,m[0]));
