@@ -27,6 +27,17 @@ let queue=works.filter(w=>{
 });
 if(limit)queue=queue.slice(0,limit);
 
+function normTitle(s){return String(s||'').normalize('NFKC').toLowerCase().replace(/[·・:：()（）\[\]【】"'’‘“”]/g,' ').replace(/[^\p{L}\p{N}]+/gu,' ').replace(/\s+/g,' ').trim()}
+function sameWorkTitle(a,b){const x=normTitle(a),y=normTitle(b);return !!(x&&y&&(x===y||x.includes(y)||y.includes(x)))}
+function conflictingDuplicate(url,current){
+  for(const [id,t] of Object.entries(thumbnails)){
+    if(String(id)===String(current.id)||!t||!t.verified||t.thumbnail!==url)continue;
+    const prior=works.find(w=>String(w.id)===String(id));
+    if(!sameWorkTitle(current.title,prior&&prior.title))return {id,work:prior||null};
+  }
+  return null;
+}
+
 const results=[];
 (async()=>{
   for(let i=0;i<queue.length;i++){
@@ -36,6 +47,8 @@ const results=[];
       const candidate=await resolveImage(w.url);
       const verified=await pickVerifiedImage([candidate]);
       if(!verified)throw new Error('image verification failed');
+      const duplicate=conflictingDuplicate(verified,w);
+      if(duplicate)throw new Error('duplicate thumbnail candidate: '+duplicate.id);
       thumbnails[String(w.id)]={
         thumbnail:verified,
         image:verified,
