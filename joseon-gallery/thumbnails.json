@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 1017,
-  "unresolved": 150,
+  "count": 1080,
+  "unresolved": 87,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3427,6 +3427,48 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
+    "493": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/220fb8c6_8ad2_4320_bb13_b32b00b3c5cb/preview_053_moving_out_for_the_wedding.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/220fb8c6_8ad2_4320_bb13_b32b00b3c5cb/preview_053_moving_out_for_the_wedding.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "494": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/587f3e8b_5fe9_4d19_bb4e_b32b00b43c6e/preview_054_a_bride_in_a_palanquin.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/587f3e8b_5fe9_4d19_bb4e_b32b00b43c6e/preview_054_a_bride_in_a_palanquin.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "495": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/4171d7ee_55d4_4b7b_a2e7_b32b00b4b1a6/preview_055_after_a_wedding_ceremony.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/4171d7ee_55d4_4b7b_a2e7_b32b00b4b1a6/preview_055_after_a_wedding_ceremony.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "496": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/844fe9ee_d5e7_4aae_be81_b32b00b51a34/preview_056_man_on_a_cow.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/844fe9ee_d5e7_4aae_be81_b32b00b51a34/preview_056_man_on_a_cow.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "497": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/4f60adf3_ddef_4abc_b762_b32b00b593da/preview_057_man_carrying_water_buckets.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/4f60adf3_ddef_4abc_b762_b32b00b593da/preview_057_man_carrying_water_buckets.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "498": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/560f61ef_1536_4c9d_9952_b32b00b5f695/preview_058_man_carrying_water_buckets.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/560f61ef_1536_4c9d_9952_b32b00b5f695/preview_058_man_carrying_water_buckets.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "499": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/f4852872_e4fa_4d8d_8c5c_b32b00b6707d/preview_059_travelling_merchants.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/f4852872_e4fa_4d8d_8c5c_b32b00b6707d/preview_059_travelling_merchants.jpg",
@@ -3441,12 +3483,40 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "501": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/d994eb64_80a5_4e53_90d4_b32b00b7777d/preview_061_a_ferry_man_rowing_out_a_boat.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/d994eb64_80a5_4e53_90d4_b32b00b7777d/preview_061_a_ferry_man_rowing_out_a_boat.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "502": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/9d13410c_87fe_44ee_aaef_b32b00b82056/preview_062_pounding_steamed_rice.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/9d13410c_87fe_44ee_aaef_b32b00b82056/preview_062_pounding_steamed_rice.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "503": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/8c66ed66_6ecf_41e6_978e_b32b00b89b86/preview_063_grinding_grains.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/8c66ed66_6ecf_41e6_978e_b32b00b89b86/preview_063_grinding_grains.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "504": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/0f3e30c6_ec32_4d57_af5e_b32b00b8fbbd/preview_064_butcher.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/0f3e30c6_ec32_4d57_af5e_b32b00b8fbbd/preview_064_butcher.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "505": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/cb4c23c1_98e6_4691_bd9f_b32b00b958c7/preview_065_fishmonger.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/cb4c23c1_98e6_4691_bd9f_b32b00b958c7/preview_065_fishmonger.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "506": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/da053c4b_bded_442b_8857_b32b00b9c1e8/preview_kisan_66.jpg",
@@ -3462,6 +3532,13 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "508": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/3d1494c0_915d_412f_bd33_b32b00ba9593/preview_068_a_travelling_merchant_with_his_family_selling_umbrellas.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/3d1494c0_915d_412f_bd33_b32b00ba9593/preview_068_a_travelling_merchant_with_his_family_selling_umbrellas.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "509": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/bba77967_2437_40fa_be85_b32b00baf217/preview_069_blacksmith.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/bba77967_2437_40fa_be85_b32b00baf217/preview_069_blacksmith.jpg",
@@ -3476,6 +3553,13 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "511": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/29698501_08c3_46e0_b7e2_b32b00bbc16a/preview_071_a_travelling_merchant_with_his_spouse.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/29698501_08c3_46e0_b7e2_b32b00bbc16a/preview_071_a_travelling_merchant_with_his_spouse.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "512": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/60c9a498_29c8_4228_94a4_b32b00bc6f49/preview_072_blacksmith.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/60c9a498_29c8_4228_94a4_b32b00bc6f49/preview_072_blacksmith.jpg",
@@ -3483,12 +3567,61 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "513": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/c08d88d5_b975_4a6d_b1e7_b32b00bcca66/preview_073_potters.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/c08d88d5_b975_4a6d_b1e7_b32b00bcca66/preview_073_potters.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "514": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/d786806b_3183_4af7_a0fa_b32b00bd33f0/preview_074_sword_dancers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/d786806b_3183_4af7_a0fa_b32b00bd33f0/preview_074_sword_dancers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "515": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/62fab2f8_e054_4e14_bdba_b32b00bd977b/preview_075_ice_fishing.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/62fab2f8_e054_4e14_bdba_b32b00bd977b/preview_075_ice_fishing.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "516": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/4b5158f0_03b0_4c73_9020_b32b00be1382/preview_076_throwing_arrows.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/4b5158f0_03b0_4c73_9020_b32b00be1382/preview_076_throwing_arrows.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "517": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/6e454d69_5b85_492b_adc1_b32b00be7d86/preview_077_a_wood_seller.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/6e454d69_5b85_492b_adc1_b32b00be7d86/preview_077_a_wood_seller.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "518": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/59c75d80_9d8d_460d_8235_b32b00bedcd3/preview_078_domino_players.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/59c75d80_9d8d_460d_8235_b32b00bedcd3/preview_078_domino_players.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "519": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/30f10657_aaed_497f_bb44_b33e00a16a53/preview_079_playing_board_game.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/30f10657_aaed_497f_bb44_b33e00a16a53/preview_079_playing_board_game.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "520": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/5a97532e_17ff_499a_9b43_b33e00a2364d/preview_080_a_pimp_with_his_prostitute.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/5a97532e_17ff_499a_9b43_b33e00a2364d/preview_080_a_pimp_with_his_prostitute.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "521": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/082f7d19_1dde_4f83_83bf_b33e00a29f0d/preview_081_flute_players.jpg",
@@ -3511,12 +3644,40 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "524": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/da58fd0f_7e02_471c_9336_b33e00a3d507/preview_084_a_executioner.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/da58fd0f_7e02_471c_9336_b33e00a3d507/preview_084_a_executioner.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "525": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/ae550f44_847a_4b82_94eb_b33e00a41c1a/preview_085_a_judge.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/ae550f44_847a_4b82_94eb_b33e00a41c1a/preview_085_a_judge.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "526": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/83f0c284_5f2a_4a13_b33d_b33e00a49268/preview_086_lady_spinning_a_wheel.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_9/83f0c284_5f2a_4a13_b33d_b33e00a49268/preview_086_lady_spinning_a_wheel.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "527": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/3291dda1_d66e_43fe_a7df_b33e00a53071/preview_087_wood_carving.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/3291dda1_d66e_43fe_a7df_b33e00a53071/preview_087_wood_carving.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "528": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/135a3c47_f89d_43e0_a721_b33e00a5b80a/preview_088_panning_for_gold.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/135a3c47_f89d_43e0_a721_b33e00a5b80a/preview_088_panning_for_gold.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "529": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/d7d8913c_06b8_4964_a323_b33e00a6ac1f/preview_089_brick_builders.jpg",
@@ -3525,6 +3686,20 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "530": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/304d85e7_4d95_47f9_8543_b33e00a6f767/preview_090_glassmaker_pouring_melted_glass_.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/304d85e7_4d95_47f9_8543_b33e00a6f767/preview_090_glassmaker_pouring_melted_glass_.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "531": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/edd13299_67f0_4c37_a562_b33e00a73f25/preview_091_glassmaker_cutting_glass_.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/edd13299_67f0_4c37_a562_b33e00a73f25/preview_091_glassmaker_cutting_glass_.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "532": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/6d25bdbc_ed5d_417e_a844_b33e00a79eb5/preview_092_a_dozing_man.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/6d25bdbc_ed5d_417e_a844_b33e00a79eb5/preview_092_a_dozing_man.jpg",
@@ -3532,12 +3707,61 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "533": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/acb7402b_4c66_4d07_ada2_b33e00a7e9df/preview_093_mat_plaiting.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/acb7402b_4c66_4d07_ada2_b33e00a7e9df/preview_093_mat_plaiting.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "534": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/88dbcfa7_a38a_4beb_9e25_b33e00a83403/preview_094_cotton_ginning.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/88dbcfa7_a38a_4beb_9e25_b33e00a83403/preview_094_cotton_ginning.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "535": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/a17cdd80_b299_4c31_86fd_b33e00a87d3d/preview_095_weaving_hemp_cloth.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/a17cdd80_b299_4c31_86fd_b33e00a87d3d/preview_095_weaving_hemp_cloth.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "536": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/80e27c6b_f64b_4169_83cb_b33e00a8ddda/preview_096_spinnin_a_wheel.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/80e27c6b_f64b_4169_83cb_b33e00a8ddda/preview_096_spinnin_a_wheel.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "537": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/adb74865_ae89_4b09_a778_b33e00a93ebd/preview_097_straw_twisting.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/adb74865_ae89_4b09_a778_b33e00a93ebd/preview_097_straw_twisting.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "538": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/0f3baae8_5a0f_471b_bbd2_b33e00a9d62f/preview_098_getting_rid_of_cotton_seed.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/0f3baae8_5a0f_471b_bbd2_b33e00a9d62f/preview_098_getting_rid_of_cotton_seed.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "539": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/96737e17_1685_4264_af97_b33e00aa2ba7/preview_099_punishing_criminal__leg_screw_.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/96737e17_1685_4264_af97_b33e00aa2ba7/preview_099_punishing_criminal__leg_screw_.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "540": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/9799aff3_aee1_46a5_a422_b33e00aa747f/preview_100_monk_playing_cymblas.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/9799aff3_aee1_46a5_a422_b33e00aa747f/preview_100_monk_playing_cymblas.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "541": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/d0499b40_5958_4057_9574_b33e00aacf80/preview_101_Gisaeng_playing_Geomungo.jpg",
@@ -3560,6 +3784,27 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "544": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/22331c41_8bde_45d8_b8a6_b33e00abeefc/preview_104_plowing_a_field.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/22331c41_8bde_45d8_b8a6_b33e00abeefc/preview_104_plowing_a_field.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "545": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/a592cb31_1d1b_4b35_996d_b33e00ac43e5/preview_105_young_wageworkers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/a592cb31_1d1b_4b35_996d_b33e00ac43e5/preview_105_young_wageworkers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "546": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/58004b55_9af1_4ae5_9f9e_b33e00b0290d/preview_106_pestling.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/58004b55_9af1_4ae5_9f9e_b33e00b0290d/preview_106_pestling.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "547": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/efd312cc_eac8_4092_9397_b33e00b0a090/preview_107_washing_clothes.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/efd312cc_eac8_4092_9397_b33e00b0a090/preview_107_washing_clothes.jpg",
@@ -3567,12 +3812,33 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "548": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/392d206c_533c_4802_b177_b33e00b0fbf6/preview_108_monks_beating_a_small_drum.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/392d206c_533c_4802_b177_b33e00b0fbf6/preview_108_monks_beating_a_small_drum.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "549": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/b4338d04_ff7c_48da_a6fd_b33e00b18d74/preview_109_kitchen_scene.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/b4338d04_ff7c_48da_a6fd_b33e00b18d74/preview_109_kitchen_scene.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "550": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/5a9c62b9_2ca5_47aa_9d66_b33e00b20c6c/preview_110_monks_beating_a_drum.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/5a9c62b9_2ca5_47aa_9d66_b33e00b20c6c/preview_110_monks_beating_a_drum.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "551": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/c1642799_3050_4c2c_8aa4_b33e00b28e9a/preview_111_Buddhistic_ritual.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/c1642799_3050_4c2c_8aa4_b33e00b28e9a/preview_111_Buddhistic_ritual.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "552": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/c14be9f1_c0ca_4562_8b71_b33e00b2e8a8/preview_112_female_shaman_holding_a_ritual.jpg",
@@ -3588,12 +3854,33 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "554": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/db400b52_69f1_4582_8b26_b33e00b3d96a/preview_114_a_young_clown.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/db400b52_69f1_4582_8b26_b33e00b3d96a/preview_114_a_young_clown.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "555": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/70d32baa_efb0_4ff9_94af_b33e00b4305c/preview_115_a_sailing_boat.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/70d32baa_efb0_4ff9_94af_b33e00b4305c/preview_115_a_sailing_boat.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "556": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/fee4a553_2253_4408_af2e_b33e00b49240/preview_116_children_spinning_a_top.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/fee4a553_2253_4408_af2e_b33e00b49240/preview_116_children_spinning_a_top.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "557": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/86afc4d6_732d_483a_aa05_b33e00b4e41b/preview_117_heading_for_a_market_with_a_lantern.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_10/86afc4d6_732d_483a_aa05_b33e00b4e41b/preview_117_heading_for_a_market_with_a_lantern.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "558": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/6571a8cc_20c9_45e2_9c52_b33e00b55f1c/preview_118_candy_making.jpg",
@@ -3602,12 +3889,75 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "559": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/873425d8_ad44_41dc_8314_b33e00b59e8b/preview_119_weaving_hat.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/873425d8_ad44_41dc_8314_b33e00b59e8b/preview_119_weaving_hat.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "560": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/76f11e70_b326_4f0f_9830_b33e00b5f143/preview_120_millstone.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/76f11e70_b326_4f0f_9830_b33e00b5f143/preview_120_millstone.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "561": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/a8a8fa0d_031d_447f_963a_b33e00b64465/preview_121_travelling_merchant.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/a8a8fa0d_031d_447f_963a_b33e00b64465/preview_121_travelling_merchant.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "562": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/d6c789d1_f606_4d5a_8208_b33e00b68c17/preview_122_rainy_day.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/d6c789d1_f606_4d5a_8208_b33e00b68c17/preview_122_rainy_day.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "563": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/27f0a36d_8ac2_4bb6_88dd_b33e00b70abf/preview_123_plant_seller.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/27f0a36d_8ac2_4bb6_88dd_b33e00b70abf/preview_123_plant_seller.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "564": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/53c59001_e645_4850_804e_b33e00b79115/preview_124_loggers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/53c59001_e645_4850_804e_b33e00b79115/preview_124_loggers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "565": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/5d3dd613_de9f_4a48_bba8_b33e00b7dc85/preview_125_loading_on_a_cow.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/5d3dd613_de9f_4a48_bba8_b33e00b7dc85/preview_125_loading_on_a_cow.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "566": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/a640d16e_5379_4751_83a5_b33e00b82042/preview_126_a_monk_playing_a_cymbals.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/a640d16e_5379_4751_83a5_b33e00b82042/preview_126_a_monk_playing_a_cymbals.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "567": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/be4ebc44_8264_4561_b547_b33e00b882f1/preview_127_pottery_seller.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/be4ebc44_8264_4561_b547_b33e00b882f1/preview_127_pottery_seller.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "568": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/133982bd_3515_4b25_902a_b33e00b8e897/preview_128_cotton_picking.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/133982bd_3515_4b25_902a_b33e00b8e897/preview_128_cotton_picking.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "569": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2022_5/11_11/25581e9f_c3ed_440f_9a18_ae9200bc5fef/preview_RFC54092.jpg",
@@ -3616,12 +3966,40 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "570": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/94c8c684_1688_4696_8fcb_b33e00baca0b/preview_130_at_a_snack_bar.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/94c8c684_1688_4696_8fcb_b33e00baca0b/preview_130_at_a_snack_bar.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "571": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/f7ec7743_65ef_49f5_883e_b33e00bb448d/preview_131_rice_polishing.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/f7ec7743_65ef_49f5_883e_b33e00bb448d/preview_131_rice_polishing.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "572": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/2ab7ddc8_75cb_4ab0_9f9a_b33e00bbedae/preview_132_napa_cabbage_sellers.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/2ab7ddc8_75cb_4ab0_9f9a_b33e00bbedae/preview_132_napa_cabbage_sellers.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "573": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/d761d451_4094_43ed_b83b_b33e00bc3faf/preview_133_a_fishing_boat.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/d761d451_4094_43ed_b83b_b33e00bc3faf/preview_133_a_fishing_boat.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "574": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/6a9c1f11_2d52_455b_ad5c_b33e00bc86a9/preview_134_candy_making.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/6a9c1f11_2d52_455b_ad5c_b33e00bc86a9/preview_134_candy_making.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "575": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/592c49bc_1ebd_4f53_a18e_b33e00bcdd5c/preview_135_making_a_yarn_guide.jpg",
@@ -3637,6 +4015,27 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "577": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/7f643710_dd2b_40f8_aa2d_b33e00be870e/preview_137_shooting_arrows.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/7f643710_dd2b_40f8_aa2d_b33e00be870e/preview_137_shooting_arrows.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "578": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/fbd4e649_6190_440e_b232_b33e00bef2f3/preview_138_childeren_hunting_birds.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/fbd4e649_6190_440e_b232_b33e00bef2f3/preview_138_childeren_hunting_birds.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "579": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/1b353db4_f7b8_4d31_a066_b33e00bf73a2/preview_139_childeren_hunting_birds.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/1b353db4_f7b8_4d31_a066_b33e00bf73a2/preview_139_childeren_hunting_birds.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "580": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/9889468f_aeab_4c87_afaf_b33e00bfcbd0/preview_140_police_office_building.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/9889468f_aeab_4c87_afaf_b33e00bfcbd0/preview_140_police_office_building.jpg",
@@ -3644,12 +4043,54 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "581": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/01c98835_8807_4d8d_948b_b33e00c03722/preview_141_children_playing_games.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/01c98835_8807_4d8d_948b_b33e00c03722/preview_141_children_playing_games.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "582": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/26806bb8_9261_4082_9122_b33e00c08585/preview_142_picking_mulberries.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/26806bb8_9261_4082_9122_b33e00c08585/preview_142_picking_mulberries.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "583": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/a59385be_f7e8_49bb_a34d_b33e00c0e1de/preview_143_investigating_criminal.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/a59385be_f7e8_49bb_a34d_b33e00c0e1de/preview_143_investigating_criminal.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "584": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/8dba74af_0170_4a73_97f1_b33e00c14df9/preview_144_man_riding_in_a_carriage.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/8dba74af_0170_4a73_97f1_b33e00c14df9/preview_144_man_riding_in_a_carriage.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "585": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/2d0bf53b_4be3_468c_8299_b33e00c1c7f8/preview_145_.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/2d0bf53b_4be3_468c_8299_b33e00c1c7f8/preview_145_.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "586": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/d909b2c5_2bf3_4a22_b531_b33e00c2298b/preview_146_.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/d909b2c5_2bf3_4a22_b531_b33e00c2298b/preview_146_.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "587": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/13a0b37d_19db_4842_a1f0_b33e00c27404/preview_147_.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/13a0b37d_19db_4842_a1f0_b33e00c27404/preview_147_.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "588": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_8/19_11/12cbe141_301e_4d65_96e5_b33e00c2dfe9/preview_148_.jpg",
