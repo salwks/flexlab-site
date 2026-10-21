@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 815,
-  "unresolved": 218,
+  "count": 813,
+  "unresolved": 215,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -4460,20 +4460,6 @@
       "thumbnail": "https://media.artmuseum.princeton.edu/iiif/3/collection/PUAMSTU2039618/full/600%2C/0/default.jpg",
       "image": "https://media.artmuseum.princeton.edu/iiif/3/collection/PUAMSTU2039618/full/600%2C/0/default.jpg",
       "source": "Princeton University Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "815": {
-      "thumbnail": "https://portlandartmuseum.org/wp-content/uploads/2025/11/Guunmong-scaled.jpg",
-      "image": "https://portlandartmuseum.org/wp-content/uploads/2025/11/Guunmong-scaled.jpg",
-      "source": "Portland Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "816": {
-      "thumbnail": "https://portlandartmuseum.org/wp-content/uploads/2023/10/The-Walled-City-of-Pyeongyang.jpeg",
-      "image": "https://portlandartmuseum.org/wp-content/uploads/2023/10/The-Walled-City-of-Pyeongyang.jpeg",
-      "source": "Portland Art Museum · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
