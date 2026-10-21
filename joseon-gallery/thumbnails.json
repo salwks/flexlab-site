@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 813,
-  "unresolved": 215,
+  "count": 827,
+  "unresolved": 201,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5583,6 +5583,34 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "992": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181129/1129111007572-b5264f90d28a429b904bc26e8dfb7276.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181129/1129111007572-b5264f90d28a429b904bc26e8dfb7276.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "993": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20211126/112617B4721767-d494514a6091414a9f5b20b766b09008.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20211126/112617B4721767-d494514a6091414a9f5b20b766b09008.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "994": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20260930/093015B5204812-401b61366a614e51bb449e0740b666b9.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20260930/093015B5204812-401b61366a614e51bb449e0740b666b9.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "995": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145311380-2968c96a57a147edaa6089ba35b0b8f3.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145311380-2968c96a57a147edaa6089ba35b0b8f3.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "997": {
       "thumbnail": "https://collections-images.lacma.org/images/142114/142114-1-primary.webp",
       "image": "https://collections-images.lacma.org/images/142114/142114-1-primary.webp",
@@ -5603,6 +5631,76 @@
       "source": "LACMA · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "1000": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181211/1211152747736-d1ad324eec714c0b89d655e9d027c1f7.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181211/1211152747736-d1ad324eec714c0b89d655e9d027c1f7.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1001": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181217/1217150320289-f31815f3589d4930a88281556d05afb3.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181217/1217150320289-f31815f3589d4930a88281556d05afb3.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1002": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20261019/101914B4733375-5e75860543c14521827457745565adf7.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20261019/101914B4733375-5e75860543c14521827457745565adf7.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1003": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181217/1217150002876-e8cce05f86024649a9ea749f4717b170.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181217/1217150002876-e8cce05f86024649a9ea749f4717b170.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1004": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145814336-934d4fa1c8b442ca9f94b222de3f6143.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145814336-934d4fa1c8b442ca9f94b222de3f6143.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1005": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181217/1217151117041-b2ac434c1bbb45bebd314900b285645e.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181217/1217151117041-b2ac434c1bbb45bebd314900b285645e.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1006": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145224838-21fee292a147449ab6b4f0e39114ba12.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145224838-21fee292a147449ab6b4f0e39114ba12.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1007": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145009683-994dce2ff4a9431bb46dec79ecc489ca.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181217/1217145009683-994dce2ff4a9431bb46dec79ecc489ca.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1008": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181211/1211153354864-dc07579b5b2b48d48794900215a2098a.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20181211/1211153354864-dc07579b5b2b48d48794900215a2098a.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "1009": {
+      "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20200323/032317B2641867-b9fda14690e248db8137e5c07f801335.jpg",
+      "image": "https://museum.busan.go.kr/data/PAVILION/20200323/032317B2641867-b9fda14690e248db8137e5c07f801335.jpg",
+      "source": "부산박물관 · 직접검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "1014": {
       "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",

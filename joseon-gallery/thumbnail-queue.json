@@ -1,10 +1,9 @@
 {
   "version": "2026-10-21",
-  "total": 215,
+  "total": 201,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
-    "부산박물관 · 직접검증": 15,
     "Asian Art Museum · 조선회화": 13,
     "Museum of Fine Arts Houston · 조선회화": 12,
     "Seattle Art Museum · 조선회화": 9,
@@ -31,6 +30,7 @@
     "Saint Louis Art Museum · 조선회화": 1,
     "도쿄국립박물관 · ColBase": 1,
     "Spencer Museum of Art · 조선회화": 1,
+    "부산박물관 · 직접검증": 1,
     "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
@@ -1920,149 +1920,9 @@
       "artist": "변지한",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=22&srchDiv=5",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 992,
-      "title": "김홍도 필 산수인물도",
-      "artist": "김홍도",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=6&dataNo=17",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 993,
-      "title": "후원한담도",
-      "artist": "작자미상",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=5686",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 994,
-      "title": "농가월령도 십이폭 병풍",
-      "artist": "이시눌",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=6315&srchDiv=&srchText=",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 995,
-      "title": "변박 묵매도",
-      "artist": "변박",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5497",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1000,
-      "title": "이의양 필 산수도 · 통신사행본 A",
-      "artist": "이의양",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=4&dataNo=5477",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1001,
-      "title": "이의양 필 산수도 · 통신사행본 B",
-      "artist": "이의양",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5504&srchDiv=&srchText=",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1002,
-      "title": "이시눌 필 산수도",
-      "artist": "이시눌",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5503",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1003,
-      "title": "괴원 변지한 필 화조도",
-      "artist": "변지한",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5502",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1004,
-      "title": "이의양 필 응도",
-      "artist": "이의양",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=5501&srchDiv=33087",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1005,
-      "title": "이덕성 초상",
-      "artist": "작자미상",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=5506&srchDiv=&srchText=",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1006,
-      "title": "김유성 석란도",
-      "artist": "김유성",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=4&dataNo=21",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1007,
-      "title": "동래부산도병",
-      "artist": "작자미상",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=3&dataNo=5496",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1008,
-      "title": "심사정 필 산승보납도",
-      "artist": "심사정",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=3&dataNo=5478&srchDiv=4",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 1009,
-      "title": "어전준천제명첩",
-      "artist": "작자미상",
-      "source": "부산박물관 · 직접검증",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=3&dataNo=18&srchDiv=4",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "fetch failed",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 1010,
