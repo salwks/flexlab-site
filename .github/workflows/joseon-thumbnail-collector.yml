@@ -34,8 +34,25 @@ jobs:
           node-version: "20"
       - name: Validate split architecture
         run: node joseon-gallery/tests/thumbnail-architecture.test.cjs
+      - name: Resolve collector inputs
+        id: collector
+        shell: bash
+        run: |
+          LIMIT="${{ inputs.limit }}"
+          SOURCE="${{ inputs.source }}"
+          if [ "${{ github.event_name }}" = "push" ] && [ -f joseon-gallery/thumbnail-run.trigger ]; then
+            FILE_LIMIT="$(sed -n 's/^limit=//p' joseon-gallery/thumbnail-run.trigger | tail -n 1)"
+            FILE_SOURCE="$(sed -n 's/^source=//p' joseon-gallery/thumbnail-run.trigger | tail -n 1)"
+            if [ -n "$FILE_LIMIT" ]; then LIMIT="$FILE_LIMIT"; fi
+            if [ -n "$FILE_SOURCE" ]; then SOURCE="$FILE_SOURCE"; fi
+          fi
+          if [ -z "$LIMIT" ]; then LIMIT="0"; fi
+          echo "limit=$LIMIT" >> "$GITHUB_OUTPUT"
+          echo "source=$SOURCE" >> "$GITHUB_OUTPUT"
+          echo "Collector source: $SOURCE"
+          echo "Collector limit: $LIMIT"
       - name: Collect and verify unresolved thumbnails
-        run: node joseon-gallery/scripts/collect-thumbnails.cjs --limit "${{ inputs.limit }}" --source "${{ inputs.source }}"
+        run: node joseon-gallery/scripts/collect-thumbnails.cjs --limit "${{ steps.collector.outputs.limit }}" --source "${{ steps.collector.outputs.source }}"
       - name: Validate results
         run: node joseon-gallery/tests/thumbnail-architecture.test.cjs
       - name: Commit verified URLs
