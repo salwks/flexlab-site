@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 192,
+  "total": 189,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -14,12 +14,10 @@
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
     "홍익대학교박물관 · 조선회화": 2,
-    "고려대학교박물관 · 전시검증": 2,
     "도쿄국립박물관 · 전시검증": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
-    "국립고궁박물관 · 직접검증": 1,
-    "호림박물관 · 직접검증": 1,
+    "고려대학교박물관 · 전시검증": 1,
     "서울대학교박물관 · 전시검증": 1,
     "Detroit Institute of Arts · 조선회화": 1,
     "Worcester Art Museum · 한국회화": 1,
@@ -1290,34 +1288,14 @@
       "lastChecked": "2026-10-21"
     },
     {
-      "id": 683,
-      "title": "일월오봉도 병풍",
-      "artist": "작자미상",
-      "source": "국립고궁박물관 · 직접검증",
-      "url": "https://online.gogung.go.kr/gogung/bbs/BMSR00019/view.do?boardId=3533&menuNo=800069&pageIndex=1",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 687,
-      "title": "산수인물화첩",
-      "artist": "이경윤",
-      "source": "호림박물관 · 직접검증",
-      "url": "https://www.horimmuseum.org/ko/collection/collections/666bac8b2ad252234bd3eb2b",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
       "id": 688,
       "title": "Welcoming Banquet of the Governor of Pyeongan",
       "artist": "작자미상",
       "source": "Peabody Essex Museum · 조선회화",
       "url": "https://www.pem.org/the-pem-collection/korean-art",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 690,
@@ -1325,9 +1303,9 @@
       "artist": "작자미상",
       "source": "Peabody Essex Museum · 조선회화",
       "url": "https://www.pem.org/the-pem-collection/korean-art",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 701,
@@ -1455,9 +1433,9 @@
       "artist": "작자미상",
       "source": "홍익대학교박물관 · 조선회화",
       "url": "https://museum.hongik.ac.kr/museum/0201.do?articleNo=118855&mode=view",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "host",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 719,
@@ -1465,19 +1443,9 @@
       "artist": "작자미상",
       "source": "홍익대학교박물관 · 조선회화",
       "url": "https://museum.hongik.ac.kr/museum/0201.do?articleNo=118855&mode=view",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 729,
-      "title": "사직노송도",
-      "artist": "정선",
-      "source": "고려대학교박물관 · 전시검증",
-      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "host",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 730,
@@ -1485,9 +1453,9 @@
       "artist": "김홍도",
       "source": "고려대학교박물관 · 전시검증",
       "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 729",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 731,
@@ -1495,9 +1463,9 @@
       "artist": "정선",
       "source": "서울대학교박물관 · 전시검증",
       "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "duplicate thumbnail candidate: 729",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 732,
@@ -1505,9 +1473,9 @@
       "artist": "작자미상",
       "source": "아모레퍼시픽미술관 · 전시검증",
       "url": "https://apma.amorepacific.com/contents/exhibition/1584988/view.do",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "host",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 733,
