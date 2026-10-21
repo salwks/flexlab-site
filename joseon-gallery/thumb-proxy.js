@@ -22,6 +22,7 @@ function candidates(html,base){
  for(const m of html.matchAll(/https?:\\?\/\\?\/[^"'<>\s]+?\.(?:jpe?g|png|webp)(?:\?[^"'<>\s]*)?/gi))a.push(abs(base,m[0]));
  for(const m of html.matchAll(/["'](\/[^"']+?\.(?:jpe?g|png|webp)(?:\?[^"']*)?)["']/gi))a.push(abs(base,m[1]));
  for(const m of html.matchAll(/(?:https?:\\?\/\\?\/[^"'<>\s]+)?\/internal\/media\/(?:zoomdispatcher|dispatcher)\/\d+\/[^"'<>\s]*/gi))a.push(abs(base,m[0]));
+ for(const m of html.matchAll(/["'](\/common\/apithumb\/relic\/\d+\.do)["']/gi))a.push(abs(base,m[1]));
  for(const m of html.matchAll(/["'](\/[^"']*\/(?:image|images|media|iiif)\/[^"']+)["']/gi))a.push(abs(base,m[1]));
  for(const m of html.matchAll(/https?:\\?\/\\?\/ids\.si\.edu\/ids\/deliveryService\?[^"'<>\s]+/gi))a.push(abs(base,m[0]));
  for(const m of html.matchAll(/["'](https?:\/\/ids\.si\.edu\/ids\/deliveryService\?[^"']+)["']/gi))a.push(abs(base,m[1]));
@@ -29,7 +30,7 @@ function candidates(html,base){
 }
 function badCandidate(u){
  const s=(u||'').toLowerCase();
- return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|adsrvr|casalemedia|criteo|taboola|outbrain|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|\/_next\/static\/media\/|centennial-celebration-tile/.test(s);
+ return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|adsrvr|casalemedia|criteo|taboola|outbrain|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|\/images\/layout\/|breadcrumbs?|l-breadcrumbs|\/layout\/renew\/|\/_next\/static\/media\/|centennial-celebration-tile/.test(s);
 }
 function score(u){
  const s=u.toLowerCase();if(badCandidate(s))return -9999;let n=0;
@@ -44,6 +45,7 @@ function score(u){
  if(/piction\.clevelandart\.org|openaccess/.test(s))n+=140;
  if(/collections-images\.lacma\.org/.test(s))n+=140;
  if(/\/internal\/media\/(?:zoomdispatcher|dispatcher)\//.test(s))n+=240;
+ if(/nfm\.go\.kr\/common\/apithumb\/relic\//.test(s))n+=360;
  if(/\/upload\/museum\//.test(s))n+=130;
  if(/relic_image|collection|object|artwork|museum|image|images|media|iiif|thumb|thumbnail|preview|primary/.test(s))n+=35;
  if(/thumbnail|preview|-t\.|_t\.|small|medium|mid_/.test(s))n+=12;
