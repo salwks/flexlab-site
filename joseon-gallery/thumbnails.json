@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 812,
-  "unresolved": 216,
+  "count": 811,
+  "unresolved": 217,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5628,13 +5628,6 @@
     "1020": {
       "thumbnail": "https://www.nfm.go.kr/site/home/images/display/karyedo_03.jpg",
       "image": "https://www.nfm.go.kr/site/home/images/display/karyedo_03.jpg",
-      "source": "국립민속박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "1021": {
-      "thumbnail": "https://webzine.nfm.go.kr/wp-content/uploads/2021/12/%EB%AF%BC%EB%B0%95%EC%9B%94%EA%B0%84-%EB%AF%BC%EC%86%8D%EC%86%8C%EC%8B%9D%EC%9B%B9_%EB%82%B4%EC%A7%80%EC%9D%B4%EB%AF%B8%EC%A7%8023-1.jpg",
-      "image": "https://webzine.nfm.go.kr/wp-content/uploads/2021/12/%EB%AF%BC%EB%B0%95%EC%9B%94%EA%B0%84-%EB%AF%BC%EC%86%8D%EC%86%8C%EC%8B%9D%EC%9B%B9_%EB%82%B4%EC%A7%80%EC%9D%B4%EB%AF%B8%EC%A7%8023-1.jpg",
       "source": "국립민속박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
