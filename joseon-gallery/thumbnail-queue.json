@@ -8,8 +8,8 @@
     "Museum of Fine Arts Houston · 조선회화": 12,
     "Seattle Art Museum · 조선회화": 9,
     "British Museum · 조선회화": 7,
+    "국립민속박물관 · 소장품": 5,
     "국립민속박물관 · 직접검증": 5,
-    "국립민속박물관 · 소장품": 4,
     "Brooklyn Museum · 조선회화": 3,
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
@@ -18,7 +18,6 @@
     "도쿄국립박물관 · 전시검증": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
-    "Honolulu Museum of Art · 조선회화": 1,
     "국립고궁박물관 · 직접검증": 1,
     "호림박물관 · 직접검증": 1,
     "서울대학교박물관 · 전시검증": 1,
@@ -1046,9 +1045,9 @@
       "artist": "김홍도 양식",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/search?keyword=1961%2C0513%2C0.4.1-12",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 594,
@@ -1056,9 +1055,9 @@
       "artist": "작자미상",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/search?keyword=1996%2C1003%2C0.2",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 607,
@@ -1096,9 +1095,9 @@
       "artist": "작자미상",
       "source": "LACMA · 조선회화",
       "url": "https://collections.lacma.org/object/84448",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 634,
@@ -1106,9 +1105,9 @@
       "artist": "영희·긍섭",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1959-1010-0-2",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 635,
@@ -1116,9 +1115,9 @@
       "artist": "작자미상",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1920-0317-0-2",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 636,
@@ -1126,9 +1125,9 @@
       "artist": "이명기 추정",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1996-0329-0-1",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 638,
@@ -1136,9 +1135,9 @@
       "artist": "작자미상",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1947-0712-0-12",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 639,
@@ -1146,9 +1145,9 @@
       "artist": "김홍도 양식",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1961-0513-0-4-1-12",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 403",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 643,
@@ -1156,9 +1155,9 @@
       "artist": "작자미상",
       "source": "The Met · 조선회화",
       "url": "https://www.metmuseum.org/art/collection/search/853899",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "page 429",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 668,
@@ -1289,16 +1288,6 @@
       "status": "failed",
       "error": "no image",
       "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 681,
-      "title": "Sea, Cranes and Peaches · pair of folding screens",
-      "artist": "작자미상",
-      "source": "Honolulu Museum of Art · 조선회화",
-      "url": "https://honolulumuseum.org/arts-of-pan-asia-l3lg",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
     },
     {
       "id": 683,
@@ -1889,6 +1878,16 @@
       "status": "failed",
       "error": "duplicate thumbnail candidate: 1012",
       "lastChecked": "2026-10-21"
+    },
+    {
+      "id": 1021,
+      "title": "십장생도 (소장번호 31254)",
+      "artist": "작자미상",
+      "source": "국립민속박물관 · 소장품",
+      "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100103125400000",
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1022,

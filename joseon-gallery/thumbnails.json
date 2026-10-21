@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 835,
-  "unresolved": 193,
+  "count": 836,
+  "unresolved": 192,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3860,6 +3860,13 @@
       "source": "Cleveland Museum of Art · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "681": {
+      "thumbnail": "https://img.honolulumuseum.org/eEbMihnPMnsli6a-hu43LhQvnUAoKTT-eI8NKMbiSZ0/c:1920:1008:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly9ob25vbHVsdW11c2V1bS5vcmcvL2Ntc19maWxlcy9zeXN0ZW0vaW1hZ2VzL2ltZzA2MDRfb3JpZy5qcGc",
+      "image": "https://img.honolulumuseum.org/eEbMihnPMnsli6a-hu43LhQvnUAoKTT-eI8NKMbiSZ0/c:1920:1008:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly9ob25vbHVsdW11c2V1bS5vcmcvL2Ntc19maWxlcy9zeXN0ZW0vaW1hZ2VzL2ltZzA2MDRfb3JpZy5qcGc",
+      "source": "Honolulu Museum of Art · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "682": {
       "thumbnail": "https://online.gogung.go.kr/cmmn/file/imageSrc.do?atchFileId=00006724RL&fileSn=2&thumb=Y",
