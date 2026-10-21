@@ -3,34 +3,34 @@
   "total": 215,
   "bySource": {
     "British Museum · 김준근": 101,
+    "Museum of Fine Arts Boston · 조선회화": 15,
+    "부산박물관 · 직접검증": 15,
+    "Asian Art Museum · 조선회화": 13,
+    "Museum of Fine Arts Houston · 조선회화": 12,
+    "Seattle Art Museum · 조선회화": 9,
+    "국립민속박물관 · 직접검증": 8,
     "British Museum · 조선회화": 7,
     "Brooklyn Museum · 조선회화": 3,
+    "아모레퍼시픽미술관 · 전시검증": 3,
+    "국립민속박물관 · 소장품": 3,
+    "Peabody Essex Museum · 조선회화": 2,
+    "Museum für Asiatische Kunst Berlin · 조선회화": 2,
+    "홍익대학교박물관 · 조선회화": 2,
+    "고려대학교박물관 · 전시검증": 2,
+    "Princeton University Art Museum · 조선회화": 2,
+    "도쿄국립박물관 · 전시검증": 2,
+    "Nelson-Atkins Museum of Art · 조선회화": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
-    "Asian Art Museum · 조선회화": 13,
     "Honolulu Museum of Art · 조선회화": 1,
     "국립고궁박물관 · 직접검증": 1,
     "호림박물관 · 직접검증": 1,
-    "Peabody Essex Museum · 조선회화": 2,
-    "Museum für Asiatische Kunst Berlin · 조선회화": 2,
-    "Museum of Fine Arts Houston · 조선회화": 12,
-    "홍익대학교박물관 · 조선회화": 2,
-    "고려대학교박물관 · 전시검증": 2,
     "서울대학교박물관 · 전시검증": 1,
-    "아모레퍼시픽미술관 · 전시검증": 3,
-    "Museum of Fine Arts Boston · 조선회화": 15,
     "Detroit Institute of Arts · 조선회화": 1,
     "Worcester Art Museum · 한국회화": 1,
-    "Princeton University Art Museum · 조선회화": 2,
-    "Seattle Art Museum · 조선회화": 9,
     "Saint Louis Art Museum · 조선회화": 1,
-    "도쿄국립박물관 · 전시검증": 2,
     "도쿄국립박물관 · ColBase": 1,
     "Spencer Museum of Art · 조선회화": 1,
-    "Nelson-Atkins Museum of Art · 조선회화": 2,
-    "부산박물관 · 직접검증": 15,
-    "국립민속박물관 · 직접검증": 8,
-    "국립민속박물관 · 소장품": 3,
     "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
@@ -40,7 +40,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-2",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 443,
@@ -48,7 +50,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-3",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 444,
@@ -56,7 +60,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-4",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 445,
@@ -64,7 +70,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-5",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 447,
@@ -72,7 +80,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-7",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 448,
@@ -80,7 +90,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-8",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 450,
@@ -88,7 +100,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-10",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 451,
@@ -96,7 +110,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-11",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 453,
@@ -104,7 +120,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-13",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 455,
@@ -112,7 +130,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-15",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 457,
@@ -120,7 +140,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-17",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 458,
@@ -128,7 +150,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-18",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 459,
@@ -136,7 +160,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-19",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 460,
@@ -144,7 +170,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-20",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 461,
@@ -152,7 +180,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-21",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 462,
@@ -160,7 +190,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-22",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 463,
@@ -168,7 +200,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-23",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 465,
@@ -176,7 +210,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-25",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 466,
@@ -184,7 +220,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-26",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 467,
@@ -192,7 +230,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-27",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 468,
@@ -200,7 +240,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-28",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 470,
@@ -208,7 +250,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-30",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 472,
@@ -216,7 +260,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-32",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 474,
@@ -224,7 +270,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-34",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 477,
@@ -232,7 +280,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-37",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 479,
@@ -240,7 +290,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-39",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 481,
@@ -248,7 +300,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-41",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 482,
@@ -256,7 +310,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-42",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 483,
@@ -264,7 +320,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-43",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 484,
@@ -272,7 +330,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-44",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 485,
@@ -280,7 +340,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-45",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 486,
@@ -288,7 +350,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-46",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 487,
@@ -296,7 +360,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-47",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 488,
@@ -304,7 +370,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-48",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 489,
@@ -312,7 +380,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-49",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 490,
@@ -320,7 +390,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-50",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 491,
@@ -328,7 +400,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-51",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 492,
@@ -336,7 +410,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-52",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 493,
@@ -344,7 +420,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-53",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 494,
@@ -352,7 +430,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-54",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 495,
@@ -360,7 +440,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-55",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 496,
@@ -368,7 +450,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-56",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 497,
@@ -376,7 +460,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-57",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 498,
@@ -384,7 +470,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-58",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 501,
@@ -392,7 +480,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-61",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 502,
@@ -400,7 +490,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-62",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 503,
@@ -408,7 +500,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-63",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 505,
@@ -416,7 +510,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-65",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 508,
@@ -424,7 +520,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-68",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 511,
@@ -432,7 +530,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-71",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 513,
@@ -440,7 +540,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-73",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 514,
@@ -448,7 +550,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-74",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 515,
@@ -456,7 +560,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-75",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 516,
@@ -464,7 +570,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-76",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 517,
@@ -472,7 +580,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-77",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 519,
@@ -480,7 +590,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-79",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 520,
@@ -488,7 +600,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-80",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 524,
@@ -496,7 +610,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-84",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 526,
@@ -504,7 +620,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-86",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 527,
@@ -512,7 +630,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-87",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 528,
@@ -520,7 +640,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-88",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 530,
@@ -528,7 +650,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-90",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 531,
@@ -536,7 +660,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-91",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 533,
@@ -544,7 +670,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-93",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 535,
@@ -552,7 +680,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-95",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 536,
@@ -560,7 +690,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-96",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 537,
@@ -568,7 +700,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-97",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 538,
@@ -576,7 +710,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-98",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 539,
@@ -584,7 +720,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-99",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 540,
@@ -592,7 +730,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-100",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 544,
@@ -600,7 +740,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-104",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 545,
@@ -608,7 +750,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-105",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 546,
@@ -616,7 +760,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-106",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 548,
@@ -624,7 +770,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-108",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 550,
@@ -632,7 +780,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-110",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 551,
@@ -640,7 +790,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-111",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 554,
@@ -648,7 +800,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-114",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 556,
@@ -656,7 +810,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-116",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 557,
@@ -664,7 +820,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-117",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 559,
@@ -672,7 +830,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-119",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 560,
@@ -680,7 +840,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-120",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 561,
@@ -688,7 +850,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-121",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 562,
@@ -696,7 +860,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-122",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 563,
@@ -704,7 +870,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-123",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 564,
@@ -712,7 +880,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-124",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 565,
@@ -720,7 +890,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-125",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 566,
@@ -728,7 +900,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-126",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 568,
@@ -736,7 +910,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-128",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 570,
@@ -744,7 +920,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-130",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 571,
@@ -752,7 +930,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-131",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 573,
@@ -760,7 +940,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-133",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 574,
@@ -768,7 +950,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-134",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 577,
@@ -776,7 +960,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-137",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 578,
@@ -784,7 +970,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-138",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 579,
@@ -792,7 +980,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-139",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 581,
@@ -800,7 +990,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-141",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 582,
@@ -808,7 +1000,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-142",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 583,
@@ -816,7 +1010,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-143",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 584,
@@ -824,7 +1020,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-144",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 586,
@@ -832,7 +1030,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-146",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 587,
@@ -840,7 +1040,9 @@
       "artist": "김준근",
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-147",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 593,
@@ -848,7 +1050,9 @@
       "artist": "김홍도 양식",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/search?keyword=1961%2C0513%2C0.4.1-12",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 594,
@@ -856,7 +1060,9 @@
       "artist": "작자미상",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/search?keyword=1996%2C1003%2C0.2",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 607,
@@ -864,7 +1070,9 @@
       "artist": "이정 귀속",
       "source": "Brooklyn Museum · 조선회화",
       "url": "https://opencollection.brooklynmuseum.org/objects/3847",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 609,
@@ -872,7 +1080,9 @@
       "artist": "작자미상",
       "source": "Brooklyn Museum · 조선회화",
       "url": "https://opencollection.brooklynmuseum.org/objects/103465",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 610,
@@ -880,7 +1090,9 @@
       "artist": "작자미상",
       "source": "Brooklyn Museum · 조선회화",
       "url": "https://www.brooklynmuseum.org/opencollection/objects/114653",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 625,
@@ -888,7 +1100,9 @@
       "artist": "작자미상",
       "source": "LACMA · 조선회화",
       "url": "https://collections.lacma.org/object/84448",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 634,
@@ -896,7 +1110,9 @@
       "artist": "영희·긍섭",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1959-1010-0-2",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 635,
@@ -904,7 +1120,9 @@
       "artist": "작자미상",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1920-0317-0-2",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 636,
@@ -912,7 +1130,9 @@
       "artist": "이명기 추정",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1996-0329-0-1",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 638,
@@ -920,7 +1140,9 @@
       "artist": "작자미상",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1947-0712-0-12",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 639,
@@ -928,7 +1150,9 @@
       "artist": "김홍도 양식",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1961-0513-0-4-1-12",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 643,
@@ -936,7 +1160,9 @@
       "artist": "작자미상",
       "source": "The Met · 조선회화",
       "url": "https://www.metmuseum.org/art/collection/search/853899",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 668,
@@ -944,7 +1170,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12841/scholars-accoutrements",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 669,
@@ -952,7 +1180,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12953/nine-cloud-dream-guunmong",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 670,
@@ -960,7 +1190,9 @@
       "artist": "정선",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/14561/view-of-nongeun-villa-from-yukgang-hill",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 671,
@@ -968,7 +1200,9 @@
       "artist": "정선",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12825/landscape-with-two-figures",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 672,
@@ -976,7 +1210,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/14284/tiger-and-magpies",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 673,
@@ -984,7 +1220,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12855/album-of-portraits-of-meritorious-officials",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 674,
@@ -992,7 +1230,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12857/draft-portrait-of-song-siyeol",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 675,
@@ -1000,7 +1240,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/23432/draft-portrait-of-pak-pilgeon",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 676,
@@ -1008,7 +1250,9 @@
       "artist": "취관·동징",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12673/indra-jeseok-and-his-attendants",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 677,
@@ -1016,7 +1260,9 @@
       "artist": "이응록",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/13843/books-and-scholars-possessions-chaekgeori",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 678,
@@ -1024,7 +1270,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12895/ten-symbols-of-longevity",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 679,
@@ -1032,7 +1280,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12678/birds-and-flowers",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 680,
@@ -1040,7 +1290,9 @@
       "artist": "작자미상",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12917/fisherman-and-scholars-in-a-landscape",
-      "status": "pending"
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 681,
@@ -1048,7 +1300,9 @@
       "artist": "작자미상",
       "source": "Honolulu Museum of Art · 조선회화",
       "url": "https://honolulumuseum.org/arts-of-pan-asia-l3lg",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 683,
@@ -1056,7 +1310,9 @@
       "artist": "작자미상",
       "source": "국립고궁박물관 · 직접검증",
       "url": "https://online.gogung.go.kr/gogung/bbs/BMSR00019/view.do?boardId=3533&menuNo=800069&pageIndex=1",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 687,
@@ -1064,7 +1320,9 @@
       "artist": "이경윤",
       "source": "호림박물관 · 직접검증",
       "url": "https://www.horimmuseum.org/ko/collection/collections/666bac8b2ad252234bd3eb2b",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 688,
@@ -1072,7 +1330,9 @@
       "artist": "작자미상",
       "source": "Peabody Essex Museum · 조선회화",
       "url": "https://www.pem.org/the-pem-collection/korean-art",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 690,
@@ -1080,7 +1340,9 @@
       "artist": "작자미상",
       "source": "Peabody Essex Museum · 조선회화",
       "url": "https://www.pem.org/the-pem-collection/korean-art",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 695,
@@ -1088,7 +1350,9 @@
       "artist": "작자미상",
       "source": "Museum für Asiatische Kunst Berlin · 조선회화",
       "url": "https://www.smb.museum/museen-einrichtungen/museum-fuer-asiatische-kunst/ausstellungen/detail/mirae-kh-rhee/",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 701,
@@ -1096,7 +1360,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/139672/books-and-scholars-objects-chaekkori",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 702,
@@ -1104,7 +1370,9 @@
       "artist": "김제",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/88572/landscape",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 703,
@@ -1112,7 +1380,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155610/mountain-landscapes",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 704,
@@ -1120,7 +1390,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/154149/munjado-characters-of-confucian-virtues",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 705,
@@ -1128,7 +1400,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/154145/chaekgeori-books-and-things",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 706,
@@ -1136,7 +1410,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155614/xi-wang-mus-birthday-banquet",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 707,
@@ -1144,7 +1420,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155609/guo-ziyis-birthday-banquet",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 708,
@@ -1152,7 +1430,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/154143/seven-jeweled-mountain",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 709,
@@ -1160,7 +1440,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155613/one-hundred-characters-of-longevity-and-good-fortune",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 710,
@@ -1168,7 +1450,9 @@
       "artist": "이하응(흥선대원군)",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155611/orchids",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 711,
@@ -1176,7 +1460,9 @@
       "artist": "최석환",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/155612/grapevine",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 712,
@@ -1184,7 +1470,9 @@
       "artist": "민영익",
       "source": "Museum of Fine Arts Houston · 조선회화",
       "url": "https://emuseum.mfah.org/objects/154150/bamboo",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 718,
@@ -1192,7 +1480,9 @@
       "artist": "작자미상",
       "source": "홍익대학교박물관 · 조선회화",
       "url": "https://museum.hongik.ac.kr/museum/0201.do?articleNo=118855&mode=view",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 719,
@@ -1200,7 +1490,9 @@
       "artist": "작자미상",
       "source": "홍익대학교박물관 · 조선회화",
       "url": "https://museum.hongik.ac.kr/museum/0201.do?articleNo=118855&mode=view",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 729,
@@ -1208,7 +1500,9 @@
       "artist": "정선",
       "source": "고려대학교박물관 · 전시검증",
       "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 730,
@@ -1216,7 +1510,9 @@
       "artist": "김홍도",
       "source": "고려대학교박물관 · 전시검증",
       "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 731,
@@ -1224,7 +1520,9 @@
       "artist": "정선",
       "source": "서울대학교박물관 · 전시검증",
       "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 732,
@@ -1232,7 +1530,9 @@
       "artist": "작자미상",
       "source": "아모레퍼시픽미술관 · 전시검증",
       "url": "https://apma.amorepacific.com/contents/exhibition/1584988/view.do",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 733,
@@ -1240,7 +1540,9 @@
       "artist": "작자미상",
       "source": "아모레퍼시픽미술관 · 전시검증",
       "url": "https://apma.amorepacific.com/contents/exhibition/1584988/view.do",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 734,
@@ -1248,7 +1550,9 @@
       "artist": "작자미상",
       "source": "아모레퍼시픽미술관 · 전시검증",
       "url": "https://apma.amorepacific.com/contents/exhibition/1584988/view.do",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 737,
@@ -1256,7 +1560,9 @@
       "artist": "이암",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/25411/falcon-on-a-perch",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 738,
@@ -1264,7 +1570,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/15197",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 739,
@@ -1272,7 +1580,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/20877",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 740,
@@ -1280,7 +1590,9 @@
       "artist": "김영",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/30059/rock-pine-and-bamboo",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 741,
@@ -1288,7 +1600,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/24532/birds-and-flowers",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 742,
@@ -1296,7 +1610,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/24531/birds-and-flowers",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 743,
@@ -1304,7 +1620,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/524433/screen-with-grapevine",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 744,
@@ -1312,7 +1630,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/25423",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 745,
@@ -1320,7 +1640,9 @@
       "artist": "정선",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/30118",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 746,
@@ -1328,7 +1650,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/531074/screen-with-books-and-scholars-objects",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 747,
@@ -1336,7 +1660,9 @@
       "artist": "허련",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/266327",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 748,
@@ -1344,7 +1670,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/20155/a-star-god",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 749,
@@ -1352,7 +1680,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/24533/landscape-with-two-figures",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 750,
@@ -1360,7 +1690,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/21883",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 751,
@@ -1368,7 +1700,9 @@
       "artist": "김영",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/30061/rock-pine-and-bamboo",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 782,
@@ -1376,7 +1710,9 @@
       "artist": "작자미상",
       "source": "Museum für Asiatische Kunst Berlin · 조선회화",
       "url": "https://www.smb.museum/en/museums-institutions/museum-fuer-asiatische-kunst/exhibitions/detail/mirae-kh-rhee/",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 788,
@@ -1384,7 +1720,9 @@
       "artist": "김응원",
       "source": "Detroit Institute of Arts · 조선회화",
       "url": "https://dia.org/collection/orchids-and-rocks/113127",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 789,
@@ -1392,7 +1730,9 @@
       "artist": "최석환",
       "source": "Worcester Art Museum · 한국회화",
       "url": "https://archive.worcesterart.org/exhibitions/nature-unfolded-korean-art/",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 810,
@@ -1400,7 +1740,9 @@
       "artist": "작자미상",
       "source": "Princeton University Art Museum · 조선회화",
       "url": "https://artmuseum.princeton.edu/art/collections/objects/37212",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 814,
@@ -1408,7 +1750,9 @@
       "artist": "작자미상",
       "source": "Princeton University Art Museum · 조선회화",
       "url": "https://artmuseum.princeton.edu/art/collections/objects/140925",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 817,
@@ -1416,7 +1760,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/10748/amitabha-buddha-and-twentynine-attendants",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 818,
@@ -1424,7 +1770,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/6360/ancestral-portrait",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 819,
@@ -1432,7 +1780,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/3073/general-choiyung",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 820,
@@ -1440,7 +1790,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/10855/grapevines-and-chipmunks",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 821,
@@ -1448,7 +1800,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/50561/grapevines-and-chipmunks",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 822,
@@ -1456,7 +1810,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/9614/landscape-with-immortals",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 823,
@@ -1464,7 +1820,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/15770/portrait-of-a-scholar",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 824,
@@ -1472,7 +1830,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/11527/preaching-buddha",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 825,
@@ -1480,7 +1840,9 @@
       "artist": "작자미상",
       "source": "Seattle Art Museum · 조선회화",
       "url": "https://art.seattleartmuseum.org/en/objects/23342/watermoon-avalokitesvara",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 827,
@@ -1488,7 +1850,9 @@
       "artist": "작자미상",
       "source": "Saint Louis Art Museum · 조선회화",
       "url": "https://www.slam.org/collection/objects/64938/",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 908,
@@ -1496,7 +1860,9 @@
       "artist": "작자미상",
       "source": "도쿄국립박물관 · 전시검증",
       "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=8230",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 918,
@@ -1504,7 +1870,9 @@
       "artist": "작자미상",
       "source": "도쿄국립박물관 · ColBase",
       "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-64-5?locale=ja",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 929,
@@ -1512,7 +1880,9 @@
       "artist": "수문(秀文)",
       "source": "도쿄국립박물관 · 전시검증",
       "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5783&lang=ja",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 988,
@@ -1520,7 +1890,9 @@
       "artist": "작자미상",
       "source": "Spencer Museum of Art · 조선회화",
       "url": "https://spencerart.ku.edu/art/collections-online/object/59104",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 989,
@@ -1528,7 +1900,9 @@
       "artist": "작자미상",
       "source": "Nelson-Atkins Museum of Art · 조선회화",
       "url": "https://art.nelson-atkins.org/objects/27099/seated-avalokitesvara",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 990,
@@ -1536,7 +1910,9 @@
       "artist": "작자미상",
       "source": "Nelson-Atkins Museum of Art · 조선회화",
       "url": "https://art.nelson-atkins.org/objects/28346/portrait-of-mandarin",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 991,
@@ -1544,7 +1920,9 @@
       "artist": "변지한",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=22&srchDiv=5",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 992,
@@ -1552,7 +1930,9 @@
       "artist": "김홍도",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=6&dataNo=17",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 993,
@@ -1560,7 +1940,9 @@
       "artist": "작자미상",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=5686",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 994,
@@ -1568,7 +1950,9 @@
       "artist": "이시눌",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=6315&srchDiv=&srchText=",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 995,
@@ -1576,7 +1960,9 @@
       "artist": "변박",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5497",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1000,
@@ -1584,7 +1970,9 @@
       "artist": "이의양",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=4&dataNo=5477",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1001,
@@ -1592,7 +1980,9 @@
       "artist": "이의양",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5504&srchDiv=&srchText=",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1002,
@@ -1600,7 +1990,9 @@
       "artist": "이시눌",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5503",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1003,
@@ -1608,7 +2000,9 @@
       "artist": "변지한",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=5502",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1004,
@@ -1616,7 +2010,9 @@
       "artist": "이의양",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=5501&srchDiv=33087",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1005,
@@ -1624,7 +2020,9 @@
       "artist": "작자미상",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=1&dataNo=5506&srchDiv=&srchText=",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1006,
@@ -1632,7 +2030,9 @@
       "artist": "김유성",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=4&dataNo=21",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1007,
@@ -1640,7 +2040,9 @@
       "artist": "작자미상",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=3&dataNo=5496",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1008,
@@ -1648,7 +2050,9 @@
       "artist": "심사정",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=3&dataNo=5478&srchDiv=4",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1009,
@@ -1656,7 +2060,9 @@
       "artist": "작자미상",
       "source": "부산박물관 · 직접검증",
       "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=3&dataNo=18&srchDiv=4",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1010,
@@ -1664,7 +2070,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/site/home/press/press_240306.pdf",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1011,
@@ -1672,7 +2080,9 @@
       "artist": "이형록",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/site/home/press/press_240306.pdf",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1012,
@@ -1680,7 +2090,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1013,
@@ -1688,7 +2100,9 @@
       "artist": "김준근",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1015,
@@ -1696,7 +2110,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1021,
@@ -1704,7 +2120,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100103125400000",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1022,
@@ -1712,7 +2130,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100106276400000",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1023,
@@ -1720,7 +2140,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 소장품",
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1024,
@@ -1728,7 +2150,9 @@
       "artist": "유숙",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/home/1426/userVideoChannelDetail.do?no=549",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1026,
@@ -1736,7 +2160,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1028,
@@ -1744,7 +2170,9 @@
       "artist": "작자미상",
       "source": "국립민속박물관 · 직접검증",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     },
     {
       "id": 1029,
@@ -1752,7 +2180,9 @@
       "artist": "정선",
       "source": "서울대학교박물관 · 공공기관검증",
       "url": "https://culture.gangseo.seoul.kr/gsfc/bbs/BMSR00040/view.do?boardId=686&menuNo=800117",
-      "status": "pending"
+      "status": "pending",
+      "error": "",
+      "lastChecked": ""
     }
   ]
 }
