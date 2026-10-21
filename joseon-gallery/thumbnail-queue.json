@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
-  "total": 20,
+  "total": 19,
   "bySource": {
-    "Asian Art Museum · 조선회화": 13,
+    "Asian Art Museum · 조선회화": 12,
     "국립민속박물관 · 직접검증": 4,
     "도쿄국립박물관 · 전시검증": 2,
     "도쿄국립박물관 · ColBase": 1
@@ -94,16 +94,6 @@
       "artist": "취관·동징",
       "source": "Asian Art Museum · 조선회화",
       "url": "https://searchcollection.asianart.org/objects/12673/indra-jeseok-and-his-attendants",
-      "status": "failed",
-      "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
-      "lastChecked": "2026-10-22"
-    },
-    {
-      "id": 677,
-      "title": "Books and Scholars’ Possessions (Chaekgeori)",
-      "artist": "이응록",
-      "source": "Asian Art Museum · 조선회화",
-      "url": "https://searchcollection.asianart.org/objects/13843/books-and-scholars-possessions-chaekgeori",
       "status": "failed",
       "error": "asianart.org blocks cross-site image requests (AWS WAF challenge)",
       "lastChecked": "2026-10-22"
