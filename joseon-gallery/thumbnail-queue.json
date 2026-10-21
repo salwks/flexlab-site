@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 217,
+  "total": 215,
   "bySource": {
     "British Museum · 김준근": 101,
     "British Museum · 조선회화": 7,
@@ -21,7 +21,7 @@
     "Museum of Fine Arts Boston · 조선회화": 15,
     "Detroit Institute of Arts · 조선회화": 1,
     "Worcester Art Museum · 한국회화": 1,
-    "Princeton University Art Museum · 조선회화": 4,
+    "Princeton University Art Museum · 조선회화": 2,
     "Seattle Art Museum · 조선회화": 9,
     "Saint Louis Art Museum · 조선회화": 1,
     "도쿄국립박물관 · 전시검증": 2,
@@ -1400,22 +1400,6 @@
       "artist": "작자미상",
       "source": "Princeton University Art Museum · 조선회화",
       "url": "https://artmuseum.princeton.edu/art/collections/objects/37212",
-      "status": "pending"
-    },
-    {
-      "id": 811,
-      "title": "Battle Scenes from the Romance of the Three Kingdoms: Riders in Battle",
-      "artist": "작자미상",
-      "source": "Princeton University Art Museum · 조선회화",
-      "url": "https://artmuseum.princeton.edu/art/collections/objects/36997",
-      "status": "pending"
-    },
-    {
-      "id": 812,
-      "title": "Battle Scenes from the Romance of the Three Kingdoms: Battle at Sea",
-      "artist": "작자미상",
-      "source": "Princeton University Art Museum · 조선회화",
-      "url": "https://artmuseum.princeton.edu/art/collections/objects/37213",
       "status": "pending"
     },
     {
