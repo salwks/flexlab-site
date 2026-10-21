@@ -29,7 +29,7 @@ function candidates(html,base){
 }
 function badCandidate(u){
  const s=(u||'').toLowerCase();
- return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|\/_next\/static\/media\/|centennial-celebration-tile/.test(s);
+ return /doubleclick|googlesyndication|google-analytics|googleadservices|adservice|adnxs|adsrvr|casalemedia|criteo|taboola|outbrain|facebook\.com\/tr|connect\.facebook|pixel|tracker|logger\.co\.kr|gtag|analytics|matomo|clarity\.ms|hotjar|favicon|apple-touch|iconified|\/icon(?:[\/_\.-]|$)|logo|sprite|avatar|qr(?:[\/_\.-]|$)|banner(?:[\/_\.-]|$)|placeholder|\/_next\/static\/media\/|centennial-celebration-tile/.test(s);
 }
 function score(u){
  const s=u.toLowerCase();if(badCandidate(s))return -9999;let n=0;
@@ -53,6 +53,8 @@ async function pickVerifiedImage(cs){
  for(const u of cs.slice(0,8)){
   if(!u||badCandidate(u)||score(u)<-80)continue;
   try{
+   const host=new URL(u).hostname.toLowerCase();
+   if(!allowed(host))continue;
    const r=await fetchRetry(u,{redirect:'follow',headers:{'user-agent':UA,'accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'}},2);
    const ct=(r.headers.get('content-type')||'').toLowerCase();
    if(r.body&&r.body.cancel)try{await r.body.cancel()}catch(_){}
