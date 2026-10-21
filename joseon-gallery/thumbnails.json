@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 830,
-  "unresolved": 198,
+  "count": 832,
+  "unresolved": 196,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -4456,6 +4456,13 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "810": {
+      "thumbnail": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-851/full/,660/0/default.webp",
+      "image": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-851/full/,660/0/default.webp",
+      "source": "Princeton University Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "811": {
       "thumbnail": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-852B/full/!1024,1024/0/default.jpg",
       "image": "https://media.artmuseum.princeton.edu/iiif/3/collection/1998-852B/full/!1024,1024/0/default.jpg",
@@ -4476,6 +4483,13 @@
       "source": "Princeton University Art Museum · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "814": {
+      "thumbnail": "https://media.artmuseum.princeton.edu/iiif/3/collection/PUAMANX23_7080/full/,660/0/default.webp",
+      "image": "https://media.artmuseum.princeton.edu/iiif/3/collection/PUAMANX23_7080/full/,660/0/default.webp",
+      "source": "Princeton University Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "826": {
       "thumbnail": "https://art.thewalters.org/images/art/PS1_35.199_VwA_DD_T11.jpg",

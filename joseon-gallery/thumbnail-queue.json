@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 198,
+  "total": 196,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -16,7 +16,6 @@
     "Museum für Asiatische Kunst Berlin · 조선회화": 2,
     "홍익대학교박물관 · 조선회화": 2,
     "고려대학교박물관 · 전시검증": 2,
-    "Princeton University Art Museum · 조선회화": 2,
     "도쿄국립박물관 · 전시검증": 2,
     "LACMA · 조선회화": 1,
     "The Met · 조선회화": 1,
@@ -1728,26 +1727,6 @@
       "artist": "최석환",
       "source": "Worcester Art Museum · 한국회화",
       "url": "https://archive.worcesterart.org/exhibitions/nature-unfolded-korean-art/",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 810,
-      "title": "Manchus Hunting",
-      "artist": "작자미상",
-      "source": "Princeton University Art Museum · 조선회화",
-      "url": "https://artmuseum.princeton.edu/art/collections/objects/37212",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 814,
-      "title": "Fan-shaped painting of a bonsai",
-      "artist": "작자미상",
-      "source": "Princeton University Art Museum · 조선회화",
-      "url": "https://artmuseum.princeton.edu/art/collections/objects/140925",
       "status": "pending",
       "error": "",
       "lastChecked": ""
