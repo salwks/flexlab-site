@@ -1,7 +1,7 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 825,
+  "count": 824,
   "unresolved": 209,
   "thumbnails": {
     "1": {
@@ -2366,13 +2366,6 @@
     "340": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Mountain_Spirit_Seated_on_Tiger%2C_Joseon_dynasty%2C_Honolulu_Museum_of_Art.jpg/500px-Mountain_Spirit_Seated_on_Tiger%2C_Joseon_dynasty%2C_Honolulu_Museum_of_Art.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Mountain_Spirit_Seated_on_Tiger%2C_Joseon_dynasty%2C_Honolulu_Museum_of_Art.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "341": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Seogwoldo.jpg/500px-Seogwoldo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Seogwoldo.jpg",
       "source": "Wikimedia Commons · 작자미상",
       "verified": true,
       "verifiedAt": "2026-10-20"
