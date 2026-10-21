@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 979,
-  "unresolved": 188,
+  "count": 989,
+  "unresolved": 178,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3070,12 +3070,54 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "442": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/f76745a4_d1b5_4c5b_ad36_b32400fff57e/preview_002_burying_hemp_stems.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/f76745a4_d1b5_4c5b_ad36_b32400fff57e/preview_002_burying_hemp_stems.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "443": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/d7bab75e_43da_4554_a656_b3240102fdce/preview_003_begging_laggers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/d7bab75e_43da_4554_a656_b3240102fdce/preview_003_begging_laggers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "444": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/27e8538f_0c97_44dc_a5fd_b3240103eeec/preview_004_merchant_calculating_numbers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/27e8538f_0c97_44dc_a5fd_b3240103eeec/preview_004_merchant_calculating_numbers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "445": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/d0ff0a48_e47b_4833_b8c2_b324010644b8/preview_005_Noodle_making.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_15/d0ff0a48_e47b_4833_b8c2_b324010644b8/preview_005_Noodle_making.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "446": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_16/3967acd3_0fb4_44a9_be89_b3240107b590/preview_006_Weaving_Strings.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/24_16/3967acd3_0fb4_44a9_be89_b3240107b590/preview_006_Weaving_Strings.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "447": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/4528bc38_16ca_4f7d_a25c_b32a00fecf6e/preview_007_man_on_a_cow.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/4528bc38_16ca_4f7d_a25c_b32a00fecf6e/preview_007_man_on_a_cow.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "448": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/402c7426_0eab_4a13_bbc6_b32a00ff66f8/preview_008_man_on_a_horse.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/402c7426_0eab_4a13_bbc6_b32a00ff66f8/preview_008_man_on_a_horse.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "449": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/7281c4de_faea_4727_8352_b32a0102c3b4/preview_009_clown_walking_on_a_tightrope.jpg",
@@ -3084,6 +3126,20 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "450": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/0f672964_a851_40f9_95cb_b32a0103d0c4/preview_010_archery.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/0f672964_a851_40f9_95cb_b32a0103d0c4/preview_010_archery.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "451": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/376ee2cf_a40f_4b9b_9310_b32a0104a1c6/preview_011_man_on_a_horse.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/376ee2cf_a40f_4b9b_9310_b32a0104a1c6/preview_011_man_on_a_horse.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "452": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/ca2ea06b_3f49_4532_b5ba_b32a01052a1e/preview_012_men_carrying_guns.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/ca2ea06b_3f49_4532_b5ba_b32a01052a1e/preview_012_men_carrying_guns.jpg",
@@ -3091,12 +3147,26 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "453": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/ebc74886_5197_4ad6_9255_b32a0105c8a6/preview_013_three_officers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/ebc74886_5197_4ad6_9255_b32a0105c8a6/preview_013_three_officers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "454": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/29a1bceb_ad3a_4f85_984e_b32a0106783d/preview_014_courier_and_horse.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/29a1bceb_ad3a_4f85_984e_b32a0106783d/preview_014_courier_and_horse.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "455": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/a902ce40_ee6e_4c6c_8d09_b32a0106ff97/preview_015_ceramic_sellers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/30_15/a902ce40_ee6e_4c6c_8d09_b32a0106ff97/preview_015_ceramic_sellers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "456": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/722b8f38_f61f_4303_9d4f_b32b0088101b/preview_016_oyster_seller.jpg",

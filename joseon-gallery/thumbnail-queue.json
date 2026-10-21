@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
-  "total": 188,
+  "total": 178,
   "bySource": {
-    "British Museum · 김준근": 101,
+    "British Museum · 김준근": 91,
     "Museum of Fine Arts Boston · 조선회화": 15,
     "Asian Art Museum · 조선회화": 13,
     "Museum of Fine Arts Houston · 조선회화": 12,
@@ -26,106 +26,6 @@
     "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
-    {
-      "id": 442,
-      "title": "삼 익이는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-2",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 443,
-      "title": "병신이 동냥하는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-3",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 444,
-      "title": "기산 풍속화 · British Museum OA+,0.482.4",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-4",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 445,
-      "title": "국수 누르는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-5",
-      "status": "failed",
-      "error": "no json: \n![Image 1: Icon for www.britishmuseum.org](https://www.britishmuseum.org/favicon.ico)\n\n## www.britishmuseum.org\n\n## Per",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 447,
-      "title": "기산 풍속화 · British Museum OA+,0.482.7",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-7",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 448,
-      "title": "기산 풍속화 · British Museum OA+,0.482.8",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-8",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 450,
-      "title": "활 쏘는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-10",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 451,
-      "title": "후배비장",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-11",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 453,
-      "title": "기패관, 초관, 장무관 삼 인병",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-13",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 455,
-      "title": "기산 풍속화 · British Museum OA+,0.482.15",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-15",
-      "status": "failed",
-      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
-      "lastChecked": "2026-10-21"
-    },
     {
       "id": 457,
       "title": "망건 뜨는 모양",
