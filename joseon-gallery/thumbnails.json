@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 835,
-  "unresolved": 193,
+  "count": 832,
+  "unresolved": 196,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -5737,13 +5737,6 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
-    "1011": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/kogl/img_opentype01.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/kogl/img_opentype01.jpg",
-      "source": "국립민속박물관 · 소장품",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "1014": {
       "thumbnail": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
       "image": "https://www.nfm.go.kr/common/apithumb/relic/8030454.do",
@@ -5785,20 +5778,6 @@
       "source": "국립민속박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "1021": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/kogl/img_opentype01.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/kogl/img_opentype01.jpg",
-      "source": "국립민속박물관 · 소장품",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "1023": {
-      "thumbnail": "https://www.nfm.go.kr/site/home/images/kogl/img_opentype01.jpg",
-      "image": "https://www.nfm.go.kr/site/home/images/kogl/img_opentype01.jpg",
-      "source": "국립민속박물관 · 소장품",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "1025": {
       "thumbnail": "https://www.nfm.go.kr/images/Display/2016threekingdoms_01.jpg",
