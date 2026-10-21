@@ -1,6 +1,6 @@
 {
   "version": "2026-10-20",
-  "count": 1035,
+  "count": 1034,
   "works": [
     {
       "id": 1,
@@ -2753,26 +2753,6 @@
       "bulkPinned": true
     },
     {
-      "id": 154,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "蔚州真武廟壁画 1779年",
-      "file": "蔚州真武廟壁画 1779年.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%E8%94%9A%E5%B7%9E%E7%9C%9F%E6%AD%A6%E5%BB%9F%E5%A3%81%E7%94%BB_1779%E5%B9%B4.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "Wikimedia Commons의 책거리 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
-      "bulkPinned": true
-    },
-    {
       "id": 155,
       "era": "조선 · Commons 분류",
       "source": "Wikimedia Commons · 책거리",
@@ -2794,7 +2774,7 @@
     },
     {
       "id": 156,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "안견",
@@ -2812,10 +2792,10 @@
     },
     {
       "id": 157,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 1 chochun early spring",
       "file": "Ahn Gyeon-sasipalgyeongdo 1 chochun early spring.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_1_chochun_early_spring.jpg",
@@ -2830,10 +2810,10 @@
     },
     {
       "id": 158,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 2 manchun late spring",
       "file": "Ahn Gyeon-sasipalgyeongdo 2 manchun late spring.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_2_manchun_late_spring.jpg",
@@ -2848,10 +2828,10 @@
     },
     {
       "id": 159,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 3 choha early summer",
       "file": "Ahn Gyeon-sasipalgyeongdo 3 choha early summer.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_3_choha_early_summer.jpg",
@@ -2866,10 +2846,10 @@
     },
     {
       "id": 160,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 4 manha late summer",
       "file": "Ahn Gyeon-sasipalgyeongdo 4 manha late summer.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_4_manha_late_summer.jpg",
@@ -2884,10 +2864,10 @@
     },
     {
       "id": 161,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 5 chochu early autumn",
       "file": "Ahn Gyeon-sasipalgyeongdo 5 chochu early autumn.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_5_chochu_early_autumn.jpg",
@@ -2902,10 +2882,10 @@
     },
     {
       "id": 162,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 6 manchu late autumn",
       "file": "Ahn Gyeon-sasipalgyeongdo 6 manchu late autumn.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_6_manchu_late_autumn.jpg",
@@ -2920,10 +2900,10 @@
     },
     {
       "id": 163,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 7 chodong early winter",
       "file": "Ahn Gyeon-sasipalgyeongdo 7 chodong early winter.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_7_chodong_early_winter.jpg",
@@ -2938,10 +2918,10 @@
     },
     {
       "id": 164,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
-      "artist": "안견",
+      "artist": "전 안견",
       "title": "Ahn Gyeon sasipalgyeongdo 8 mandong late winter",
       "file": "Ahn Gyeon-sasipalgyeongdo 8 mandong late winter.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-sasipalgyeongdo_8_mandong_late_winter.jpg",
@@ -2956,7 +2936,7 @@
     },
     {
       "id": 165,
-      "era": "조선 · Commons 분류",
+      "era": "일제강점기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "안중식",
@@ -2974,7 +2954,7 @@
     },
     {
       "id": 166,
-      "era": "조선 · Commons 분류",
+      "era": "일제강점기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "안중식",
@@ -2992,7 +2972,7 @@
     },
     {
       "id": 167,
-      "era": "조선 · Commons 분류",
+      "era": "일제강점기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "안중식",
@@ -3010,7 +2990,7 @@
     },
     {
       "id": 168,
-      "era": "조선 · Commons 분류",
+      "era": "대한제국",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "안중식",
@@ -3028,7 +3008,7 @@
     },
     {
       "id": 169,
-      "era": "조선 · Commons 분류",
+      "era": "일제강점기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "안중식",
@@ -3046,7 +3026,7 @@
     },
     {
       "id": 170,
-      "era": "조선 · Commons 분류",
+      "era": "일제강점기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "안중식",
@@ -3064,7 +3044,7 @@
     },
     {
       "id": 171,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "심사정",
@@ -3100,7 +3080,7 @@
     },
     {
       "id": 173,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "최북",
@@ -3118,7 +3098,7 @@
     },
     {
       "id": 174,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "최북",
@@ -3136,7 +3116,7 @@
     },
     {
       "id": 175,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 산수",
       "license": "파일별 라이선스 확인",
       "artist": "최북",
