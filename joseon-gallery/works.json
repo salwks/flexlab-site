@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "count": 1113,
+  "count": 1106,
   "works": [
     {
       "id": 1,
@@ -15340,22 +15340,6 @@
       "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-723?locale=ja"
     },
     {
-      "id": 908,
-      "era": "조선 전기 · 16세기",
-      "license": "소장처/전시 원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "병풍",
-        "소상팔경"
-      ],
-      "desc": "도쿄국립박물관 2025 조선시대 서화전 출품. 히로시마 다이간지 소장.",
-      "credit": "이미지 파일은 저장하지 않으며 원 소장처 링크만 연결합니다.",
-      "source": "도쿄국립박물관 · 전시검증",
-      "artist": "작자미상",
-      "title": "소상팔경도병풍(瀟湘八景図屏風)",
-      "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=8230"
-    },
-    {
       "id": 909,
       "era": "조선 중기 · 17세기",
       "license": "ColBase 원문 이용조건 확인",
@@ -15495,23 +15479,6 @@
       "artist": "송암",
       "title": "가색도축(稼穡図軸)",
       "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-78?locale=ja"
-    },
-    {
-      "id": 918,
-      "era": "조선 중기 · 17세기",
-      "license": "ColBase 원문 이용조건 확인",
-      "themes": [
-        "인물",
-        "여성",
-        "복식",
-        "화첩"
-      ],
-      "desc": "도쿄국립박물관 공식 소장품 레코드 · 관리번호 TA-64-5.",
-      "credit": "이미지 파일은 저장하지 않으며 원 소장처 링크만 연결합니다.",
-      "source": "도쿄국립박물관 · ColBase",
-      "artist": "작자미상",
-      "title": "사녀도 · 한화첩 중",
-      "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-64-5?locale=ja"
     },
     {
       "id": 919,
@@ -15672,22 +15639,6 @@
       "artist": "신명연",
       "title": "산수도축 · 1877",
       "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-57?locale=ja"
-    },
-    {
-      "id": 929,
-      "era": "조선 전기 · 1424",
-      "license": "개인 소장·전시 원문 이용조건 확인",
-      "themes": [
-        "사군자",
-        "대나무",
-        "화첩"
-      ],
-      "desc": "도쿄국립박물관 조선시대 미술전에서 확인된 중요문화재. 개인 소장.",
-      "credit": "이미지 파일은 저장하지 않으며 원 소장처 링크만 연결합니다.",
-      "source": "도쿄국립박물관 · 전시검증",
-      "artist": "수문(秀文)",
-      "title": "묵죽도책(墨竹図冊)",
-      "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5783&lang=ja"
     },
     {
       "id": 930,
@@ -17046,24 +16997,6 @@
       "url": "https://www.nfm.go.kr/user/planexhibition/home/62/selectPlanExhibitionNView.do?page=1&planExhibitionIdx=1640"
     },
     {
-      "id": 1016,
-      "era": "조선 후기 · 19세기",
-      "license": "국립민속박물관 원문 이용조건 확인",
-      "themes": [
-        "민화",
-        "문자도",
-        "길상",
-        "수복",
-        "병풍"
-      ],
-      "desc": "국립민속박물관 공식 소장품·전시·보존처리 페이지 또는 공식 보도자료에서 작품명, 시대와 소장 사실을 직접 확인한 회화 링크입니다.",
-      "credit": "국립민속박물관 · source link only",
-      "source": "국립민속박물관 · 직접검증",
-      "artist": "작자미상",
-      "title": "백수백복도 8폭 병풍",
-      "url": "https://www.nfm.go.kr/user/museumbbs/home/3/1274/selectMuseumBbsView.do?museumBbsIdx=10166&page=5&row=12"
-    },
-    {
       "id": 1017,
       "era": "조선 말기 · 19세기 말 추정",
       "license": "국립민속박물관 원문 이용조건 확인",
@@ -17194,26 +17127,6 @@
       "url": "https://www.nfm.go.kr/user/data/home/101/DataRelicView.do?seq=PS0100200100108381100000"
     },
     {
-      "id": 1024,
-      "era": "조선 후기 · 1853",
-      "license": "국립민속박물관 원문 이용조건 확인",
-      "themes": [
-        "풍속",
-        "시회",
-        "삼짇날",
-        "남산",
-        "문인",
-        "봄",
-        "중인"
-      ],
-      "desc": "국립민속박물관 공식 소장품·전시·보존처리 페이지 또는 공식 보도자료에서 작품명, 시대와 소장 사실을 직접 확인한 회화 링크입니다.",
-      "credit": "국립민속박물관 · source link only",
-      "source": "국립민속박물관 · 직접검증",
-      "artist": "유숙",
-      "title": "수계도권",
-      "url": "https://www.nfm.go.kr/home/1426/userVideoChannelDetail.do?no=549"
-    },
-    {
       "id": 1025,
       "era": "조선 말기 · 19세기 후반",
       "license": "국립민속박물관 원문 이용조건 확인",
@@ -17232,24 +17145,6 @@
       "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527"
     },
     {
-      "id": 1026,
-      "era": "조선 말기 · 19세기 후반",
-      "license": "국립민속박물관 원문 이용조건 확인",
-      "themes": [
-        "민화",
-        "삼국지연의도",
-        "도원결의",
-        "고사인물",
-        "관우신앙"
-      ],
-      "desc": "국립민속박물관 공식 소장품·전시·보존처리 페이지 또는 공식 보도자료에서 작품명, 시대와 소장 사실을 직접 확인한 회화 링크입니다.",
-      "credit": "국립민속박물관 · source link only",
-      "source": "국립민속박물관 · 직접검증",
-      "artist": "작자미상",
-      "title": "삼국지연의도 · 유비·관우·장비가 도원에서 의형제를 맺다",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527"
-    },
-    {
       "id": 1027,
       "era": "조선 말기 · 19세기 후반",
       "license": "국립민속박물관 원문 이용조건 확인",
@@ -17265,25 +17160,6 @@
       "source": "국립민속박물관 · 직접검증",
       "artist": "작자미상",
       "title": "삼국지연의도 · 장비가 엄안을 의리로써 풀어주다",
-      "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527"
-    },
-    {
-      "id": 1028,
-      "era": "조선 말기 · 19세기 후반",
-      "license": "국립민속박물관 원문 이용조건 확인",
-      "themes": [
-        "민화",
-        "삼국지연의도",
-        "관우",
-        "여몽",
-        "고사인물",
-        "관우신앙"
-      ],
-      "desc": "국립민속박물관 공식 소장품·전시·보존처리 페이지 또는 공식 보도자료에서 작품명, 시대와 소장 사실을 직접 확인한 회화 링크입니다.",
-      "credit": "국립민속박물관 · source link only",
-      "source": "국립민속박물관 · 직접검증",
-      "artist": "작자미상",
-      "title": "삼국지연의도 · 여몽이 관우 신령의 벌을 받아 피를 흘리고 죽다",
       "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527"
     },
     {
