@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 824,
-  "unresolved": 209,
+  "count": 815,
+  "unresolved": 218,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3956,69 +3956,6 @@
       "thumbnail": "https://nrs.harvard.edu/urn-3:HUAM:75828_dynmc/full/!640,640/0/default.jpg",
       "image": "https://nrs.harvard.edu/urn-3:HUAM:75828_dynmc/full/!3000,3000/0/default.jpg",
       "source": "Harvard Art Museums · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "701": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/321255/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/321255/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "703": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/391818/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/391818/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "704": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/380614/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/380614/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "705": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/380610/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/380610/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "706": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/391900/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/391900/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "707": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/391809/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/391809/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "708": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/380608/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/380608/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "709": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/391905/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/391905/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "710": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/391840/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/391840/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
