@@ -2,7 +2,7 @@
   "version": "2026-10-21",
   "languages": {
     "en": {
-      "translated": 486,
+      "translated": 485,
       "pending": 549,
       "ids": [
         1,
@@ -558,7 +558,7 @@
     },
     "ja": {
       "translated": 0,
-      "pending": 1035,
+      "pending": 1033,
       "ids": [
         1,
         2,
@@ -898,7 +898,6 @@
         338,
         339,
         340,
-        341,
         342,
         343,
         344,
@@ -1598,7 +1597,7 @@
     },
     "zh": {
       "translated": 0,
-      "pending": 1035,
+      "pending": 1033,
       "ids": [
         1,
         2,
@@ -1938,7 +1937,6 @@
         338,
         339,
         340,
-        341,
         342,
         343,
         344,
@@ -2639,7 +2637,7 @@
   },
   "policy": "TRANSLATION_POLICY.md",
   "koreanReview": {
-    "foreignTitleItems": 485,
+    "foreignTitleItems": 484,
     "status": "pending_source_verification",
     "ids": [
       115,
@@ -2860,7 +2858,6 @@
       338,
       339,
       340,
-      341,
       342,
       343,
       344,
@@ -3129,7 +3126,7 @@
       999
     ],
     "startedAt": "2026-10-21",
-    "reviewedCount": 207,
+    "reviewedCount": 232,
     "canonicalOrVerifiedIds": [
       115,
       118,
@@ -3282,7 +3279,27 @@
       320,
       321,
       324,
-      325
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      342,
+      343,
+      348,
+      349,
+      350
     ],
     "provisionalIds": [
       119,
@@ -3339,14 +3356,19 @@
       295,
       303,
       322,
-      323
+      323,
+      344,
+      345,
+      346,
+      347
     ],
     "deferredIds": [
       116,
       117
     ],
     "excludedIds": [
-      154
+      154,
+      341
     ],
     "duplicateCandidates": [
       {
@@ -3400,6 +3422,14 @@
       {
         "id": 324,
         "duplicateOf": 325
+      },
+      {
+        "id": 327,
+        "duplicateOf": 328
+      },
+      {
+        "id": 336,
+        "duplicateOf": 334
       }
     ]
   },
