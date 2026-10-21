@@ -74,6 +74,23 @@ async function pickVerifiedImage(cs){
  return '';
 }
 function bm(raw){try{const u=new URL(raw);if(!u.hostname.includes('britishmuseum.org')||u.pathname.startsWith('/collection/object/'))return raw;const k=u.searchParams.get('keyword')||'',m=k.match(/^OA\+,0\.482\.(\d+)$/i);if(m)return 'https://www.britishmuseum.org/collection/object/A_OA-0-482-'+m[1]}catch{}return raw}
+function bmRegno(target){try{const u=new URL(target);if(!u.hostname.endsWith('britishmuseum.org'))return'';const m=u.pathname.match(/\/collection\/object\/A_OA-0-482-(\d+)/i);return m?'OA+,0.482.'+m[1]:''}catch{return''}}
+async function resolveBritishMuseumLinkedData(target){
+ const regno=bmRegno(target);if(!regno)return'';
+ const q='PREFIX ecrm: <http://www.cidoc-crm.org/cidoc-crm/> PREFIX rs: <http://www.researchspace.org/ontology/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT ?img WHERE { ?object ecrm:P1_is_identified_by ?id . ?id ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/identifier/regno> ; rdfs:label "'+regno.replace(/"/g,'\\"')+'" . OPTIONAL { ?object rs:PX_has_main_representation ?img } }';
+ const endpoints=['https://collection.britishmuseum.org/sparql.json?query=','http://collection.britishmuseum.org/sparql.json?query='];
+ for(const base of endpoints){
+  try{
+   const r=await fetchRetry(base+encodeURIComponent(q),{redirect:'follow',headers:{'user-agent':UA,'accept':'application/sparql-results+json,application/json;q=0.9,*/*;q=0.1'}},2);
+   if(!r.ok)continue;
+   const j=await r.json(),bs=j&&j.results&&Array.isArray(j.results.bindings)?j.results.bindings:[];
+   const urls=[];
+   for(const b of bs){let x=b&&b.img&&b.img.value;if(!x)continue;x=x.replace(/^http:\/\//i,'https://');urls.push(x)}
+   const ok=await pickVerifiedImage(urls);if(ok)return ok;
+  }catch(_){}
+ }
+ return'';
+}
 async function resolveColBase(target){
  try{
   const u=new URL(target);
@@ -130,6 +147,7 @@ async function resolveImage(target,context={}){
    if(sm) target='https://asia-archive.si.edu/object/'+encodeURIComponent(sm[1])+'/';
  }
  const u=new URL(target),host=u.hostname.toLowerCase();if(!allowed(host))throw Error('host');
+ if(host.endsWith('britishmuseum.org')){const x=await resolveBritishMuseumLinkedData(target);if(x)return x;}
  if(host.endsWith('smb.museum')&&/mirae-kh-rhee/i.test(u.pathname)&&/chaekgeori/i.test(workTitle)){
    const direct='https://www.smb.museum/typo3temp/assets/_processed_/b/c/csm_details-eines-achtteiligen-chaekgeori-stellschirms-korea_xl_16a6bad8e7.jpg';
    const ok=await pickVerifiedImage([direct]);if(ok)return ok;
