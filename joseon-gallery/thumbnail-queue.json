@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "total": 196,
+  "total": 194,
   "bySource": {
     "British Museum · 김준근": 101,
     "Museum of Fine Arts Boston · 조선회화": 15,
@@ -13,7 +13,6 @@
     "Brooklyn Museum · 조선회화": 3,
     "아모레퍼시픽미술관 · 전시검증": 3,
     "Peabody Essex Museum · 조선회화": 2,
-    "Museum für Asiatische Kunst Berlin · 조선회화": 2,
     "홍익대학교박물관 · 조선회화": 2,
     "고려대학교박물관 · 전시검증": 2,
     "도쿄국립박물관 · 전시검증": 2,
@@ -1342,16 +1341,6 @@
       "lastChecked": ""
     },
     {
-      "id": 695,
-      "title": "Chaekgeori Eight-panel Screen",
-      "artist": "작자미상",
-      "source": "Museum für Asiatische Kunst Berlin · 조선회화",
-      "url": "https://www.smb.museum/museen-einrichtungen/museum-fuer-asiatische-kunst/ausstellungen/detail/mirae-kh-rhee/",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
       "id": 701,
       "title": "Books and Scholar’s objects (Chaekkori)",
       "artist": "작자미상",
@@ -1700,16 +1689,6 @@
       "status": "failed",
       "error": "no image",
       "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 782,
-      "title": "Eight-panel chaekgeori screen",
-      "artist": "작자미상",
-      "source": "Museum für Asiatische Kunst Berlin · 조선회화",
-      "url": "https://www.smb.museum/en/museums-institutions/museum-fuer-asiatische-kunst/exhibitions/detail/mirae-kh-rhee/",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
     },
     {
       "id": 788,
