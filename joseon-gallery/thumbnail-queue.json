@@ -33,7 +33,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-2",
       "status": "failed",
-      "error": "no json",
+      "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server",
       "lastChecked": "2026-10-21"
     },
     {
@@ -63,7 +63,7 @@
       "source": "British Museum · 김준근",
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-5",
       "status": "failed",
-      "error": "no json",
+      "error": "no json: \n![Image 1: Icon for www.britishmuseum.org](https://www.britishmuseum.org/favicon.ico)\n\n## www.britishmuseum.org\n\n## Per",
       "lastChecked": "2026-10-21"
     },
     {
