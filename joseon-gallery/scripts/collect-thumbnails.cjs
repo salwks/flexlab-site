@@ -17,6 +17,11 @@ const wdoc=JSON.parse(fs.readFileSync(WORKS,'utf8'));
 const works=Array.isArray(wdoc)?wdoc:(wdoc.works||[]);
 const tdoc=fs.existsSync(THUMBS)?JSON.parse(fs.readFileSync(THUMBS,'utf8')):{version:'',thumbnails:{}};
 const thumbnails=tdoc.thumbnails||tdoc;
+const priorQueue=fs.existsSync(QUEUE)?JSON.parse(fs.readFileSync(QUEUE,'utf8')):{items:[]};
+const priorItems=priorQueue.items||[];
+const priorById=new Map(priorItems.map(x=>[String(x.id),x]));
+const failedBySource=new Map();
+for(const x of priorItems){if(x.status==='failed')failedBySource.set(x.source||'',(failedBySource.get(x.source||'')||0)+1)}
 let queue=works.filter(w=>{
   const t=thumbnails[String(w.id)];
   if(t&&t.verified&&t.thumbnail)return false;
@@ -24,6 +29,15 @@ let queue=works.filter(w=>{
   if(sourceFilter&&!String(w.source||'').toLowerCase().includes(sourceFilter))return false;
   if(idFilter&&String(w.id)!==String(idFilter))return false;
   return true;
+});
+queue.sort((a,b)=>{
+  const pa=priorById.get(String(a.id))||{},pb=priorById.get(String(b.id))||{};
+  const sa=pa.status==='failed'?2:pa.status==='pending'?0:1;
+  const sb=pb.status==='failed'?2:pb.status==='pending'?0:1;
+  if(sa!==sb)return sa-sb;
+  const fa=failedBySource.get(a.source||'')||0,fb=failedBySource.get(b.source||'')||0;
+  if(fa!==fb)return fa-fb;
+  return Number(a.id)-Number(b.id);
 });
 if(limit)queue=queue.slice(0,limit);
 
@@ -77,7 +91,6 @@ const results=[];
     thumbnails
   };
   fs.writeFileSync(THUMBS,JSON.stringify(out,null,2)+'\n');
-  const priorQueue=fs.existsSync(QUEUE)?JSON.parse(fs.readFileSync(QUEUE,'utf8')):{items:[]};
   const attempts=new Map((priorQueue.items||[]).map(x=>[String(x.id),x]));
   for(const r of results)attempts.set(String(r.id),{...(attempts.get(String(r.id))||{}),...r,lastChecked:now});
   const items=unresolved.map(w=>({
