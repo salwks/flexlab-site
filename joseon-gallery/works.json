@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "count": 1167,
+  "count": 1114,
   "works": [
     {
       "id": 1,
@@ -10935,21 +10935,6 @@
       "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-152"
     },
     {
-      "id": 593,
-      "era": "조선 후기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "풍속",
-        "화첩"
-      ],
-      "desc": "British Museum Collection Online의 조선 회화 레코드 1961,0513,0.4.1-12. 이미지 파일은 저장하지 않고 원문 검색 링크만 연결합니다.",
-      "credit": "British Museum Collection Online · source link only",
-      "artist": "김홍도 양식",
-      "title": "풍속화첩 · 12면 (British Museum 1961,0513,0.4.1-12)",
-      "source": "British Museum · 조선회화",
-      "url": "https://www.britishmuseum.org/collection/search?keyword=1961%2C0513%2C0.4.1-12"
-    },
-    {
       "id": 594,
       "era": "조선 후기",
       "license": "원 소장처 이용조건 확인",
@@ -10959,9 +10944,9 @@
       "desc": "British Museum Collection Online의 조선 회화 레코드 1996,1003,0.2. 이미지 파일은 저장하지 않고 원문 검색 링크만 연결합니다.",
       "credit": "British Museum Collection Online · source link only",
       "artist": "작자미상",
-      "title": "조선 회화 (British Museum 1996,1003,0.2)",
+      "title": "팔상도 · 유성출가상 (British Museum 1996,1003,0.2)",
       "source": "British Museum · 조선회화",
-      "url": "https://www.britishmuseum.org/collection/search?keyword=1996%2C1003%2C0.2"
+      "url": "https://www.britishmuseum.org/collection/object/A_1996-1003-0-2"
     },
     {
       "id": 595,
@@ -10973,7 +10958,7 @@
       "desc": "British Museum Collection Online의 조선 회화 레코드 1936,1009,0.122. 이미지 파일은 저장하지 않고 원문 검색 링크만 연결합니다.",
       "credit": "British Museum Collection Online · source link only",
       "artist": "작자미상",
-      "title": "조선 회화 (British Museum 1936,1009,0.122)",
+      "title": "보살도 · Vajrapasa (British Museum 1936,1009,0.122)",
       "source": "British Museum · 조선회화",
       "url": "https://www.britishmuseum.org/collection/object/A_1936-1009-0-122"
     },
@@ -11177,7 +11162,7 @@
       "source": "Brooklyn Museum · 조선회화",
       "artist": "이정 귀속",
       "title": "Scholar Contemplating a Cascade",
-      "url": "https://opencollection.brooklynmuseum.org/objects/3847"
+      "url": "https://www.brooklynmuseum.org/objects/3847"
     },
     {
       "id": 608,
@@ -11194,7 +11179,7 @@
       "source": "Brooklyn Museum · 조선회화",
       "artist": "작자미상",
       "title": "The Character \"Yeom\" from the Munjado",
-      "url": "https://www.brooklynmuseum.org/opencollection/objects/103464"
+      "url": "https://www.brooklynmuseum.org/objects/103464"
     },
     {
       "id": 609,
@@ -11211,7 +11196,7 @@
       "source": "Brooklyn Museum · 조선회화",
       "artist": "작자미상",
       "title": "Pictorial Ideograph",
-      "url": "https://opencollection.brooklynmuseum.org/objects/103465"
+      "url": "https://www.brooklynmuseum.org/objects/103465"
     },
     {
       "id": 610,
@@ -11228,7 +11213,7 @@
       "source": "Brooklyn Museum · 조선회화",
       "artist": "작자미상",
       "title": "Amitabha and the Eight Bodhisattvas",
-      "url": "https://www.brooklynmuseum.org/opencollection/objects/114653"
+      "url": "https://www.brooklynmuseum.org/objects/114653"
     },
     {
       "id": 611,
@@ -11245,7 +11230,7 @@
       "source": "Brooklyn Museum · 조선회화",
       "artist": "작자미상",
       "title": "Amitabha with Six Bodhisattvas and Two Arhats",
-      "url": "https://www.brooklynmuseum.org/opencollection/objects/114654"
+      "url": "https://www.brooklynmuseum.org/objects/114654"
     },
     {
       "id": 612,
@@ -11262,7 +11247,7 @@
       "source": "Brooklyn Museum · 조선회화",
       "artist": "작자미상",
       "title": "Spirit Shrine",
-      "url": "https://www.brooklynmuseum.org/opencollection/objects/113657"
+      "url": "https://www.brooklynmuseum.org/objects/113657"
     },
     {
       "id": 613,
@@ -11469,23 +11454,6 @@
       "url": "https://collections.lacma.org/object/99554"
     },
     {
-      "id": 625,
-      "era": "조선 · 1891",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "불화",
-        "신중도",
-        "보살"
-      ],
-      "desc": "LACMA · 조선회화 개별 작품 원문으로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "LACMA · 조선회화 · source link only",
-      "source": "LACMA · 조선회화",
-      "artist": "작자미상",
-      "title": "Bodhisattvas of the Protection of Buddhist Doctrine",
-      "url": "https://collections.lacma.org/object/84448"
-    },
-    {
       "id": 626,
       "era": "조선 · 18세기 말~19세기 초",
       "license": "원 소장처 이용조건 확인",
@@ -11621,23 +11589,6 @@
       "url": "https://collections.lacma.org/object/142040"
     },
     {
-      "id": 634,
-      "era": "조선 · 1868",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "불화",
-        "지장보살",
-        "시왕"
-      ],
-      "desc": "British Museum · 조선회화 개별 작품 원문으로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "British Museum · 조선회화 · source link only",
-      "source": "British Museum · 조선회화",
-      "artist": "영희·긍섭",
-      "title": "Ksitigarbha and Ten Underworld Kings (지장시왕도)",
-      "url": "https://www.britishmuseum.org/collection/object/A_1959-1010-0-2"
-    },
-    {
       "id": 635,
       "era": "조선 · 1796~1820",
       "license": "원 소장처 이용조건 확인",
@@ -11651,7 +11602,7 @@
       "credit": "British Museum · 조선회화 · source link only",
       "source": "British Museum · 조선회화",
       "artist": "작자미상",
-      "title": "Heavenly King painting (북방다문천왕도)",
+      "title": "Heavenly King painting · Dhrtarastra (천왕도)",
       "url": "https://www.britishmuseum.org/collection/object/A_1920-0317-0-2"
     },
     {
@@ -11687,23 +11638,6 @@
       "artist": "이재관 추정",
       "title": "Portrait study, probably Kang Yi-o",
       "url": "https://www.britishmuseum.org/collection/object/A_1922-0630-0-11"
-    },
-    {
-      "id": 638,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "화조",
-        "공작",
-        "꽃"
-      ],
-      "desc": "British Museum · 조선회화 개별 작품 원문으로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "British Museum · 조선회화 · source link only",
-      "source": "British Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "Bird-and-flower painting · peacocks, azaleas and roses",
-      "url": "https://www.britishmuseum.org/collection/object/A_1947-0712-0-12"
     },
     {
       "id": 639,
@@ -12027,24 +11961,6 @@
       "artist": "김시",
       "title": "Snowscape with Figures",
       "url": "https://www.clevelandart.org/art/1987.187"
-    },
-    {
-      "id": 658,
-      "era": "조선 · 19세기 후반",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "산수",
-        "평양",
-        "도시",
-        "병풍"
-      ],
-      "desc": "Cleveland Museum of Art · 조선회화 개별 작품 원문으로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Cleveland Museum of Art · 조선회화 · source link only",
-      "source": "Cleveland Museum of Art · 조선회화",
-      "artist": "김윤보",
-      "title": "Cityscape of Pyongyang",
-      "url": "https://www.clevelandart.org/art/2022.141"
     },
     {
       "id": 659,
@@ -12546,24 +12462,6 @@
       "url": "https://www.horimmuseum.org/ko/collection/collections/666bac8b2ad252234bd3eb2b"
     },
     {
-      "id": 688,
-      "era": "조선 · 19세기 초",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "기록화",
-        "평안감사",
-        "연회",
-        "병풍"
-      ],
-      "desc": "공식 소장처·전시 페이지에서 작품 존재와 조선시대 분류를 검증한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Peabody Essex Museum · 조선회화 · source link only",
-      "source": "Peabody Essex Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "Welcoming Banquet of the Governor of Pyeongan",
-      "url": "https://www.pem.org/the-pem-collection/korean-art"
-    },
-    {
       "id": 689,
       "era": "조선 · 1744",
       "license": "원 소장처 이용조건 확인",
@@ -12578,24 +12476,6 @@
       "source": "Peabody Essex Museum · 조선회화",
       "artist": "작자미상",
       "title": "Nectar Ritual (Gamnotaeng) Hanging Scroll",
-      "url": "https://www.pem.org/the-pem-collection/korean-art"
-    },
-    {
-      "id": 690,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "요지연도",
-        "서왕모",
-        "병풍"
-      ],
-      "desc": "공식 소장처·전시 페이지에서 작품 존재와 조선시대 분류를 검증한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Peabody Essex Museum · 조선회화 · source link only",
-      "source": "Peabody Essex Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "Banquet of Queen Mother of the West",
       "url": "https://www.pem.org/the-pem-collection/korean-art"
     },
     {
@@ -12771,228 +12651,6 @@
       "url": "https://harvardartmuseums.org/index.php/collections/object/70506"
     },
     {
-      "id": 701,
-      "era": "조선 · 약 1900~1920",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "책가도",
-        "병풍"
-      ],
-      "desc": "MFAH 공식 eMuseum의 Korean/Joseon 회화 개별 레코드 또는 동일 컬렉션 객체의 관련작품 목록으로 확인한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Books and Scholar’s objects (Chaekkori)",
-      "url": "https://emuseum.mfah.org/objects/139672/books-and-scholars-objects-chaekkori"
-    },
-    {
-      "id": 702,
-      "era": "조선 · 16세기 후반",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "산수",
-        "문인화"
-      ],
-      "desc": "MFAH 공식 eMuseum의 Korean/Joseon 회화 개별 레코드 또는 동일 컬렉션 객체의 관련작품 목록으로 확인한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "김제",
-      "title": "Landscape",
-      "url": "https://emuseum.mfah.org/objects/88572/landscape"
-    },
-    {
-      "id": 703,
-      "era": "조선 · 18세기 후반",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "산수",
-        "병풍"
-      ],
-      "desc": "MFAH 공식 eMuseum의 Korean/Joseon 회화 개별 레코드 또는 동일 컬렉션 객체의 관련작품 목록으로 확인한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Mountain Landscapes",
-      "url": "https://emuseum.mfah.org/objects/155610/mountain-landscapes"
-    },
-    {
-      "id": 704,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "문자도",
-        "병풍"
-      ],
-      "desc": "MFAH 공식 eMuseum의 Korean/Joseon 회화 개별 레코드 또는 동일 컬렉션 객체의 관련작품 목록으로 확인한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Munjado (Characters of Confucian Virtues)",
-      "url": "https://emuseum.mfah.org/objects/154149/munjado-characters-of-confucian-virtues"
-    },
-    {
-      "id": 705,
-      "era": "조선 · 20세기 초 · 조선회화 전통",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "병풍"
-      ],
-      "desc": "MFAH 공식 eMuseum의 Korean/Joseon 회화 개별 레코드 또는 동일 컬렉션 객체의 관련작품 목록으로 확인한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Chaekgeori (Books and Things)",
-      "url": "https://emuseum.mfah.org/objects/154145/chaekgeori-books-and-things"
-    },
-    {
-      "id": 706,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "요지연도",
-        "서왕모",
-        "병풍"
-      ],
-      "desc": "MFAH 공식 eMuseum의 Korean/Joseon 회화 개별 레코드 또는 동일 컬렉션 객체의 관련작품 목록으로 확인한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Xi Wang Mu's Birthday Banquet",
-      "url": "https://emuseum.mfah.org/objects/155614/xi-wang-mus-birthday-banquet"
-    },
-    {
-      "id": 707,
-      "era": "조선 · 19세기 후반",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "곽분양행락도",
-        "병풍"
-      ],
-      "desc": "MFAH 공식 eMuseum의 Korean/Joseon 회화 개별 레코드 또는 동일 컬렉션 객체의 관련작품 목록으로 확인한 원문 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Guo Ziyi's Birthday Banquet",
-      "url": "https://emuseum.mfah.org/objects/155609/guo-ziyis-birthday-banquet"
-    },
-    {
-      "id": 708,
-      "era": "조선 · 18세기 후반~19세기 초",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "산수",
-        "칠보산",
-        "병풍"
-      ],
-      "desc": "MFAH Carroll Family Collection의 개별 Korean painting 레코드입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · Carroll Family Collection · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Seven Jeweled Mountain",
-      "url": "https://emuseum.mfah.org/objects/154143/seven-jeweled-mountain"
-    },
-    {
-      "id": 709,
-      "era": "조선 · 19세기 후반",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "문자도",
-        "수복문자",
-        "병풍"
-      ],
-      "desc": "MFAH Carroll Family Collection의 개별 Korean painting 레코드입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · Carroll Family Collection · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "One Hundred Characters of Longevity and Good Fortune",
-      "url": "https://emuseum.mfah.org/objects/155613/one-hundred-characters-of-longevity-and-good-fortune"
-    },
-    {
-      "id": 710,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "사군자",
-        "난초",
-        "병풍"
-      ],
-      "desc": "MFAH Carroll Family Collection의 개별 Korean painting 레코드입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · Carroll Family Collection · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "이하응(흥선대원군)",
-      "title": "Orchids",
-      "url": "https://emuseum.mfah.org/objects/155611/orchids"
-    },
-    {
-      "id": 711,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "문인화",
-        "포도",
-        "병풍"
-      ],
-      "desc": "MFAH Carroll Family Collection의 개별 Korean painting 레코드입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · Carroll Family Collection · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "최석환",
-      "title": "Grapevine",
-      "url": "https://emuseum.mfah.org/objects/155612/grapevine"
-    },
-    {
-      "id": 712,
-      "era": "조선 · 19세기 후반~20세기 초",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "사군자",
-        "대나무",
-        "문인화"
-      ],
-      "desc": "MFAH Carroll Family Collection의 개별 Korean painting 레코드입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · Carroll Family Collection · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "민영익",
-      "title": "Bamboo",
-      "url": "https://emuseum.mfah.org/objects/154150/bamboo"
-    },
-    {
-      "id": 713,
-      "era": "조선 · 20세기 초 · 조선회화 전통",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "십장생",
-        "병풍"
-      ],
-      "desc": "MFAH Carroll Family Collection의 개별 Korean painting 레코드입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Museum of Fine Arts, Houston · Carroll Family Collection · source link only",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "artist": "작자미상",
-      "title": "Ten Longevity Symbols",
-      "url": "https://emuseum.mfah.org/objects/154146/ten-longevity-symbols"
-    },
-    {
       "id": 714,
       "era": "조선 후기 · 약 1730",
       "license": "홍익대학교박물관 원문 이용조건 확인",
@@ -13060,57 +12718,6 @@
       "artist": "작자미상",
       "title": "의령남씨가전화첩",
       "url": "https://museum.hongik.ac.kr/museum/0402.do?articleNo=118773&mode=view"
-    },
-    {
-      "id": 718,
-      "era": "조선",
-      "license": "홍익대학교박물관 원문 이용조건 확인",
-      "themes": [
-        "민화",
-        "문자도",
-        "효제도",
-        "병풍"
-      ],
-      "desc": "홍익대학교박물관 공식 소장품·전시·도록 페이지에서 작품명과 조선시대 분류를 확인한 링크입니다.",
-      "credit": "홍익대학교박물관 · source link only",
-      "source": "홍익대학교박물관 · 조선회화",
-      "artist": "작자미상",
-      "title": "효제도 8폭 병풍",
-      "url": "https://museum.hongik.ac.kr/museum/0201.do?articleNo=118855&mode=view"
-    },
-    {
-      "id": 719,
-      "era": "조선",
-      "license": "홍익대학교박물관 원문 이용조건 확인",
-      "themes": [
-        "민화",
-        "책가도",
-        "책거리",
-        "병풍"
-      ],
-      "desc": "홍익대학교박물관 공식 소장품·전시·도록 페이지에서 작품명과 조선시대 분류를 확인한 링크입니다.",
-      "credit": "홍익대학교박물관 · source link only",
-      "source": "홍익대학교박물관 · 조선회화",
-      "artist": "작자미상",
-      "title": "책가도 8폭 병풍",
-      "url": "https://museum.hongik.ac.kr/museum/0201.do?articleNo=118855&mode=view"
-    },
-    {
-      "id": 720,
-      "era": "조선 후기",
-      "license": "홍익대학교박물관 원문 이용조건 확인",
-      "themes": [
-        "기록화",
-        "회혼례",
-        "혼례",
-        "병풍"
-      ],
-      "desc": "홍익대학교박물관 공식 소장품·전시·도록 페이지에서 작품명과 조선시대 분류를 확인한 링크입니다.",
-      "credit": "홍익대학교박물관 · source link only",
-      "source": "홍익대학교박물관 · 조선회화",
-      "artist": "작자미상",
-      "title": "회혼례도 병풍",
-      "url": "https://museum.hongik.ac.kr/museum/0403.do?articleNo=118774&mode=view"
     },
     {
       "id": 721,
@@ -13248,54 +12855,6 @@
       "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1112102490200&pageNo=1_1_1_1"
     },
     {
-      "id": 729,
-      "era": "조선 후기 · 18세기",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "소나무",
-        "실경"
-      ],
-      "desc": "공식 국가유산 또는 공공미술관 전시 페이지에서 소장처와 작품정보를 확인한 링크입니다.",
-      "credit": "고려대학교박물관 · 전시검증 · source link only",
-      "source": "고려대학교박물관 · 전시검증",
-      "artist": "정선",
-      "title": "사직노송도",
-      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067"
-    },
-    {
-      "id": 730,
-      "era": "조선 후기 · 18~19세기",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "인물",
-        "신선",
-        "음악"
-      ],
-      "desc": "공식 국가유산 또는 공공미술관 전시 페이지에서 소장처와 작품정보를 확인한 링크입니다.",
-      "credit": "고려대학교박물관 · 전시검증 · source link only",
-      "source": "고려대학교박물관 · 전시검증",
-      "artist": "김홍도",
-      "title": "송하선인취생도",
-      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067"
-    },
-    {
-      "id": 731,
-      "era": "조선 후기 · 18세기",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "영모",
-        "다람쥐",
-        "화첩"
-      ],
-      "desc": "공식 국가유산 또는 공공미술관 전시 페이지에서 소장처와 작품정보를 확인한 링크입니다.",
-      "credit": "서울대학교박물관 · 전시검증 · source link only",
-      "source": "서울대학교박물관 · 전시검증",
-      "artist": "정선",
-      "title": "다람쥐 · 겸현신품첩",
-      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/kgallery/display/view.do?cultureSn=236&menuNo=800067"
-    },
-    {
       "id": 732,
       "era": "대한제국 · 1902",
       "license": "APMA 원문 이용조건 확인",
@@ -13376,249 +12935,6 @@
       "artist": "안중식·조석진",
       "title": "기명절지도 8폭 병풍",
       "url": "https://apma.amorepacific.com/contents/exhibition/1620899/view.do"
-    },
-    {
-      "id": 737,
-      "era": "조선 전기 · 16세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "화조",
-        "영모",
-        "매",
-        "궁중화"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "이암",
-      "title": "Falcon on a Perch (가응도)",
-      "url": "https://collections.mfa.org/objects/25411/falcon-on-a-perch"
-    },
-    {
-      "id": 738,
-      "era": "조선 전기 · 16세기 후반",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "불화",
-        "약사여래",
-        "신장",
-        "왕실발원"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Medicine Buddha Triad with Twelve Guardians (약사십이신장도)",
-      "url": "https://collections.mfa.org/objects/15197"
-    },
-    {
-      "id": 739,
-      "era": "조선 중기 · 17세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "불화",
-        "보살"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Groups of Bodhisattvas",
-      "url": "https://collections.mfa.org/objects/20877"
-    },
-    {
-      "id": 740,
-      "era": "조선 말기 · 19세기 말~20세기 초",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "문인화",
-        "괴석",
-        "소나무",
-        "대나무"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "김영",
-      "title": "Rock, Pine, and Bamboo · 63.2677",
-      "url": "https://collections.mfa.org/objects/30059/rock-pine-and-bamboo"
-    },
-    {
-      "id": 741,
-      "era": "조선 후기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "화조",
-        "새",
-        "꽃"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Birds and Flowers · 11.4014",
-      "url": "https://collections.mfa.org/objects/24532/birds-and-flowers"
-    },
-    {
-      "id": 742,
-      "era": "조선 후기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "화조",
-        "새",
-        "꽃"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Birds and Flowers · 11.4013",
-      "url": "https://collections.mfa.org/objects/24531/birds-and-flowers"
-    },
-    {
-      "id": 743,
-      "era": "조선 말기 · 19세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "문인화",
-        "포도",
-        "병풍"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Screen with grapevine",
-      "url": "https://collections.mfa.org/objects/524433/screen-with-grapevine"
-    },
-    {
-      "id": 744,
-      "era": "조선 중기 · 16세기 말",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "도석인물",
-        "신선",
-        "사슴"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Sennin with a Deer, a Basket on Her Back",
-      "url": "https://collections.mfa.org/objects/25423"
-    },
-    {
-      "id": 745,
-      "era": "조선 후기 · 18세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "선면화",
-        "진경산수"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "정선",
-      "title": "Album Leaf, Fan Painting: Morning Scene (선면산수도)",
-      "url": "https://collections.mfa.org/objects/30118"
-    },
-    {
-      "id": 746,
-      "era": "조선 말기 · 19세기 말~20세기 초",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "민화",
-        "책거리",
-        "책가도",
-        "병풍"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Screen with books and scholar's objects (Chaekgeori Screen)",
-      "url": "https://collections.mfa.org/objects/531074/screen-with-books-and-scholars-objects"
-    },
-    {
-      "id": 747,
-      "era": "조선 후기 · 19세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "화조",
-        "모란",
-        "문인화"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "허련",
-      "title": "Peony (모란도)",
-      "url": "https://collections.mfa.org/objects/266327"
-    },
-    {
-      "id": 748,
-      "era": "조선 중기 · 17세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "불화",
-        "칠성",
-        "신앙"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "A Star God",
-      "url": "https://collections.mfa.org/objects/20155/a-star-god"
-    },
-    {
-      "id": 749,
-      "era": "조선 전기 · 16세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "인물"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Landscape with Two Figures",
-      "url": "https://collections.mfa.org/objects/24533/landscape-with-two-figures"
-    },
-    {
-      "id": 750,
-      "era": "조선 후기 · 19세기",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "화조",
-        "봉황",
-        "모란"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "작자미상",
-      "title": "Phoenix And Peonies",
-      "url": "https://collections.mfa.org/objects/21883"
-    },
-    {
-      "id": 751,
-      "era": "조선 말기 · 19세기 말~20세기 초",
-      "license": "Museum of Fine Arts, Boston 원문 이용조건 확인",
-      "themes": [
-        "문인화",
-        "괴석",
-        "소나무",
-        "대나무"
-      ],
-      "desc": "Museum of Fine Arts, Boston 공식 Collections 개별 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "Museum of Fine Arts, Boston · source link only",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "artist": "김영",
-      "title": "Rock, Pine, and Bamboo · 63.2679",
-      "url": "https://collections.mfa.org/objects/30061/rock-pine-and-bamboo"
     },
     {
       "id": 752,
@@ -14031,23 +13347,6 @@
       "url": "https://www.metmuseum.org/art/collection/search/860959"
     },
     {
-      "id": 777,
-      "era": "조선 후기 · 19세기",
-      "license": "The Met · Public Domain/원문 조건 확인",
-      "themes": [
-        "민화",
-        "책거리",
-        "책가도",
-        "병풍"
-      ],
-      "desc": "The Metropolitan Museum of Art 공식 작품 레코드. 이미지 파일은 저장하지 않고 원문 링크만 연결합니다.",
-      "credit": "The Metropolitan Museum of Art · source link only",
-      "source": "The Metropolitan Museum of Art · 조선회화",
-      "artist": "작자미상",
-      "title": "Books and Scholarly Accoutrements",
-      "url": "https://www.metmuseum.org/art/collection/search/853896"
-    },
-    {
       "id": 778,
       "era": "조선 후기 · 19세기",
       "license": "The Met · Public Domain/원문 조건 확인",
@@ -14210,39 +13509,6 @@
       "artist": "작자미상",
       "title": "Assembly of Buddhist Guardians",
       "url": "https://dia.org/collection/assembly-buddhist-guardians/103449"
-    },
-    {
-      "id": 788,
-      "era": "대한제국기 · 1900~1910",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "사군자",
-        "난초",
-        "괴석",
-        "문인화"
-      ],
-      "desc": "공식 소장처 페이지에서 직접 확인한 한국/조선 회화 링크. 이미지 파일은 저장하지 않습니다.",
-      "credit": "source link only",
-      "source": "Detroit Institute of Arts · 조선회화",
-      "artist": "김응원",
-      "title": "Orchids and Rocks",
-      "url": "https://dia.org/collection/orchids-and-rocks/113127"
-    },
-    {
-      "id": 789,
-      "era": "조선 후기 · 19세기 초",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "문인화",
-        "포도",
-        "병풍"
-      ],
-      "desc": "공식 소장처 페이지에서 직접 확인한 한국/조선 회화 링크. 이미지 파일은 저장하지 않습니다.",
-      "credit": "source link only",
-      "source": "Worcester Art Museum · 한국회화",
-      "artist": "최석환",
-      "title": "Grapevine Screen",
-      "url": "https://archive.worcesterart.org/exhibitions/nature-unfolded-korean-art/"
     },
     {
       "id": 790,
@@ -14736,23 +14002,6 @@
       "url": "https://art.seattleartmuseum.org/en/objects/10855/grapevines-and-chipmunks"
     },
     {
-      "id": 821,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "화조",
-        "포도",
-        "다람쥐"
-      ],
-      "desc": "공식 소장처의 개별 작품 페이지로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Seattle Art Museum · 조선회화 · source link only",
-      "source": "Seattle Art Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "Grapevines and Chipmunks · 2022.15.2",
-      "url": "https://art.seattleartmuseum.org/en/objects/50561/grapevines-and-chipmunks"
-    },
-    {
       "id": 822,
       "era": "조선 · 19세기 후반",
       "license": "원 소장처 이용조건 확인",
@@ -14804,23 +14053,6 @@
       "url": "https://art.seattleartmuseum.org/en/objects/11527/preaching-buddha"
     },
     {
-      "id": 825,
-      "era": "조선 · 18~19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "불화",
-        "수월관음",
-        "관음"
-      ],
-      "desc": "공식 소장처의 개별 작품 페이지로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Seattle Art Museum · 조선회화 · source link only",
-      "source": "Seattle Art Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "Water-moon Avalokitesvara",
-      "url": "https://art.seattleartmuseum.org/en/objects/23342/watermoon-avalokitesvara"
-    },
-    {
       "id": 826,
       "era": "조선 · 18~19세기",
       "license": "원 소장처 이용조건 확인",
@@ -14836,24 +14068,6 @@
       "artist": "작자미상",
       "title": "Ten-panel Folding Screen with Scenes of Filial Piety",
       "url": "https://art.thewalters.org/object/35.199/"
-    },
-    {
-      "id": 827,
-      "era": "조선 · 17~18세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "산수",
-        "선비",
-        "나귀",
-        "문인화"
-      ],
-      "desc": "공식 소장처의 개별 작품 페이지로 직접 연결되는 검증 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Saint Louis Art Museum · 조선회화 · source link only",
-      "source": "Saint Louis Art Museum · 조선회화",
-      "artist": "작자미상",
-      "title": "Two Scholars, Attendant, and Donkey in a Landscape",
-      "url": "https://www.slam.org/collection/objects/64938/"
     },
     {
       "id": 828,
@@ -17448,73 +16662,6 @@
       "url": "https://spencerart.ku.edu/art/collections-online/object/47032"
     },
     {
-      "id": 988,
-      "era": "조선 말기~20세기 초",
-      "license": "Spencer Museum of Art 원문 이용조건 확인",
-      "themes": [
-        "민화",
-        "무속",
-        "신앙",
-        "인물"
-      ],
-      "desc": "Spencer Museum of Art 공식 Collections Online에서 소장품 번호·시대·재질을 직접 확인한 한국 회화 링크입니다.",
-      "credit": "Spencer Museum of Art · source link only",
-      "source": "Spencer Museum of Art · 조선회화",
-      "artist": "작자미상",
-      "title": "무신도 · 두 시종을 거느린 신령 (Shaman Spirit with Two Attendants)",
-      "url": "https://spencerart.ku.edu/art/collections-online/object/59104"
-    },
-    {
-      "id": 989,
-      "era": "조선 전기 · 1400~1599",
-      "license": "Nelson-Atkins Museum of Art 원문 이용조건 확인",
-      "themes": [
-        "불화",
-        "불교",
-        "관음",
-        "금니"
-      ],
-      "desc": "Nelson-Atkins Museum of Art 공식 소장품 페이지에서 Korean 문화권·연대·재질을 직접 확인한 회화 링크입니다.",
-      "credit": "Nelson-Atkins Museum of Art · source link only",
-      "source": "Nelson-Atkins Museum of Art · 조선회화",
-      "artist": "작자미상",
-      "title": "관음보살 좌상 (Seated Avalokitesvara)",
-      "url": "https://art.nelson-atkins.org/objects/27099/seated-avalokitesvara"
-    },
-    {
-      "id": 990,
-      "era": "조선 후기 · 약 1700",
-      "license": "Nelson-Atkins Museum of Art 원문 이용조건 확인",
-      "themes": [
-        "초상",
-        "관료",
-        "복식"
-      ],
-      "desc": "Nelson-Atkins Museum of Art 공식 소장품 페이지에서 Korean 문화권·연대·재질을 직접 확인한 회화 링크입니다.",
-      "credit": "Nelson-Atkins Museum of Art · source link only",
-      "source": "Nelson-Atkins Museum of Art · 조선회화",
-      "artist": "작자미상",
-      "title": "관료 초상 (Portrait of Mandarin)",
-      "url": "https://art.nelson-atkins.org/objects/28346/portrait-of-mandarin"
-    },
-    {
-      "id": 991,
-      "era": "조선 후기",
-      "license": "부산박물관 원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "동래화단",
-        "수출화",
-        "문인화"
-      ],
-      "desc": "부산박물관 공식 소장품 페이지에서 작품명·작가·시대·규격 및 작품 해설을 직접 확인한 조선 회화 링크입니다.",
-      "credit": "부산광역시 부산박물관 · source link only",
-      "source": "부산박물관 · 직접검증",
-      "artist": "변지한",
-      "title": "괴원 변지한 산수",
-      "url": "https://museum.busan.go.kr/busan/collectinfo01/view?bbsNo=1&curPage=2&dataNo=22&srchDiv=5"
-    },
-    {
       "id": 992,
       "era": "조선 후기 · 18세기 말~19세기 초",
       "license": "부산박물관 원문 이용조건 확인",
@@ -18157,23 +17304,6 @@
       "url": "https://www.nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?planExhibitionIdx=527"
     },
     {
-      "id": 1029,
-      "era": "조선 후기 · 18세기",
-      "license": "원 소장처 및 인용 공공기관 이용조건 확인",
-      "themes": [
-        "산수",
-        "금강산",
-        "진경산수",
-        "폭포"
-      ],
-      "desc": "서울대학교박물관 소장 사실과 제작시기를 국립민속박물관·겸재정선미술관·한국학중앙연구원·국립국악원 등 공공기관 공식 자료에서 교차 확인한 회화입니다.",
-      "credit": "서울대학교박물관 소장 · 공공기관 source link only",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "artist": "정선",
-      "title": "만폭동도 · 겸현신품첩",
-      "url": "https://culture.gangseo.seoul.kr/gsfc/bbs/BMSR00040/view.do?boardId=686&menuNo=800117"
-    },
-    {
       "id": 1030,
       "era": "조선 후기 · 18세기",
       "license": "원 소장처 및 인용 공공기관 이용조건 확인",
@@ -18190,24 +17320,6 @@
       "artist": "변상벽",
       "title": "묘작도",
       "url": "https://nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?page=1&planExhibitionIdx=1331"
-    },
-    {
-      "id": 1031,
-      "era": "조선 후기 · 19세기",
-      "license": "원 소장처 및 인용 공공기관 이용조건 확인",
-      "themes": [
-        "풍속",
-        "씨름",
-        "택견",
-        "놀이",
-        "군중"
-      ],
-      "desc": "한국학중앙연구원 한국민족문화대백과의 작품 전용 항목에서 1846년 유숙 작품, 서울대학교박물관 소장을 직접 확인한 풍속화입니다.",
-      "credit": "서울대학교박물관 소장 · 한국학중앙연구원 작품해설",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "artist": "유숙",
-      "title": "대쾌도",
-      "url": "https://encykorea.aks.ac.kr/Article/E0014857"
     },
     {
       "id": 1032,

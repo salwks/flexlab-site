@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 1086,
-  "unresolved": 81,
+  "count": 1107,
+  "unresolved": 7,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -4127,12 +4127,19 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "594": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/4d3d79e8_3d19_451b_b298_a3b70072c45e/preview_00034135_001.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/4d3d79e8_3d19_451b_b298_a3b70072c45e/preview_00034135_001.jpg",
+      "source": "British Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "595": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_18/b17f08e9_c43a_4fc8_8c1f_a3e1012ab746/preview_00120454_001.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_18/b17f08e9_c43a_4fc8_8c1f_a3e1012ab746/preview_00120454_001.jpg",
       "source": "British Museum · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
     },
     "596": {
       "thumbnail": "https://ids.si.edu/ids/deliveryService?id=FS-7328_21&max=640",
@@ -4211,26 +4218,47 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "608": {
-      "thumbnail": "https://imgsrv.brooklynmuseum.org/collections/objects/77.97.1_reference_SL1.jpg?width=640&quality=80",
-      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/77.97.1_reference_SL1.jpg?width=3840&quality=75",
+    "607": {
+      "thumbnail": "https://imgsrv.brooklynmuseum.org/collections/objects/75.130_SL1.jpg?width=640&quality=80",
+      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/75.130_SL1.jpg",
       "source": "Brooklyn Museum · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
+    },
+    "608": {
+      "thumbnail": "https://imgsrv.brooklynmuseum.org/collections/objects/77.97.1_reference_SL1.jpg?width=640&quality=80",
+      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/77.97.1_reference_SL1.jpg",
+      "source": "Brooklyn Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "609": {
+      "thumbnail": "https://imgsrv.brooklynmuseum.org/collections/objects/77.97.2_bw.jpg?width=640&quality=80",
+      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/77.97.2_bw.jpg",
+      "source": "Brooklyn Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "610": {
+      "thumbnail": "https://imgsrv.brooklynmuseum.org/collections/objects/86.260.1_cropped_PS22.jpg?width=640&quality=80",
+      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/86.260.1_cropped_PS22.jpg",
+      "source": "Brooklyn Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "611": {
       "thumbnail": "https://imgsrv.brooklynmuseum.org/collections/objects/86.260.2.jpg?width=640&quality=80",
-      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/86.260.2.jpg?width=3840&quality=75",
+      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/86.260.2.jpg",
       "source": "Brooklyn Museum · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
     },
     "612": {
       "thumbnail": "https://imgsrv.brooklynmuseum.org/collections/objects/86.25_SL3.jpg?width=640&quality=80",
-      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/86.25_SL3.jpg?width=3840&quality=75",
+      "image": "https://imgsrv.brooklynmuseum.org/collections/objects/86.25_SL3.jpg",
       "source": "Brooklyn Museum · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
     },
     "613": {
       "thumbnail": "https://iiif.micr.io/qlHOD/full/640,/0/default.jpg",
@@ -4372,12 +4400,33 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "635": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_21/956b45e0_4421_4a77_92cd_a3e1016828cf/preview_00135117_001.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_21/956b45e0_4421_4a77_92cd_a3e1016828cf/preview_00135117_001.jpg",
+      "source": "British Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "636": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/30_13/e97ef1fb_dedd_474e_9a3c_a3b600da9e42/preview_00009402_001.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/30_13/e97ef1fb_dedd_474e_9a3c_a3b600da9e42/preview_00009402_001.jpg",
+      "source": "British Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "637": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_21/1f4429e0_0aaf_4633_9262_a3e1015faef8/preview_00133155_001.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_21/1f4429e0_0aaf_4633_9262_a3e1015faef8/preview_00133155_001.jpg",
       "source": "British Museum · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-21"
+    },
+    "639": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/1065d397_e1e1_4975_8209_a3b70065959d/preview_00030577_001.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/1065d397_e1e1_4975_8209_a3b70065959d/preview_00030577_001.jpg",
+      "source": "British Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "640": {
       "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37217-001.jpg",
@@ -4399,6 +4448,13 @@
       "source": "The Met · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "643": {
+      "thumbnail": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/853899/2284959/restricted",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/853899/2284959/restricted",
+      "source": "The Met · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "644": {
       "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP161547.jpg",
@@ -4498,13 +4554,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "658": {
-      "thumbnail": "https://openaccess-cdn.clevelandart.org/2022.141/2022.141_web.jpg",
-      "image": "https://openaccess-cdn.clevelandart.org/2022.141/2022.141_web.jpg",
-      "source": "Cleveland Museum of Art · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "659": {
       "thumbnail": "https://openaccess-cdn.clevelandart.org/1915.220/1915.220_web.jpg",
       "image": "https://openaccess-cdn.clevelandart.org/1915.220/1915.220_web.jpg",
@@ -4568,6 +4617,97 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "668": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/69020/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/69020/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "669": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/75668/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/75668/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "670": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/71262/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/71262/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "671": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/1340/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/1340/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "672": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/76647/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/76647/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "673": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/58428/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/58428/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "674": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/10815/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/10815/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "675": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/58404/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/58404/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "676": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/57961/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/57961/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "677": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/60209/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/60209/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "678": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/2679/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/2679/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "679": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/68514/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/68514/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "680": {
+      "thumbnail": "https://searchcollection.asianart.org/internal/media/dispatcher/69021/preview",
+      "image": "https://searchcollection.asianart.org/internal/media/dispatcher/69021/full",
+      "source": "Asian Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "681": {
       "thumbnail": "https://img.honolulumuseum.org/eEbMihnPMnsli6a-hu43LhQvnUAoKTT-eI8NKMbiSZ0/c:1920:1008:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly9ob25vbHVsdW11c2V1bS5vcmcvL2Ntc19maWxlcy9zeXN0ZW0vaW1hZ2VzL2ltZzA2MDRfb3JpZy5qcGc",
       "image": "https://img.honolulumuseum.org/eEbMihnPMnsli6a-hu43LhQvnUAoKTT-eI8NKMbiSZ0/c:1920:1008:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly9ob25vbHVsdW11c2V1bS5vcmcvL2Ntc19maWxlcy9zeXN0ZW0vaW1hZ2VzL2ltZzA2MDRfb3JpZy5qcGc",
@@ -4611,8 +4751,8 @@
       "verifiedAt": "2026-10-20"
     },
     "687": {
-      "thumbnail": "https://www.horimmuseum.org/asset/images/sample08.jpg",
-      "image": "https://www.horimmuseum.org/asset/images/sample08.jpg",
+      "thumbnail": "https://www.horimmuseum.org/uploadimg/collections/defaultimg/1718332200151_han048.JPG",
+      "image": "https://www.horimmuseum.org/uploadimg/collections/defaultimg/1718332200151_han048.JPG",
       "source": "호림박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-21"
@@ -4694,13 +4834,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "713": {
-      "thumbnail": "https://emuseum.mfah.org/internal/media/dispatcher/380611/thumbnail",
-      "image": "https://emuseum.mfah.org/internal/media/dispatcher/380611/thumbnail",
-      "source": "Museum of Fine Arts Houston · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "714": {
       "thumbnail": "https://museum.hongik.ac.kr:443/app/board/attach/image/thumb_67745_1728271020000.do",
       "image": "https://museum.hongik.ac.kr:443/app/board/attach/image/thumb_67745_1728271020000.do",
@@ -4725,13 +4858,6 @@
     "717": {
       "thumbnail": "https://museum.hongik.ac.kr:443/app/board/attach/image/thumb_67737_1728270340000.do",
       "image": "https://museum.hongik.ac.kr:443/app/board/attach/image/thumb_67737_1728270340000.do",
-      "source": "홍익대학교박물관 · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "720": {
-      "thumbnail": "https://museum.hongik.ac.kr:443/app/board/attach/image/thumb_67756_1728274631000.do",
-      "image": "https://museum.hongik.ac.kr:443/app/board/attach/image/thumb_67756_1728274631000.do",
       "source": "홍익대학교박물관 · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -4792,10 +4918,24 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "729": {
-      "thumbnail": "https://culture.gangseo.seoul.kr/cmmn/file/imageSrc.do?atchFileId=4587f30cbd8c43ca986598bd3015676a&fileSn=1",
-      "image": "https://culture.gangseo.seoul.kr/cmmn/file/imageSrc.do?atchFileId=4587f30cbd8c43ca986598bd3015676a&fileSn=1",
-      "source": "고려대학교박물관 · 전시검증",
+    "732": {
+      "thumbnail": "https://image-apma.amorepacific.com/upload/exhibition/1681367166854_Yt7XggGZp6.jpeg",
+      "image": "https://image-apma.amorepacific.com/upload/exhibition/1681367166854_Yt7XggGZp6.jpeg",
+      "source": "아모레퍼시픽미술관 · 전시검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "733": {
+      "thumbnail": "https://image-apma.amorepacific.com/upload/exhibition/1681368437211_4qp6kynoeZ.jpg",
+      "image": "https://image-apma.amorepacific.com/upload/exhibition/1681368437211_4qp6kynoeZ.jpg",
+      "source": "아모레퍼시픽미술관 · 전시검증",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "734": {
+      "thumbnail": "https://image-apma.amorepacific.com/upload/exhibition/1681368460613_0q5smUPS4J.jpg",
+      "image": "https://image-apma.amorepacific.com/upload/exhibition/1681368460613_0q5smUPS4J.jpg",
+      "source": "아모레퍼시픽미술관 · 전시검증",
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
@@ -4988,13 +5128,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "777": {
-      "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP-40204-001.jpg",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP-40204-001.jpg",
-      "source": "The Metropolitan Museum of Art · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "778": {
       "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27292-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27292-001.jpg",
@@ -5064,13 +5197,6 @@
       "source": "Detroit Institute of Arts · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "789": {
-      "thumbnail": "https://archive.worcesterart.org/exhibitions/nature-unfolded-korean-art/2012.17.jpg",
-      "image": "https://archive.worcesterart.org/exhibitions/nature-unfolded-korean-art/2012.17.jpg",
-      "source": "Worcester Art Museum · 한국회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "790": {
       "thumbnail": "https://heritage.go.kr/unisearch/images/national_treasure/thumb/1611690.jpg",
@@ -5247,19 +5373,61 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
+    "817": {
+      "thumbnail": "https://art.seattleartmuseum.org/internal/media/dispatcher/5473/preview",
+      "image": "https://art.seattleartmuseum.org/internal/media/dispatcher/5473/full",
+      "source": "Seattle Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "818": {
+      "thumbnail": "https://art.seattleartmuseum.org/internal/media/dispatcher/90499/preview",
+      "image": "https://art.seattleartmuseum.org/internal/media/dispatcher/90499/full",
+      "source": "Seattle Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "819": {
+      "thumbnail": "https://art.seattleartmuseum.org/internal/media/dispatcher/90605/preview",
+      "image": "https://art.seattleartmuseum.org/internal/media/dispatcher/90605/full",
+      "source": "Seattle Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "820": {
+      "thumbnail": "https://art.seattleartmuseum.org/internal/media/dispatcher/90965/preview",
+      "image": "https://art.seattleartmuseum.org/internal/media/dispatcher/90965/full",
+      "source": "Seattle Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "822": {
+      "thumbnail": "https://art.seattleartmuseum.org/internal/media/dispatcher/91022/preview",
+      "image": "https://art.seattleartmuseum.org/internal/media/dispatcher/91022/full",
+      "source": "Seattle Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "823": {
+      "thumbnail": "https://art.seattleartmuseum.org/internal/media/dispatcher/1926/preview",
+      "image": "https://art.seattleartmuseum.org/internal/media/dispatcher/1926/full",
+      "source": "Seattle Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "824": {
+      "thumbnail": "https://art.seattleartmuseum.org/internal/media/dispatcher/27925/preview",
+      "image": "https://art.seattleartmuseum.org/internal/media/dispatcher/27925/full",
+      "source": "Seattle Art Museum · 조선회화",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "826": {
       "thumbnail": "https://art.thewalters.org/images/art/PS1_35.199_VwA_DD_T11.jpg",
       "image": "https://art.thewalters.org/images/art/PS1_35.199_VwA_DD_T11.jpg",
       "source": "The Walters Art Museum · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "827": {
-      "thumbnail": "https://www.slam.org/wp-content/uploads/piction/image-cache/41026.jpg",
-      "image": "https://www.slam.org/wp-content/uploads/piction/image-cache/41026.jpg",
-      "source": "Saint Louis Art Museum · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "828": {
       "thumbnail": "https://kansong.org/icms/file/getImage.do?atchFileId=FILE_000000000036619&fileSn=0",
@@ -6360,20 +6528,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "989": {
-      "thumbnail": "https://art.nelson-atkins.org/internal/media/dispatcher/78357/preview",
-      "image": "https://art.nelson-atkins.org/internal/media/dispatcher/78357/preview",
-      "source": "Nelson-Atkins Museum of Art · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
-    "990": {
-      "thumbnail": "https://art.nelson-atkins.org/internal/media/dispatcher/78347/preview",
-      "image": "https://art.nelson-atkins.org/internal/media/dispatcher/78347/preview",
-      "source": "Nelson-Atkins Museum of Art · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "992": {
       "thumbnail": "https://museum.busan.go.kr/data/PAVILION/20181129/1129111007572-b5264f90d28a429b904bc26e8dfb7276.jpg",
       "image": "https://museum.busan.go.kr/data/PAVILION/20181129/1129111007572-b5264f90d28a429b904bc26e8dfb7276.jpg",
@@ -6601,13 +6755,6 @@
     "1030": {
       "thumbnail": "https://nfm.go.kr/site/home/images/display/2024/2024_cat_01.jpg",
       "image": "https://nfm.go.kr/site/home/images/display/2024/2024_cat_01.jpg",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "1031": {
-      "thumbnail": "https://devin.aks.ac.kr/image/27254b87-877c-4f8a-a26f-8317f6928c92?preset=orig",
-      "image": "https://devin.aks.ac.kr/image/27254b87-877c-4f8a-a26f-8317f6928c92?preset=orig",
       "source": "서울대학교박물관 · 공공기관검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
