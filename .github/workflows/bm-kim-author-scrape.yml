@@ -39,7 +39,7 @@ jobs:
           ).slice(0,10);
 
           function curlText(url,max=35){
-            return execFileSync('curl',['-L','--max-time',String(max),'-A','Mozilla/5.0','-sS',url],{
+            return execFileSync('curl',['-k','-L','--retry','2','--retry-delay','2','--retry-all-errors','--max-time',String(max),'-A','Mozilla/5.0','-sS',url],{
               encoding:'utf8',maxBuffer:50*1024*1024
             });
           }
@@ -63,7 +63,7 @@ jobs:
               const p=txt.indexOf(marker);
               const body=p>=0?txt.slice(p+marker.length):txt;
               const i=body.indexOf('{');
-              if(i<0) return {id:w.id,ok:false,error:'no json'};
+              if(i<0) return {id:w.id,ok:false,error:'no json: '+body.slice(0,120).replace(/\\s+/g,' ')};
               const j=JSON.parse(body.slice(i).trim());
               const hits=j?.hits?.hits||[];
               const hit=hits.find(h=>(h._source?.identifier||[]).some(x=>x.registration_number===reg))||hits[0];
