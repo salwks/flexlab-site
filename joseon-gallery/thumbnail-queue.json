@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
-  "total": 170,
+  "total": 160,
   "bySource": {
-    "British Museum · 김준근": 83,
+    "British Museum · 김준근": 73,
     "Museum of Fine Arts Boston · 조선회화": 15,
     "Asian Art Museum · 조선회화": 13,
     "Museum of Fine Arts Houston · 조선회화": 12,
@@ -26,106 +26,6 @@
     "서울대학교박물관 · 공공기관검증": 1
   },
   "items": [
-    {
-      "id": 458,
-      "title": "혼교 모양 - 영장 앞에",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-18",
-      "status": "failed",
-      "error": "no json: \n![Image 1: Icon for www.britishmuseum.org](https://www.britishmuseum.org/favicon.ico)\n\n## www.britishmuseum.org\n\n## Per",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 467,
-      "title": "거사 사당이 한량에게 돈 따는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-27",
-      "status": "failed",
-      "error": "no json: \n![Image 1: Icon for www.britishmuseum.org](https://www.britishmuseum.org/favicon.ico)\n\n## www.britishmuseum.org\n\n## Per",
-      "lastChecked": "2026-10-21"
-    },
-    {
-      "id": 468,
-      "title": "목혜장이",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-28",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 470,
-      "title": "부부 김매는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-30",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 472,
-      "title": "기산 풍속화 · British Museum OA+,0.482.32",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-32",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 474,
-      "title": "각고별장",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-34",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 477,
-      "title": "기산 풍속화 · British Museum OA+,0.482.37",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-37",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 479,
-      "title": "부종 하는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-39",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 481,
-      "title": "기산 풍속화 · British Museum OA+,0.482.41",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-41",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 482,
-      "title": "벼 절구질 하는 모양",
-      "artist": "김준근",
-      "source": "British Museum · 김준근",
-      "url": "https://www.britishmuseum.org/collection/object/A_OA-0-482-42",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
     {
       "id": 483,
       "title": "기산 풍속화 · British Museum OA+,0.482.43",

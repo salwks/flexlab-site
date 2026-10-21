@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 997,
-  "unresolved": 170,
+  "count": 1007,
+  "unresolved": 160,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3182,6 +3182,13 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
+    "458": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/17b7cd8f_02fe_46d6_b147_b32b00890023/preview_018_carrying_a_cinerary_urn.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/17b7cd8f_02fe_46d6_b147_b32b00890023/preview_018_carrying_a_cinerary_urn.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "459": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/2d215639_db5b_4c9e_989a_b32b008c5aec/preview_019_a_street_musician_with_his_father.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_8/2d215639_db5b_4c9e_989a_b32b008c5aec/preview_019_a_street_musician_with_his_father.jpg",
@@ -3238,12 +3245,33 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
+    "467": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9b8330ac_bc79_4b81_93de_b32b00a5c70d/preview_027_street_musicians_winning_a_bet.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9b8330ac_bc79_4b81_93de_b32b00a5c70d/preview_027_street_musicians_winning_a_bet.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "468": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/3c404d17_0491_4f0f_be04_b32b00a66896/preview_kisan_28.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/3c404d17_0491_4f0f_be04_b32b00a66896/preview_kisan_28.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "469": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9a11a3cc_3e5a_4f1a_878b_b32b00a72185/preview_029_hand_filature.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9a11a3cc_3e5a_4f1a_878b_b32b00a72185/preview_029_hand_filature.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "470": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/30fb32bc_cff7_49f2_9b40_b32b00a78923/preview_030_weeding_husband_and_wife.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/30fb32bc_cff7_49f2_9b40_b32b00a78923/preview_030_weeding_husband_and_wife.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "471": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/65752537_9dcd_4493_830d_b32b00a80bd3/preview_031_thrashing.jpg",
@@ -3252,12 +3280,26 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "472": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/b29adce9_6d00_4201_9989_b32b00a88dc9/preview_032_burial.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/b29adce9_6d00_4201_9989_b32b00a88dc9/preview_032_burial.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "473": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/fb1fb518_0ef7_4896_88b1_b32b00a8fcaf/preview_033_going_home.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/fb1fb518_0ef7_4896_88b1_b32b00a8fcaf/preview_033_going_home.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "474": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9faff617_b76d_413d_8c54_b32b00a9835a/preview_034_public_officers.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/9faff617_b76d_413d_8c54_b32b00a9835a/preview_034_public_officers.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "475": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/0f6a4a5a_d82c_4ee7_8d59_b32b00aa0af7/preview_035_hemp_linen_making.jpg",
@@ -3273,6 +3315,13 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "477": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/ffa5ab6d_e5e2_4473_b1ca_b32b00ab0213/preview_037_man_passed_an_examination.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/ffa5ab6d_e5e2_4473_b1ca_b32b00ab0213/preview_037_man_passed_an_examination.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "478": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/76ca9124_1bde_40c3_a731_b32b00ab749d/preview_038_hawk_keepers.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/76ca9124_1bde_40c3_a731_b32b00ab749d/preview_038_hawk_keepers.jpg",
@@ -3280,12 +3329,33 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
+    "479": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/588268f2_77eb_4ed2_abd6_b32b00abec51/preview_039_sowing_seeds.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/588268f2_77eb_4ed2_abd6_b32b00abec51/preview_039_sowing_seeds.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
     "480": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/71049603_e14f_42d2_a7c3_b32b00ac81b7/preview_040_six_public_officers.jpg",
       "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/71049603_e14f_42d2_a7c3_b32b00ac81b7/preview_040_six_public_officers.jpg",
       "source": "British Museum · 김준근",
       "verified": true,
       "verifiedAt": "2026-10-20"
+    },
+    "481": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/7a841e82_5d33_400f_be34_b32b00ad0638/preview_041_flailing.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/7a841e82_5d33_400f_be34_b32b00ad0638/preview_041_flailing.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
+    },
+    "482": {
+      "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/c7f02a6b_216f_4bc5_a6ba_b32b00ad8509/preview_042_pouding_grain.jpg",
+      "image": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_10/c7f02a6b_216f_4bc5_a6ba_b32b00ad8509/preview_042_pouding_grain.jpg",
+      "source": "British Museum · 김준근",
+      "verified": true,
+      "verifiedAt": "2026-10-21"
     },
     "499": {
       "thumbnail": "https://media.britishmuseum.org/media/Repository/Documents/2025_7/31_11/f4852872_e4fa_4d8d_8c5c_b32b00b6707d/preview_059_travelling_merchants.jpg",
