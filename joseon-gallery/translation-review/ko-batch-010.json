@@ -1,0 +1,377 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-010",
+  "scope": "Folk painting, palace painting and portrait records 326-350; exclusion audit of 341",
+  "references": [
+    {
+      "title": "Wikimedia Commons - Miindo (Standing Beauty)",
+      "url": "https://commons.wikimedia.org/wiki/File:Miindo_(Standing_Beauty).jpg",
+      "use": "326 19세기 작자미상·간송미술관 분류·과거 윤두서 귀속 정보 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 미인도 (해남 윤씨 종가) 부분",
+      "url": "https://commons.wikimedia.org/wiki/File:Miindo-Yun.family.of.Haenam-d1.jpg",
+      "use": "327 한국어 제목·간송미술관·19세기 중엽·윤용 추정설 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 미인도 (해남 윤씨 종가)",
+      "url": "https://commons.wikimedia.org/wiki/File:Miindo-Yun.family.of.Haenam.jpg",
+      "use": "328 한국어 제목·간송미술관·19세기 중엽 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Minhwa Deer and turtle",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Deer_and_turtle.JPG",
+      "use": "329 원자료의 한국어 설명과 19세기 조선 정보 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 감모여재도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0000752",
+      "use": "330-331 국내 표준 용어 ‘감모여재도’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 감모여재도 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Gammo.yeojae.do-01.jpg",
+      "use": "330 조선 민화 제례 그림 식별"
+    },
+    {
+      "title": "Wikimedia Commons - 문자도 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Munjado-01.jpg",
+      "use": "332 19세기 작자미상 문자도 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 문자도 孝",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Munjado-02.jpg",
+      "use": "333 ‘문자도 孝’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 문자도 03",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Munjado-03.jpg",
+      "use": "334 국립민속박물관 전시 출처·19세기·孝 계열 분류 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 문자도 05",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Munjado-05.jpg",
+      "use": "335 信·忠·孝·悌 구성과 규격 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 문자도 06",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Munjado-06.jpg",
+      "use": "336 19세기·03의 다른 버전·孝 계열 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 선유도",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Seonyudo-02.jpg",
+      "use": "337 원자료 한국어 제목 ‘민화-선유도’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 까치와 호랑이",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Tiger_and_magpie-04.jpg",
+      "use": "338 원자료 한국어 제목과 19세기 조선 정보 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 연화도",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Yeonhwado.jpg",
+      "use": "339 ‘연화도(蓮花圖)’, 19세기, 종이 담채 확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 산신도",
+      "url": "https://encykorea.aks.ac.kr/Article/E0026273",
+      "use": "340 국내 표준 장르명과 산신·호랑이 도상 확인"
+    },
+    {
+      "title": "Honolulu source via public-domain record - Mountain Spirit Seated on Tiger",
+      "url": "https://commons.wikimedia.org/wiki/File:Mountain_Spirit_Seated_on_Tiger,_Joseon_dynasty,_Honolulu_Museum_of_Art.jpg",
+      "use": "340 19세기·호놀룰루미술관 7505.1 식별"
+    },
+    {
+      "title": "국립현대미술관 - 한국의 채색화 특별전 보도자료",
+      "url": "https://www.mmca.go.kr/upload/board/201/2022/05/2022053105055484527016.pdf",
+      "use": "341 ‘서궐도’가 송규태가 서궐도안을 바탕으로 채색한 현대 재현작임을 확인하여 조선회화 원작 목록에서 제외"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 서궐도안",
+      "url": "https://encykorea.aks.ac.kr/Article/E0027632",
+      "use": "342 보물 정식명·조선 후기·경희궁·고려대학교박물관 확인"
+    },
+    {
+      "title": "국가유산포털 - 심환지 초상",
+      "url": "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=14800000&ccbaBcode=01&ccbaCpno=1123114800000&ccbaCtcd=31&ccbaGcode=CB&ccbaKdcd=12&ccbaMcode=02&pageNo=1_1_4_1",
+      "use": "343 보물 정식명·경기도박물관·제작시기 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Standing Man with Ceremonial Sword",
+      "url": "https://commons.wikimedia.org/wiki/File:Standing_Man_with_Ceremonial_Sword,_Joseon_dynasty,_Honolulu_Museum_of_Art.jpg",
+      "use": "344 19세기·재료·호놀룰루 4466.1 확인"
+    },
+    {
+      "title": "Wikimedia Commons - The Chinese Poet Su Shi",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Chinese_Poet_Su_Shi,_anonymous_Korean,_c._16th_-_17th_century,_Honolulu_Museum_of_Art,_2006.254.jpg",
+      "use": "345 소식·16~17세기·호놀룰루 2006.254 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Zhou Dunyi Admiring Lotus Flowers",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Neo-Confucian_Cosmologist_Zhou_Dunyi_Admiring_Lotus_Flowers,_anonymous_Korean_Honolulu_Museum_of_Art,_2006.252.JPG",
+      "use": "346 주돈이·16세기·호놀룰루 2006.252 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Two Tigers under a Pine Tree",
+      "url": "https://commons.wikimedia.org/wiki/File:Two_Tigers_under_a_Pine_Tree,_Joseon,_Honolulu_Museum_of_Art_11713.1.jpg",
+      "use": "347 19세기·작자미상·호놀룰루 11713.1 확인"
+    },
+    {
+      "title": "국가유산포털 - 이색 초상 계열",
+      "url": "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=0012150000100&ccbaCpno=1121112150000&ccbaCtcd=11&ccbaKdcd=12&pageNo=1_1_1_0",
+      "use": "348 국내 정식명 ‘이색 초상’과 복수 전승본 존재 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Yi Saek",
+      "url": "https://commons.wikimedia.org/wiki/File:Yi_Saek.jpg",
+      "use": "348 원파일이 국가유산 1215 계열임을 확인하되 세부 전승본은 불명확"
+    },
+    {
+      "title": "국립중앙박물관 - 이산해 초상",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=1469&schM=view&searchId=search",
+      "use": "349 국내 표준 작품명 확인. 국립중앙박물관본은 19세기 이모본이므로 원파일과 동일시하지 않음"
+    },
+    {
+      "title": "Wikimedia Commons - Yi Sanhae sitted",
+      "url": "https://commons.wikimedia.org/wiki/File:Yi_Sanhae_sitted.jpg",
+      "use": "349 원파일이 이산해를 그린 초상임을 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Yunhyu",
+      "url": "https://commons.wikimedia.org/wiki/File:Yunhyu.jpg",
+      "use": "350 한국어 설명 ‘백호 윤휴의 초상화’, 국가유산청 『한국의 초상화』 출처 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 326,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "desc": "verified"
+      },
+      "note": "과거 윤두서 귀속설은 폐기하고 작자미상 유지."
+    },
+    {
+      "id": 327,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified",
+        "desc": "verified"
+      },
+      "duplicateCandidateOf": 328
+    },
+    {
+      "id": 328,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified",
+        "desc": "verified"
+      },
+      "note": "윤용 귀속은 추정이므로 artist는 작자미상 유지."
+    },
+    {
+      "id": 329,
+      "status": "verified",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified",
+        "desc": "source_verified"
+      }
+    },
+    {
+      "id": 330,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "themes": "corrected"
+      }
+    },
+    {
+      "id": 331,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "themes": "corrected"
+      }
+    },
+    {
+      "id": 332,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 333,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 334,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 335,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 336,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      },
+      "duplicateCandidateOf": 334
+    },
+    {
+      "id": 337,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 338,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 339,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 340,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified",
+        "themes": "verified"
+      }
+    },
+    {
+      "id": 341,
+      "status": "excluded",
+      "note": "송규태가 조선시대 서궐도안을 바탕으로 채색한 현대 재현작으로 확인되어 조선회화 원작 목록에서 제거."
+    },
+    {
+      "id": 342,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "canonical",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 343,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 344,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "국내 정식 작품명 미확인."
+    },
+    {
+      "id": 345,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "대상 인물은 소식으로 확인되나 국내 개별 정식 작품명 미확인."
+    },
+    {
+      "id": 346,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "주돈이 도상은 확인되나 국내 개별 정식 작품명 미확인."
+    },
+    {
+      "id": 347,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "국내 개별 정식 작품명 미확인."
+    },
+    {
+      "id": 348,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "subject": "verified"
+      },
+      "note": "국가유산 1215의 어느 전승본인지 원파일만으로 특정 불가."
+    },
+    {
+      "id": 349,
+      "status": "verified",
+      "fields": {
+        "title": "canonical_term",
+        "subject": "verified",
+        "era": "source_verified"
+      },
+      "note": "국립중앙박물관 19세기 이모본과 동일 작품으로 합치지 않음."
+    },
+    {
+      "id": 350,
+      "status": "verified",
+      "fields": {
+        "title": "source_korean",
+        "subject": "verified",
+        "era": "verified"
+      }
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": 327,
+      "duplicateOf": 328,
+      "reason": "해남 윤씨 종가 미인도의 인물 부분 이미지"
+    },
+    {
+      "id": 336,
+      "duplicateOf": 334,
+      "reason": "Commons에서 문자도 03의 다른 버전으로 명시"
+    }
+  ]
+}
