@@ -1,6 +1,6 @@
 {
   "version": "2026-10-20",
-  "count": 1034,
+  "count": 1033,
   "works": [
     {
       "id": 1,
@@ -5992,7 +5992,7 @@
     },
     {
       "id": 326,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6001,9 +6001,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Miindo_(Standing_Beauty).jpg",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "미인도",
+        "여성",
+        "복식"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6011,7 +6011,7 @@
     },
     {
       "id": 327,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6020,9 +6020,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Miindo-Yun.family.of.Haenam-d1.jpg",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "미인도",
+        "여성",
+        "복식"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6030,7 +6030,7 @@
     },
     {
       "id": 328,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6039,9 +6039,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Miindo-Yun.family.of.Haenam.jpg",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "미인도",
+        "여성",
+        "복식"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6049,7 +6049,7 @@
     },
     {
       "id": 329,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6059,8 +6059,10 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "장생",
+        "사슴",
+        "거북",
+        "도교"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6068,7 +6070,7 @@
     },
     {
       "id": 330,
-      "era": "조선 · Commons 분류",
+      "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6078,8 +6080,9 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "제례",
+        "감모여재도",
+        "사당"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6087,7 +6090,7 @@
     },
     {
       "id": 331,
-      "era": "조선 · Commons 분류",
+      "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6097,8 +6100,9 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "제례",
+        "감모여재도",
+        "사당"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6106,7 +6110,7 @@
     },
     {
       "id": 332,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6116,8 +6120,8 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "문자도",
+        "유교"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6125,7 +6129,7 @@
     },
     {
       "id": 333,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6135,8 +6139,8 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "문자도",
+        "유교"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6144,7 +6148,7 @@
     },
     {
       "id": 334,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6154,8 +6158,8 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "문자도",
+        "유교"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6163,7 +6167,7 @@
     },
     {
       "id": 335,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6173,8 +6177,8 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "문자도",
+        "유교"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6182,7 +6186,7 @@
     },
     {
       "id": 336,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6192,8 +6196,8 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "문자도",
+        "유교"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6201,7 +6205,7 @@
     },
     {
       "id": 337,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6211,8 +6215,9 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "도교",
+        "신선",
+        "선유도"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6220,7 +6225,7 @@
     },
     {
       "id": 338,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6230,8 +6235,9 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "작호도",
+        "호랑이",
+        "까치"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6239,7 +6245,7 @@
     },
     {
       "id": 339,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6249,8 +6255,8 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
+        "연꽃",
+        "화훼"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6258,7 +6264,7 @@
     },
     {
       "id": 340,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6268,27 +6274,10 @@
       "themes": [
         "회화",
         "민화",
-        "초상",
-        "풍속"
-      ],
-      "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
-      "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
-      "bulkPinned": true
-    },
-    {
-      "id": 341,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Seogwoldo",
-      "file": "Seogwoldo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Seogwoldo.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "산신도",
+        "산신",
+        "호랑이",
+        "무속"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6296,7 +6285,7 @@
     },
     {
       "id": 342,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6305,9 +6294,10 @@
       "url": "https://commons.wikimedia.org/wiki/File:Seogwoldoan.jpg",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "기록화",
+        "궁궐",
+        "경희궁",
+        "서궐도안"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6315,7 +6305,7 @@
     },
     {
       "id": 343,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6324,9 +6314,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Sim_Hwan-ji.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "심환지",
+        "문신"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6334,7 +6324,7 @@
     },
     {
       "id": 344,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6343,9 +6333,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Standing_Man_with_Ceremonial_Sword%2C_Joseon_dynasty%2C_Honolulu_Museum_of_Art.jpg",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "인물",
+        "관복",
+        "의장"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6353,7 +6343,7 @@
     },
     {
       "id": 345,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기~중기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6362,9 +6352,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:The_Chinese_Poet_Su_Shi%2C_anonymous_Korean%2C_c._16th_-_17th_century%2C_Honolulu_Museum_of_Art%2C_2006.254.jpg",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "고사인물",
+        "소식",
+        "문인"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6372,7 +6362,7 @@
     },
     {
       "id": 346,
-      "era": "조선 · Commons 분류",
+      "era": "조선 전기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6381,9 +6371,10 @@
       "url": "https://commons.wikimedia.org/wiki/File:The_Neo-Confucian_Cosmologist_Zhou_Dunyi_Admiring_Lotus_Flowers%2C_anonymous_Korean_Honolulu_Museum_of_Art%2C_2006.252.JPG",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "고사인물",
+        "주돈이",
+        "성리학",
+        "연꽃"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6391,7 +6382,7 @@
     },
     {
       "id": 347,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6400,9 +6391,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Two_Tigers_under_a_Pine_Tree%2C_Joseon%2C_Honolulu_Museum_of_Art_11713.1.jpg",
       "themes": [
         "회화",
-        "민화",
-        "초상",
-        "풍속"
+        "영모",
+        "호랑이",
+        "소나무"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6410,7 +6401,7 @@
     },
     {
       "id": 348,
-      "era": "조선 · Commons 분류",
+      "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6419,9 +6410,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Yi_Saek.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "이색",
+        "문인"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6429,7 +6420,7 @@
     },
     {
       "id": 349,
-      "era": "조선 · Commons 분류",
+      "era": "조선 중기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6438,9 +6429,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Yi_Sanhae_sitted.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "이산해",
+        "문신"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
@@ -6448,7 +6439,7 @@
     },
     {
       "id": 350,
-      "era": "조선 · Commons 분류",
+      "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
@@ -6457,9 +6448,10 @@
       "url": "https://commons.wikimedia.org/wiki/File:Yunhyu.jpg",
       "themes": [
         "회화",
-        "민화",
         "초상",
-        "풍속"
+        "윤휴",
+        "문신",
+        "유학자"
       ],
       "desc": "Wikimedia Commons의 작자미상 분류에서 대량 수집한 조선회화 링크입니다. 이미지 파일은 로컬에 저장하지 않습니다.",
       "credit": "Wikimedia Commons 파일 페이지에서 정확한 소장처·제작시기·라이선스를 확인하세요.",
