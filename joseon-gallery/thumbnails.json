@@ -1,8 +1,8 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-20",
-  "count": 833,
-  "unresolved": 195,
+  "count": 832,
+  "unresolved": 196,
   "thumbnails": {
     "1": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Danwon_Bbalraeteo.jpg/500px-Danwon_Bbalraeteo.jpg",
@@ -3888,13 +3888,6 @@
       "source": "국립고궁박물관 · 직접검증",
       "verified": true,
       "verifiedAt": "2026-10-20"
-    },
-    "687": {
-      "thumbnail": "https://www.horimmuseum.org/asset/images/Og.jpg",
-      "image": "https://www.horimmuseum.org/asset/images/Og.jpg",
-      "source": "호림박물관 · 직접검증",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
     },
     "689": {
       "thumbnail": "https://s3.us-east-1.amazonaws.com/pem-org/images/Collection_Korean_NectarRitual_1200px.jpg",
