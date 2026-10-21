@@ -23,6 +23,7 @@ jobs:
         run: |
           node <<'NODE'
           const fs=require('fs');
+          const {execFileSync}=require('child_process');
 
           const WORKS='joseon-gallery/works.json';
           const THUMBS='joseon-gallery/thumbnails.json';
@@ -37,16 +38,27 @@ jobs:
             !(tdoc.thumbnails?.[String(w.id)]?.verified && tdoc.thumbnails?.[String(w.id)]?.thumbnail)
           ).slice(0,10);
 
+          function curlText(url,max=35){
+            return execFileSync('curl',['-L','--max-time',String(max),'-A','Mozilla/5.0','-sS',url],{
+              encoding:'utf8',maxBuffer:50*1024*1024
+            });
+          }
+          function verifyImage(url){
+            const out=execFileSync('curl',['-L','--max-time','20','-A','Mozilla/5.0','-sS','-o','/dev/null','-w','%{http_code}\n%{content_type}',url],{
+              encoding:'utf8',maxBuffer:1024*1024
+            }).trim().split(/\r?\n/);
+            return out[0]==='200' && String(out[1]||'').toLowerCase().startsWith('image/');
+          }
+          function sleep(ms){return new Promise(r=>setTimeout(r,ms))}
+
           async function one(w){
             const m=String(w.url||'').match(/A_OA-0-482-(\d+)/);
             if(!m) return {id:w.id,ok:false,error:'registration'};
-            const n=m[1];
+            const n=m[1], reg='OA+,0.482.'+n;
             const api='https://www.britishmuseum.org/api/_search?keyword%5B%5D=OA%2B%2C0.482.'+n;
             const url='https://r.jina.ai/'+api;
             try{
-              const r=await fetch(url,{headers:{'user-agent':'Mozilla/5.0','accept':'text/plain'},signal:AbortSignal.timeout(30000)});
-              if(!r.ok) return {id:w.id,ok:false,error:'jina '+r.status};
-              const txt=await r.text();
+              const txt=curlText(url);
               const marker='Markdown Content:';
               const p=txt.indexOf(marker);
               const body=p>=0?txt.slice(p+marker.length):txt;
@@ -54,7 +66,6 @@ jobs:
               if(i<0) return {id:w.id,ok:false,error:'no json'};
               const j=JSON.parse(body.slice(i).trim());
               const hits=j?.hits?.hits||[];
-              const reg='OA+,0.482.'+n;
               const hit=hits.find(h=>(h._source?.identifier||[]).some(x=>x.registration_number===reg))||hits[0];
               const s=hit?._source;
               if(!s) return {id:w.id,ok:false,error:'no hit'};
@@ -62,10 +73,7 @@ jobs:
               const loc=mm?.['@processed']?.preview?.location;
               if(!loc) return {id:w.id,ok:false,error:'no preview'};
               const img='https://media.britishmuseum.org/media/'+loc;
-              const ir=await fetch(img,{headers:{'user-agent':'Mozilla/5.0','accept':'image/*'},signal:AbortSignal.timeout(15000)});
-              const ct=(ir.headers.get('content-type')||'').toLowerCase();
-              if(ir.body?.cancel) try{await ir.body.cancel()}catch{}
-              if(!ir.ok||!ct.startsWith('image/')) return {id:w.id,ok:false,error:'image '+ir.status};
+              if(!verifyImage(img)) return {id:w.id,ok:false,error:'image verify'};
               tdoc.thumbnails[String(w.id)]={
                 thumbnail:img,
                 image:img,
@@ -75,7 +83,7 @@ jobs:
               };
               return {id:w.id,number:Number(n),ok:true,img};
             }catch(e){
-              return {id:w.id,ok:false,error:e.message||String(e)};
+              return {id:w.id,ok:false,error:(e.stderr?.toString()||e.message||String(e)).trim().slice(0,180)};
             }
           }
 
@@ -85,7 +93,7 @@ jobs:
               const r=await one(w);
               results.push(r);
               console.log(JSON.stringify(r));
-              await new Promise(res=>setTimeout(res,3500));
+              await sleep(3500);
             }
 
             tdoc.version='2026-10-21';
