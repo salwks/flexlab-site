@@ -1,9 +1,8 @@
 {
   "version": "2026-10-21",
-  "total": 215,
+  "total": 202,
   "bySource": {
     "British Museum · 김준근": 101,
-    "Museum of Fine Arts Boston · 조선회화": 15,
     "부산박물관 · 직접검증": 15,
     "Asian Art Museum · 조선회화": 13,
     "Museum of Fine Arts Houston · 조선회화": 12,
@@ -17,6 +16,7 @@
     "Museum für Asiatische Kunst Berlin · 조선회화": 2,
     "홍익대학교박물관 · 조선회화": 2,
     "고려대학교박물관 · 전시검증": 2,
+    "Museum of Fine Arts Boston · 조선회화": 2,
     "Princeton University Art Museum · 조선회화": 2,
     "도쿄국립박물관 · 전시검증": 2,
     "Nelson-Atkins Museum of Art · 조선회화": 2,
@@ -1555,114 +1555,14 @@
       "lastChecked": ""
     },
     {
-      "id": 737,
-      "title": "Falcon on a Perch (가응도)",
-      "artist": "이암",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/25411/falcon-on-a-perch",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 738,
-      "title": "Medicine Buddha Triad with Twelve Guardians (약사십이신장도)",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/15197",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
       "id": 739,
       "title": "Groups of Bodhisattvas",
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/20877",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 740,
-      "title": "Rock, Pine, and Bamboo · 63.2677",
-      "artist": "김영",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/30059/rock-pine-and-bamboo",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 741,
-      "title": "Birds and Flowers · 11.4014",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/24532/birds-and-flowers",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 742,
-      "title": "Birds and Flowers · 11.4013",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/24531/birds-and-flowers",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 743,
-      "title": "Screen with grapevine",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/524433/screen-with-grapevine",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 744,
-      "title": "Sennin with a Deer, a Basket on Her Back",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/25423",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 745,
-      "title": "Album Leaf, Fan Painting: Morning Scene (선면산수도)",
-      "artist": "정선",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/30118",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 746,
-      "title": "Screen with books and scholar's objects (Chaekgeori Screen)",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/531074/screen-with-books-and-scholars-objects",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 747,
-      "title": "Peony (모란도)",
-      "artist": "허련",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/266327",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 748,
@@ -1670,39 +1570,9 @@
       "artist": "작자미상",
       "source": "Museum of Fine Arts Boston · 조선회화",
       "url": "https://collections.mfa.org/objects/20155/a-star-god",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 749,
-      "title": "Landscape with Two Figures",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/24533/landscape-with-two-figures",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 750,
-      "title": "Phoenix And Peonies",
-      "artist": "작자미상",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/21883",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
-    },
-    {
-      "id": 751,
-      "title": "Rock, Pine, and Bamboo · 63.2679",
-      "artist": "김영",
-      "source": "Museum of Fine Arts Boston · 조선회화",
-      "url": "https://collections.mfa.org/objects/30061/rock-pine-and-bamboo",
-      "status": "pending",
-      "error": "",
-      "lastChecked": ""
+      "status": "failed",
+      "error": "no image",
+      "lastChecked": "2026-10-21"
     },
     {
       "id": 782,
