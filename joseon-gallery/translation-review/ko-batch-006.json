@@ -1,0 +1,368 @@
+{
+  "version": "2026-10-21",
+  "batch": "ko-006",
+  "scope": "Flower, orchid, animal and bird records 226-250",
+  "references": [
+    {
+      "title": "Wikimedia Commons - Minhwa Hwajodo 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Hwajodo-01.jpg",
+      "use": "226 한국어 ‘민화, 화조도’, 20세기 초, 작자미상 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Minhwa Morando 01",
+      "url": "https://commons.wikimedia.org/wiki/File:Minhwa-Morando-01.jpg",
+      "use": "227-228 모란도, 18세기, 작자미상, 건국대학교박물관 출처 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Nam Gyewoo Hwajeopdo Hoam",
+      "url": "https://commons.wikimedia.org/wiki/File:Nam.Gyewoo-Hwajeopdo-Hoam.jpg",
+      "use": "229 남계우 화접도 및 호암미술관 출처 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Orchid exposed roots by Min Yeong-ik",
+      "url": "https://commons.wikimedia.org/wiki/File:Orchid_exposed_roots_by_Min_Yeong-ik.jpg",
+      "use": "230 한국어 명칭 ‘노근묵란’과 작가 민영익 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Orchids in a Hanging Basket by Kim Gyu-jin",
+      "url": "https://commons.wikimedia.org/wiki/File:Orchids_in_a_Hanging_Basket_by_Kim_Gyu-jin,_Honolulu_Museum_of_Art.jpg",
+      "use": "231 김규진·호놀룰루미술관 작품 확인"
+    },
+    {
+      "title": "Museum of Fine Arts Boston - Phoenix and Peonies 54.511",
+      "url": "https://collections.mfa.org/objects/24991",
+      "use": "232 원 소장품 식별. 국내 정식명 미확인"
+    },
+    {
+      "title": "한국민족문화대백과사전 - 매창 매화도 및 옥산 국화도첩",
+      "url": "https://encykorea.aks.ac.kr/Article/E0017995",
+      "use": "233 옥산국화도 작가가 신사임당이 아니라 이우임을 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Sin Wi, Bamboos (1840)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sin_Wi,_Bamboos_(1840).jpg",
+      "use": "234 한국어 ‘신위, 석죽도 (1840)’ 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Sin Wi, Bamboos (1847)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sin_Wi,_Bamboos_(1847).jpg",
+      "use": "235 신위 1847 대나무 그림 확인"
+    },
+    {
+      "title": "Museum of Fine Arts Boston - White Eagle 54.510",
+      "url": "https://collections.mfa.org/objects/24990",
+      "use": "236 원 소장품 식별. 국내 정식명 미확인"
+    },
+    {
+      "title": "Wikimedia Commons - Yang Ki-Hun, Dreaming of Kangram in the Light Rain",
+      "url": "https://commons.wikimedia.org/wiki/File:Yang_Ki-Hun_(1843-1898),_Dreaming_of_Kangram_in_the_Light_Rain.JPG",
+      "use": "237 양기훈·19세기·호놀룰루미술관 8778.1 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 필파초도",
+      "url": "https://commons.wikimedia.org/wiki/File:%ED%95%84%ED%8C%8C%EC%B4%88%EB%8F%84.jpg",
+      "use": "238 정조·필파초도·동국대학교박물관 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Ghunmado",
+      "url": "https://commons.wikimedia.org/wiki/File:Ghunmado.png",
+      "use": "239 윤두서 군마도 식별"
+    },
+    {
+      "title": "Wikimedia Commons - 국정추묘도",
+      "url": "https://commons.wikimedia.org/wiki/File:Gukjeongchumyodo.jpg",
+      "use": "240 변상벽·국정추묘도·간송미술관 출처 확인"
+    },
+    {
+      "title": "간송미술문화재단 - 황묘농접",
+      "url": "https://kansong.org/foundation/index.do?clctn_dcd=ART_00025_02&clctn_id=CLCTN_00000160&menu_id=00004389&menu_link=%2Ffront%2Fclctn%2FdetailCollectionFront.do&pageIndex=1&pageUnitF=12&searchCondition6=&searchKeyword=%ED%99%A9%EB%AC%98%EB%86%8D%EC%A0%91",
+      "use": "241 공식 작품명 ‘황묘농접’, 김홍도 확인"
+    },
+    {
+      "title": "국립중앙박물관 - 탕탕평평 특별전",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202030000.do?act=past&exhiSpThemId=1458549&listType=list&menuId=past&schM=view",
+      "use": "242 김두량 ‘삽살개’, 1743 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Kim Duryang Sapsalgae 1743",
+      "url": "https://commons.wikimedia.org/wiki/File:Kim_Duryang-Sapsalgae-1743.jpg",
+      "use": "242 한국어 작품명과 작가·연대 교차 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Kim Duryang Scratching dog",
+      "url": "https://commons.wikimedia.org/wiki/File:Kim_Duryang-Scratching_dog.jpg",
+      "use": "243 김두량 ‘긁는 개’ 식별"
+    },
+    {
+      "title": "Wikimedia Commons - 장생화락도",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Jangsaeng.hwarakdo.jpg",
+      "use": "244 한국어 작품명 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 쌍학반도도",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Ssanghak.bandodo.jpg",
+      "use": "245 한국어 작품명 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 유개백자도",
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Minhwa-Yugae.baekjado.jpg",
+      "use": "246 원자료 한국어 작품명 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Honolulu lotus fish birds screen",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_folding_screen,_ink_and_color_paintings_of_lotus,_fish_and_birds,_19th_century,_Chos%C3%B4n_dynasty,_Honolulu_Academy_of_Arts.jpg",
+      "use": "247 형식·시대·소장처 확인. 국내 정식명 미확인"
+    },
+    {
+      "title": "Wikimedia Commons - 모구양자도",
+      "url": "https://commons.wikimedia.org/wiki/File:Moguyangjado.JPG",
+      "use": "248 김홍도·모구양자도·간송미술관 확인"
+    },
+    {
+      "title": "Wikimedia Commons - Mogyeondo",
+      "url": "https://commons.wikimedia.org/wiki/File:Mogyeon.jpg",
+      "use": "249 이암·모견도·16세기 확인"
+    },
+    {
+      "title": "Wikimedia Commons - 앵무도",
+      "url": "https://commons.wikimedia.org/wiki/File:Owon-Aengmudo.jpg",
+      "use": "250 장승업·앵무도 확인"
+    }
+  ],
+  "items": [
+    {
+      "id": 226,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 227,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 228,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified"
+      },
+      "note": "동일 계열 두 번째 모란도 파일. 개별 정식 부제는 없음."
+    },
+    {
+      "id": 229,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 230,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 231,
+      "status": "verified",
+      "fields": {
+        "artist": "verified",
+        "desc": "verified"
+      },
+      "duplicateCandidateOf": 205
+    },
+    {
+      "id": 232,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "국내 정식 작품명 미확인."
+    },
+    {
+      "id": 233,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      },
+      "note": "기존 신사임당 표기를 국내 사료에 따라 이우로 수정."
+    },
+    {
+      "id": 234,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 235,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 236,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "국내 정식 작품명 미확인."
+    },
+    {
+      "id": 237,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "artist": "verified",
+        "era": "verified"
+      },
+      "note": "국내 정식 작품명 미확인."
+    },
+    {
+      "id": 238,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 239,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 240,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 241,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 242,
+      "status": "canonical",
+      "fields": {
+        "title": "canonical",
+        "artist": "canonical",
+        "era": "verified",
+        "desc": "verified"
+      }
+    },
+    {
+      "id": 243,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 244,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 245,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 246,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 247,
+      "status": "provisional",
+      "fields": {
+        "title": "localized_description",
+        "era": "verified"
+      },
+      "note": "국내 정식 작품명 미확인."
+    },
+    {
+      "id": 248,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 249,
+      "status": "verified",
+      "fields": {
+        "title": "verified_term",
+        "artist": "verified",
+        "era": "verified"
+      }
+    },
+    {
+      "id": 250,
+      "status": "verified",
+      "fields": {
+        "title": "verified",
+        "artist": "verified",
+        "era": "verified"
+      }
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": 231,
+      "duplicateOf": 205,
+      "reason": "김규진의 동일 호놀룰루미술관 난초 작품으로 보이는 다른 공개 이미지"
+    }
+  ]
+}
