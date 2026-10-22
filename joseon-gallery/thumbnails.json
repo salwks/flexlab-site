@@ -1,7 +1,7 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 975,
+  "count": 972,
   "unresolved": 12,
   "thumbnails": {
     "1": {
@@ -1747,13 +1747,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "291": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%EB%B6%88%EC%98%81%EC%82%AC_%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81%EB%8F%84.jpg/500px-%EB%B6%88%EC%98%81%EC%82%AC_%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81%EB%8F%84.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%EB%B6%88%EC%98%81%EC%82%AC_%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81%EB%8F%84.jpg",
-      "source": "Wikimedia Commons · 불화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "292": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%27Kam_Mo_Yo_Je_Do_%28Spiri_house_shrine_painting%27%2C_17th_century_Korean%2C_Chos%C3%B4n_dynasty%2C_ink_and_color_on_cloth%2C_Honolulu_Academy_of_Arts.jpg/500px-%27Kam_Mo_Yo_Je_Do_%28Spiri_house_shrine_painting%27%2C_17th_century_Korean%2C_Chos%C3%B4n_dynasty%2C_ink_and_color_on_cloth%2C_Honolulu_Academy_of_Arts.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%27Kam_Mo_Yo_Je_Do_%28Spiri_house_shrine_painting%27%2C_17th_century_Korean%2C_Chos%C3%B4n_dynasty%2C_ink_and_color_on_cloth%2C_Honolulu_Academy_of_Arts.jpg",
@@ -1911,13 +1904,6 @@
     "320": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/05/Korea-Portrait_of_Yun_Hwon-Joseon.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Korea-Portrait_of_Yun_Hwon-Joseon.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "321": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Korea-Uimul_mokdan_hwajun.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Korea-Uimul_mokdan_hwajun.jpg",
       "source": "Wikimedia Commons · 작자미상",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -2084,11 +2070,11 @@
       "verifiedAt": "2026-10-20"
     },
     "349": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/17/Yi_Sanhae_sitted.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Yi_Sanhae_sitted.jpg",
-      "source": "Wikimedia Commons · 작자미상",
+      "thumbnail": "https://www.heritage.go.kr/unisearch/images/tangible_cult_prop/thumb/1639324.jpg",
+      "image": "https://www.heritage.go.kr/unisearch/images/tangible_cult_prop/1639324.jpg",
+      "source": "국가유산포털 · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-22"
     },
     "350": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Yunhyu.jpg/500px-Yunhyu.jpg",
@@ -2114,13 +2100,6 @@
     "355": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/e/eb/%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "356": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg/500px-%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg",
       "source": "Wikimedia Commons · 작자미상",
       "verified": true,
       "verifiedAt": "2026-10-20"

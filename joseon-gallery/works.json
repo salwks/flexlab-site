@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "count": 987,
+  "count": 984,
   "works": [
     {
       "id": 1,
@@ -4578,25 +4578,6 @@
       "bulkPinned": true
     },
     {
-      "id": 291,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 불화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "불영사 영산회상도",
-      "file": "불영사 영산회상도.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%EB%B6%88%EC%98%81%EC%82%AC_%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81%EB%8F%84.jpg",
-      "themes": [
-        "회화",
-        "불화",
-        "영산회상도",
-        "불영사"
-      ],
-      "desc": "1733년에 조성된 보물 《불영사 영산회상도》입니다. 울진 불영사에 봉안된 조선 후기 영산회상도입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 292,
       "era": "조선",
       "source": "Wikimedia Commons · 작자미상",
@@ -5042,27 +5023,6 @@
       "bulkPinned": true
     },
     {
-      "id": 321,
-      "era": "대한제국",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Uimul mokdan hwajun",
-      "file": "Korea-Uimul mokdan hwajun.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Uimul_mokdan_hwajun.jpg",
-      "themes": [
-        "궁중",
-        "정재",
-        "가인전목단",
-        "의물",
-        "목단화준",
-        "목판화"
-      ],
-      "desc": "1901년 가인전목단 정재에 사용한 의물인 목단화준의 모습을 나타낸 목판화입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 322,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
@@ -5086,7 +5046,7 @@
       "source": "Wikimedia Commons · 작자미상",
       "license": "파일별 라이선스 확인",
       "artist": "작자미상",
-      "title": "Korean.painting Miindo 1825",
+      "title": "미인도 (도쿄국립박물관)",
       "file": "Korean.painting-Miindo-1825.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Korean.painting-Miindo-1825.jpg",
       "themes": [
@@ -5511,12 +5471,12 @@
     {
       "id": 349,
       "era": "조선 중기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
+      "source": "국가유산포털 · 조선회화",
+      "license": "원문 이용조건 확인",
       "artist": "작자미상",
-      "title": "Yi Sanhae sitted",
+      "title": "아계 이산해 영정",
       "file": "Yi Sanhae sitted.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Yi_Sanhae_sitted.jpg",
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2113401970000",
       "themes": [
         "회화",
         "초상",
@@ -5603,26 +5563,6 @@
         "보물"
       ],
       "desc": "조선 중기 문신 이상길을 그린 보물 《이상길 초상》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 356,
-      "era": "조선",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "충숙이공영정",
-      "file": "충숙이공영정.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg",
-      "themes": [
-        "회화",
-        "초상",
-        "이상길",
-        "이모본",
-        "문신"
-      ],
-      "desc": "이상길의 시호를 딴 《충숙이공 영정》입니다. 서울특별시 유형문화유산으로, 보물 《이상길 초상》과 같은 원본 계열에서 옮겨 그린 이모본으로 설명됩니다.",
       "credit": "",
       "bulkPinned": true
     },
