@@ -1,7 +1,7 @@
 {
   "version": "2026-10-21",
   "generatedFrom": "works.json 2026-10-21",
-  "count": 1097,
+  "count": 975,
   "unresolved": 12,
   "thumbnails": {
     "1": {
@@ -67,20 +67,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "10": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Danwon-Seohwa.gamsang.jpg/500px-Danwon-Seohwa.gamsang.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Danwon-Seohwa.gamsang.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "11": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Danwon-Sinhaeng.jpg/500px-Danwon-Sinhaeng.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Danwon-Sinhaeng.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "12": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Danwon-Ssireum.jpg/500px-Danwon-Ssireum.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Danwon-Ssireum.jpg",
@@ -123,13 +109,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "18": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Hyewon-Danopungjeong.jpg/500px-Hyewon-Danopungjeong.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Hyewon-Danopungjeong.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "19": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Hyewon-Gibangmusa.jpg/500px-Hyewon-Gibangmusa.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hyewon-Gibangmusa.jpg",
@@ -151,23 +130,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "22": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Hyewon-Ssanggeomdaemu.jpg/500px-Hyewon-Ssanggeomdaemu.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hyewon-Ssanggeomdaemu.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "23": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Hyewon-Ssangryuksammae.jpg/500px-Hyewon-Ssangryuksammae.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Hyewon-Ssangryuksammae.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "24": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Hyewon-Wolha.jeongin-3.jpg/500px-Hyewon-Wolha.jeongin-3.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hyewon-Wolha.jeongin-3.jpg",
       "source": "Wikimedia Commons",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -186,23 +151,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "27": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Hyewon-Yeonsodapcheong.jpg/500px-Hyewon-Yeonsodapcheong.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hyewon-Yeonsodapcheong.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "28": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Hyewon-Yugwakjaengung.jpg/500px-Hyewon-Yugwakjaengung.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Hyewon-Yugwakjaengung.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "29": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Joyucheong.jpg/500px-Joyucheong.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Joyucheong.jpg",
       "source": "Wikimedia Commons",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -361,23 +312,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "52": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kim_Deuksin_-_Pajeokdo.jpg/500px-Kim_Deuksin_-_Pajeokdo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kim_Deuksin_-_Pajeokdo.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "53": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kim.Deuksin-Bansangdo.jpg/500px-Kim.Deuksin-Bansangdo.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kim.Deuksin-Bansangdo.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "54": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Kim.Deuksin-Daejanggan.jpg/500px-Kim.Deuksin-Daejanggan.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Kim.Deuksin-Daejanggan.jpg",
       "source": "Wikimedia Commons",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -767,13 +704,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "111": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/e/e8/%EB%82%B4%EC%99%93%EB%8B%B9_%EB%AC%B4%EC%8B%A0%EB%8F%84_%EC%A0%9C%EC%84%9D%EC%9C%84.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/%EB%82%B4%EC%99%93%EB%8B%B9_%EB%AC%B4%EC%8B%A0%EB%8F%84_%EC%A0%9C%EC%84%9D%EC%9C%84.jpg",
-      "source": "Wikimedia Commons",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "112": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/40/%EB%82%B4%EC%99%93%EB%8B%B9_%EB%AC%B4%EC%8B%A0%EB%8F%84_%EC%A4%91%EC%A0%84%EC%9C%84.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/%EB%82%B4%EC%99%93%EB%8B%B9_%EB%AC%B4%EC%8B%A0%EB%8F%84_%EC%A4%91%EC%A0%84%EC%9C%84.jpg",
@@ -795,20 +725,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "115": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Anonymous_-_Munja-Chaekgeori_Screen_%28Character-Books_Screen%29_-_2017.6_-_Cleveland_Museum_of_Art.tiff/lossy-page1-500px-Anonymous_-_Munja-Chaekgeori_Screen_%28Character-Books_Screen%29_-_2017.6_-_Cleveland_Museum_of_Art.tiff.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Anonymous_-_Munja-Chaekgeori_Screen_%28Character-Books_Screen%29_-_2017.6_-_Cleveland_Museum_of_Art.tiff",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "116": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Biombo_Corea_Guimet_03.JPG/500px-Biombo_Corea_Guimet_03.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Biombo_Corea_Guimet_03.JPG",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "117": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/BN-UV163_KOREAN_750RV_20170825120825.jpg/500px-BN-UV163_KOREAN_750RV_20170825120825.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/BN-UV163_KOREAN_750RV_20170825120825.jpg",
@@ -826,34 +742,6 @@
     "119": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%281_of_4%29.jpg/500px-Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%281_of_4%29.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%281_of_4%29.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "120": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%282_of_4%29.jpg/500px-Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%282_of_4%29.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%282_of_4%29.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "121": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%283_of_4%29.jpg/500px-Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%283_of_4%29.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%283_of_4%29.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "122": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%284_of_4%29.jpg/500px-Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%284_of_4%29.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bookshelf_%28Chaekgado%29%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_%284_of_4%29.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "123": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ch%27aekkori_Screen%2C_Mid-_19th_century%2C_Philadelphia_Museum_of_Art_2002-74-1.jpg/500px-Ch%27aekkori_Screen%2C_Mid-_19th_century%2C_Philadelphia_Museum_of_Art_2002-74-1.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ch%27aekkori_Screen%2C_Mid-_19th_century%2C_Philadelphia_Museum_of_Art_2002-74-1.jpg",
       "source": "Wikimedia Commons · 책거리",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -886,13 +774,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "128": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Chaekgeori%2C_19th_century%2C_Art_Institute_Chicago.jpg/500px-Chaekgeori%2C_19th_century%2C_Art_Institute_Chicago.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Chaekgeori%2C_19th_century%2C_Art_Institute_Chicago.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "129": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Chaekgeori%2C_early_1900s%2C_eight-panel_folding_screen%2C_private_collection.png/500px-Chaekgeori%2C_early_1900s%2C_eight-panel_folding_screen%2C_private_collection.png",
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Chaekgeori%2C_early_1900s%2C_eight-panel_folding_screen%2C_private_collection.png",
@@ -903,20 +784,6 @@
     "130": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Chaekgeori%2C_late_1800s%2C_Korea.jpg/500px-Chaekgeori%2C_late_1800s%2C_Korea.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Chaekgeori%2C_late_1800s%2C_Korea.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "131": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Chaekgeori%2C_late_1800s%2C_Six-panel_folding_screen%2C_private_collection.png/500px-Chaekgeori%2C_late_1800s%2C_Six-panel_folding_screen%2C_private_collection.png",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chaekgeori%2C_late_1800s%2C_Six-panel_folding_screen%2C_private_collection.png",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "132": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Chaekgeori%2C_late_1800s%2C_Yi_Taek-gyun%2C_Cleveland_Museum_of_Art_2011.37.png/500px-Chaekgeori%2C_late_1800s%2C_Yi_Taek-gyun%2C_Cleveland_Museum_of_Art_2011.37.png",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Chaekgeori%2C_late_1800s%2C_Yi_Taek-gyun%2C_Cleveland_Museum_of_Art_2011.37.png",
       "source": "Wikimedia Commons · 책거리",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -963,20 +830,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "139": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Chaek%E2%80%99kori.Joseon.Korea._Mus%C3%A9e_Guimet.jpg/500px-Chaek%E2%80%99kori.Joseon.Korea._Mus%C3%A9e_Guimet.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Chaek%E2%80%99kori.Joseon.Korea._Mus%C3%A9e_Guimet.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "140": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Corea%2C_paravento_chaek%27kori%2C_epoca_choson%2C_xviii_sec.JPG/500px-Corea%2C_paravento_chaek%27kori%2C_epoca_choson%2C_xviii_sec.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Corea%2C_paravento_chaek%27kori%2C_epoca_choson%2C_xviii_sec.JPG",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "141": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Flowers%2C_fish%2C_mudang_and_Chaek%27kori._Folding_screen._Choson.Mus%C3%A9e_Guimet.jpg/500px-Flowers%2C_fish%2C_mudang_and_Chaek%27kori._Folding_screen._Choson.Mus%C3%A9e_Guimet.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Flowers%2C_fish%2C_mudang_and_Chaek%27kori._Folding_screen._Choson.Mus%C3%A9e_Guimet.jpg",
@@ -1019,20 +872,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "147": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Scholar%27s_Books_and_Objects_%28Chaekkeori%29_LACMA_M.89.128_%282_of_3%29.jpg/500px-Scholar%27s_Books_and_Objects_%28Chaekkeori%29_LACMA_M.89.128_%282_of_3%29.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Scholar%27s_Books_and_Objects_%28Chaekkeori%29_LACMA_M.89.128_%282_of_3%29.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "148": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Scholar%27s_Books_and_Objects_%28Chaekkeori%29_LACMA_M.89.128_%283_of_3%29.jpg/500px-Scholar%27s_Books_and_Objects_%28Chaekkeori%29_LACMA_M.89.128_%283_of_3%29.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Scholar%27s_Books_and_Objects_%28Chaekkeori%29_LACMA_M.89.128_%283_of_3%29.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "149": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Scholar%27s_Books_and_Objects_%28Chaekkeori%29.jpg/500px-Scholar%27s_Books_and_Objects_%28Chaekkeori%29.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Scholar%27s_Books_and_Objects_%28Chaekkeori%29.jpg",
@@ -1054,31 +893,10 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "152": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Unknown_%28Korean%29_-_Chaekkori_Screen_-_2015.67_-_Detroit_Institute_of_Arts.jpg/500px-Unknown_%28Korean%29_-_Chaekkori_Screen_-_2015.67_-_Detroit_Institute_of_Arts.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Unknown_%28Korean%29_-_Chaekkori_Screen_-_2015.67_-_Detroit_Institute_of_Arts.jpg",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "153": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Yi_Taek-gyun_-_Books_and_Scholars%E2%80%99_Accouterments_-_2011.37_-_Cleveland_Museum_of_Art.tif/lossy-page1-500px-Yi_Taek-gyun_-_Books_and_Scholars%E2%80%99_Accouterments_-_2011.37_-_Cleveland_Museum_of_Art.tif.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Yi_Taek-gyun_-_Books_and_Scholars%E2%80%99_Accouterments_-_2011.37_-_Cleveland_Museum_of_Art.tif",
-      "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "155": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%EC%B1%85%EA%B1%B0%EB%A6%AC.jpg/500px-%EC%B1%85%EA%B1%B0%EB%A6%AC.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/%EC%B1%85%EA%B1%B0%EB%A6%AC.jpg",
       "source": "Wikimedia Commons · 책거리",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "156": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ahn_Gyeon-Mongyu_dowondo.jpg/500px-Ahn_Gyeon-Mongyu_dowondo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ahn_Gyeon-Mongyu_dowondo.jpg",
-      "source": "Wikimedia Commons · 산수",
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
@@ -1194,13 +1012,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "173": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Choi_Buk%2C_Cho-oksansu.jpg/500px-Choi_Buk%2C_Cho-oksansu.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Choi_Buk%2C_Cho-oksansu.jpg",
-      "source": "Wikimedia Commons · 산수",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "174": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Choi_Buk%2C_Jo-eosansu.jpg/500px-Choi_Buk%2C_Jo-eosansu.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Choi_Buk%2C_Jo-eosansu.jpg",
@@ -1218,20 +1029,6 @@
     "176": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/ChongSeokJeong_%282%29.jpg/500px-ChongSeokJeong_%282%29.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/ChongSeokJeong_%282%29.jpg",
-      "source": "Wikimedia Commons · 산수",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "177": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Damdamjeong_Pavilion.jpg/500px-Damdamjeong_Pavilion.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Damdamjeong_Pavilion.jpg",
-      "source": "Wikimedia Commons · 산수",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "178": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Dream_Journey_to_the_Peach_Blossom_Land.jpg/500px-Dream_Journey_to_the_Peach_Blossom_Land.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Dream_Journey_to_the_Peach_Blossom_Land.jpg",
       "source": "Wikimedia Commons · 산수",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -1292,13 +1089,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "187": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Kim_Hong-do%2C_Chuseongbu.jpg/500px-Kim_Hong-do%2C_Chuseongbu.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Kim_Hong-do%2C_Chuseongbu.jpg",
-      "source": "Wikimedia Commons · 산수",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "188": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Kim_Hong-do%2C_Samgongbulhwando.jpg/500px-Kim_Hong-do%2C_Samgongbulhwando.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kim_Hong-do%2C_Samgongbulhwando.jpg",
@@ -1344,13 +1134,6 @@
     "194": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Korea-Kang_Sehwang-Yeongtong_donggudo.jpg/500px-Korea-Kang_Sehwang-Yeongtong_donggudo.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Korea-Kang_Sehwang-Yeongtong_donggudo.jpg",
-      "source": "Wikimedia Commons · 산수",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "195": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Landscapes_in_the_Style_of_An_Kyeon-Evening.Bell.from.Mist.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Landscapes_in_the_Style_of_An_Kyeon-Evening.Bell.from.Mist.jpg",
       "source": "Wikimedia Commons · 산수",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -1663,20 +1446,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "240": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Gukjeongchumyodo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Gukjeongchumyodo.jpg",
-      "source": "Wikimedia Commons · 영모",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "241": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Hwangmyo.jpg/500px-Hwangmyo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hwangmyo.jpg",
-      "source": "Wikimedia Commons · 영모",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "242": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Kim_Duryang-Sapsalgae-1743.jpg/500px-Kim_Duryang-Sapsalgae-1743.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Kim_Duryang-Sapsalgae-1743.jpg",
@@ -1715,13 +1484,6 @@
     "247": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Korean_folding_screen%2C_ink_and_color_paintings_of_lotus%2C_fish_and_birds%2C_19th_century%2C_Chos%C3%B4n_dynasty%2C_Honolulu_Academy_of_Arts.jpg/500px-Korean_folding_screen%2C_ink_and_color_paintings_of_lotus%2C_fish_and_birds%2C_19th_century%2C_Chos%C3%B4n_dynasty%2C_Honolulu_Academy_of_Arts.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Korean_folding_screen%2C_ink_and_color_paintings_of_lotus%2C_fish_and_birds%2C_19th_century%2C_Chos%C3%B4n_dynasty%2C_Honolulu_Academy_of_Arts.jpg",
-      "source": "Wikimedia Commons · 영모",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "248": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Moguyangjado.JPG/500px-Moguyangjado.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Moguyangjado.JPG",
       "source": "Wikimedia Commons · 영모",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -1771,13 +1533,6 @@
     "255": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Owon-Rooster-1.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Owon-Rooster-1.jpg",
-      "source": "Wikimedia Commons · 영모",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "256": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Owon-Rooster-detail.jpg/500px-Owon-Rooster-detail.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Owon-Rooster-detail.jpg",
       "source": "Wikimedia Commons · 영모",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -1838,13 +1593,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "265": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%EA%B0%95-2_1~1.JPG/500px-%EA%B0%95-2_1~1.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/%EA%B0%95-2_1~1.JPG",
-      "source": "Wikimedia Commons · 영모",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "266": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/09/Altar_Painting_of_Vairocana_%28Treasure_1363%29.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Altar_Painting_of_Vairocana_%28Treasure_1363%29.jpg",
@@ -1887,13 +1635,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "272": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Joeseon-Gammo.yeojedo-04.jpg/500px-Joeseon-Gammo.yeojedo-04.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Joeseon-Gammo.yeojedo-04.jpg",
-      "source": "Wikimedia Commons · 불화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "273": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Joseon-Brahma-Peomcheon.jpg/500px-Joseon-Brahma-Peomcheon.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Joseon-Brahma-Peomcheon.jpg",
@@ -1929,13 +1670,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "278": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/52/Korea-Joseon-Dhratarastra-Guardian_King_of_the_East.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Korea-Joseon-Dhratarastra-Guardian_King_of_the_East.jpg",
-      "source": "Wikimedia Commons · 불화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "279": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Korea-Joseon-Hyeonwangdo-Boston.jpg/500px-Korea-Joseon-Hyeonwangdo-Boston.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Korea-Joseon-Hyeonwangdo-Boston.jpg",
@@ -1946,13 +1680,6 @@
     "280": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Korea-Joseon-Seosan_Daesa-02.jpg/500px-Korea-Joseon-Seosan_Daesa-02.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Korea-Joseon-Seosan_Daesa-02.jpg",
-      "source": "Wikimedia Commons · 불화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "281": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Korea-Joseon-The_Great_Renunciation-18c.jpg/500px-Korea-Joseon-The_Great_Renunciation-18c.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Korea-Joseon-The_Great_Renunciation-18c.jpg",
       "source": "Wikimedia Commons · 불화",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -2076,41 +1803,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "299": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Gyeonggi-gamyeong-do.jpg/500px-Gyeonggi-gamyeong-do.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Gyeonggi-gamyeong-do.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "300": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Gyeonggi-gamyeong-do2.jpg/500px-Gyeonggi-gamyeong-do2.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Gyeonggi-gamyeong-do2.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "301": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Gyeonggi-gamyeong-do3.jpg/500px-Gyeonggi-gamyeong-do3.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Gyeonggi-gamyeong-do3.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "302": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Gyeonggigamyeongdo.jpg/500px-Gyeonggigamyeongdo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Gyeonggigamyeongdo.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "303": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Heo_Mok_03.gif",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Heo_Mok_03.gif",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "304": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Joseon-Portrait_of_Park_Jeong.jpg/500px-Joseon-Portrait_of_Park_Jeong.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Joseon-Portrait_of_Park_Jeong.jpg",
@@ -2128,13 +1820,6 @@
     "306": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kim_Si-seup.jpg/500px-Kim_Si-seup.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Kim_Si-seup.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "307": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Kim_Siseup.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Kim_Siseup.jpg",
       "source": "Wikimedia Commons · 작자미상",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -2251,30 +1936,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "324": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Korean.painting-Miindo-19c._2.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Korean.painting-Miindo-19c._2.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "325": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Korean.painting-Miindo-19c.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Korean.painting-Miindo-19c.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "326": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Miindo_%28Standing_Beauty%29.jpg/500px-Miindo_%28Standing_Beauty%29.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Miindo_%28Standing_Beauty%29.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "327": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Miindo-Yun.family.of.Haenam-d1.jpg/500px-Miindo-Yun.family.of.Haenam-d1.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Miindo-Yun.family.of.Haenam-d1.jpg",
       "source": "Wikimedia Commons · 작자미상",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -2433,13 +2097,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "351": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%EA%B9%80%EC%8B%9C%EC%8A%B5_%EC%B4%88%EC%83%81.jpg/500px-%EA%B9%80%EC%8B%9C%EC%8A%B5_%EC%B4%88%EC%83%81.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%EA%B9%80%EC%8B%9C%EC%8A%B5_%EC%B4%88%EC%83%81.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "352": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/67/%EC%86%A1%EA%B3%A1_%EC%9D%B4%EC%84%9C%EC%9A%B0.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/%EC%86%A1%EA%B3%A1_%EC%9D%B4%EC%84%9C%EC%9A%B0.jpg",
@@ -2450,13 +2107,6 @@
     "353": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/06/%EC%9D%B4%EB%8D%95%ED%98%95.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/%EC%9D%B4%EB%8D%95%ED%98%95.jpg",
-      "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "354": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81_2.jpg/500px-%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81_2.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81_2.jpg",
       "source": "Wikimedia Commons · 작자미상",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -2472,13 +2122,6 @@
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg/500px-%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%EC%B6%A9%EC%88%99%EC%9D%B4%EA%B3%B5%EC%98%81%EC%A0%95.jpg",
       "source": "Wikimedia Commons · 작자미상",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "357": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Chochungdo_01.jpg/500px-Chochungdo_01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Chochungdo_01.jpg",
-      "source": "Wikimedia Commons · 초충도",
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
@@ -2531,132 +2174,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "365": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Chochungdo_09.jpg/500px-Chochungdo_09.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chochungdo_09.jpg",
-      "source": "Wikimedia Commons · 초충도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "366": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chochungdo_10.jpg/500px-Chochungdo_10.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chochungdo_10.jpg",
-      "source": "Wikimedia Commons · 초충도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "367": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/35/Shin.Saimdang-Chochungdo-01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Shin.Saimdang-Chochungdo-01.jpg",
-      "source": "Wikimedia Commons · 초충도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "368": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Shin.Saimdang-Chochungdo-02.jpg/500px-Shin.Saimdang-Chochungdo-02.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Shin.Saimdang-Chochungdo-02.jpg",
-      "source": "Wikimedia Commons · 초충도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "369": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Shin.Saimdang-Chochungdo-03.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Shin.Saimdang-Chochungdo-03.jpg",
-      "source": "Wikimedia Commons · 초충도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "370": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Donggwol-do.jpg/500px-Donggwol-do.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Donggwol-do.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "371": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Donggwoldo.jpg/500px-Donggwoldo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Donggwoldo.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "372": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Donhwamun_Area.jpeg/500px-Donhwamun_Area.jpeg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Donhwamun_Area.jpeg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "373": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Honghwamun_from_Donggwoldo_%28high_res%29.jpeg/500px-Honghwamun_from_Donggwoldo_%28high_res%29.jpeg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Honghwamun_from_Donggwoldo_%28high_res%29.jpeg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "374": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Honghwamun_from_Donggwoldo.jpg/500px-Honghwamun_from_Donggwoldo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Honghwamun_from_Donggwoldo.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "375": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Junghuidang_%28Donggwoldo%29.jpeg/500px-Junghuidang_%28Donggwoldo%29.jpeg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Junghuidang_%28Donggwoldo%29.jpeg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "376": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Korean_art-Donggwoldo_detail-Changdeokgung-Donhwamun_and_its_vicinity-01.jpg/500px-Korean_art-Donggwoldo_detail-Changdeokgung-Donhwamun_and_its_vicinity-01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Korean_art-Donggwoldo_detail-Changdeokgung-Donhwamun_and_its_vicinity-01.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "377": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Korean_art-Donggwoldo_detail-Changdeokgung-Jinseonmun_and_its_vicinity-01.jpg/500px-Korean_art-Donggwoldo_detail-Changdeokgung-Jinseonmun_and_its_vicinity-01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Korean_art-Donggwoldo_detail-Changdeokgung-Jinseonmun_and_its_vicinity-01.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "378": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Korean_art-Donggwoldo_detail-Changdeokgung-Seonjeongjeon_and_its_vicinity-01.jpg/500px-Korean_art-Donggwoldo_detail-Changdeokgung-Seonjeongjeon_and_its_vicinity-01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Korean_art-Donggwoldo_detail-Changdeokgung-Seonjeongjeon_and_its_vicinity-01.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "379": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Korean_art-Donggwoldo-Changdeokgung_and_Changgyeonggung-Dong-A_University-01.jpg/500px-Korean_art-Donggwoldo-Changdeokgung_and_Changgyeonggung-Dong-A_University-01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Korean_art-Donggwoldo-Changdeokgung_and_Changgyeonggung-Dong-A_University-01.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "380": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Seungjeongwon.png/500px-Seungjeongwon.png",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Seungjeongwon.png",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "381": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Yeongyeongdang_area_%28Donggwoldo%29.jpg/500px-Yeongyeongdang_area_%28Donggwoldo%29.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Yeongyeongdang_area_%28Donggwoldo%29.jpg",
-      "source": "Wikimedia Commons · 동궐도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "382": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Gisagyecheop_Displayed.jpg/500px-Gisagyecheop_Displayed.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Gisagyecheop_Displayed.jpg",
-      "source": "Wikimedia Commons · 기사계첩",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "383": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Korea-Gisa_gyecheop-01.jpg/500px-Korea-Gisa_gyecheop-01.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Korea-Gisa_gyecheop-01.jpg",
@@ -2674,13 +2191,6 @@
     "385": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Korea-Gisa_gyecheop-03.jpg/500px-Korea-Gisa_gyecheop-03.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Korea-Gisa_gyecheop-03.jpg",
-      "source": "Wikimedia Commons · 기사계첩",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "386": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Korea-Gisa_gyecheop-04.jpg/500px-Korea-Gisa_gyecheop-04.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Korea-Gisa_gyecheop-04.jpg",
       "source": "Wikimedia Commons · 기사계첩",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -2713,20 +2223,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "391": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/%EC%98%81%EB%B6%80%EC%82%AC%EB%85%B9%EC%B2%9C%EC%9D%B4%EC%9C%A0.jpg/500px-%EC%98%81%EB%B6%80%EC%82%AC%EB%85%B9%EC%B2%9C%EC%9D%B4%EC%9C%A0.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/%EC%98%81%EB%B6%80%EC%82%AC%EB%85%B9%EC%B2%9C%EC%9D%B4%EC%9C%A0.jpg",
-      "source": "Wikimedia Commons · 기사계첩",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "392": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/%EC%98%81%EC%9D%98%EC%A0%95%EB%AA%BD%EC%99%80%EA%B9%80%EC%B0%BD%EC%A7%91.jpg/500px-%EC%98%81%EC%9D%98%EC%A0%95%EB%AA%BD%EC%99%80%EA%B9%80%EC%B0%BD%EC%A7%91.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/%EC%98%81%EC%9D%98%EC%A0%95%EB%AA%BD%EC%99%80%EA%B9%80%EC%B0%BD%EC%A7%91.jpg",
-      "source": "Wikimedia Commons · 기사계첩",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "393": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Korea-Gojong_Imin_Jinyeondobyeong-01.jpg/500px-Korea-Gojong_Imin_Jinyeondobyeong-01.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Korea-Gojong_Imin_Jinyeondobyeong-01.jpg",
@@ -2741,13 +2237,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "395": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Korean_dance-Mugo-01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Korean_dance-Mugo-01.jpg",
-      "source": "Wikimedia Commons · 고종임인진연도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "396": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Korea-Gyobang_Gayo-Mugo-01.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Korea-Gyobang_Gayo-Mugo-01.jpg",
@@ -2755,93 +2244,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "397": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/70/Korea-Gyobang_Gayo-Mugo-02.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Korea-Gyobang_Gayo-Mugo-02.jpg",
-      "source": "Wikimedia Commons · 교방가요",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "398": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hunting_party1.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hunting_party1.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "399": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/46/Hunting_party2.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Hunting_party2.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "400": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hunting_party3.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hunting_party3.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "401": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Hunting_party4.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Hunting_party4.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "402": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hunting_party5.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hunting_party5.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "403": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/46/Hunting_party6.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Hunting_party6.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "404": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Hunting_party7.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Hunting_party7.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "405": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hunting_party8.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hunting_party8.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "406": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hunting_party9.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hunting_party9.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "407": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Hunting_party10.jpg/500px-Hunting_party10.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Hunting_party10.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "408": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Hunting_party11.jpg/500px-Hunting_party11.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hunting_party11.jpg",
-      "source": "Wikimedia Commons · 호렵도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "409": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Hunting_party12.jpg/500px-Hunting_party12.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Hunting_party12.jpg",
       "source": "Wikimedia Commons · 호렵도",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -2860,34 +2265,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "412": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Korea-Joseon-Moran.Hojeopdo-d1.jpg/500px-Korea-Joseon-Moran.Hojeopdo-d1.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Korea-Joseon-Moran.Hojeopdo-d1.jpg",
-      "source": "Wikimedia Commons · 모란호접도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "413": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Korea-Joseon-Moran.Hojeopdo-d2.jpg/500px-Korea-Joseon-Moran.Hojeopdo-d2.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Korea-Joseon-Moran.Hojeopdo-d2.jpg",
-      "source": "Wikimedia Commons · 모란호접도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "414": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Korea-Joseon-Moran.Hojeopdo-d3.jpg/500px-Korea-Joseon-Moran.Hojeopdo-d3.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Korea-Joseon-Moran.Hojeopdo-d3.jpg",
-      "source": "Wikimedia Commons · 모란호접도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "415": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Korea-Joseon-Moran.Hojeopdo-d4.jpg/500px-Korea-Joseon-Moran.Hojeopdo-d4.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Korea-Joseon-Moran.Hojeopdo-d4.jpg",
-      "source": "Wikimedia Commons · 모란호접도",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "416": {
       "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Choi_Buk%2C_Bull_riding.jpg/500px-Choi_Buk%2C_Bull_riding.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Choi_Buk%2C_Bull_riding.jpg",
@@ -2895,86 +2272,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "417": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1760_ca._01.jpg/500px-Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1760_ca._01.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1760_ca._01.jpg",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "418": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._03.JPG/500px-Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._03.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._03.JPG",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "419": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._04.JPG/500px-Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._04.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._04.JPG",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "420": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._05.JPG/500px-Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._05.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._05.JPG",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "421": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._06.JPG/500px-Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._06.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._06.JPG",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "422": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._07.JPG/500px-Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._07.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._07.JPG",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "423": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._08.JPG/500px-Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._08.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._08.JPG",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "424": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gache3.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gache3.jpg",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "425": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gagokhunjang.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gagokhunjang.jpg",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "426": {
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ginyeo.jpg",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ginyeo.jpg",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "427": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Korean_painting-Daekwaedo.jpg/500px-Korean_painting-Daekwaedo.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Korean_painting-Daekwaedo.jpg",
-      "source": "Wikimedia Commons · 풍속화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "428": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/80/Middle_Class_in_Joseon_Korea.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Middle_Class_in_Joseon_Korea.jpg",
       "source": "Wikimedia Commons · 풍속화",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -3028,37 +2328,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "436": {
-      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Gunseondo.jpg/500px-Gunseondo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Gunseondo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "source": "Wikimedia Commons · 도석",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "437": {
       "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Kim%20Hong-do%2C%20Indian%20Prophet.jpg?width=1100",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kim%20Hong-do%2C%20Indian%20Prophet.jpg?width=1100",
-      "source": "Wikimedia Commons · 도석",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "438": {
-      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Korea-National.Treasure-139-Gunseondobyeong-Joseon-Leeum.jpg?width=1100",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Korea-National.Treasure-139-Gunseondobyeong-Joseon-Leeum.jpg?width=1100",
-      "source": "Wikimedia Commons · 도석",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "439": {
-      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E5%BC%98%E9%81%93%E7%BE%A4%E4%BB%99%E5%9C%96.jpg?width=1100",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E5%BC%98%E9%81%93%E7%BE%A4%E4%BB%99%E5%9C%96.jpg?width=1100",
-      "source": "Wikimedia Commons · 도석",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "440": {
-      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E5%BC%98%E9%81%93%E7%BE%A4%E4%BB%99%E5%9C%96%E5%B1%80%E9%83%A8.jpg?width=1100",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E5%BC%98%E9%81%93%E7%BE%A4%E4%BB%99%E5%9C%96%E5%B1%80%E9%83%A8.jpg?width=1100",
       "source": "Wikimedia Commons · 도석",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -4456,13 +3728,6 @@
       "verified": true,
       "verifiedAt": "2026-10-21"
     },
-    "644": {
-      "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP161547.jpg",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP161547.jpg",
-      "source": "The Met · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "645": {
       "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13538-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13538-001.jpg",
@@ -4473,13 +3738,6 @@
     "646": {
       "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36421-001.jpg",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36421-001.jpg",
-      "source": "The Met · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "647": {
-      "thumbnail": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24854-002.jpg",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24854-002.jpg",
       "source": "The Met · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -4617,13 +3875,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "681": {
-      "thumbnail": "https://img.honolulumuseum.org/eEbMihnPMnsli6a-hu43LhQvnUAoKTT-eI8NKMbiSZ0/c:1920:1008:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly9ob25vbHVsdW11c2V1bS5vcmcvL2Ntc19maWxlcy9zeXN0ZW0vaW1hZ2VzL2ltZzA2MDRfb3JpZy5qcGc",
-      "image": "https://img.honolulumuseum.org/eEbMihnPMnsli6a-hu43LhQvnUAoKTT-eI8NKMbiSZ0/c:1920:1008:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly9ob25vbHVsdW11c2V1bS5vcmcvL2Ntc19maWxlcy9zeXN0ZW0vaW1hZ2VzL2ltZzA2MDRfb3JpZy5qcGc",
-      "source": "Honolulu Museum of Art · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "682": {
       "thumbnail": "https://online.gogung.go.kr/cmmn/file/imageSrc.do?atchFileId=00006724RL&fileSn=2&thumb=Y",
       "image": "https://online.gogung.go.kr/cmmn/file/imageSrc.do?atchFileId=00006724RL&fileSn=2&thumb=Y",
@@ -4701,13 +3952,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "695": {
-      "thumbnail": "https://www.smb.museum/typo3temp/assets/_processed_/b/c/csm_details-eines-achtteiligen-chaekgeori-stellschirms-korea_xl_16a6bad8e7.jpg",
-      "image": "https://www.smb.museum/typo3temp/assets/_processed_/b/c/csm_details-eines-achtteiligen-chaekgeori-stellschirms-korea_xl_16a6bad8e7.jpg",
-      "source": "Museum für Asiatische Kunst Berlin · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-21"
-    },
     "696": {
       "thumbnail": "https://nrs.harvard.edu/urn-3:HUAM:62037_dynmc/full/!640,640/0/default.jpg",
       "image": "https://nrs.harvard.edu/urn-3:HUAM:62037_dynmc/full/!3000,3000/0/default.jpg",
@@ -4772,11 +4016,11 @@
       "verifiedAt": "2026-10-20"
     },
     "721": {
-      "thumbnail": "https://museum.seoul.go.kr/_repo/image/2022/09/84d6d703-d87f-400c-aeac-215f2f99e187.jpg",
-      "image": "https://museum.seoul.go.kr/_repo/image/2022/09/84d6d703-d87f-400c-aeac-215f2f99e187.jpg",
+      "thumbnail": "https://museum.seoul.go.kr/_repo/image/2022/09/7a3d1e29-434e-4f7c-bad9-2714fbda71ea.jpg",
+      "image": "https://museum.seoul.go.kr/_repo/image/2022/09/7a3d1e29-434e-4f7c-bad9-2714fbda71ea.jpg",
       "source": "서울역사박물관 · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-22"
     },
     "722": {
       "thumbnail": "https://museum.seoul.go.kr/_repo/image/2017/11/b1b56ebd-c6e0-4e59-bee3-2dbdab94f647-1510202368890.jpg",
@@ -4793,11 +4037,11 @@
       "verifiedAt": "2026-10-20"
     },
     "724": {
-      "thumbnail": "https://museum.seoul.go.kr/upload/bbs/2025/10/1/413d2f30-fbb6-4d87-bd19-b251b73498a7.jpg",
-      "image": "https://museum.seoul.go.kr/upload/bbs/2025/10/1/413d2f30-fbb6-4d87-bd19-b251b73498a7.jpg",
+      "thumbnail": "https://museum.seoul.go.kr/upload/bbs/2025/10/1/1cd44928-e85f-4e9e-8df8-9e51238832f4_t.jpg",
+      "image": "https://museum.seoul.go.kr/upload/bbs/2025/10/1/1cd44928-e85f-4e9e-8df8-9e51238832f4.jpg",
       "source": "서울역사박물관 · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-22"
     },
     "725": {
       "thumbnail": "https://museum.seoul.go.kr/_repo/image/2026/07/2d7b107a-4e0e-4144-a9f8-6534721fce56.jpg",
@@ -5093,38 +4337,10 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "786": {
-      "thumbnail": "https://colbase.nich.go.jp/media/tnm/TA-387/image/slideshow_s/TA-387_E0157054.jpg",
-      "image": "https://colbase.nich.go.jp/media/tnm/TA-387/image/slideshow_s/TA-387_E0157054.jpg",
-      "source": "Tokyo National Museum · ColBase",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "787": {
       "thumbnail": "https://dia.widen.net/content/xotxexo1wx/jpeg/2015.3-d1-2016-03-02.jpeg?h=640&keep=c&crop=yes&color=cccccc&quality=80&u=u3bnol",
       "image": "https://dia.widen.net/content/xotxexo1wx/jpeg/2015.3-d1-2016-03-02.jpeg?h=2000&keep=c&crop=yes&color=cccccc&quality=80&u=u3bnol",
       "source": "Detroit Institute of Arts · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "790": {
-      "thumbnail": "https://heritage.go.kr/unisearch/images/national_treasure/thumb/1611690.jpg",
-      "image": "https://heritage.go.kr/unisearch/images/national_treasure/thumb/1611690.jpg",
-      "source": "국가유산포털 · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "791": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611691.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611691.jpg",
-      "source": "국가유산포털 · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "792": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2021100117550604.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2021100117550604.jpg",
-      "source": "국가유산포털 · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
@@ -5135,23 +4351,9 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "794": {
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ahn_Gyeon-Mongyu_dowondo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ahn_Gyeon-Mongyu_dowondo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
-      "source": "Wikimedia Commons · 대표작",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "795": {
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611590.jpg",
       "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611590.jpg",
-      "source": "국가유산포털 · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "796": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/1613429.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/1613429.jpg",
       "source": "국가유산포털 · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -5170,13 +4372,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "799": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611583.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611583.jpg",
-      "source": "국가유산포털 · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "800": {
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2032211.jpg",
       "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2032211.jpg",
@@ -5185,11 +4380,11 @@
       "verifiedAt": "2026-10-20"
     },
     "801": {
-      "thumbnail": "https://heritage.go.kr/unisearch/images/national_treasure/thumb/2020122217070003.jpg",
-      "image": "https://heritage.go.kr/unisearch/images/national_treasure/thumb/2020122217070003.jpg",
+      "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2020122217065905.jpg",
+      "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2020122217065905.jpg",
       "source": "국가유산포털 · 조선회화",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-22"
     },
     "802": {
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2024092013491300.jpg",
@@ -5208,20 +4403,6 @@
     "804": {
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2021042816032400.jpg",
       "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2021042816032400.jpg",
-      "source": "국가유산포털 · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "805": {
-      "thumbnail": "https://heritage.go.kr/unisearch/images/treasure/thumb/1614895.jpg",
-      "image": "https://heritage.go.kr/unisearch/images/treasure/thumb/1614895.jpg",
-      "source": "국가유산포털 · 조선회화",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "806": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2025062009222590.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2025062009222590.jpg",
       "source": "국가유산포털 · 조선회화",
       "verified": true,
       "verifiedAt": "2026-10-20"
@@ -6262,13 +5443,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "963": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2017122717545400.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2017122717545400.jpg",
-      "source": "간송미술문화재단 · 국가유산포털",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "964": {
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2017122717563701.jpg",
       "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2017122717563701.jpg",
@@ -6304,13 +5478,6 @@
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
-    "969": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2018022314410800.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2018022314410800.jpg",
-      "source": "간송미술문화재단 · 국가유산포털",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
     "970": {
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2021110314341500.jpg",
       "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2021110314341500.jpg",
@@ -6319,11 +5486,11 @@
       "verifiedAt": "2026-10-20"
     },
     "971": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2021100117550604.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/2021100117550604.jpg",
+      "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611642.jpg",
+      "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611642.jpg",
       "source": "국립중앙박물관 · 국가유산포털",
       "verified": true,
-      "verifiedAt": "2026-10-20"
+      "verifiedAt": "2026-10-22"
     },
     "972": {
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611690.jpg",
@@ -6336,20 +5503,6 @@
       "thumbnail": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611691.jpg",
       "image": "https://www.heritage.go.kr/unisearch/images/national_treasure/thumb/1611691.jpg",
       "source": "리움미술관 · 국가유산포털",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "974": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2024090209174300.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/2024090209174300.jpg",
-      "source": "국립중앙박물관 · 국가유산포털",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "975": {
-      "thumbnail": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/1614794.jpg",
-      "image": "https://www.heritage.go.kr/unisearch/images/treasure/thumb/1614794.jpg",
-      "source": "국립중앙박물관 · 국가유산포털",
       "verified": true,
       "verifiedAt": "2026-10-20"
     },
@@ -6664,13 +5817,6 @@
     "1030": {
       "thumbnail": "https://nfm.go.kr/site/home/images/display/2024/2024_cat_01.jpg",
       "image": "https://nfm.go.kr/site/home/images/display/2024/2024_cat_01.jpg",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "verified": true,
-      "verifiedAt": "2026-10-20"
-    },
-    "1032": {
-      "thumbnail": "https://devin.aks.ac.kr/image/7c991b5e-d152-4980-94da-6c887f8cfa4e?preset=orig",
-      "image": "https://devin.aks.ac.kr/image/7c991b5e-d152-4980-94da-6c887f8cfa4e?preset=orig",
       "source": "서울대학교박물관 · 공공기관검증",
       "verified": true,
       "verifiedAt": "2026-10-20"

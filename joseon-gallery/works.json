@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "count": 1109,
+  "count": 987,
   "works": [
     {
       "id": 1,
@@ -155,40 +155,6 @@
       "credit": "Wikimedia Commons"
     },
     {
-      "id": 10,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "서화감상",
-      "file": "Danwon-Seohwa.gamsang.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Danwon-Seohwa.gamsang.jpg",
-      "themes": [
-        "양반",
-        "실내",
-        "문화"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
-      "id": 11,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "신행",
-      "file": "Danwon-Sinhaeng.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Danwon-Sinhaeng.jpg",
-      "themes": [
-        "혼례",
-        "교통",
-        "복식"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
       "id": 12,
       "era": "조선 후기",
       "source": "Wikimedia Commons",
@@ -291,23 +257,6 @@
       "credit": "Wikimedia Commons"
     },
     {
-      "id": 18,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "신윤복",
-      "title": "단오풍정",
-      "file": "Hyewon-Danopungjeong.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hyewon-Danopungjeong.jpg",
-      "themes": [
-        "명절",
-        "여성",
-        "복식"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
       "id": 19,
       "era": "조선 후기",
       "source": "Wikimedia Commons",
@@ -359,23 +308,6 @@
       "credit": "Wikimedia Commons"
     },
     {
-      "id": 22,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "신윤복",
-      "title": "쌍검대무",
-      "file": "Hyewon-Ssanggeomdaemu.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hyewon-Ssanggeomdaemu.jpg",
-      "themes": [
-        "공연",
-        "검무",
-        "복식"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
       "id": 23,
       "era": "조선 후기",
       "source": "Wikimedia Commons",
@@ -387,23 +319,6 @@
       "themes": [
         "놀이",
         "실내",
-        "복식"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
-      "id": 24,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "신윤복",
-      "title": "월하정인",
-      "file": "Hyewon-Wolha.jeongin-3.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hyewon-Wolha.jeongin-3.jpg",
-      "themes": [
-        "도시",
-        "야간",
         "복식"
       ],
       "desc": "",
@@ -444,23 +359,6 @@
       "credit": "Wikimedia Commons"
     },
     {
-      "id": 27,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "신윤복",
-      "title": "연소답청",
-      "file": "Hyewon-Yeonsodapcheong.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hyewon-Yeonsodapcheong.jpg",
-      "themes": [
-        "나들이",
-        "교통",
-        "복식"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
       "id": 28,
       "era": "조선 후기",
       "source": "Wikimedia Commons",
@@ -473,23 +371,6 @@
         "기방",
         "도시",
         "갈등"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
-      "id": 29,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "신윤복",
-      "title": "주유청강",
-      "file": "Joyucheong.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Joyucheong.jpg",
-      "themes": [
-        "교통",
-        "강",
-        "풍류"
       ],
       "desc": "",
       "credit": "Wikimedia Commons"
@@ -887,23 +768,6 @@
       "credit": "Wikimedia Commons"
     },
     {
-      "id": 52,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "김득신",
-      "title": "파적도",
-      "file": "Kim Deuksin - Pajeokdo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Kim_Deuksin_-_Pajeokdo.jpg",
-      "themes": [
-        "생활",
-        "가정",
-        "동물"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
       "id": 53,
       "era": "조선 후기",
       "source": "Wikimedia Commons",
@@ -916,23 +780,6 @@
         "식사",
         "실내",
         "생활"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
-      "id": 54,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "김득신",
-      "title": "대장간",
-      "file": "Kim.Deuksin-Daejanggan.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Kim.Deuksin-Daejanggan.jpg",
-      "themes": [
-        "생활도구",
-        "장인",
-        "노동"
       ],
       "desc": "",
       "credit": "Wikimedia Commons"
@@ -1897,25 +1744,6 @@
       "credit": "Wikimedia Commons"
     },
     {
-      "id": 111,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "내왓당 무신도 · 제석위 · 문화유산 이미지",
-      "file": "내왓당 무신도 제석위.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%EB%82%B4%EC%99%93%EB%8B%B9_%EB%AC%B4%EC%8B%A0%EB%8F%84_%EC%A0%9C%EC%84%9D%EC%9C%84.jpg",
-      "themes": [
-        "민화",
-        "무속",
-        "무신도",
-        "제주",
-        "신앙"
-      ],
-      "desc": "",
-      "credit": "Wikimedia Commons"
-    },
-    {
       "id": 112,
       "era": "조선 후기",
       "source": "Wikimedia Commons",
@@ -1971,46 +1799,6 @@
       ],
       "desc": "",
       "credit": "Wikimedia Commons"
-    },
-    {
-      "id": 115,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Anonymous Munja Chaekgeori Screen (Character Books Screen) 2017.6 Cleveland Museum of Art",
-      "file": "Anonymous - Munja-Chaekgeori Screen (Character-Books Screen) - 2017.6 - Cleveland Museum of Art.tiff",
-      "url": "https://commons.wikimedia.org/wiki/File:Anonymous_-_Munja-Chaekgeori_Screen_(Character-Books_Screen)_-_2017.6_-_Cleveland_Museum_of_Art.tiff",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "문자도와 책거리를 결합한 8폭 병풍입니다. 화면 위에는 효·제·충·신·예·의·염·치의 유교 덕목을 나타내는 글자를 두고, 아래에는 책과 기물 등을 배치했습니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 116,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Biombo Corea Guimet 03",
-      "file": "Biombo Corea Guimet 03.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Biombo_Corea_Guimet_03.JPG",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
     },
     {
       "id": 117,
@@ -2069,86 +1857,6 @@
         "병풍"
       ],
       "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 120,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Bookshelf (Chaekgado), 19th century, Joseon dynasty, MFAB 1984.824a d",
-      "file": "Bookshelf (Chaekgado), 19th century, Joseon dynasty, MFAB 1984.824a-d (2 of 4).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Bookshelf_(Chaekgado)%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_(2_of_4).jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 121,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Bookshelf (Chaekgado), 19th century, Joseon dynasty, MFAB 1984.824a d",
-      "file": "Bookshelf (Chaekgado), 19th century, Joseon dynasty, MFAB 1984.824a-d (3 of 4).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Bookshelf_(Chaekgado)%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_(3_of_4).jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 122,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Bookshelf (Chaekgado), 19th century, Joseon dynasty, MFAB 1984.824a d",
-      "file": "Bookshelf (Chaekgado), 19th century, Joseon dynasty, MFAB 1984.824a-d (4 of 4).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Bookshelf_(Chaekgado)%2C_19th_century%2C_Joseon_dynasty%2C_MFAB_1984.824a-d_(4_of_4).jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 123,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Ch'aekkori Screen, Mid 19th century, Philadelphia Museum of Art 2002 74 1",
-      "file": "Ch'aekkori Screen, Mid- 19th century, Philadelphia Museum of Art 2002-74-1.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Ch'aekkori_Screen%2C_Mid-_19th_century%2C_Philadelphia_Museum_of_Art_2002-74-1.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "필라델피아미술관 소장 19세기 중엽의 책거리 병풍입니다. 비단에 먹과 채색으로 그린 10폭 병풍으로 전해집니다.",
       "credit": "",
       "bulkPinned": true
     },
@@ -2233,26 +1941,6 @@
       "bulkPinned": true
     },
     {
-      "id": 128,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Chaekgeori, 19th century, Art Institute Chicago",
-      "file": "Chaekgeori, 19th century, Art Institute Chicago.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Chaekgeori%2C_19th_century%2C_Art_Institute_Chicago.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 129,
       "era": "조선 · Commons 분류",
       "source": "Wikimedia Commons · 책거리",
@@ -2289,46 +1977,6 @@
         "병풍"
       ],
       "desc": "19세기 후반 한국의 책거리 그림입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 131,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Chaekgeori, late 1800s, Six panel folding screen, private collection",
-      "file": "Chaekgeori, late 1800s, Six-panel folding screen, private collection.png",
-      "url": "https://commons.wikimedia.org/wiki/File:Chaekgeori%2C_late_1800s%2C_Six-panel_folding_screen%2C_private_collection.png",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 132,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "이택균",
-      "title": "Chaekgeori, late 1800s, Yi Taek gyun, Cleveland Museum of Art 2011.37",
-      "file": "Chaekgeori, late 1800s, Yi Taek-gyun, Cleveland Museum of Art 2011.37.png",
-      "url": "https://commons.wikimedia.org/wiki/File:Chaekgeori%2C_late_1800s%2C_Yi_Taek-gyun%2C_Cleveland_Museum_of_Art_2011.37.png",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "궁중화원 이택균이 그린 10폭 책가도입니다.",
       "credit": "",
       "bulkPinned": true
     },
@@ -2441,46 +2089,6 @@
       "title": "Chaekgeori, The Chosun Minhwa Museum",
       "file": "Chaekgeori, The Chosun Minhwa Museum.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Chaekgeori%2C_The_Chosun_Minhwa_Museum.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 139,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Chaek’kori.Joseon.Korea. Musée Guimet",
-      "file": "Chaek’kori.Joseon.Korea. Musée Guimet.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Chaek%E2%80%99kori.Joseon.Korea._Mus%C3%A9e_Guimet.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 140,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Corea, paravento chaek'kori, epoca choson, xviii sec",
-      "file": "Corea, paravento chaek'kori, epoca choson, xviii sec.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_chaek'kori%2C_epoca_choson%2C_xviii_sec.JPG",
       "themes": [
         "회화",
         "민화",
@@ -2613,46 +2221,6 @@
       "bulkPinned": true
     },
     {
-      "id": 147,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Scholar's Books and Objects (Chaekkeori) LACMA M.89.128",
-      "file": "Scholar's Books and Objects (Chaekkeori) LACMA M.89.128 (2 of 3).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Scholar's_Books_and_Objects_(Chaekkeori)_LACMA_M.89.128_(2_of_3).jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 148,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Scholar's Books and Objects (Chaekkeori) LACMA M.89.128",
-      "file": "Scholar's Books and Objects (Chaekkeori) LACMA M.89.128 (3 of 3).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Scholar's_Books_and_Objects_(Chaekkeori)_LACMA_M.89.128_(3_of_3).jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 149,
       "era": "조선 · Commons 분류",
       "source": "Wikimedia Commons · 책거리",
@@ -2713,46 +2281,6 @@
       "bulkPinned": true
     },
     {
-      "id": 152,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Unknown (Korean) Chaekkori Screen 2015.67 Detroit Institute of Arts",
-      "file": "Unknown (Korean) - Chaekkori Screen - 2015.67 - Detroit Institute of Arts.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Unknown_(Korean)_-_Chaekkori_Screen_-_2015.67_-_Detroit_Institute_of_Arts.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "디트로이트미술관 소장 19세기 후반~20세기 초 한국 책거리 8폭 병풍(2015.67)입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 153,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 책거리",
-      "license": "파일별 라이선스 확인",
-      "artist": "이택균",
-      "title": "Yi Taek gyun Books and Scholars’ Accouterments 2011.37 Cleveland Museum of Art",
-      "file": "Yi Taek-gyun - Books and Scholars’ Accouterments - 2011.37 - Cleveland Museum of Art.tif",
-      "url": "https://commons.wikimedia.org/wiki/File:Yi_Taek-gyun_-_Books_and_Scholars%E2%80%99_Accouterments_-_2011.37_-_Cleveland_Museum_of_Art.tif",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "문방도",
-        "병풍"
-      ],
-      "desc": "궁중화원 이택균이 그린 10폭 책가도입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 155,
       "era": "조선 · Commons 분류",
       "source": "Wikimedia Commons · 책거리",
@@ -2769,24 +2297,6 @@
         "병풍"
       ],
       "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 156,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 산수",
-      "license": "파일별 라이선스 확인",
-      "artist": "안견",
-      "title": "Ahn Gyeon Mongyu dowondo",
-      "file": "Ahn Gyeon-Mongyu dowondo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-Mongyu_dowondo.jpg",
-      "themes": [
-        "회화",
-        "산수",
-        "문인화"
-      ],
-      "desc": "안견이 1447년 안평대군의 꿈 이야기를 바탕으로 그린 산수화입니다. 현재 일본 덴리대학 중앙도서관에 소장되어 있습니다.",
       "credit": "",
       "bulkPinned": true
     },
@@ -3079,24 +2589,6 @@
       "bulkPinned": true
     },
     {
-      "id": 173,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 산수",
-      "license": "파일별 라이선스 확인",
-      "artist": "최북",
-      "title": "Choi Buk, Cho oksansu",
-      "file": "Choi Buk, Cho-oksansu.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Choi_Buk%2C_Cho-oksansu.jpg",
-      "themes": [
-        "회화",
-        "산수",
-        "문인화"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 174,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 산수",
@@ -3147,42 +2639,6 @@
         "문인화"
       ],
       "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 177,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 산수",
-      "license": "파일별 라이선스 확인",
-      "artist": "김석신",
-      "title": "Damdamjeong Pavilion",
-      "file": "Damdamjeong Pavilion.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Damdamjeong_Pavilion.jpg",
-      "themes": [
-        "회화",
-        "산수",
-        "문인화"
-      ],
-      "desc": "김석신이 한강 마포 일대의 담담정과 주변 풍경을 그린 작품입니다. 간송미술문화재단은 현재 소장품명을 《담담정》으로 제시합니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 178,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 산수",
-      "license": "파일별 라이선스 확인",
-      "artist": "안견",
-      "title": "Dream Journey to the Peach Blossom Land",
-      "file": "Dream Journey to the Peach Blossom Land.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Dream_Journey_to_the_Peach_Blossom_Land.jpg",
-      "themes": [
-        "회화",
-        "산수",
-        "문인화"
-      ],
-      "desc": "안견이 1447년 안평대군의 꿈 이야기를 바탕으로 그린 《몽유도원도》입니다. 현재 일본 덴리대학 중앙도서관에 소장되어 있습니다.",
       "credit": "",
       "bulkPinned": true
     },
@@ -3333,24 +2789,6 @@
       "bulkPinned": true
     },
     {
-      "id": 187,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 산수",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Kim Hong do, Chuseongbu",
-      "file": "Kim Hong-do, Chuseongbu.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Kim_Hong-do%2C_Chuseongbu.jpg",
-      "themes": [
-        "회화",
-        "산수",
-        "문인화"
-      ],
-      "desc": "김홍도가 1805년 구양수의 「추성부」를 소재로 그린 《추성부도》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 188,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 산수",
@@ -3473,24 +2911,6 @@
         "문인화"
       ],
       "desc": "강세황이 1757년 개성 일대를 여행하며 그린 《송도기행첩》 가운데 한 점인 《영통동구도》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 195,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 산수",
-      "license": "파일별 라이선스 확인",
-      "artist": "안견 화풍",
-      "title": "Landscapes in the Style of An Kyeon Evening.Bell.from.Mist",
-      "file": "Landscapes in the Style of An Kyeon-Evening.Bell.from.Mist.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Landscapes_in_the_Style_of_An_Kyeon-Evening.Bell.from.Mist.jpg",
-      "themes": [
-        "회화",
-        "산수",
-        "문인화"
-      ],
-      "desc": "15세기 후반~16세기 초 안견 화풍으로 그려진 소상팔경의 한 장면 《연사모종도》입니다.",
       "credit": "",
       "bulkPinned": true
     },
@@ -4331,45 +3751,6 @@
       "bulkPinned": true
     },
     {
-      "id": 240,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 영모",
-      "license": "파일별 라이선스 확인",
-      "artist": "변상벽",
-      "title": "Gukjeongchumyodo",
-      "file": "Gukjeongchumyodo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gukjeongchumyodo.jpg",
-      "themes": [
-        "회화",
-        "영모",
-        "고양이",
-        "국화"
-      ],
-      "desc": "변상벽의 《국정추묘도(菊庭秋猫圖)》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 241,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 영모",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Hwangmyo",
-      "file": "Hwangmyo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hwangmyo.jpg",
-      "themes": [
-        "회화",
-        "영모",
-        "고양이",
-        "나비",
-        "패랭이"
-      ],
-      "desc": "김홍도의 《황묘농접(黃猫弄蝶)》입니다. 노란 고양이와 나비, 패랭이꽃을 그린 작품으로 간송미술문화재단의 공식 소장품명입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 242,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 영모",
@@ -4483,24 +3864,6 @@
         "병풍"
       ],
       "desc": "19세기 조선의 연꽃·물고기·새를 그린 작자미상 병풍입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 248,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 영모",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Moguyangjado",
-      "file": "Moguyangjado.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Moguyangjado.JPG",
-      "themes": [
-        "회화",
-        "영모",
-        "개"
-      ],
-      "desc": "김홍도의 《모구양자도(母狗養子圖)》입니다.",
       "credit": "",
       "bulkPinned": true
     },
@@ -4631,24 +3994,6 @@
         "닭"
       ],
       "desc": "장승업이 종이에 담채로 그린 수탉 그림입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 256,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 영모",
-      "license": "파일별 라이선스 확인",
-      "artist": "장승업",
-      "title": "Owon Rooster detail",
-      "file": "Owon-Rooster-detail.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Owon-Rooster-detail.jpg",
-      "themes": [
-        "회화",
-        "영모",
-        "닭"
-      ],
-      "desc": "",
       "credit": "",
       "bulkPinned": true
     },
@@ -4803,26 +4148,6 @@
       "bulkPinned": true
     },
     {
-      "id": 265,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 영모",
-      "license": "파일별 라이선스 확인",
-      "artist": "이암",
-      "title": "강 2 1~1",
-      "file": "강-2 1~1.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:%EA%B0%95-2_1~1.JPG",
-      "themes": [
-        "회화",
-        "영모",
-        "개",
-        "새",
-        "꽃"
-      ],
-      "desc": "이암이 16세기 전반에 그린 《화조구자도(花鳥拘子圖)》입니다. 꽃과 새, 강아지를 함께 그린 조선 전기 영모화입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 266,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 불화",
@@ -4941,26 +4266,6 @@
       "bulkPinned": true
     },
     {
-      "id": 272,
-      "era": "조선",
-      "source": "Wikimedia Commons · 불화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Joeseon Gammo.yeojedo 04",
-      "file": "Joeseon-Gammo.yeojedo-04.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Joeseon-Gammo.yeojedo-04.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "제례",
-        "감모여재도",
-        "사당"
-      ],
-      "desc": "조선시대 작자미상의 《감모여재도(感慕如在圖)》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 273,
       "era": "조선 전기",
       "source": "Wikimedia Commons · 불화",
@@ -5059,26 +4364,6 @@
       "bulkPinned": true
     },
     {
-      "id": 278,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 불화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Joseon Dhratarastra Guardian King of the East",
-      "file": "Korea-Joseon-Dhratarastra-Guardian King of the East.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Joseon-Dhratarastra-Guardian_King_of_the_East.jpg",
-      "themes": [
-        "회화",
-        "불화",
-        "사천왕",
-        "지국천왕",
-        "호법"
-      ],
-      "desc": "조선 후기의 사천왕도 가운데 동방을 지키는 지국천왕을 그린 작품입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 279,
       "era": "조선",
       "source": "Wikimedia Commons · 불화",
@@ -5114,26 +4399,6 @@
         "휴정"
       ],
       "desc": "청허당 서산대사 휴정의 진영입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 281,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 불화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Joseon The Great Renunciation 18c",
-      "file": "Korea-Joseon-The Great Renunciation-18c.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Joseon-The_Great_Renunciation-18c.jpg",
-      "themes": [
-        "회화",
-        "불화",
-        "팔상도",
-        "유성출가상",
-        "석가모니"
-      ],
-      "desc": "석가모니의 일생을 그린 팔상도 가운데 태자가 왕궁을 떠나는 ‘유성출가상’ 장면입니다. 영국박물관 소장 18세기 전반 조선 불화로, 원 소장처는 ‘The Great Renunciation’으로 설명합니다.",
       "credit": "",
       "bulkPinned": true
     },
@@ -5467,105 +4732,6 @@
       "bulkPinned": true
     },
     {
-      "id": 299,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gyeonggi gamyeong do",
-      "file": "Gyeonggi-gamyeong-do.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gyeonggi-gamyeong-do.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "경기감영",
-        "도시",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 300,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gyeonggi gamyeong do2",
-      "file": "Gyeonggi-gamyeong-do2.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gyeonggi-gamyeong-do2.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "경기감영",
-        "도시",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 301,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gyeonggi gamyeong do3",
-      "file": "Gyeonggi-gamyeong-do3.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gyeonggi-gamyeong-do3.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "경기감영",
-        "도시",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 302,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gyeonggigamyeongdo",
-      "file": "Gyeonggigamyeongdo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gyeonggigamyeongdo.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "경기감영",
-        "도시",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 303,
-      "era": "조선 중기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Heo Mok 03",
-      "file": "Heo Mok 03.gif",
-      "url": "https://commons.wikimedia.org/wiki/File:Heo_Mok_03.gif",
-      "themes": [
-        "회화",
-        "초상",
-        "허목",
-        "유학자"
-      ],
-      "desc": "조선 중기의 학자·문신 미수 허목을 그린 초상입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 304,
       "era": "조선 중기",
       "source": "Wikimedia Commons · 작자미상",
@@ -5619,25 +4785,6 @@
         "문인"
       ],
       "desc": "매월당 김시습을 그린 보물 《김시습 초상》입니다. 충남 부여 무량사에 전래된 영정으로 알려진 작품입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 307,
-      "era": "조선",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Kim Siseup",
-      "file": "Kim Siseup.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Kim_Siseup.jpg",
-      "themes": [
-        "회화",
-        "초상",
-        "김시습",
-        "문인"
-      ],
-      "desc": "",
       "credit": "",
       "bulkPinned": true
     },
@@ -5953,25 +5100,6 @@
       "bulkPinned": true
     },
     {
-      "id": 324,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korean.painting Miindo 19c. 2",
-      "file": "Korean.painting-Miindo-19c. 2.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korean.painting-Miindo-19c._2.jpg",
-      "themes": [
-        "회화",
-        "미인도",
-        "여성",
-        "복식"
-      ],
-      "desc": "19세기 후반 작자미상의 《미인도》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 325,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
@@ -5987,44 +5115,6 @@
         "복식"
       ],
       "desc": "19세기 후반 작자미상의 《미인도》입니다. 비단에 담채, 129.5×52.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 326,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Miindo (Standing Beauty)",
-      "file": "Miindo (Standing Beauty).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Miindo_(Standing_Beauty).jpg",
-      "themes": [
-        "회화",
-        "미인도",
-        "여성",
-        "복식"
-      ],
-      "desc": "19세기 작자미상의 전신 미인도입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 327,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Miindo Yun.family.of.Haenam d1",
-      "file": "Miindo-Yun.family.of.Haenam-d1.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Miindo-Yun.family.of.Haenam-d1.jpg",
-      "themes": [
-        "회화",
-        "미인도",
-        "여성",
-        "복식"
-      ],
-      "desc": "",
       "credit": "",
       "bulkPinned": true
     },
@@ -6458,25 +5548,6 @@
       "bulkPinned": true
     },
     {
-      "id": 351,
-      "era": "조선",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "김시습 초상",
-      "file": "김시습 초상.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%EA%B9%80%EC%8B%9C%EC%8A%B5_%EC%B4%88%EC%83%81.jpg",
-      "themes": [
-        "회화",
-        "초상",
-        "김시습",
-        "문인"
-      ],
-      "desc": "매월당 김시습을 그린 보물 《김시습 초상》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 352,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 작자미상",
@@ -6512,25 +5583,6 @@
         "문신"
       ],
       "desc": "조선 중기 문신 한음 이덕형을 그린 초상입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 354,
-      "era": "조선",
-      "source": "Wikimedia Commons · 작자미상",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "이상길 초상 2",
-      "file": "이상길 초상 2.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%83%81%EA%B8%B8_%EC%B4%88%EC%83%81_2.jpg",
-      "themes": [
-        "회화",
-        "초상",
-        "이상길",
-        "문신"
-      ],
-      "desc": "",
       "credit": "",
       "bulkPinned": true
     },
@@ -6571,25 +5623,6 @@
         "문신"
       ],
       "desc": "이상길의 시호를 딴 《충숙이공 영정》입니다. 서울특별시 유형문화유산으로, 보물 《이상길 초상》과 같은 원본 계열에서 옮겨 그린 이모본으로 설명됩니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 357,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 초충도",
-      "license": "파일별 라이선스 확인",
-      "artist": "전 신사임당",
-      "title": "Chochungdo 01",
-      "file": "Chochungdo 01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_01.jpg",
-      "themes": [
-        "회화",
-        "초충",
-        "화조",
-        "전 신사임당"
-      ],
-      "desc": "",
       "credit": "",
       "bulkPinned": true
     },
@@ -6727,361 +5760,6 @@
       "bulkPinned": true
     },
     {
-      "id": 365,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 초충도",
-      "license": "파일별 라이선스 확인",
-      "artist": "전 신사임당",
-      "title": "Chochungdo 09",
-      "file": "Chochungdo 09.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_09.jpg",
-      "themes": [
-        "회화",
-        "초충",
-        "화조",
-        "전 신사임당"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 366,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 초충도",
-      "license": "파일별 라이선스 확인",
-      "artist": "전 신사임당",
-      "title": "Chochungdo 10",
-      "file": "Chochungdo 10.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Chochungdo_10.jpg",
-      "themes": [
-        "회화",
-        "초충",
-        "화조",
-        "전 신사임당"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 367,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 초충도",
-      "license": "파일별 라이선스 확인",
-      "artist": "전 신사임당",
-      "title": "Shin.Saimdang Chochungdo 01",
-      "file": "Shin.Saimdang-Chochungdo-01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-01.jpg",
-      "themes": [
-        "회화",
-        "초충",
-        "화조",
-        "전 신사임당"
-      ],
-      "desc": "신사임당 전칭의 초충도 계열에서 가지와 방아깨비를 그린 장면입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 368,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 초충도",
-      "license": "파일별 라이선스 확인",
-      "artist": "전 신사임당",
-      "title": "Shin.Saimdang Chochungdo 02",
-      "file": "Shin.Saimdang-Chochungdo-02.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-02.jpg",
-      "themes": [
-        "회화",
-        "초충",
-        "화조",
-        "전 신사임당"
-      ],
-      "desc": "신사임당 전칭의 초충도 계열 작품입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 369,
-      "era": "조선 전기",
-      "source": "Wikimedia Commons · 초충도",
-      "license": "파일별 라이선스 확인",
-      "artist": "전 신사임당",
-      "title": "Shin.Saimdang Chochungdo 03",
-      "file": "Shin.Saimdang-Chochungdo-03.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-03.jpg",
-      "themes": [
-        "회화",
-        "초충",
-        "화조",
-        "전 신사임당"
-      ],
-      "desc": "신사임당 전칭의 초충도 계열 작품입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 370,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Donggwol do",
-      "file": "Donggwol-do.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Donggwol-do.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "창덕궁과 창경궁 일대를 부감법으로 상세히 그린 국보 《동궐도》입니다.",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 371,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Donggwoldo",
-      "file": "Donggwoldo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Donggwoldo.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 372,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Donhwamun Area",
-      "file": "Donhwamun Area.jpeg",
-      "url": "https://commons.wikimedia.org/wiki/File:Donhwamun_Area.jpeg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 373,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Honghwamun from Donggwoldo (high res)",
-      "file": "Honghwamun from Donggwoldo (high res).jpeg",
-      "url": "https://commons.wikimedia.org/wiki/File:Honghwamun_from_Donggwoldo_(high_res).jpeg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 374,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Honghwamun from Donggwoldo",
-      "file": "Honghwamun from Donggwoldo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Honghwamun_from_Donggwoldo.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 375,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Junghuidang (Donggwoldo)",
-      "file": "Junghuidang (Donggwoldo).jpeg",
-      "url": "https://commons.wikimedia.org/wiki/File:Junghuidang_(Donggwoldo).jpeg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 376,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korean art Donggwoldo detail Changdeokgung Donhwamun and its vicinity 01",
-      "file": "Korean art-Donggwoldo detail-Changdeokgung-Donhwamun and its vicinity-01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo_detail-Changdeokgung-Donhwamun_and_its_vicinity-01.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 377,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korean art Donggwoldo detail Changdeokgung Jinseonmun and its vicinity 01",
-      "file": "Korean art-Donggwoldo detail-Changdeokgung-Jinseonmun and its vicinity-01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo_detail-Changdeokgung-Jinseonmun_and_its_vicinity-01.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 378,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korean art Donggwoldo detail Changdeokgung Seonjeongjeon and its vicinity 01",
-      "file": "Korean art-Donggwoldo detail-Changdeokgung-Seonjeongjeon and its vicinity-01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo_detail-Changdeokgung-Seonjeongjeon_and_its_vicinity-01.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 379,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korean art Donggwoldo Changdeokgung and Changgyeonggung Dong A University 01",
-      "file": "Korean art-Donggwoldo-Changdeokgung and Changgyeonggung-Dong-A University-01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korean_art-Donggwoldo-Changdeokgung_and_Changgyeonggung-Dong-A_University-01.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 380,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Seungjeongwon",
-      "file": "Seungjeongwon.png",
-      "url": "https://commons.wikimedia.org/wiki/File:Seungjeongwon.png",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 381,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 동궐도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Yeongyeongdang area (Donggwoldo)",
-      "file": "Yeongyeongdang area (Donggwoldo).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Yeongyeongdang_area_(Donggwoldo).jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "건축",
-        "동궐도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 382,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 기사계첩",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gisagyecheop Displayed",
-      "file": "Gisagyecheop Displayed.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gisagyecheop_Displayed.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "계회도",
-        "기사계첩",
-        "전시사진"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 383,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 기사계첩",
@@ -7130,26 +5808,6 @@
       "title": "Korea Gisa gyecheop 03",
       "file": "Korea-Gisa gyecheop-03.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Korea-Gisa_gyecheop-03.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "계회도",
-        "기사계첩",
-        "연회"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 386,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 기사계첩",
-      "license": "파일별 라이선스 확인",
-      "artist": "김진여·박동보·장득만·허숙 등",
-      "title": "Korea Gisa gyecheop 04",
-      "file": "Korea-Gisa gyecheop-04.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Gisa_gyecheop-04.jpg",
       "themes": [
         "회화",
         "기록화",
@@ -7246,48 +5904,6 @@
       "bulkPinned": true
     },
     {
-      "id": 391,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 기사계첩",
-      "license": "파일별 라이선스 확인",
-      "artist": "김진여·장태흥·박동보·장득만·허숙 등",
-      "title": "영부사녹천이유",
-      "file": "영부사녹천이유.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%EC%98%81%EB%B6%80%EC%82%AC%EB%85%B9%EC%B2%9C%EC%9D%B4%EC%9C%A0.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "계회도",
-        "기사계첩",
-        "초상",
-        "연회"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 392,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 기사계첩",
-      "license": "파일별 라이선스 확인",
-      "artist": "김진여·장태흥·박동보·장득만·허숙 등",
-      "title": "영의정몽와김창집",
-      "file": "영의정몽와김창집.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%EC%98%81%EC%9D%98%EC%A0%95%EB%AA%BD%EC%99%80%EA%B9%80%EC%B0%BD%EC%A7%91.jpg",
-      "themes": [
-        "회화",
-        "기록화",
-        "계회도",
-        "기사계첩",
-        "초상",
-        "연회"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 393,
       "era": "대한제국",
       "source": "Wikimedia Commons · 고종임인진연도",
@@ -7330,27 +5946,6 @@
       "bulkPinned": true
     },
     {
-      "id": 395,
-      "era": "대한제국",
-      "source": "Wikimedia Commons · 고종임인진연도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korean dance Mugo 01",
-      "file": "Korean dance-Mugo-01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korean_dance-Mugo-01.jpg",
-      "themes": [
-        "회화",
-        "궁중",
-        "기록화",
-        "연회",
-        "정재",
-        "임인진연도"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 396,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 교방가요",
@@ -7371,26 +5966,6 @@
       "bulkPinned": true
     },
     {
-      "id": 397,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 교방가요",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Gyobang Gayo Mugo 02",
-      "file": "Korea-Gyobang Gayo-Mugo-02.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Gyobang_Gayo-Mugo-02.jpg",
-      "themes": [
-        "기록화",
-        "공연",
-        "무용",
-        "무고",
-        "교방가요"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 398,
       "era": "조선 후기",
       "source": "Wikimedia Commons · 호렵도",
@@ -7404,219 +5979,6 @@
         "풍속",
         "민화",
         "호렵도",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 399,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party2",
-      "file": "Hunting party2.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party2.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "민화",
-        "호렵도",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 400,
-      "era": "조선 후기",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party3",
-      "file": "Hunting party3.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party3.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "민화",
-        "호렵도",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 401,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party4",
-      "file": "Hunting party4.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party4.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 402,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party5",
-      "file": "Hunting party5.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party5.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 403,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party6",
-      "file": "Hunting party6.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party6.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 404,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party7",
-      "file": "Hunting party7.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party7.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 405,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party8",
-      "file": "Hunting party8.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party8.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 406,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party9",
-      "file": "Hunting party9.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party9.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 407,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party10",
-      "file": "Hunting party10.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party10.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 408,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party11",
-      "file": "Hunting party11.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party11.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "사냥",
-        "말"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 409,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 호렵도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Hunting party12",
-      "file": "Hunting party12.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Hunting_party12.jpg",
-      "themes": [
-        "회화",
-        "풍속",
         "사냥",
         "말"
       ],
@@ -7664,86 +6026,6 @@
       "bulkPinned": true
     },
     {
-      "id": 412,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 모란호접도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Joseon Moran.Hojeopdo d1",
-      "file": "Korea-Joseon-Moran.Hojeopdo-d1.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Joseon-Moran.Hojeopdo-d1.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "화조",
-        "모란",
-        "나비"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 413,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 모란호접도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Joseon Moran.Hojeopdo d2",
-      "file": "Korea-Joseon-Moran.Hojeopdo-d2.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Joseon-Moran.Hojeopdo-d2.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "화조",
-        "모란",
-        "나비"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 414,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 모란호접도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Joseon Moran.Hojeopdo d3",
-      "file": "Korea-Joseon-Moran.Hojeopdo-d3.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Joseon-Moran.Hojeopdo-d3.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "화조",
-        "모란",
-        "나비"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 415,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 모란호접도",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea Joseon Moran.Hojeopdo d4",
-      "file": "Korea-Joseon-Moran.Hojeopdo-d4.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-Joseon-Moran.Hojeopdo-d4.jpg",
-      "themes": [
-        "회화",
-        "민화",
-        "화조",
-        "모란",
-        "나비"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 416,
       "era": "조선 · Commons 분류",
       "source": "Wikimedia Commons · 풍속화",
@@ -7762,168 +6044,6 @@
       "bulkPinned": true
     },
     {
-      "id": 417,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Corea, paravento con scene di genere, firmato kim hong do, epoca choson, 1760 ca. 01",
-      "file": "Corea, paravento con scene di genere, firmato kim hong-do, epoca choson, 1760 ca. 01.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1760_ca._01.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 418,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Corea, paravento con scene di genere, firmato kim hong do, epoca choson, 1800 1814 ca. 03",
-      "file": "Corea, paravento con scene di genere, firmato kim hong-do, epoca choson, 1800-1814 ca. 03.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._03.JPG",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 419,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Corea, paravento con scene di genere, firmato kim hong do, epoca choson, 1800 1814 ca. 04",
-      "file": "Corea, paravento con scene di genere, firmato kim hong-do, epoca choson, 1800-1814 ca. 04.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._04.JPG",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 420,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Corea, paravento con scene di genere, firmato kim hong do, epoca choson, 1800 1814 ca. 05",
-      "file": "Corea, paravento con scene di genere, firmato kim hong-do, epoca choson, 1800-1814 ca. 05.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._05.JPG",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 421,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Corea, paravento con scene di genere, firmato kim hong do, epoca choson, 1800 1814 ca. 06",
-      "file": "Corea, paravento con scene di genere, firmato kim hong-do, epoca choson, 1800-1814 ca. 06.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._06.JPG",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 422,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Corea, paravento con scene di genere, firmato kim hong do, epoca choson, 1800 1814 ca. 07",
-      "file": "Corea, paravento con scene di genere, firmato kim hong-do, epoca choson, 1800-1814 ca. 07.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._07.JPG",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 423,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "김홍도",
-      "title": "Corea, paravento con scene di genere, firmato kim hong do, epoca choson, 1800 1814 ca. 08",
-      "file": "Corea, paravento con scene di genere, firmato kim hong-do, epoca choson, 1800-1814 ca. 08.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Corea%2C_paravento_con_scene_di_genere%2C_firmato_kim_hong-do%2C_epoca_choson%2C_1800-1814_ca._08.JPG",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 424,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gache3",
-      "file": "Gache3.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gache3.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 425,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gagokhunjang",
-      "file": "Gagokhunjang.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gagokhunjang.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 426,
       "era": "조선 · Commons 분류",
       "source": "Wikimedia Commons · 풍속화",
@@ -7932,42 +6052,6 @@
       "title": "Ginyeo",
       "file": "Ginyeo.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Ginyeo.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 427,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korean painting Daekwaedo",
-      "file": "Korean painting-Daekwaedo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korean_painting-Daekwaedo.jpg",
-      "themes": [
-        "회화",
-        "풍속",
-        "생활"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 428,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 풍속화",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Middle Class in Joseon Korea",
-      "file": "Middle Class in Joseon Korea.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Middle_Class_in_Joseon_Korea.jpg",
       "themes": [
         "회화",
         "풍속",
@@ -8104,25 +6188,6 @@
       "bulkPinned": true
     },
     {
-      "id": 436,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 도석",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Gunseondo",
-      "file": "Gunseondo.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Gunseondo.jpg",
-      "themes": [
-        "회화",
-        "도교",
-        "신선도",
-        "인물"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
       "id": 437,
       "era": "조선 · Commons 분류",
       "source": "Wikimedia Commons · 도석",
@@ -8131,63 +6196,6 @@
       "title": "Kim Hong do, Indian Prophet",
       "file": "Kim Hong-do, Indian Prophet.jpg",
       "url": "https://commons.wikimedia.org/wiki/File:Kim_Hong-do%2C_Indian_Prophet.jpg",
-      "themes": [
-        "회화",
-        "도교",
-        "신선도",
-        "인물"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 438,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 도석",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "Korea National.Treasure 139 Gunseondobyeong Joseon Leeum",
-      "file": "Korea-National.Treasure-139-Gunseondobyeong-Joseon-Leeum.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Korea-National.Treasure-139-Gunseondobyeong-Joseon-Leeum.jpg",
-      "themes": [
-        "회화",
-        "도교",
-        "신선도",
-        "인물"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 439,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 도석",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "金弘道群仙圖",
-      "file": "金弘道群仙圖.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%BC%98%E9%81%93%E7%BE%A4%E4%BB%99%E5%9C%96.jpg",
-      "themes": [
-        "회화",
-        "도교",
-        "신선도",
-        "인물"
-      ],
-      "desc": "",
-      "credit": "",
-      "bulkPinned": true
-    },
-    {
-      "id": 440,
-      "era": "조선 · Commons 분류",
-      "source": "Wikimedia Commons · 도석",
-      "license": "파일별 라이선스 확인",
-      "artist": "작자미상",
-      "title": "金弘道群仙圖局部",
-      "file": "金弘道群仙圖局部.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%BC%98%E9%81%93%E7%BE%A4%E4%BB%99%E5%9C%96%E5%B1%80%E9%83%A8.jpg",
       "themes": [
         "회화",
         "도교",
@@ -11725,23 +9733,6 @@
       "url": "https://www.metmuseum.org/art/collection/search/853899"
     },
     {
-      "id": 644,
-      "era": "조선 · 약 1551",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "기록화",
-        "계회도",
-        "관료"
-      ],
-      "desc": "",
-      "credit": "The Met · 조선회화",
-      "source": "The Met · 조선회화",
-      "artist": "작자미상",
-      "title": "Gathering of Government Officials",
-      "url": "https://www.metmuseum.org/art/collection/search/74448"
-    },
-    {
       "id": 645,
       "era": "조선 · 19세기 중엽",
       "license": "원 소장처 이용조건 확인",
@@ -11774,23 +9765,6 @@
       "artist": "안견 양식",
       "title": "Evening Bell from Mist-Shrouded Temple; Autumn Moon over Lake Dongting",
       "url": "https://www.metmuseum.org/art/collection/search/50897"
-    },
-    {
-      "id": 647,
-      "era": "조선 · 16세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "기록화",
-        "계회도",
-        "관료"
-      ],
-      "desc": "",
-      "credit": "The Met · 조선회화",
-      "source": "The Met · 조선회화",
-      "artist": "작자미상",
-      "title": "Gathering of Government Officials",
-      "url": "https://www.metmuseum.org/art/collection/search/860959"
     },
     {
       "id": 648,
@@ -12321,25 +10295,6 @@
       "url": "https://searchcollection.asianart.org/objects/12917/fisherman-and-scholars-in-a-landscape"
     },
     {
-      "id": 681,
-      "era": "조선 · 1842 또는 1902 / 1902",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "십장생",
-        "학",
-        "복숭아",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "Honolulu Museum of Art · 조선회화",
-      "source": "Honolulu Museum of Art · 조선회화",
-      "artist": "작자미상",
-      "title": "Sea, Cranes and Peaches · pair of folding screens",
-      "url": "https://honolulumuseum.org/arts-of-pan-asia-l3lg"
-    },
-    {
       "id": 682,
       "era": "조선 · 1874",
       "license": "원 소장처 이용조건 확인",
@@ -12528,24 +10483,6 @@
       "artist": "작자미상",
       "title": "Eight-panel Ink Screen · Korean Painting",
       "url": "https://www.smb.museum/en/exhibitions/detail/the-scent-of-ink/"
-    },
-    {
-      "id": 695,
-      "era": "조선 · 19세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "회화",
-        "민화",
-        "책거리",
-        "책가도",
-        "병풍"
-      ],
-      "desc": "",
-      "credit": "Museum für Asiatische Kunst Berlin · 조선회화",
-      "source": "Museum für Asiatische Kunst Berlin · 조선회화",
-      "artist": "작자미상",
-      "title": "Chaekgeori Eight-panel Screen",
-      "url": "https://www.smb.museum/museen-einrichtungen/museum-fuer-asiatische-kunst/ausstellungen/detail/mirae-kh-rhee/"
     },
     {
       "id": 696,
@@ -13461,23 +11398,6 @@
       "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-377?locale=en"
     },
     {
-      "id": 786,
-      "era": "조선 후기 · 18세기",
-      "license": "원 소장처 이용조건 확인",
-      "themes": [
-        "영모",
-        "고양이",
-        "참새",
-        "화조"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "Tokyo National Museum · ColBase",
-      "artist": "변상벽",
-      "title": "Cat with Sparrows",
-      "url": "https://colbase.nich.go.jp/collection_items/tnm/TA-387?locale=en"
-    },
-    {
       "id": 787,
       "era": "조선 후기 · 19세기",
       "license": "원 소장처 이용조건 확인",
@@ -13492,55 +11412,6 @@
       "artist": "작자미상",
       "title": "Assembly of Buddhist Guardians",
       "url": "https://dia.org/collection/assembly-buddhist-guardians/103449"
-    },
-    {
-      "id": 790,
-      "era": "조선 후기 · 1751",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "진경산수",
-        "국보"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "국가유산포털 · 조선회화",
-      "artist": "정선",
-      "title": "인왕제색도",
-      "url": "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111102160000&pageNo=1_1_1_1"
-    },
-    {
-      "id": 791,
-      "era": "조선 후기 · 1734",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "진경산수",
-        "금강산",
-        "국보"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "국가유산포털 · 조선회화",
-      "artist": "정선",
-      "title": "금강전도",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111102170000"
-    },
-    {
-      "id": 792,
-      "era": "조선 후기 · 1844",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "문인화",
-        "산수",
-        "국보"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "국가유산포털 · 조선회화",
-      "artist": "김정희",
-      "title": "세한도",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111101800000&pageNo=5_2_1_0"
     },
     {
       "id": 793,
@@ -13559,22 +11430,6 @@
       "url": "https://portal.nrich.go.kr/kor/portraitNdUsrView.do?menuIdx=1258&portrait_idx=4"
     },
     {
-      "id": 794,
-      "era": "조선 전기 · 1447",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "몽유도원도",
-        "안평대군"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "Wikimedia Commons · 대표작",
-      "artist": "안견",
-      "title": "몽유도원도",
-      "url": "https://commons.wikimedia.org/wiki/File:Ahn_Gyeon-Mongyu_dowondo.jpg"
-    },
-    {
       "id": 795,
       "era": "조선 후기 · 1776",
       "license": "원문 이용조건 확인",
@@ -13590,22 +11445,6 @@
       "artist": "김홍도",
       "title": "군선도 병풍",
       "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111101390000"
-    },
-    {
-      "id": 796,
-      "era": "조선 후기 · 18세기",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "풍속",
-        "화첩",
-        "보물"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "국가유산포털 · 조선회화",
-      "artist": "김홍도",
-      "title": "풍속도 화첩",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=12%2C05270000%2C11&pageNo=1_1_2_0"
     },
     {
       "id": 797,
@@ -13639,22 +11478,6 @@
       "artist": "김홍도",
       "title": "서원아집도 병풍",
       "url": "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=0022600000000&ccbaCpno=1121122600000&ccbaCtcd=11&ccbaKdcd=12&pageNo=1_1_1_0"
-    },
-    {
-      "id": 799,
-      "era": "조선 후기 · 18세기 말~19세기 초",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "풍속",
-        "화첩",
-        "국보"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "국가유산포털 · 조선회화",
-      "artist": "신윤복",
-      "title": "풍속도 화첩",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=11%2C01350000%2C11&pageNo=1_1_1_0"
     },
     {
       "id": 800,
@@ -13742,42 +11565,6 @@
       "artist": "작자미상",
       "title": "왕세자탄강진하도 병풍",
       "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121114430000&pageNo=1_1_1_1"
-    },
-    {
-      "id": 805,
-      "era": "조선 후기 · 1765",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "궁중",
-        "기록화",
-        "연회",
-        "병풍",
-        "보물"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "국가유산포털 · 조선회화",
-      "artist": "작자미상",
-      "title": "영조 기로연·수작연도 병풍",
-      "url": "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaAsno=0015310000000&ccbaCpno=1121115310000&ccbaCtcd=11&ccbaKdcd=12&pageNo=1_1_1_0"
-    },
-    {
-      "id": 806,
-      "era": "조선 후기 · 1747",
-      "license": "원문 이용조건 확인",
-      "themes": [
-        "궁중",
-        "기록화",
-        "과거",
-        "병풍",
-        "보물"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "국가유산포털 · 조선회화",
-      "artist": "작자미상",
-      "title": "근정전 정시도 및 연구시 병풍",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1122506190001&pageNo=1_1_1_1&sngl=Y"
     },
     {
       "id": 807,
@@ -16182,22 +13969,6 @@
       "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123617220000"
     },
     {
-      "id": 963,
-      "era": "조선 영조 23년 · 1747",
-      "license": "국가유산포털 원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "금강산",
-        "화첩"
-      ],
-      "desc": "",
-      "credit": "국가유산청 국가유산포털",
-      "source": "간송미술문화재단 · 국가유산포털",
-      "artist": "정선",
-      "title": "정선 필 해악전신첩",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121119490000"
-    },
-    {
       "id": 964,
       "era": "조선 후기 · 1741~1759",
       "license": "국가유산포털 원문 이용조건 확인",
@@ -16279,22 +14050,6 @@
       "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121119710000"
     },
     {
-      "id": 969,
-      "era": "조선 후기 · 18세기 후반",
-      "license": "국가유산포털 원문 이용조건 확인",
-      "themes": [
-        "인물",
-        "도석인물",
-        "나귀"
-      ],
-      "desc": "",
-      "credit": "국가유산청 국가유산포털",
-      "source": "간송미술문화재단 · 국가유산포털",
-      "artist": "김홍도",
-      "title": "김홍도 필 과로도기도",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121119720000"
-    },
-    {
       "id": 970,
       "era": "조선",
       "license": "국가유산포털 원문 이용조건 확인",
@@ -16357,38 +14112,6 @@
       "artist": "정선",
       "title": "정선 필 금강전도",
       "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111102170000"
-    },
-    {
-      "id": 974,
-      "era": "조선 영조 27년 · 1751",
-      "license": "국가유산포털 원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "서원",
-        "건축"
-      ],
-      "desc": "",
-      "credit": "국가유산청 국가유산포털",
-      "source": "국립중앙박물관 · 국가유산포털",
-      "artist": "강세황",
-      "title": "강세황 필 도산서원도",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121105220000"
-    },
-    {
-      "id": 975,
-      "era": "조선 순조 5년 · 1805",
-      "license": "국가유산포털 원문 이용조건 확인",
-      "themes": [
-        "산수",
-        "인물",
-        "문학"
-      ],
-      "desc": "",
-      "credit": "국가유산청 국가유산포털",
-      "source": "국립중앙박물관 · 국가유산포털",
-      "artist": "김홍도",
-      "title": "김홍도 필 추성부도",
-      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121113930000"
     },
     {
       "id": 976,
@@ -17179,23 +14902,6 @@
       "artist": "변상벽",
       "title": "묘작도",
       "url": "https://nfm.go.kr/user/planexhibition/home/20/selectPlanExhibitionLView.do?page=1&planExhibitionIdx=1331"
-    },
-    {
-      "id": 1032,
-      "era": "조선 말기 · 1879",
-      "license": "원 소장처 및 인용 공공기관 이용조건 확인",
-      "themes": [
-        "산수",
-        "남종화",
-        "근역화휘",
-        "문인화"
-      ],
-      "desc": "",
-      "credit": "",
-      "source": "서울대학교박물관 · 공공기관검증",
-      "artist": "장승업",
-      "title": "방황학산초추강도 · 근역화휘",
-      "url": "https://encykorea.aks.ac.kr/Article/E0048622"
     },
     {
       "id": 1035,

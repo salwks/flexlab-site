@@ -751,12 +751,6 @@
     "9": {
       "title": "Village School (Seodang)"
     },
-    "10": {
-      "title": "Appreciating Paintings"
-    },
-    "11": {
-      "title": "Bridal Procession"
-    },
     "12": {
       "title": "Ssireum Wrestling"
     },
@@ -775,9 +769,6 @@
     "17": {
       "title": "Spring Colors Fill the Garden"
     },
-    "18": {
-      "title": "Dano Festival Scene"
-    },
     "19": {
       "title": "Nothing Going On at the Gisaeng House"
     },
@@ -787,14 +778,8 @@
     "21": {
       "title": "Drinking at a Red Pavilion"
     },
-    "22": {
-      "title": "Duet Sword Dance"
-    },
     "23": {
       "title": "Absorbed in Ssangyuk"
-    },
-    "24": {
-      "title": "Lovers under the Moon"
     },
     "25": {
       "title": "Secret Meeting on a Moonlit Night"
@@ -802,14 +787,8 @@
     "26": {
       "title": "Night Outing in Winter"
     },
-    "27": {
-      "title": "Young Men on a Spring Outing"
-    },
     "28": {
       "title": "Brawl outside a Pleasure House"
-    },
-    "29": {
-      "title": "Boating on a Clear River"
     },
     "30": {
       "title": "Pleasure Party at a Lotus Pond"
@@ -877,14 +856,8 @@
     "51": {
       "title": "Woman by a Lotus Pond"
     },
-    "52": {
-      "title": "Disturbance at a Farmhouse (Cat and Chick)"
-    },
     "53": {
       "title": "Commoner Bowing to a Yangban"
-    },
-    "54": {
-      "title": "Smithy"
     },
     "55": {
       "title": "Drinking by the Riverside"
@@ -1059,9 +1032,6 @@
     "110": {
       "title": "Shaman Deity Painting of Naewatdang: Wonmang"
     },
-    "111": {
-      "title": "Shaman Deity Painting of Naewatdang: Jeseok (heritage image)"
-    },
     "112": {
       "title": "Shaman Deity Painting of Naewatdang: Jungjeon"
     },
@@ -1070,13 +1040,6 @@
     },
     "114": {
       "title": "Shaman Deity Painting of Naewatdang: Honga"
-    },
-    "115": {
-      "title": "Munja Chaekgeori Screen (Character-Books Screen)",
-      "desc": "An eight-panel folding screen combining munjado (character painting) with chaekgeori. The upper part of each panel shows a character for one of the Confucian virtues—filial piety, brotherly respect, loyalty, trust, propriety, righteousness, integrity, and sense of shame—while books and objects are arranged below."
-    },
-    "116": {
-      "title": "Chaekgeori Folding Screen (Musée Guimet)"
     },
     "117": {
       "title": "Chaekgeori Six-Panel Folding Screen"
@@ -1087,19 +1050,6 @@
     },
     "119": {
       "title": "Bookshelf (Chaekgado) (1 of 4)"
-    },
-    "120": {
-      "title": "Bookshelf (Chaekgado) (2 of 4)"
-    },
-    "121": {
-      "title": "Bookshelf (Chaekgado) (3 of 4)"
-    },
-    "122": {
-      "title": "Bookshelf (Chaekgado) (4 of 4)"
-    },
-    "123": {
-      "title": "Ch'aekkori Screen",
-      "desc": "A mid-19th-century chaekgeori screen in the Philadelphia Museum of Art. It is recorded as a ten-panel screen painted in ink and color on silk."
     },
     "124": {
       "title": "Chaekgeori (Scholar's Accoutrements) with Munjado",
@@ -1117,22 +1067,12 @@
       "title": "Chaekgeori",
       "desc": "A 19th-century chaekgeori painting by an unknown artist."
     },
-    "128": {
-      "title": "Chaekgeori (Art Institute of Chicago)"
-    },
     "129": {
       "title": "Chaekgeori, Eight-Panel Folding Screen"
     },
     "130": {
       "title": "Chaekgeori",
       "desc": "A Korean chaekgeori painting of the late 19th century."
-    },
-    "131": {
-      "title": "Chaekgeori, Six-Panel Folding Screen"
-    },
-    "132": {
-      "title": "Books and Scholars' Accoutrements (Chaekgado) by Yi Taek-gyun",
-      "desc": "A ten-panel chaekgado by the court painter Yi Taek-gyun."
     },
     "133": {
       "title": "Chaekgeori",
@@ -1155,12 +1095,6 @@
     "138": {
       "title": "Chaekgeori (Chosun Minhwa Museum)"
     },
-    "139": {
-      "title": "Chaekgeori (Musée Guimet)"
-    },
-    "140": {
-      "title": "Chaekgeori Folding Screen, 18th century"
-    },
     "141": {
       "title": "Flowers, Fish, Shaman and Chaekgeori Folding Screen"
     },
@@ -1182,12 +1116,6 @@
     "146": {
       "title": "Scholar's Books and Objects (Chaekkeori) (1 of 3)"
     },
-    "147": {
-      "title": "Scholar's Books and Objects (Chaekkeori) (2 of 3)"
-    },
-    "148": {
-      "title": "Scholar's Books and Objects (Chaekkeori) (3 of 3)"
-    },
     "149": {
       "title": "Scholar's Books and Objects (Chaekkeori)",
       "desc": "A Joseon chaekgeori painting of books, stationery, and vessels."
@@ -1200,20 +1128,8 @@
       "title": "Screen with Books and Scholar's Objects",
       "desc": "A Korean chaekgeori screen of the late 19th to early 20th century in the Museum of Fine Arts, Boston (2009.3989), painted in ink and color on paper."
     },
-    "152": {
-      "title": "Chaekkori Screen",
-      "desc": "A Korean eight-panel chaekgeori screen of the late 19th to early 20th century in the Detroit Institute of Arts (2015.67)."
-    },
-    "153": {
-      "title": "Books and Scholars' Accouterments by Yi Taek-gyun",
-      "desc": "A ten-panel chaekgado by the court painter Yi Taek-gyun."
-    },
     "155": {
       "title": "Chaekgeori"
-    },
-    "156": {
-      "title": "Dream Journey to the Peach Blossom Land",
-      "desc": "A landscape painted by An Gyeon in 1447 based on a dream related by Prince Anpyeong. It is now in the Central Library of Tenri University, Japan."
     },
     "157": {
       "title": "Eight Views of the Four Seasons: Early Spring",
@@ -1275,9 +1191,6 @@
     "172": {
       "title": "Boating in Midstream"
     },
-    "173": {
-      "title": "Landscape with Thatched House"
-    },
     "174": {
       "title": "Landscape with Angler",
       "desc": "Choe Buk's Landscape with Angler, a work on the theme of fishing in a landscape."
@@ -1288,14 +1201,6 @@
     },
     "176": {
       "title": "Chongseokjeong Pavilion"
-    },
-    "177": {
-      "title": "Damdamjeong Pavilion",
-      "desc": "Kim Seok-sin's painting of Damdamjeong Pavilion and the surrounding scenery near Mapo on the Han River. The Kansong Art and Culture Foundation lists the work under the title Damdamjeong."
-    },
-    "178": {
-      "title": "Dream Journey to the Peach Blossom Land",
-      "desc": "Dream Journey to the Peach Blossom Land, painted by An Gyeon in 1447 based on a dream related by Prince Anpyeong. It is now in the Central Library of Tenri University, Japan."
     },
     "179": {
       "title": "Foot of Mt. Dobong",
@@ -1328,10 +1233,6 @@
       "title": "Autumn Sounds",
       "desc": "Autumn Sounds, painted by Kim Hong-do in 1805 on the theme of Ouyang Xiu's \"Ode to the Sound of Autumn.\" It is now a Treasure in the National Museum of Korea."
     },
-    "187": {
-      "title": "Autumn Sounds",
-      "desc": "Autumn Sounds, painted by Kim Hong-do in 1805 on the theme of Ouyang Xiu's \"Ode to the Sound of Autumn.\""
-    },
     "188": {
       "title": "Not Exchanging This Life for the Three High Offices",
       "desc": "Not Exchanging This Life for the Three High Offices, painted by Kim Hong-do in 1801 to express the ideal of rural life. It is a Treasure in the Leeum Museum of Art."
@@ -1358,10 +1259,6 @@
     "194": {
       "title": "Entrance to Yeongtong-dong Valley",
       "desc": "Entrance to Yeongtong-dong Valley, one of the leaves of the Album of a Journey to Songdo, painted by Kang Se-hwang while traveling around Gaeseong in 1757."
-    },
-    "195": {
-      "title": "Evening Bell from a Misty Temple",
-      "desc": "Evening Bell from a Misty Temple, one of the Eight Views of Xiao and Xiang, painted in the style of An Gyeon in the late 15th to early 16th century."
     },
     "196": {
       "title": "Scholar's Studio amid Plum Blossoms",
@@ -1527,14 +1424,6 @@
     "239": {
       "title": "Horses"
     },
-    "240": {
-      "title": "Cat in a Courtyard under Autumn Chrysanthemums",
-      "desc": "Byeon Sang-byeok's Cat in a Courtyard under Autumn Chrysanthemums."
-    },
-    "241": {
-      "title": "Yellow Cat Teasing a Butterfly",
-      "desc": "Kim Hong-do's Yellow Cat Teasing a Butterfly, depicting a yellow cat, a butterfly, and pinks. The title is the one used by the Kansong Art and Culture Foundation."
-    },
     "242": {
       "title": "Sapsal Dog",
       "desc": "A painting of a sapsal dog by Kim Du-ryang, 1743."
@@ -1557,10 +1446,6 @@
     "247": {
       "title": "Folding Screen with Lotus, Fish and Birds",
       "desc": "A 19th-century Joseon folding screen of lotus, fish, and birds by an unknown artist."
-    },
-    "248": {
-      "title": "Mother Dog Nursing Puppies",
-      "desc": "Kim Hong-do's Mother Dog Nursing Puppies."
     },
     "249": {
       "title": "Mother Dog and Puppies",
@@ -1588,9 +1473,6 @@
     "255": {
       "title": "Rooster",
       "desc": "A painting of a rooster by Jang Seung-eop in ink and light color on paper."
-    },
-    "256": {
-      "title": "Rooster (detail)"
     },
     "257": {
       "title": "Cat"
@@ -1621,10 +1503,6 @@
     "264": {
       "title": "Hanging Scroll of Cats (2)"
     },
-    "265": {
-      "title": "Flowers, Birds and Puppies",
-      "desc": "Flowers, Birds and Puppies, painted by Yi Am in the first half of the 16th century, an early Joseon animal painting showing flowers, birds, and puppies together."
-    },
     "266": {
       "title": "Vairocana Buddha from the Trikaya Altar Painting, Daeungjeon Hall of Hwaeomsa Temple",
       "desc": "The central painting of Vairocana Buddha from the three-panel Trikaya Altar Painting of Daeungjeon Hall, Hwaeomsa Temple, made in 1757 and designated a Treasure."
@@ -1648,10 +1526,6 @@
       "title": "Portrait of National Preceptor Bojo Jinul, Songgwangsa Temple, Suncheon",
       "desc": "Portrait of National Preceptor Bojo Jinul at Songgwangsa Temple, Suncheon, made in 1780."
     },
-    "272": {
-      "title": "Gammo Yeojaedo (Spirit Shrine Painting)",
-      "desc": "A Joseon spirit shrine painting (gammo yeojaedo) by an unknown artist."
-    },
     "273": {
       "title": "Brahma (Beomcheon)",
       "desc": "A late 16th-century Joseon painting of Brahma by an unknown artist."
@@ -1672,10 +1546,6 @@
       "title": "Bodhidharma Crossing a River on a Reed",
       "desc": "Kim Myeong-guk's Bodhidharma Crossing a River on a Reed."
     },
-    "278": {
-      "title": "Dhrtarastra, Guardian King of the East",
-      "desc": "A late Joseon painting of Dhrtarastra, the Guardian King of the East, from a set of the Four Guardian Kings."
-    },
     "279": {
       "title": "Hyeonwangdo (Painting of King Hyeonwang)",
       "desc": "A Joseon-period Hyeonwangdo in the Museum of Fine Arts, Boston. Depicting King Hyeonwang and his retinue to pray for the salvation of the deceased, it is a type of underworld Buddhist painting distinctive to Joseon."
@@ -1683,10 +1553,6 @@
     "280": {
       "title": "Portrait of Great Master Seosan",
       "desc": "Portrait of the monk Hyujeong, Great Master Seosan (Cheongheodang)."
-    },
-    "281": {
-      "title": "The Great Renunciation",
-      "desc": "The Great Renunciation, the scene of the prince leaving the palace from the eight scenes of the life of Shakyamuni. It is an early 18th-century Joseon Buddhist painting in the British Museum."
     },
     "282": {
       "title": "Arhat and Deer",
@@ -1754,22 +1620,6 @@
       "title": "Gammo Yeojaedo (Spirit Shrine Painting)",
       "desc": "A spirit shrine painting (gammo yeojaedo) depicting an ancestral shrine, the place where ancestral rites were held."
     },
-    "299": {
-      "title": "Gyeonggi Provincial Office Folding Screen"
-    },
-    "300": {
-      "title": "Gyeonggi Provincial Office Folding Screen: Provincial Office (detail)"
-    },
-    "301": {
-      "title": "Gyeonggi Provincial Office Folding Screen: Yeongeunmun Gate and Mohwagwan (detail)"
-    },
-    "302": {
-      "title": "Gyeonggi Provincial Office Folding Screen"
-    },
-    "303": {
-      "title": "Portrait of Heo Mok",
-      "desc": "A portrait of Misu Heo Mok, scholar and civil official of the mid-Joseon period."
-    },
     "304": {
       "title": "Portrait of Bak Jeong",
       "desc": "A portrait of Bak Jeong at the age of thirty, painted around 1625."
@@ -1781,9 +1631,6 @@
     "306": {
       "title": "Portrait of Kim Si-seup",
       "desc": "The Treasure-designated portrait of Maewoldang Kim Si-seup. It is known as a portrait handed down at Muryangsa Temple in Buyeo, South Chungcheong Province."
-    },
-    "307": {
-      "title": "Portrait of Kim Si-seup"
     },
     "308": {
       "title": "Folk Painting: Fish and Crabs",
@@ -1847,20 +1694,9 @@
     "323": {
       "title": "Portrait of a Beauty (Haenam Yun Family Head House)"
     },
-    "324": {
-      "title": "Portrait of a Beauty (Dong-A University Museum) (1)",
-      "desc": "A late 19th-century Portrait of a Beauty by an unknown artist."
-    },
     "325": {
       "title": "Portrait of a Beauty (Dong-A University Museum) (2)",
       "desc": "A late 19th-century Portrait of a Beauty by an unknown artist. Ink and light color on silk, 129.5 × 52 cm."
-    },
-    "326": {
-      "title": "Portrait of a Beauty (Standing Beauty)",
-      "desc": "A 19th-century full-length portrait of a beauty by an unknown artist."
-    },
-    "327": {
-      "title": "Portrait of a Beauty (Haenam Yun Family Head House), detail"
     },
     "328": {
       "title": "Portrait of a Beauty (Haenam Yun Family Head House)",
@@ -1949,10 +1785,6 @@
       "title": "Portrait of Yun Hyu",
       "desc": "A portrait of Baekho Yun Hyu, civil official and scholar of the late Joseon period."
     },
-    "351": {
-      "title": "Portrait of Kim Si-seup",
-      "desc": "The Treasure-designated portrait of Maewoldang Kim Si-seup."
-    },
     "352": {
       "title": "Portrait of Songgok Yi Seo-u",
       "desc": "A portrait of Songgok Yi Seo-u, civil official and writer of the late Joseon period."
@@ -1961,9 +1793,6 @@
       "title": "Portrait of Yi Deok-hyeong",
       "desc": "A portrait of Hageum Yi Deok-hyeong, a civil official of the mid-Joseon period."
     },
-    "354": {
-      "title": "Portrait of Yi Sang-gil (detail)"
-    },
     "355": {
       "title": "Portrait of Yi Sang-gil",
       "desc": "The Treasure-designated portrait of Yi Sang-gil, a civil official of the mid-Joseon period."
@@ -1971,9 +1800,6 @@
     "356": {
       "title": "Portrait of Lord Yi, Chungsuk",
       "desc": "A portrait named after Yi Sang-gil's posthumous title, Chungsuk. A Seoul Metropolitan City Tangible Cultural Heritage, it is described as a copy derived from the same original line as the Treasure-designated Portrait of Yi Sang-gil."
-    },
-    "357": {
-      "title": "Plants and Insects, attributed to Sin Saimdang (1)"
     },
     "358": {
       "title": "Plants and Insects, attributed to Sin Saimdang (2)"
@@ -1996,64 +1822,6 @@
     "364": {
       "title": "Plants and Insects, attributed to Sin Saimdang (8)"
     },
-    "365": {
-      "title": "Plants and Insects, attributed to Sin Saimdang (9)"
-    },
-    "366": {
-      "title": "Plants and Insects, attributed to Sin Saimdang (10)"
-    },
-    "367": {
-      "title": "Plants and Insects: Eggplant and Grasshopper",
-      "desc": "A scene of an eggplant and a grasshopper from the plants-and-insects paintings attributed to Sin Saimdang."
-    },
-    "368": {
-      "title": "Plants and Insects",
-      "desc": "A work from the plants-and-insects paintings attributed to Sin Saimdang."
-    },
-    "369": {
-      "title": "Plants and Insects",
-      "desc": "A work from the plants-and-insects paintings attributed to Sin Saimdang."
-    },
-    "370": {
-      "title": "Donggwoldo (Painting of the Eastern Palaces)",
-      "desc": "Donggwoldo, a National Treasure depicting Changdeokgung and Changgyeonggung palaces in detail from a bird's-eye view."
-    },
-    "371": {
-      "title": "Donggwoldo (Painting of the Eastern Palaces)"
-    },
-    "372": {
-      "title": "Donggwoldo: Donhwamun Gate Area"
-    },
-    "373": {
-      "title": "Donggwoldo: Honghwamun Gate Area (high resolution)"
-    },
-    "374": {
-      "title": "Donggwoldo: Honghwamun Gate Area"
-    },
-    "375": {
-      "title": "Donggwoldo: Junghuidang Hall Area"
-    },
-    "376": {
-      "title": "Donggwoldo: Donhwamun Gate Area (Korea University Museum)"
-    },
-    "377": {
-      "title": "Donggwoldo: Jinseonmun Gate Area (Korea University Museum)"
-    },
-    "378": {
-      "title": "Donggwoldo: Seonjeongjeon Hall Area (Korea University Museum)"
-    },
-    "379": {
-      "title": "Donggwoldo (Dong-A University Museum)"
-    },
-    "380": {
-      "title": "Donggwoldo: Seungjeongwon Royal Secretariat Area (Dong-A University Museum)"
-    },
-    "381": {
-      "title": "Donggwoldo: Yeongyeongdang Residence Area (Dong-A University Museum)"
-    },
-    "382": {
-      "title": "Album of the Gisa Elders' Gathering (on display)"
-    },
     "383": {
       "title": "Album of the Gisa Elders' Gathering (Hong Gi-jun Collection), image 1",
       "desc": "Court painters including Kim Jin-yeo, Bak Dong-bo, Jang Deuk-man, and Heo Suk took part in its production."
@@ -2063,9 +1831,6 @@
     },
     "385": {
       "title": "Album of the Gisa Elders' Gathering (Hong Gi-jun Collection), image 3"
-    },
-    "386": {
-      "title": "Album of the Gisa Elders' Gathering (Ewha Womans University Museum)"
     },
     "387": {
       "title": "Album of the Gisa Elders' Gathering (National Museum of Korea), image 1",
@@ -2081,12 +1846,6 @@
       "title": "Album of the Gisa Elders' Gathering (Ewha Womans University Museum)",
       "desc": "A commemorative album containing paintings of the events marking King Sukjong's entry into the Office of Elders in 1719 and portraits of the elder officials."
     },
-    "391": {
-      "title": "Album of the Gisa Elders' Gathering: Portrait of Yi Yu, Minister without Portfolio"
-    },
-    "392": {
-      "title": "Album of the Gisa Elders' Gathering: Portrait of Chief State Councillor Kim Chang-jip"
-    },
     "393": {
       "title": "Folding Screen of the Royal Banquet of 1902 (Imin Jinyeon): Garinjeonmokdan Dance",
       "desc": "The Garinjeonmokdan court dance scene from the folding screen of the 1902 royal banquet celebrating the 40th anniversary of Emperor Gojong's accession."
@@ -2095,51 +1854,12 @@
       "title": "Folding Screen of the Royal Banquet of 1902 (Imin Jinyeon): Drum Dance (Mugo)",
       "desc": "The drum dance (Mugo) scene from the folding screen of the 1902 royal banquet celebrating the 40th anniversary of Emperor Gojong's accession."
     },
-    "395": {
-      "title": "Folding Screen of the Royal Banquet of 1902 (Imin Jinyeon): Drum Dance (Mugo)"
-    },
     "396": {
       "title": "Gyobang Gayo: Drum Dance (Mugo)",
       "desc": "An illustration recording the movements and costumes of Mugo, a court dance performed around a drum."
     },
-    "397": {
-      "title": "Gyobang Gayo: Drum Dance (Mugo), detail"
-    },
     "398": {
       "title": "Hunting Scene (Horyeopdo) Folding Screen, detail 1"
-    },
-    "399": {
-      "title": "Hunting Scene (Horyeopdo) Folding Screen, detail 2"
-    },
-    "400": {
-      "title": "Hunting Scene (Horyeopdo) Folding Screen, detail 3"
-    },
-    "401": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "402": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "403": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "404": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "405": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "406": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "407": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "408": {
-      "title": "Hunting Scene (Horyeopdo)"
-    },
-    "409": {
-      "title": "Hunting Scene (Horyeopdo)"
     },
     "410": {
       "title": "Sun, Moon and Five Peaks"
@@ -2147,56 +1867,11 @@
     "411": {
       "title": "Peonies and Butterflies"
     },
-    "412": {
-      "title": "Peonies and Butterflies (detail 1)"
-    },
-    "413": {
-      "title": "Peonies and Butterflies (detail 2)"
-    },
-    "414": {
-      "title": "Peonies and Butterflies (detail 3)"
-    },
-    "415": {
-      "title": "Peonies and Butterflies (detail 4)"
-    },
     "416": {
       "title": "Man Riding an Ox"
     },
-    "417": {
-      "title": "Folding Screen of Genre Scenes"
-    },
-    "418": {
-      "title": "Folding Screen of Genre Scenes"
-    },
-    "419": {
-      "title": "Folding Screen of Genre Scenes"
-    },
-    "420": {
-      "title": "Folding Screen of Genre Scenes"
-    },
-    "421": {
-      "title": "Folding Screen of Genre Scenes"
-    },
-    "422": {
-      "title": "Folding Screen of Genre Scenes"
-    },
-    "423": {
-      "title": "Folding Screen of Genre Scenes"
-    },
-    "424": {
-      "title": "Gisaeng"
-    },
-    "425": {
-      "title": "Gagok Singing Master Teaching Gisaeng"
-    },
     "426": {
       "title": "Gisaeng"
-    },
-    "427": {
-      "title": "Daekwaedo (Scene of Great Delight)"
-    },
-    "428": {
-      "title": "The Middle Class (Jungin) of Joseon"
     },
     "429": {
       "title": "Storyteller (attributed)"
@@ -2219,20 +1894,8 @@
     "435": {
       "title": "Women Picking Wild Greens"
     },
-    "436": {
-      "title": "Gathering of Immortals"
-    },
     "437": {
       "title": "Indian Sage"
-    },
-    "438": {
-      "title": "Gathering of Immortals Folding Screen (National Treasure)"
-    },
-    "439": {
-      "title": "Gathering of Immortals"
-    },
-    "440": {
-      "title": "Gathering of Immortals (detail)"
     },
     "441": {
       "title": "Carrying Flowers"
@@ -2831,17 +2494,11 @@
     "643": {
       "title": "Scholarly Accoutrements"
     },
-    "644": {
-      "title": "Gathering of Government Officials"
-    },
     "645": {
       "title": "General View of Inner Geumgang"
     },
     "646": {
       "title": "Evening Bell from Mist-Shrouded Temple; Autumn Moon over Lake Dongting"
-    },
-    "647": {
-      "title": "Gathering of Government Officials"
     },
     "648": {
       "title": "Hawk at Sunrise"
@@ -2936,9 +2593,6 @@
     "680": {
       "title": "Fisherman and Scholars in a Landscape"
     },
-    "681": {
-      "title": "Sea, Cranes and Peaches (pair of folding screens)"
-    },
     "682": {
       "title": "Folding Screen Celebrating the Birth of the Crown Prince"
     },
@@ -2971,9 +2625,6 @@
     },
     "694": {
       "title": "Eight-Panel Ink Screen"
-    },
-    "695": {
-      "title": "Chaekgeori Eight-Panel Screen"
     },
     "696": {
       "title": "Two Scholars Seated in a Landscape, Engaged in Conversation, and Admiring a Waterfall While an Attendant Prepares Tea"
@@ -3140,41 +2791,20 @@
     "785": {
       "title": "Bamboo"
     },
-    "786": {
-      "title": "Cat with Sparrows"
-    },
     "787": {
       "title": "Assembly of Buddhist Guardians"
-    },
-    "790": {
-      "title": "Clearing after Rain on Mount Inwangsan"
-    },
-    "791": {
-      "title": "General View of Mount Geumgangsan"
-    },
-    "792": {
-      "title": "Sehando (Winter Scene)"
     },
     "793": {
       "title": "Self-Portrait"
     },
-    "794": {
-      "title": "Dream Journey to the Peach Blossom Land"
-    },
     "795": {
       "title": "Gathering of Immortals Folding Screen"
-    },
-    "796": {
-      "title": "Album of Genre Paintings"
     },
     "797": {
       "title": "Album of the Byeongjin Year (1796)"
     },
     "798": {
       "title": "Elegant Gathering in the Western Garden, Folding Screen"
-    },
-    "799": {
-      "title": "Album of Genre Paintings"
     },
     "800": {
       "title": "Folding Screen of Poems and Paintings of the Nine Bends of Gosan"
@@ -3190,12 +2820,6 @@
     },
     "804": {
       "title": "Folding Screen Celebrating the Birth of the Crown Prince"
-    },
-    "805": {
-      "title": "Folding Screen of King Yeongjo's Banquets for Elder Officials"
-    },
-    "806": {
-      "title": "Folding Screen of the Special Examination at Geunjeongjeon Hall with Linked-Verse Poems"
     },
     "807": {
       "title": "Chaekgado Folding Screen"
@@ -3641,9 +3265,6 @@
     "962": {
       "title": "Gathering of the Inspectorate Officials (Chongma Gyehoedo)"
     },
-    "963": {
-      "title": "Haeak Jeonsincheop Album by Jeong Seon"
-    },
     "964": {
       "title": "Album of Scenic Spots in and around Seoul by Jeong Seon"
     },
@@ -3659,9 +3280,6 @@
     "968": {
       "title": "Figures from Old Stories by Kim Hong-do"
     },
-    "969": {
-      "title": "Elder Zhang Guolao Riding a Donkey by Kim Hong-do"
-    },
     "970": {
       "title": "Old Residence at Hwagae-hyeon"
     },
@@ -3673,12 +3291,6 @@
     },
     "973": {
       "title": "General View of Mount Geumgangsan by Jeong Seon"
-    },
-    "974": {
-      "title": "Dosan Confucian Academy by Kang Se-hwang"
-    },
-    "975": {
-      "title": "Autumn Sounds by Kim Hong-do"
     },
     "976": {
       "title": "Portrait of Jo Mun-myeong"
@@ -3814,9 +3426,6 @@
     },
     "1030": {
       "title": "Cat and Sparrows"
-    },
-    "1032": {
-      "title": "Early Autumn on a River after Hwang Hak-san, from the Geunyeok Hwahwi Album"
     },
     "1035": {
       "title": "Chaekgado, Ten-Panel Folding Screen"
