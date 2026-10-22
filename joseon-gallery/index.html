@@ -21,9 +21,9 @@ a{color:inherit}.home{display:flex;align-items:center;gap:18px;text-decoration:n
 <body>
 <header class="topbar"><div class="shell topin"><a class="home" id="homeLink" href="./"><div class="mark">畫</div><div class="brand"><span id="brandName">조선 회화 아카이브</span><small>JOSEON PAINTING ARCHIVE</small></div></a><nav class="toplinks"><select id="language" class="langselect" aria-label="Language"><option value="ko">한국어</option><option value="en">English</option><option value="ja">日本語</option><option value="zh">中文</option></select></nav></div></header>
 <main>
-<section class="hero shell"><div class="heroTop"><div class="eyebrow">JOSEON · PAINTING · PUBLIC COLLECTIONS</div><div class="lastUpdate" id="lastUpdate">최종 업데이트 —</div></div><h1 id="heroTitle">조선의 그림을 한곳에.</h1><p id="heroDescription">산수화, 초상화, 궁중기록화, 화조·영모화, 사군자, 민화, 불화, 풍속화까지. 조선시대 회화를 장르와 작가별로 탐색하세요.</p><div class="stats"><span class="stat" id="statArtists">작가 0명</span><span class="stat" id="statSync">Commons 동기화 대기</span></div></section>
+<section class="hero shell"><div class="heroTop"><div class="eyebrow">JOSEON · PAINTING · PUBLIC COLLECTIONS</div><div class="lastUpdate" id="lastUpdate">최종 업데이트 —</div></div><h1 id="heroTitle">조선의 그림을 한곳에.</h1><p id="heroDescription">산수화, 초상화, 궁중기록화, 화조·영모화, 사군자, 민화, 불화, 풍속화까지. 조선시대 회화를 장르와 작가별로 탐색하세요.</p></section>
 <div class="controls"><div class="shell"><div class="quickrow"><input id="q" class="search" placeholder="작품명·작가·주제 검색 (예: 주막, 무속, 씨름)"/><select id="sort" class="select" aria-label="정렬"><option id="sortDefault" value="default">기본 정렬</option><option id="sortTitle" value="title">작품명 가나다순</option><option id="sortArtist" value="artist">작가명 가나다순</option><option id="sortSource" value="source">출처명 가나다순</option></select><button id="advancedToggle" class="foldbtn" type="button" aria-label="상세 필터 열기" aria-expanded="false">＋</button></div><div class="advancedBody" id="advancedPanel"><div class="advancedRow"><select id="artist" class="select"><option value="all">모든 작가</option></select><select id="source" class="select"><option value="all">모든 출처</option></select><button id="favOnly" class="btn">♡ 즐겨찾기</button></div><div class="chips" id="chips"></div></div></div></div>
-<section class="section shell" id="gallery"><div class="sectionhead"><div class="count" id="count"></div></div><div class="grid" id="grid"></div></section>
+<section class="section shell" id="gallery"><div class="grid" id="grid"></div></section>
 <section class="section shell" id="sources"><details class="sourcesFold"><summary id="sourceReferences">원문 자료원</summary><div class="sourcesInner"><div class="count" id="sourceLicenseNotice" style="margin-bottom:16px">최종 사용 전 각 사이트의 개별 라이선스를 확인하세요.</div><div class="sources" id="sourceGrid"></div><div class="notice"><b id="linkPolicyTitle">링크 저장 원칙</b><br><span id="linkPolicy">이미지 파일 자체는 이 라이브러리에 복사·내장하지 않습니다. 작품 메타데이터와 원 소장처/공개 저장소의 원문 URL·이미지 URL만 연결합니다.</span><br><br><b id="licensePolicyTitle">라이선스 원칙</b><br><span id="licensePolicy">오래된 회화의 원작 저작권과 디지털 스캔·촬영 이미지의 이용조건은 별개일 수 있습니다. 이 페이지는 공개 이용 조건이 명확한 국립중앙박물관 공공누리 자료와 Wikimedia Commons 파일을 우선 연결하고, 나머지 기관은 원문으로 이동하도록 구성했습니다.</span></div></div></details></section>
 </main>
 <footer class="footer"><div class="shell" id="footerText">Serious-Lab · 조선 회화 아카이브</div></footer>
@@ -41,7 +41,6 @@ const qEl=document.getElementById('q');
 const sortEl=document.getElementById('sort');
 const langEl=document.getElementById('language');
 const grid=document.getElementById('grid');
-const count=document.getElementById('count');
 const chips=document.getElementById('chips');
 const favOnly=document.getElementById('favOnly');
 const favs=new Set((()=>{try{const v=JSON.parse(localStorage.getItem('joseonFavs')||'[]');return Array.isArray(v)?v:[]}catch(e){return []}})());
@@ -119,8 +118,6 @@ function renderThemeChips(){
  for(const key of themeKeys){const b=document.createElement('button');b.className='chip'+(key===activeTheme?' active':'');b.dataset.key=key;b.textContent=localeName(key);b.onclick=()=>{activeTheme=key;[...chips.children].forEach(c=>c.classList.toggle('active',c.dataset.key===key));render()};chips.appendChild(b)}
 }
 function updateStats(meta={}){
- setText('statArtists',fmt(UI.statArtists||'{count}',{count:new Set(W.map(x=>x.artistKey).filter(a=>a&&a!=='작자미상')).size}));
- setText('statSync',fmt(UI.statSources||'{count}',{count:new Set(W.map(x=>x.source).filter(Boolean)).size}));
  setText('lastUpdate',fmt(UI.lastUpdate||'{date}',{date:meta.version||'—'}));
 }
 function thumbnailCandidates(w){return [...new Set([w.thumb,w.img].filter(Boolean))]}
@@ -141,7 +138,7 @@ function render(){
  if(sortEl.value==='title')arr.sort((a,b)=>collator.compare(a.title||'',b.title||''));
  if(sortEl.value==='artist')arr.sort((a,b)=>collator.compare(a.artist||unknownArtist(),b.artist||unknownArtist())||collator.compare(a.title||'',b.title||''));
  if(sortEl.value==='source')arr.sort((a,b)=>collator.compare(a.source||'',b.source||'')||collator.compare(a.title||'',b.title||''));
- count.textContent=fmt(UI.count||'{shown} / {total}',{shown:arr.length,total:W.length});grid.innerHTML=arr.length?'':`<div class="empty">${esc(UI.noResults||'')}</div>`;
+ grid.innerHTML=arr.length?'':`<div class="empty">${esc(UI.noResults||'')}</div>`;
  if(!arr.length)return;
  const frag=document.createDocumentFragment();
  for(const [index,w] of arr.entries()){
